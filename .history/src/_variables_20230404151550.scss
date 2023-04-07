@@ -1,0 +1,9 @@
+$blue: #0098da;
+
+@mixin get-started-button {
+  background-color: $blue;
+  color: #fff;
+  border-radius: 35px;
+  border: none;
+  padding: 10px 25px;
+}

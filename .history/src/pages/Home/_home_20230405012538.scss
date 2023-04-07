@@ -1,0 +1,74 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.modern-solutions-container {
+  margin-top: 80px;
+  h1 {
+    font-family: recoMedium;
+  }
+  p {
+    font-family: rebondG-Medium;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .gs-button {
+    @include get-started-button;
+  }
+  .request-button {
+    @include login-or-signup-button;
+    margin-left: 5px;
+  }
+}
+.actions-container {
+  background: $lightblue;
+  height: fit-content;
+  display: flex;
+  padding: 80px 100px;
+  margin-top: 150px;
+}
+.features-heading {
+  margin-top: 170px;
+  margin-bottom: 90px;
+}
+.features-container {
+  border: solid 2px rgb(206, 205, 205);
+  box-shadow: 0 0 3px 3px rgb(238, 235, 235);
+  border-radius: 10px !important;
+  height: fit-content;
+  margin-top: 20px;
+  padding-bottom: 2px;
+
+  .first-container {
+    padding-right: 130px;
+    background: #fff;
+    padding-left: 30px;
+    border-right: solid 1px rgb(206, 205, 205);
+    h3 {
+      margin-top: 150px;
+    }
+    p {
+      font-size: 19px;
+      line-height: 23px;
+    }
+    button {
+      @include get-started-button;
+      margin-bottom: 120px;
+    }
+  }
+  .second-grid {
+    border-top: solid 1px rgb(231, 228, 228);
+    // box-shadow: 0 0 1px 1px rgb(238, 235, 235);
+  }
+  .right-features {
+    // box-shadow: 0 0 1px 1px rgb(238, 235, 235);
+    border-right: solid 1px rgb(231, 228, 228);
+  }
+}
+.features-holder {
+  background: rgb(243, 243, 243);
+  background: linear-gradient(
+    4deg,
+    rgba(243, 243, 243, 1) 16%,
+    rgba(245, 246, 247, 1) 17%
+  );
+}

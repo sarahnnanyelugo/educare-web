@@ -1,0 +1,29 @@
+@font-face {
+  font-family: rebondG;
+  src: url(./assets/fonts/Rebond_font/RebondG.otf);
+}
+@font-face {
+  font-family: rebondG-Bold;
+  src: url(./assets/fonts/Rebond_font/RebondG-Bold.otf);
+}
+@font-face {
+  font-family: rebondG-Medium;
+  src: url(./assets/fonts/Rebond_font/RebondGrotesqueMedium.otf);
+}
+
+@font-face {
+  font-family: recoMedium;
+  src: url(./assets/fonts/Recoleto-font/RecoletaAlt-Medium.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: recoMedium;
+}
+p {
+  font-family: rebondG-Medium;
+}

@@ -1,0 +1,33 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.navbar-container {
+  background: inherit;
+  padding: 5px 80px;
+  display: flex;
+
+  .logo-holder {
+    flex-grow: 1;
+  }
+  .nav-links-container {
+    flex-grow: 1;
+    margin-top: 15px;
+    .nav-links {
+      margin: 20px;
+      color: black;
+      text-decoration: none;
+      font-family: rebondG-Bold;
+    }
+  }
+  .nav-buttons {
+    .get-started-button {
+      @include get-started-button;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+    .sign-in-button {
+      @include login-or-signup-button;
+      margin-top: 15px;
+    }
+  }
+}

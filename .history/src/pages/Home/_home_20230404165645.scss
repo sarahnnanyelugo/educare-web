@@ -1,0 +1,20 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.modern-solutions-container {
+  margin-top: 80px;
+  h1 {
+    font-family: recoMedium;
+  }
+  p {
+    font-family: rebondG-Medium;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .gs-button {
+    @include get-started-button;
+  }
+  .request-button {
+    @include;
+  }
+}

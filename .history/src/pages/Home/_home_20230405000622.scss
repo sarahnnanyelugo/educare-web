@@ -1,0 +1,45 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.modern-solutions-container {
+  margin-top: 80px;
+  h1 {
+    font-family: recoMedium;
+  }
+  p {
+    font-family: rebondG-Medium;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .gs-button {
+    @include get-started-button;
+  }
+  .request-button {
+    @include login-or-signup-button;
+    margin-left: 5px;
+  }
+}
+.actions-container {
+  background: $lightblue;
+  height: fit-content;
+  display: flex;
+  padding: 80px 100px;
+  margin-top: 150px;
+}
+.features-heading {
+  margin-top: 170px;
+  margin-bottom: 90px;
+}
+.features-container {
+  border: solid 1px grey;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 30px;
+  h3 {
+    margin-top: 150px;
+  }
+  button {
+    @include get-started-button;
+    margin-bottom: 150px;
+  }
+}

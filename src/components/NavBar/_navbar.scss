@@ -1,0 +1,45 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.navbar-container {
+  background: inherit;
+  padding: 5px 80px;
+  display: flex;
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+  .logo-holder {
+    flex-grow: 1;
+  }
+  .nav-links-container {
+    flex-grow: 1;
+    margin-top: 20px;
+    .nav-links {
+      margin: 20px;
+      color: #6f6f71;
+      text-decoration: none;
+      font-family: rebondG-Bold;
+    }
+    li {
+      padding: 3px 0px;
+      border-radius: 35px;
+      transition: 0.5s ease;
+      &:hover {
+        background: rgb(224, 222, 222) !important;
+
+        border: solid 1px grey;
+      }
+    }
+  }
+  .nav-buttons {
+    .get-started-button {
+      @include get-started-button;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    .sign-in-button {
+      @include login-or-signup-button;
+      margin-top: 20px;
+    }
+  }
+}

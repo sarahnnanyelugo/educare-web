@@ -1,0 +1,10 @@
+.footer-container {
+  height: fit-content;
+  padding-top: 100px;
+  background: rgb(30, 30, 30);
+  color: #fff;
+  .quick-links ul li {
+    line-height: 40px;
+    text-decoration: none !important;
+  }
+}
