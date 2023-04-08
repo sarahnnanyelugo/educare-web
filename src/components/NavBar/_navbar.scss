@@ -2,7 +2,7 @@
 @import "../../shared-styles";
 
 .navbar-container {
-  background: inherit;
+  background: #fff;
   padding: 5px 80px;
   display: flex;
   @media screen and (max-width: 620px) {
@@ -41,5 +41,8 @@
       @include login-or-signup-button;
       margin-top: 20px;
     }
+  }
+  .active {
+    background: red;
   }
 }

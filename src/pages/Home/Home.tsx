@@ -61,6 +61,7 @@ import Work from "../../assets/images/fast-forward.png";
 import Performance from "../../assets/images/clock.png";
 import Recruitment from "../../assets/images/recruitment.png";
 import Access from "../../assets/images/control.png";
+import Striped from "../../assets/images/stripe-bg.png";
 
 export const Home = () => {
   return (
@@ -79,6 +80,8 @@ export const Home = () => {
           </div>
         </center>
       </div>
+      <div className="empty2 col-md-12"></div>
+      <div className="col-md-12 stripe-bg"></div>
       <div className="col-md-12 actions-container flexy">
         <div className="col-md-4">
           <div className="col-md-9">
@@ -607,19 +610,18 @@ export const Home = () => {
           </center>
         </div>
       </div>
-      <div className="col-md-8 offset-md-2 mt5 partners-container">
-        <center>
-          <h2>Corporate membership & partners</h2>
-          <div className="mt5">
-            {" "}
-            <img className="" src={Aisa} alt="Scholar" width="100%" />
-            <img className="" src={Microsoft} alt="Scholar" width="100%" />
-            <img className="" src={Flutterwave} alt="Scholar" width="100%" />
-            <img className="apen" src={Apen} alt="Scholar" width="100%" />
-            <img className="" src={Paystack} alt="Scholar" width="100%" />
-            <img className="" src={Standard} alt="Scholar" width="100%" />
-          </div>
-        </center>
+      <div className="col-md-10 offset-md-1 mt5 partners-container flexy">
+        <h1 className="col-md-4">Corporate membership & partners</h1>
+        <div className="mt5 col-md-6 offset-md-1">
+          {" "}
+          <img className="" src={Aisa} alt="Scholar" width="100%" />
+          <img className="" src={Microsoft} alt="Scholar" width="100%" />
+          <img className="" src={Flutterwave} alt="Scholar" width="100%" />
+          <br />
+          <img className="" src={Paystack} alt="Scholar" width="100%" />
+          <img className="" src={Standard} alt="Scholar" width="100%" />
+          <img className="apen" src={Apen} alt="Scholar" width="100%" />
+        </div>
       </div>
     </>
   );
