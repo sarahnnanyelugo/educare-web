@@ -20,6 +20,7 @@
     margin-top: 15px;
   }
   .gs-button {
+    background: $blue;
     @include get-started-button;
   }
   .request-button {

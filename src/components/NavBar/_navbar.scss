@@ -5,8 +5,10 @@
   background: #fff;
   padding: 5px 80px;
   display: flex;
-  @media screen and (max-width: 620px) {
-    display: none;
+  .web-nav {
+    @media screen and (max-width: "620px") {
+      display: none;
+    }
   }
   .logo-holder {
     flex-grow: 1;
@@ -35,14 +37,20 @@
     .get-started-button {
       @include get-started-button;
       margin-left: 10px;
-      margin-top: 20px;
+      margin-top: 10px;
     }
     .sign-in-button {
       @include login-or-signup-button;
-      margin-top: 20px;
+      margin-top: 10px;
     }
   }
   .active {
-    background: red;
+    // background: red;
+  }
+}
+//mobile
+.mobile {
+  @media screen and (min-width: 620px) {
+    display: none;
   }
 }

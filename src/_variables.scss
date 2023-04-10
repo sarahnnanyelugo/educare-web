@@ -1,13 +1,13 @@
 $blue: #0098da;
 $lightblue: #e1f2fa;
-
+$purple: #5044b2;
 @mixin get-started-button {
-  // background-color: $blue;
   color: #fff;
   border-radius: 35px;
   border: none;
-  padding: 8px 22px;
-  font-size: 14px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
   font-family: rebondG;
   &:hover {
     background: #005b83;
@@ -15,11 +15,11 @@ $lightblue: #e1f2fa;
   }
 }
 @mixin login-or-signup-button {
-  baclground: #fff;
+  background: #fff !important;
   color: black;
   border-radius: 20px;
-  padding: 5px 15px;
-  font-size: 12px;
+  padding: 9px 22px;
+  font-size: 18px;
   border: none;
   border: solid 2px rgb(230, 225, 225);
   font-family: rebondG;

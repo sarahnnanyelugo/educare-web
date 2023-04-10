@@ -7,13 +7,22 @@ import { useLocation } from "react-router-dom";
 function NavBar() {
   const [themeSet, setTheme] = useState("");
   const location = useLocation();
+  const [navWidth, setNavWidth] = useState(0);
+
+  const openNav = () => {
+    setNavWidth("100%");
+  };
+
+  const closeNav = () => {
+    setNavWidth(0);
+  };
   function SwitchTheme(theme) {
     switch (location.pathname) {
       case "/":
-        setTheme("blue");
+        setTheme("#2f99da");
         break;
       case "/finance-overview":
-        setTheme("purple");
+        setTheme("#5044b2");
         break;
       default:
     }
@@ -22,22 +31,22 @@ function NavBar() {
     console.log(themeSet);
   }
   useEffect(() => {
-    SwitchTheme("blue");
+    SwitchTheme("#2f99da");
   }, []);
   useEffect(() => {
-    SwitchTheme("blue");
+    SwitchTheme("#2f99da");
   }, [location.pathname]);
   return (
-    <div className="navbar-container">
+    <div className="navbar-container ">
       <div className="logo-holder  ">
         {" "}
         <Link to={"/"}>
           {" "}
-          <img className="   logo" src={Logo} alt="Scholar" />
+          <img className="   logo" src={Logo} alt="Scholar" width="45%" />
         </Link>
       </div>
       <ul className=" list-inline list-unstyled nav-links-container">
-        <li className="list-inline-item">
+        <li className="list-inline-item web-nav">
           <NavLink
             to={"/finance-overview"}
             className="nav-links"
@@ -49,7 +58,7 @@ function NavBar() {
             </span>
           </NavLink>
         </li>{" "}
-        <li className="list-inline-item">
+        <li className="list-inline-item web-nav">
           <NavLink
             to={"/resources"}
             className="nav-links"
@@ -58,7 +67,7 @@ function NavBar() {
             Resources
           </NavLink>
         </li>{" "}
-        <li className="list-inline-item">
+        <li className="list-inline-item web-nav">
           <NavLink
             to={"/pricing"}
             className="nav-links"
@@ -67,7 +76,7 @@ function NavBar() {
             Pricing
           </NavLink>
         </li>{" "}
-        <li className="list-inline-item">
+        <li className="list-inline-item web-nav">
           <NavLink
             to={"/support"}
             className="nav-links"
@@ -76,7 +85,7 @@ function NavBar() {
             Support
           </NavLink>
         </li>{" "}
-        <li className="list-inline-item">
+        <li className="list-inline-item web-nav">
           <NavLink
             to={"/contact"}
             className="nav-links"
@@ -86,7 +95,7 @@ function NavBar() {
           </NavLink>
         </li>
       </ul>
-      <div className="nav-buttons">
+      <div className="nav-buttons web-nav">
         <button className="sign-in-button">Log in</button>
         <button
           className="get-started-button"

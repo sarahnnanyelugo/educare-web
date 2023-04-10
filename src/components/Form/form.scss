@@ -1,0 +1,58 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.form-container {
+  border: solid 1px rgb(221, 221, 221);
+  border-radius: 15px;
+  box-shadow: 0 0 1px 1px rgb(221, 221, 221);
+  padding: 30px 20px;
+  input {
+    margin-top: 30px;
+    font-family: rebondG-Medium;
+    padding: 15px 5px;
+  }
+  span {
+    font-size: 12px;
+  }
+
+  .overviewButton {
+    background: $purple;
+    color: #fff;
+    border: none;
+    padding: 15px 210px;
+    border-radius: 35px;
+    margin-top: 40px;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: rebondG-Medium;
+    @media screen and (max-width: 620px) {
+      padding: 8px 130px;
+    }
+  }
+}
+.password-input {
+  input {
+    border: solid 1px rgb(226, 220, 220) !important;
+    border-right: none !important;
+    padding: 15px 5px;
+    border-radius: 7px;
+    box-shadow: 0 0 1px 1px rgb(221, 221, 221) !important;
+    background: #fff !important;
+    width: 100%;
+  }
+  img {
+    margin-left: -35px;
+    border-right: solid 1px rgb(226, 220, 220) !important;
+    border-radius: 7px;
+  }
+}
+.css-qbdosj-Input {
+  padding: 12px 5px !important;
+  // margin-top: 40px !important;
+}
+.css-13cymwt-control {
+  margin-top: 40px !important;
+  border-radius: 7px !important;
+  border: solid 1px rgb(226, 220, 220) !important;
+  box-shadow: 0 0 1px 1px rgb(221, 221, 221) !important;
+}
