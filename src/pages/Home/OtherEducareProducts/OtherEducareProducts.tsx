@@ -11,7 +11,7 @@ export const OtherEducareProducts = (props: OtherProductProps) => {
       <center>
         {" "}
         <img className="" src={props.productIcon} alt="icon" width="100%" />
-        <h6>{props.productName}</h6>
+        <h5>{props.productName}</h5>
       </center>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../../assets/images/educare-logo.png";
+import Arrow from "../../assets/images/arrowdown.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
 import { useLocation } from "react-router-dom";
@@ -53,9 +54,6 @@ function NavBar() {
             activeClassName="active"
           >
             Solutions{" "}
-            <span>
-              <i className="icofont-curved-down"></i>
-            </span>
           </NavLink>
         </li>{" "}
         <li className="list-inline-item web-nav">

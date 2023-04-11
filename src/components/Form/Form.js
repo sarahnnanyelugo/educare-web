@@ -23,10 +23,7 @@ function Form() {
       <div className="col-md-12 form-container">
         <form>
           <h4>
-            <strong>
-              Sign up and deploy your business in <br />
-              seconds.
-            </strong>
+            <strong>Sign up and deploy your business in seconds.</strong>
           </h4>
           <input
             type="text"

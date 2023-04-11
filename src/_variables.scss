@@ -4,11 +4,12 @@ $purple: #5044b2;
 @mixin get-started-button {
   color: #fff;
   border-radius: 35px;
-  border: none;
-  padding: 10px 25px;
-  font-size: 18px;
+  border: solid 1px black;
+  padding: 8px 20px;
+  font-size: 16px;
   font-weight: bold;
   font-family: rebondG;
+
   &:hover {
     background: #005b83;
     transition: 0.5s ease;
@@ -17,9 +18,10 @@ $purple: #5044b2;
 @mixin login-or-signup-button {
   background: #fff !important;
   color: black;
-  border-radius: 20px;
-  padding: 9px 22px;
-  font-size: 18px;
+  border-radius: 32px;
+  padding: 6px 18px;
+  font-size: 16px;
+  font-weight: 500;
   border: none;
   border: solid 2px rgb(230, 225, 225);
   font-family: rebondG;

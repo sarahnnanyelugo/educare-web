@@ -18,7 +18,7 @@ export const Footer = () => {
           <div className="col-md-6 offset-md-1 flexy flexyM quick-links">
             <div className="col-md-4">
               <ul className="list-unstyled mobile-ul">
-                <h5>Solutions</h5>
+                <h4>Solutions</h4>
                 <li>
                   <Link to="" className="links">
                     Products
@@ -38,7 +38,7 @@ export const Footer = () => {
             </div>
             <div className="col-md-4">
               <ul className="list-unstyled mobile-ul">
-                <h5>Company</h5>
+                <h4>Company</h4>
                 <li>
                   <Link to="" className="links">
                     About us
@@ -64,7 +64,7 @@ export const Footer = () => {
             <div className="col-md-4">
               {" "}
               <ul className="list-unstyled mobile-ul">
-                <h5>Resources</h5>
+                <h4>Resources</h4>
                 <li>
                   <Link to="" className="links">
                     Help center
@@ -89,7 +89,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="col-md-2 connect">
-            <h5>Connect with us</h5>
+            <h4>Connect with us</h4>
             <ul className="list-unstyled list-inline mobile-ul">
               <li className="list-inline-item">
                 {" "}

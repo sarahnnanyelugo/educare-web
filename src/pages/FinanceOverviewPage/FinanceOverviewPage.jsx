@@ -12,7 +12,8 @@ import MailboxDashboard from "../../assets/images/mailbox.png";
 import FacilityDashboard from "../../assets/images/facility.png";
 import Tick from "../../assets/images/tick2.png";
 import Tick2 from "../../assets/images/tick3.png";
-
+import Shield from "../../assets/images/shield-icon.json";
+import Lottie from "react-lottie-player";
 import "./finance-overview-page.scss";
 import Form from "../../components/Form/Form";
 
@@ -43,9 +44,9 @@ export const FinanceOverviewPage = () => {
         <div className="col-md-1">&nbsp;</div>
       </div>
       <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
-        <div className="col-md-6">
+        <div className="col-md-7">
           {" "}
-          <div className="educare-for-business col-md-6">
+          <div className="educare-for-business col-md-7">
             <h5>Introducing educare for Businesses</h5>
           </div>
           <h1>
@@ -64,9 +65,8 @@ export const FinanceOverviewPage = () => {
             <button className="demo-button">Request for demo</button>
           </div>
         </div>
-        <div className="col-md-4 offset-md-2">
-          {/* <div className="col-md-11"> */} <Form />
-          {/* </div> */}
+        <div className="col-md-4 offset-md-1">
+          <Form />
         </div>
       </div>
       <div className="col-md-12 operations">
@@ -230,15 +230,33 @@ export const FinanceOverviewPage = () => {
         <div className="col-md-4 ">
           <ul className="list-unstyled col-md-10">
             <li className="flexy flexyM ">
-              <img className="" src={Tick2} alt="Scholar" width="10%" />
+              <img
+                className=""
+                src={Tick2}
+                alt="Scholar"
+                width="10%"
+                height="10%"
+              />
               Refreshingly simple to use—a modern products for a modern business
             </li>{" "}
             <li className="flexy flexyM mt2">
-              <img className="" src={Tick2} alt="Scholar" width="10%" />
+              <img
+                className=""
+                src={Tick2}
+                alt="Scholar"
+                width="10%"
+                height="10%"
+              />
               Dedicated support for migration, deployment, and trainings.
             </li>{" "}
             <li className="flexy flexyM mt2">
-              <img className="" src={Tick2} alt="Scholar" width="10%" />
+              <img
+                className=""
+                src={Tick2}
+                alt="Scholar"
+                width="10%"
+                height="10%"
+              />
               Extensive developer platform for custom solutions and integrations{" "}
             </li>
           </ul>{" "}
@@ -246,21 +264,38 @@ export const FinanceOverviewPage = () => {
         <div className="col-md-3">
           <ul className="list-unstyled col-md-12">
             <li className=" ">
-              <img className="" src={Tick2} alt="Scholar" width="10%" />
+              <img
+                className=""
+                src={Tick2}
+                alt="Scholar"
+                width="10%"
+                height="10%"
+              />
               Maximum productivity with minimum use{" "}
             </li>{" "}
             <li className=" ">
-              <img className="" src={Tick2} alt="Scholar" width="10%" />
+              <img
+                className=""
+                src={Tick2}
+                alt="Scholar"
+                width="10%"
+                height="10%"
+              />
               Price protection–get the best deal, always{" "}
             </li>{" "}
           </ul>
         </div>
       </div>
       <div className="col-md-12 flexy mt">
-        <div className="col-md-2 offset-md-2">
-          {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>{" "} */}
+        <div className="col-md-2 offset-md-1">
+          <Lottie
+            loop
+            animationData={Shield}
+            play
+            style={{ width: 366, height: 366, marginTop: "-50px" }}
+          />
         </div>
-        <div className="col-md-6 offset-md-1">
+        <div className="col-md-6 offset-md-2">
           <h3>educare’s Privacy and Protection</h3>
           <p>
             educare ensures data privacy by implementing advanced security
@@ -274,3 +309,6 @@ export const FinanceOverviewPage = () => {
     </>
   );
 };
+// eslint-disable-next-line no-lone-blocks
+{
+}

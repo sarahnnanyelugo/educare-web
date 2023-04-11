@@ -10,7 +10,7 @@ export const Features = (props: featuresProps) => {
     <>
       <div className="col-md-12 features">
         <img className="" src={props.icon} alt="Scholar" />
-        <h5>{props.feature}</h5>
+        <h4>{props.feature}</h4>
         <p>{props.detail}</p>
         <button>Sign up now</button>
       </div>

@@ -223,15 +223,15 @@ export const Home = () => {
         </div>
       </div>
       <center className="mt">
-        <h2>Bundles</h2>
+        <h1>Bundles</h1>
       </center>
       <div className="col-md-12 bundles-container flexy">
         <div className="col-md-1">&nbsp;</div>
         <div className="col-md-10 bundles"></div>
       </div>
       <div className="col-md-12 products-container">
-        <center className="mt9">
-          <h2>All educare Products</h2>
+        <center className="mt">
+          <h1>All educare Products</h1>
         </center>
         <div className="col-md-10  flexy offset-md-1">
           <div className="col-md-4 first-product-column">
@@ -299,15 +299,15 @@ export const Home = () => {
                 productIcon={People}
               />
             </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+            <div className="col-md-12 flexy flexyM  ">
+              <div className="col-md-6 col-6 other-components bb br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Facility}
                   productName="Facility List"
                 />{" "}
               </div>
-              <div className="col-md-6 col-6 other-components">
+              <div className="col-md-6 col-6 other-components bb ">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Report2}
@@ -316,7 +316,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Configure}
@@ -418,8 +418,8 @@ export const Home = () => {
                 productIcon={Screen}
               />
             </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+            <div className="col-md-12 flexy flexyM bb">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Result}
@@ -434,8 +434,8 @@ export const Home = () => {
                 />{" "}
               </div>
             </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+            <div className="col-md-12 flexy flexyM bb">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={CBT2}
@@ -450,8 +450,8 @@ export const Home = () => {
                 />{" "}
               </div>
             </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+            <div className="col-md-12 flexy flexyM bb">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={TestResult}
@@ -484,7 +484,7 @@ export const Home = () => {
           <div className="col-md-4 third-product-column">
             <EducareProducts
               productName="HR Manager"
-              productDetail="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
+              productDetail="Streamline your HR tasks with our comprehensive HR manager."
               productIcon={People2}
             />
             <div className="col-md-12 flexy flexyM mt9">
@@ -536,8 +536,8 @@ export const Home = () => {
                 productIcon={Pastoral}
               />
             </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+            <div className="col-md-12 flexy flexyM bb">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Exeact}
@@ -553,7 +553,7 @@ export const Home = () => {
               </div>
             </div>
             <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components">
+              <div className="col-md-6 col-6 other-components br">
                 {" "}
                 <OtherEducareProducts
                   productIcon={Points}
@@ -599,7 +599,7 @@ export const Home = () => {
       <div className="col-md-12 privacy-protection">
         <div className="col-md-6 offset-md-3">
           <center>
-            <h3>educare’s Privacy and Protection</h3>
+            <h1>educare’s Privacy and Protection</h1>
             <p>
               educare ensures data privacy by implementing advanced security
               measures, including encryption and secure communication channels.
@@ -612,7 +612,7 @@ export const Home = () => {
       </div>
       <div className="col-md-10 offset-md-1 mt5 partners-container flexy">
         <h1 className="col-md-4">Corporate membership & partners</h1>
-        <div className="mt5 col-md-6 offset-md-1">
+        <div className="mt5 col-md-8 offset-md-1">
           {" "}
           <img className="" src={Aisa} alt="Scholar" width="100%" />
           <img className="" src={Microsoft} alt="Scholar" width="100%" />
