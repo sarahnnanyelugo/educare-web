@@ -34,9 +34,9 @@
     }
   }
   .connect {
-    h5 {
+    h4 {
       @media screen and (max-width: 620px) {
-        text-align: center;
+        text-align: center !important;
         margin-top: 40px;
       }
     }
