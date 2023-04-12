@@ -13,17 +13,20 @@
   );
   h1 {
     font-family: recoMedium;
-    font-size: 49px !important;
+    font-size: 40px !important;
   }
   p {
     font-family: rebondG-Medium;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     margin-bottom: 45px;
   }
   .gs-button {
     background: $blue;
     @include get-started-button;
+    &:hover {
+      color: #1a5b83;
+    }
   }
   .request-button {
     @include login-or-signup-button;
@@ -48,7 +51,7 @@
     padding: 20px 3px;
   }
   p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
     margin-top: 20px;
     font-weight: 500;
@@ -64,7 +67,7 @@
 }
 .features-container {
   border: solid 2px rgb(234, 232, 232);
-  box-shadow: 0 0 2px 2px rgb(238, 235, 235);
+  // box-shadow: 0 0 2px 2px rgb(238, 235, 235);
   border-radius: 10px !important;
   height: fit-content;
   // margin-top: 20px;
@@ -87,7 +90,7 @@
       }
     }
     p {
-      font-size: 19px;
+      font-size: 16px;
       line-height: 23px;
     }
     button {
@@ -122,27 +125,20 @@
     text-align: center;
   }
 }
-.features-holder {
-  background: rgb(240, 240, 240);
-  background: linear-gradient(
-    0deg,
-    rgba(240, 240, 240, 1) 51%,
-    rgba(255, 255, 255, 1) 67%
-  );
-}
+
 .features-holder2 {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 31%,
-    rgba(240, 240, 240, 1) 36%,
-    rgba(255, 255, 255, 1) 80%
-  );
+  // background: rgb(255, 255, 255);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(255, 255, 255, 1) 31%,
+  //   rgba(240, 240, 240, 1) 36%,
+  //   rgba(255, 255, 255, 1) 80%
+  // );
   padding-bottom: 150px;
 }
 .bundles {
-  border: solid 2px rgb(234, 232, 232);
-  box-shadow: 0 0 2px 2px rgb(238, 235, 235);
+  border: solid 1px rgb(234, 232, 232);
+  // box-shadow: 0 0 2px 2px rgb(238, 235, 235);
   border-radius: 10px !important;
   height: 250px;
   margin-bottom: 50px;
@@ -153,12 +149,12 @@
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
-    rgba(255, 255, 255, 1) 15%,
-    rgba(240, 240, 240, 1) 18%,
-    rgba(255, 255, 255, 1) 54%,
-    rgba(240, 240, 240, 1) 80%,
-    rgba(255, 255, 255, 1) 91%
+    rgba(255, 255, 255, 1) 44%,
+    rgba(243, 243, 243, 1) 49%,
+    rgba(255, 255, 255, 1) 71%
   );
+  background-position: 0 0;
+  background-repeat: repeat;
   height: fit-content;
   .first-product-column {
     padding: 50px 0px;
@@ -169,7 +165,7 @@
     height: fit-content;
 
     border-top-left-radius: 12px;
-    box-shadow: 0 0 1px 1px rgb(233, 229, 229);
+    // box-shadow: 0 0 1px 1px rgb(233, 229, 229);
     @media screen and (max-width: 620px) {
       padding: 0px 0px;
       border-top-right-radius: 12px;
@@ -179,7 +175,7 @@
     padding: 50px 0px;
     background: #ffff;
     border: solid 1px rgb(233, 229, 229);
-    box-shadow: 0 0 1px 1px rgb(233, 229, 229);
+    // box-shadow: 0 0 1px 1px rgb(233, 229, 229);
     border-radius: 12px;
     height: fit-content;
     margin-top: 50px;
@@ -194,7 +190,7 @@
     border-top: solid 1px rgb(233, 229, 229);
     border-right: solid 1px rgb(233, 229, 229);
     margin-top: 150px;
-    box-shadow: 0 0 1px 1px rgb(233, 229, 229);
+    // box-shadow: 0 0 1px 1px rgb(233, 229, 229);
     border-top-right-radius: 12px;
     height: fit-content !important;
 
@@ -268,4 +264,19 @@
       margin-top: 20px;
     }
   }
+}
+.features-general {
+  // background: rgb(240, 240, 240);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(240, 240, 240, 1) 51%,
+  //   rgba(255, 255, 255, 1) 67%
+  // );
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 36%,
+    rgba(241, 241, 241, 1) 49%,
+    rgba(255, 255, 255, 1) 74%
+  );
 }

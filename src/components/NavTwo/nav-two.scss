@@ -1,0 +1,20 @@
+.top-nav-container {
+  display: flex;
+  padding: 10px 0;
+  // margin-top: 70px;
+  background: #f9f8fb;
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+  .topnav-heading {
+    flex-grow: 1;
+  }
+  .top-nav-links {
+    color: #414244;
+    text-decoration: none;
+    font-family: rebondG-Bold;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 15px !important;
+  }
+}

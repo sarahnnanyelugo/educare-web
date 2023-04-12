@@ -1,5 +1,6 @@
 import React from "react";
 import "./_random-component.scss";
+
 export interface RandomComponentProps {
   title: string;
   paragraph: string;
@@ -11,7 +12,7 @@ export const RandomComponent = (props: RandomComponentProps) => {
       <div className="heading">
         {" "}
         <img className="" src={props.icon} alt="Scholar" width="100%" />
-        <h3>{props.title}</h3>
+        <h2>{props.title}</h2>
       </div>
       <p>{props.paragraph}</p>
     </div>

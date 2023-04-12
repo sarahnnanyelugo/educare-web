@@ -18,20 +18,20 @@
     margin-top: 20px;
     .nav-links {
       margin: 35px;
-      color: #3c3c3e;
+      color: #414244;
       text-decoration: none;
       font-weight: bold;
       font-family: rebondG-Bold;
-      font-size: 15px;
+      font-size: 14px;
     }
     li {
       padding: 3px 0px;
-      border-radius: 35px;
+      border-radius: 50px;
       transition: 0.5s ease;
       &:hover {
-        background: rgb(224, 222, 222) !important;
+        background: rgb(231, 231, 231) !important;
 
-        border: solid 1px grey;
+        // border: solid 1px grey;
       }
     }
   }
@@ -40,6 +40,9 @@
       @include get-started-button;
       margin-left: 10px;
       margin-top: 10px;
+      &:hover {
+        background-color: #1a5b83 !important;
+      }
     }
     .sign-in-button {
       @include login-or-signup-button;

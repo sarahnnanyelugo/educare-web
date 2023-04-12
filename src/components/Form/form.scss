@@ -5,31 +5,69 @@
   border: solid 1px rgb(221, 221, 221);
   border-radius: 15px;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221);
-  padding: 30px 20px;
-  input {
-    margin-top: 30px;
-    font-family: rebondG-Medium;
-    padding: 10px 5px;
-  }
-  span {
-    font-size: 12px;
-  }
+  padding: 30px 20px 80px 20px;
+}
 
-  .overviewButton {
-    background: $purple;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    border-radius: 35px;
-    margin-top: 40px;
-    width: 100%;
-    font-size: 16px !important;
-    font-weight: bold !important;
-    font-family: rebondG-Medium;
-    @media screen and (max-width: 620px) {
-      padding: 8px 130px;
-    }
-  }
+.form {
+  width: 100%;
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  color: rgb(189, 187, 187);
+  padding-top: 10px;
+  // padding-bottom: 20px;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 20px;
+  border: solid 1px #e7e7e7;
+  background-color: transparent;
+}
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-family: rebondG;
+  pointer-events: none;
+}
+.form label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+.form input:focus {
+  outline: none;
+}
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+  transform: translateY(-100%);
+  font-size: 10px;
+  left: 0px;
+  color: black;
+}
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
 }
 .password-input {
   input {
@@ -47,12 +85,29 @@
     border-radius: 7px;
   }
 }
+.overviewButton {
+  background: $purple;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 35px;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  font-family: rebondG-Medium;
+  &:hover {
+    background: #30266b;
+    transition: 0.5 ease;
+  }
+  @media screen and (max-width: 620px) {
+    padding: 8px 130px;
+  }
+}
 .css-qbdosj-Input {
   padding: 6px 5px !important;
-  // margin-top: 40px !important;
 }
 .css-13cymwt-control {
-  margin-top: 40px !important;
   border-radius: 7px !important;
   border: solid 1px rgb(226, 220, 220) !important;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221) !important;

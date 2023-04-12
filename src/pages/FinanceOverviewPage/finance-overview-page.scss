@@ -1,26 +1,6 @@
 @import "../../variables";
 @import "../../shared-styles";
 
-.top-nav-container {
-  display: flex;
-  padding: 10px 0;
-  // margin-top: 70px;
-  background: #f9f8fb;
-  @media screen and (max-width: 620px) {
-    display: none;
-  }
-  .topnav-heading {
-    flex-grow: 1;
-  }
-  .top-nav-links {
-    color: #414244;
-    text-decoration: none;
-    font-family: rebondG-Bold;
-    margin: 10px;
-    font-weight: 500;
-    font-size: 15px !important;
-  }
-}
 .introduction-container {
   .gs-button {
     background: $purple;
@@ -39,13 +19,14 @@
   padding-top: 50px;
   .educare-for-business {
     background: #ded0fa;
-    color: #5044b2;
-    padding-top: 6px;
-    padding-bottom: 1px;
-    border-radius: 15px;
+    color: #3b0f8e;
+
+    border-radius: 35px;
     text-align: center;
-    font-weight: bold !important;
     margin-bottom: 30px;
+    font-size: 2px !important;
+    height: 40px;
+    padding-top: 5px;
   }
   h1 {
     font-size: 45px !important;

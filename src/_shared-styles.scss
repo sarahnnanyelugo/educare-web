@@ -40,3 +40,10 @@
 .br {
   border-right: solid 1px rgb(233, 229, 229);
 }
+.features-link {
+  color: #191919;
+  text-decoration: none;
+  &:hover {
+    color: #191919;
+  }
+}

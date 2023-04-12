@@ -20,43 +20,103 @@ function Form() {
   };
   return (
     <>
-      <div className="col-md-12 form-container">
-        <form>
-          <h4>
-            <strong>Sign up and deploy your business in seconds.</strong>
-          </h4>
-          <input
+      {/* <div className="col-md-12 form-container">
+      <form className="form">
+        
+        <input
+          type="text"
+          name="text"
+          value={nameValue}
+          onChange={handleChange}
+          autocomplete="off"
+          required
+          className="form-control"
+        />
+        <label for="text" class="label-name">
+          <span class="content-name">Your Text</span>
+        </label>
+        <input
             type="text"
             value={nameValue}
             onChange={handleChange}
-            placeholder="Organisational Name"
+          
             className="form-control"
+            required
           />
-          <input
+
+        <input
             type="text"
             value={emailValue}
             onChange={handleEmailChange}
             placeholder="email"
             className="form-control"
           />
-          <Password placeholder="Password" />
-          <Password placeholder="confirm password" />
-          <CountrySelect />
+        
+         
+
+      
+      </form>
+      </div> */}
+      <div className=" form-container">
+        <h6>
+          <strong>
+            Sign up and deploy your business in <br />
+            seconds.
+          </strong>
+        </h6>{" "}
+        <div class="form">
           <input
-            type="checkbox"
-            name="color"
-            checked={isChecked}
-            onChange={handleChecked}
+            type="text"
+            name="name"
+            autocomplete="off"
+            required
+            value={nameValue}
+            onChange={handleChange}
           />
-
-          <span style={{ fontFamily: " rebondG-Medium" }}>
-            {" "}
-            I agree to the <strong>Terms of Service</strong> and
-            <strong> Privacy Policy.</strong>
-          </span>
-
-          <button className="overviewButton">Continue</button>
-        </form>
+          <label for="text" class="label-name">
+            <span class="content-name">Organisation Name *</span>
+          </label>
+        </div>{" "}
+        <div class="form">
+          <input
+            type="email"
+            name="email"
+            autocomplete="off"
+            required
+            value={emailValue}
+            onChange={handleEmailChange}
+          />
+          <label for="text" class="label-name">
+            <span class="content-name">Email *</span>
+          </label>
+        </div>{" "}
+        <div style={{ marginBottom: "20px" }}>
+          {" "}
+          <Password label="Password" />
+          <Password label="confirm password" />
+        </div>
+        <CountrySelect />
+        <input
+          type="checkbox"
+          name="color"
+          checked={isChecked}
+          onChange={handleChecked}
+          style={{
+            marginTop: "40px",
+          }}
+        />
+        <span
+          style={{
+            fontFamily: " rebondG-Medium",
+            fontSize: "12px",
+            marginTop: "90px",
+          }}
+        >
+          {" "}
+          I agree to the <strong>Terms of Service</strong> and
+          <strong> Privacy Policy.</strong>
+        </span>
+        <button className="overviewButton">Continue</button>
       </div>
     </>
   );

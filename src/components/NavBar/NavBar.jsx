@@ -39,11 +39,11 @@ function NavBar() {
   }, [location.pathname]);
   return (
     <div className="navbar-container ">
-      <div className="logo-holder  ">
+      <div className="logo-holder  col-md-2">
         {" "}
         <Link to={"/"}>
           {" "}
-          <img className="   logo" src={Logo} alt="Scholar" width="45%" />
+          <img className="   logo" src={Logo} alt="Scholar" width="60%" />
         </Link>
       </div>
       <ul className=" list-inline list-unstyled nav-links-container">

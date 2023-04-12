@@ -1,53 +1,30 @@
 import React from "react";
 
 import { Link, NavLink } from "react-router-dom";
-import Finance from "../../assets/images/half-circle.svg";
-import Mailbox from "../../assets/images/edit.svg";
-import Facility from "../../assets/images/people.svg";
-import HR from "../../assets/images/people2.svg";
-import Video from "../../assets/images/watch.svg";
+
 import FinanceDashboard from "../../assets/images/finance.png";
 import HRDashboard from "../../assets/images/hr.png";
 import MailboxDashboard from "../../assets/images/mailbox.png";
 import FacilityDashboard from "../../assets/images/facility.png";
 import Tick from "../../assets/images/tick2.png";
-import Tick2 from "../../assets/images/tick3.png";
-import Shield from "../../assets/images/shield-icon.json";
-import Lottie from "react-lottie-player";
+
 import "./finance-overview-page.scss";
 import Form from "../../components/Form/Form";
+import { NavTwo } from "../../components/NavTwo/NavTwo";
+import Operations from "../../components/Operations/Operations";
+import OverviewVideo from "../../components/OverviewVideo/OverviewVideo";
+import WhyEducare from "../../components/WhyEducare/WhyEducare";
+import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
 
 export const FinanceOverviewPage = () => {
   return (
     <>
-      <div className="col-md-12 top-nav-container sticky-top">
-        <div className="topnav-heading offset-md-1">
-          <h4>educare for Business</h4>
-        </div>
-        <ul className="list-unstyled list-inline">
-          <li className="list-inline-item">
-            <Link to={""} className="top-nav-links">
-              Features
-            </Link>
-          </li>
-          <li className="list-inline-item">
-            <Link to={""} className="top-nav-links">
-              Pricing
-            </Link>
-          </li>
-          <li className="list-inline-item">
-            <Link to={""} className="top-nav-links">
-              Resources
-            </Link>
-          </li>
-        </ul>
-        <div className="col-md-1">&nbsp;</div>
-      </div>
+      <NavTwo />
       <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
         <div className="col-md-7">
           {" "}
-          <div className="educare-for-business col-md-7">
-            <h5>Introducing educare for Businesses</h5>
+          <div className="educare-for-business col-md-6">
+            <p>Introducing educare for Businesses</p>
           </div>
           <h1>
             Streamline your business with our powerful apps made just for them.
@@ -69,48 +46,10 @@ export const FinanceOverviewPage = () => {
           <Form />
         </div>
       </div>
-      <div className="col-md-12 operations">
-        <center>
-          <div className="col-md-5">
-            {" "}
-            <h3>
-              A comprehensive system to manage all operations for your business
-            </h3>
-            <div className="flexy ">
-              {" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Finance} alt="Scholar" width="100%" />
-                <h6>Finance</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Mailbox} alt="Scholar" width="100%" />
-                <h6>MailBox</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Facility} alt="Scholar" width="100%" />
-                <h6>Facility Management</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={HR} alt="Scholar" width="100%" />
-                <h6>HR Manager</h6>
-              </div>
-            </div>
-          </div>
-        </center>
-      </div>
-      <div className="col-md-12 overview-video">
-        <center>
-          <div className="col-md-2 flexy flexyM">
-            {" "}
-            <img className="" src={Video} alt="Scholar" width="12%" />
-            <h6>Watch Overview</h6>
-          </div>
-        </center>
-      </div>
+
+      <Operations />
+
+      <OverviewVideo />
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
           <div className="col-md-2 finance-heading">
@@ -223,89 +162,10 @@ export const FinanceOverviewPage = () => {
           </p>
         </div>
       </div>
-      <div className="col-md-12 flexy mt">
-        <div className="col-md-4 offset-md-1">
-          <h1>Why choose educare for Businesses</h1>
-        </div>
-        <div className="col-md-4 ">
-          <ul className="list-unstyled col-md-10">
-            <li className="flexy flexyM ">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="10%"
-                height="10%"
-              />
-              Refreshingly simple to use—a modern products for a modern business
-            </li>{" "}
-            <li className="flexy flexyM mt2">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="10%"
-                height="10%"
-              />
-              Dedicated support for migration, deployment, and trainings.
-            </li>{" "}
-            <li className="flexy flexyM mt2">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="10%"
-                height="10%"
-              />
-              Extensive developer platform for custom solutions and integrations{" "}
-            </li>
-          </ul>{" "}
-        </div>
-        <div className="col-md-3">
-          <ul className="list-unstyled col-md-12">
-            <li className=" ">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="10%"
-                height="10%"
-              />
-              Maximum productivity with minimum use{" "}
-            </li>{" "}
-            <li className=" ">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="10%"
-                height="10%"
-              />
-              Price protection–get the best deal, always{" "}
-            </li>{" "}
-          </ul>
-        </div>
-      </div>
-      <div className="col-md-12 flexy mt">
-        <div className="col-md-2 offset-md-1">
-          <Lottie
-            loop
-            animationData={Shield}
-            play
-            style={{ width: 366, height: 366, marginTop: "-50px" }}
-          />
-        </div>
-        <div className="col-md-6 offset-md-2">
-          <h3>educare’s Privacy and Protection</h3>
-          <p>
-            educare ensures data privacy by implementing advanced security
-            measures, including encryption and secure communication channels.
-            The platform has no access to your data, and strict policies are in
-            place to keep your data under your control. Trust us to keep your
-            data safe and secure
-          </p>
-        </div>
-      </div>
+
+      <WhyEducare />
+
+      <EducarePrivacy />
     </>
   );
 };
