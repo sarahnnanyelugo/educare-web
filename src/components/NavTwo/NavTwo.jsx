@@ -15,7 +15,7 @@ export const NavTwo = (props) => {
           </Link>
         </li>
         <li className="list-inline-item">
-          <Link to={""} className="top-nav-links">
+          <Link to={"/educare-packages"} className="top-nav-links">
             Pricing
           </Link>
         </li>

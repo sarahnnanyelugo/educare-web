@@ -1,0 +1,125 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.packages-first-heading {
+  height: 320px;
+  h1 {
+    margin-top: 50px;
+  }
+}
+.tabs {
+  display: flex;
+  margin-left: 40%;
+  border-radius: 35px;
+  border: solid 1px $purple;
+  width: 17%;
+  padding: 5px;
+  margin-top: -20px;
+  font-family: rebondG-Bold;
+}
+@media screen and (max-width: 620px) {
+  .tabs {
+    // display: grid;
+  }
+}
+.tab {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #fff;
+  padding: 7px 0;
+  border: none;
+  color: black;
+  border-radius: 35px;
+  font-size: 14px;
+}
+
+button.active2 {
+  font-weight: bold;
+  background: $purple;
+  color: #fff;
+}
+.panel {
+  display: none;
+  color: #161617;
+  font-family: rebondG;
+  line-height: 40px;
+  padding-top: 150px;
+  .premium {
+    // width: 100% !important;
+    margin-top: -12px;
+    z-index: -1;
+  }
+  .left-cards {
+    padding: 30px;
+    border-top: solid 1px #707070;
+    border-left: solid 1px #707070;
+    border-bottom: solid 1px #707070;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height: fit-content;
+  }
+  .right-cards {
+    border: solid 1px #707070;
+    border-radius: 10px;
+    padding: 30px;
+    height: fit-content;
+  }
+
+  .enterprise {
+    margin-top: 100px;
+  }
+  .basic {
+    margin-left: -20px;
+    background: #fff;
+  }
+  .e-learning {
+    margin-top: 50px;
+  }
+  ul li {
+    border-top: solid 1px #e7e7e7;
+    padding: 10px 0;
+    img {
+      margin-right: 12px;
+    }
+  }
+  .premium-button {
+    background: #ded0fa;
+    color: #3b0f8e;
+    border: none;
+    border-radius: 35px;
+    padding: 0px 25px;
+    font-size: 14px;
+    font-family: rebondG-Medium;
+    margin-left: 15px;
+    // margin-top: -180px !important;
+  }
+  .price-button {
+    @include get-started-button;
+    background: $purple;
+    width: 100% !important;
+    margin: 40px 0 40px 0;
+    &:hover {
+      background: #30266b;
+      transition: 0.5s ease;
+    }
+  }
+}
+@media screen and (max-width: 620px) {
+  .panel {
+    padding: 0px;
+  }
+}
+.panel.active2 {
+  display: block;
+}
+.upcoming {
+  height: 300px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(240, 240, 240, 1) 47%,
+    rgba(255, 255, 255, 1) 74%
+  );
+}

@@ -15,7 +15,7 @@ export const Password = (props) => {
   };
 
   return (
-    <div className="password-input form">
+    <div className="password-input form ">
       <input
         type={showPassword ? "text" : "password"}
         value={password}

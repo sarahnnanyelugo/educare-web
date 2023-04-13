@@ -45,7 +45,10 @@ export const FinanceOverviewPage = () => {
             growth.
           </p>
           <div style={{ display: "flex" }}>
-            <button className="gs-button">Get started</button>
+            <Link to={"/educare-packages"}>
+              {" "}
+              <button className="gs-button">Get started</button>
+            </Link>
             <button className="demo-button">Request for demo</button>
           </div>
         </div>

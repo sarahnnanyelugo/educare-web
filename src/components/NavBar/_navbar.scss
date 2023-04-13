@@ -41,7 +41,8 @@
       margin-left: 10px;
       margin-top: 10px;
       &:hover {
-        background-color: #1a5b83 !important;
+        background: #30266b !important;
+        transition: 0.5s ease;
       }
     }
     .sign-in-button {
