@@ -83,19 +83,21 @@ function EducarePackages(props) {
                   ))}
                 </ul>
               </div>
-              <div className="col-md-4 right-cards premium">
-                <h3>{premiumData.heading1}</h3>
-                <h1>{premiumData.amount}</h1>
-                <button className="price-button">Get started</button>
-                <ul className="list-unstyled">
-                  {premiumData.packages.map((items, index) => (
-                    <li key={items.id}>
-                      {" "}
-                      <img className="" src={Tick} alt="Scholar" width="4%" />
-                      {items.value}
-                    </li>
-                  ))}
-                </ul>
+              <div className="col-md-4 ">
+                <div className="col-md-11 right-cards premium">
+                  <h3>{premiumData.heading1}</h3>
+                  <h1>{premiumData.amount}</h1>
+                  <button className="price-button">Get started</button>
+                  <ul className="list-unstyled">
+                    {premiumData.packages.map((items, index) => (
+                      <li key={items.id}>
+                        {" "}
+                        <img className="" src={Tick} alt="Scholar" width="4%" />
+                        {items.value}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
               <div className="col-md-3 right-cards e-learning basic">
                 <h3>{basicData.heading1}</h3>
