@@ -134,4 +134,7 @@
     rgba(245, 244, 249, 1) 64%,
     rgba(253, 252, 253, 1) 68%
   );
+  @media screen and (max-width: 620px) {
+    background: rgb(245, 244, 249);
+  }
 }

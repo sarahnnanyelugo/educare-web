@@ -54,7 +54,7 @@ function EducarePackages(props) {
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy offset-md-1">
+            <div className="col-md-10 flexy monthly-container">
               <div className="col-md-3 left-cards enterprise">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.amount}</h1>
