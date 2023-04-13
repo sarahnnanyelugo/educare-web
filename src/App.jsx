@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { Home } from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import { FinanceOverviewPage } from "./pages/FinanceOverviewPage/FinanceOverviewPage";
+import { EducareForSchools } from "./pages/EducareForSchools/EducareForSchools";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="finance-overview" element={<FinanceOverviewPage />} />
+        <Route path="educare-schools" element={<EducareForSchools />} />
       </Routes>
       <Footer />
     </>

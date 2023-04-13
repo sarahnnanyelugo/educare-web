@@ -3,7 +3,8 @@ import "./form.scss";
 import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
-function Form() {
+function Form(props) {
+  const { bg } = props;
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -20,43 +21,6 @@ function Form() {
   };
   return (
     <>
-      {/* <div className="col-md-12 form-container">
-      <form className="form">
-        
-        <input
-          type="text"
-          name="text"
-          value={nameValue}
-          onChange={handleChange}
-          autocomplete="off"
-          required
-          className="form-control"
-        />
-        <label for="text" class="label-name">
-          <span class="content-name">Your Text</span>
-        </label>
-        <input
-            type="text"
-            value={nameValue}
-            onChange={handleChange}
-          
-            className="form-control"
-            required
-          />
-
-        <input
-            type="text"
-            value={emailValue}
-            onChange={handleEmailChange}
-            placeholder="email"
-            className="form-control"
-          />
-        
-         
-
-      
-      </form>
-      </div> */}
       <div className=" form-container">
         <h6>
           <strong>
@@ -68,7 +32,7 @@ function Form() {
           <input
             type="text"
             name="name"
-            autocomplete="off"
+            autocomplete="new-password"
             required
             value={nameValue}
             onChange={handleChange}
@@ -81,7 +45,7 @@ function Form() {
           <input
             type="email"
             name="email"
-            autocomplete="off"
+            autocomplete="new-password"
             required
             value={emailValue}
             onChange={handleEmailChange}
@@ -116,7 +80,9 @@ function Form() {
           I agree to the <strong>Terms of Service</strong> and
           <strong> Privacy Policy.</strong>
         </span>
-        <button className="overviewButton">Continue</button>
+        <button className="overviewButton" style={{ backgroundColor: bg }}>
+          Continue
+        </button>
       </div>
     </>
   );

@@ -22,10 +22,13 @@ function NavBar() {
       case "/":
         setTheme("#2f99da");
         break;
+      default:
       case "/finance-overview":
         setTheme("#5044b2");
         break;
-      default:
+      case "/educare-schools":
+        setTheme("#2f99da");
+        break;
     }
     console.log(location.pathname);
 

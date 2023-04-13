@@ -2,10 +2,11 @@
 @import "../../shared-styles";
 
 .form-container {
-  border: solid 1px rgb(221, 221, 221);
+  border: solid 1px rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221);
-  padding: 30px 20px 80px 20px;
+  padding: 30px 20px 50px 20px;
+  background: #fff;
 }
 
 .form {
@@ -22,19 +23,20 @@
   padding-top: 10px;
   // padding-bottom: 20px;
   border-radius: 10px;
-  height: 50px;
+  height: 40px;
   margin-top: 20px;
   border: solid 1px #e7e7e7;
   background-color: transparent;
 }
 .form label {
   position: absolute;
-  bottom: 0px;
+  bottom: 4px;
   left: 10px;
   width: 100%;
   height: 100%;
   font-size: 12px;
   font-family: rebondG;
+  color: #161617;
   pointer-events: none;
 }
 .form label::after {
@@ -61,7 +63,7 @@
 .form input:focus + .label-name .content-name,
 .form input:valid + .label-name .content-name {
   transform: translateY(-100%);
-  font-size: 10px;
+  font-size: 8px;
   left: 0px;
   color: black;
 }
@@ -71,13 +73,12 @@
 }
 .password-input {
   input {
-    border: solid 1px rgb(226, 220, 220) !important;
-    border-right: none !important;
-    padding: 10px 5px;
-    border-radius: 7px;
-    box-shadow: 0 0 1px 1px rgb(221, 221, 221) !important;
+    border: solid 1px #edecec !important;
+    padding: 9px 5px;
+    border-radius: 10px;
     background: #fff !important;
     width: 100%;
+    height: 40px;
   }
   img {
     margin-left: -35px;
@@ -86,7 +87,7 @@
   }
 }
 .overviewButton {
-  background: $purple;
+  // background: $purple;
   color: #fff;
   border: none;
   padding: 10px 0;
@@ -108,7 +109,7 @@
   padding: 6px 5px !important;
 }
 .css-13cymwt-control {
-  border-radius: 7px !important;
-  border: solid 1px rgb(226, 220, 220) !important;
-  box-shadow: 0 0 1px 1px rgb(221, 221, 221) !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  border: solid 1px rgb(236, 233, 233) !important;
 }

@@ -21,6 +21,7 @@ export const Password = (props) => {
         value={password}
         onChange={handlePasswordChange}
         placeholder={props.placeholder}
+        autocomplete="new-password"
       />
 
       <span onClick={toggleShowPassword}>

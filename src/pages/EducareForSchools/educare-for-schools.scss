@@ -1,0 +1,141 @@
+@import "../../variables";
+@import "../../shared-styles";
+.for-schools-container {
+  background: $blue;
+  height: fit-content;
+  padding: 50px 0 80px 0px;
+  .educare-for-schools {
+    background: #cef0fe;
+
+    border-radius: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 35px;
+    padding-top: 6px;
+    p {
+      font-size: 15px !important;
+      color: $blue !important;
+    }
+  }
+  h1 {
+    font-size: 40px !important;
+    color: #fff;
+    line-height: 55px !important;
+    margin-bottom: 25px;
+    @media screen and (max-width: 620px) {
+      font-size: 40px !important;
+      line-height: 50px !important;
+    }
+  }
+  p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  .for-schs-button {
+    @include login-or-signup-button;
+  }
+  .demo-button {
+    @include get-started-button;
+    background: $blue;
+    border: solid 1px #fff !important;
+    margin-left: 10px;
+  }
+}
+.reports-container {
+  margin-top: 120px;
+  button {
+    background: #cef0ff;
+    color: #0098da;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    border-radius: 35px;
+  }
+  p {
+    font-size: 16px !important;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: rebondG;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}
+.pastoral-container {
+  margin-top: 170px;
+
+  button {
+    background: #fcdce3;
+    color: #ed2f59;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    margin-top: 120px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 17px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+  }
+}
+.cbt-container {
+  button {
+    background: #d0fcef;
+    color: #11a377;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    margin-top: 130px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+}
+.eclassroom-container {
+  margin-top: 170px;
+  button {
+    background: #f5dcf8;
+    color: #ff0089;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    margin-top: 130px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+}
+.nav-two-for-schs {
+  height: fit-content;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: rgb(248, 253, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 253, 254, 1) 64%,
+    rgba(255, 255, 255, 1) 68%
+  );
+}

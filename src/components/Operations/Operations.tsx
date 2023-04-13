@@ -1,44 +1,30 @@
 import React from "react";
-import Finance from "../../assets/images/half-circle.svg";
-import Mailbox from "../../assets/images/edit.svg";
-import Facility from "../../assets/images/people.svg";
-import HR from "../../assets/images/people2.svg";
-function Operations() {
+import { Link, NavLink } from "react-router-dom";
+
+import "./operations.scss";
+export interface OperationsProp {
+  title: string;
+  icon: string;
+  url: string;
+  size: string;
+}
+function Operations(props: OperationsProp) {
+  const { size } = props;
   return (
     <>
       {" "}
       <div className="col-md-12 operations">
-        <center>
-          <div className="col-md-5">
+        <Link to={""} className="features-link ">
+          {" "}
+          <div className="operations-boxes" style={{ width: size }}>
             {" "}
-            <h3>
-              A comprehensive system to manage all operations for your business
-            </h3>
-            <div className="flexy ">
+            <center>
               {" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Finance} alt="Scholar" width="100%" />
-                <h6>Finance</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Mailbox} alt="Scholar" width="100%" />
-                <h6>MailBox</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={Facility} alt="Scholar" width="100%" />
-                <h6>Facility Management</h6>
-              </div>{" "}
-              <div className="operations-boxes">
-                {" "}
-                <img className="" src={HR} alt="Scholar" width="100%" />
-                <h6>HR Manager</h6>
-              </div>
-            </div>
-          </div>
-        </center>
+              <img className="" src={props.icon} alt="Scholar" width="100%" />
+              <h6>{props.title}</h6>
+            </center>
+          </div>{" "}
+        </Link>
       </div>
     </>
   );

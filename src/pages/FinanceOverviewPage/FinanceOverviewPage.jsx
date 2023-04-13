@@ -15,11 +15,18 @@ import Operations from "../../components/Operations/Operations";
 import OverviewVideo from "../../components/OverviewVideo/OverviewVideo";
 import WhyEducare from "../../components/WhyEducare/WhyEducare";
 import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
-
+import Finance from "../../assets/images/half-circle.svg";
+import Mailbox from "../../assets/images/edit.svg";
+import Facility from "../../assets/images/people.svg";
+import HR from "../../assets/images/people2.svg";
 export const FinanceOverviewPage = () => {
   return (
     <>
-      <NavTwo />
+      <div className="col-md-12 nav-two-business sticky-top">
+        {" "}
+        <NavTwo title="educare for Business" />
+      </div>
+
       <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
         <div className="col-md-7">
           {" "}
@@ -43,12 +50,35 @@ export const FinanceOverviewPage = () => {
           </div>
         </div>
         <div className="col-md-4 offset-md-1">
-          <Form />
+          <div className="col-md-11">
+            {" "}
+            <Form bg="#5044b2" />
+          </div>
         </div>
       </div>
 
-      <Operations />
-
+      <div className="col-md-12">
+        {" "}
+        <div className="col-md-6  offset-md-3 flexy">
+          <div className="col-md-3">
+            <Operations icon={Finance} title="Finance" url="" size="190px" />
+          </div>{" "}
+          <div className="col-md-3">
+            <Operations icon={HR} title="HR Manager" url="" size="190px" />
+          </div>{" "}
+          <div className="col-md-3">
+            <Operations icon={Mailbox} title="Mailbox" url="" size="190px" />
+          </div>{" "}
+          <div className="col-md-3">
+            <Operations
+              icon={Facility}
+              title="Facility Management"
+              url=""
+              size="190px"
+            />
+          </div>
+        </div>
+      </div>
       <OverviewVideo />
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
