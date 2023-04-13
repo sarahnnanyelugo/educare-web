@@ -7,6 +7,10 @@
   src: url(./assets/fonts/Rebond_font/RebondG-Bold.otf);
 }
 @font-face {
+  font-family: rebondG-Semi-Bold;
+  src: url(./assets/fonts/Rebond_font/Rebond-semibold.otf);
+}
+@font-face {
   font-family: rebondG-Medium;
   src: url(./assets/fonts/Rebond_font/RebondGrotesqueMedium.otf);
 }
@@ -31,6 +35,9 @@ p {
 ul li {
   font-family: rebondG-Medium;
   font-size: 16px;
+}
+button {
+  font-family: rebondG-Semi-Bold;
 }
 @media screen and (min-width: 620px) {
   .flexy {

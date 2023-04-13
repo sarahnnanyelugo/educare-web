@@ -10,19 +10,31 @@ export const NavTwo = (props) => {
       </div>
       <ul className="list-unstyled list-inline">
         <li className="list-inline-item">
-          <Link to={""} className="top-nav-links">
+          <NavLink
+            to={"/features"}
+            className="top-nav-links"
+            activeClassName="active"
+          >
             Features
-          </Link>
+          </NavLink>
         </li>
         <li className="list-inline-item">
-          <Link to={"/educare-packages"} className="top-nav-links">
+          <NavLink
+            to={"/educare-packages"}
+            className="top-nav-links"
+            activeClassName="active"
+          >
             Pricing
-          </Link>
+          </NavLink>
         </li>
         <li className="list-inline-item">
-          <Link to={""} className="top-nav-links">
+          <NavLink
+            to={"/resources"}
+            className="top-nav-links"
+            activeClassName="active"
+          >
             Resources
-          </Link>
+          </NavLink>
         </li>
       </ul>
       <div className="col-md-1">&nbsp;</div>

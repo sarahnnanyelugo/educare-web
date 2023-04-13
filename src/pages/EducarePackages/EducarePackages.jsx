@@ -71,7 +71,11 @@ function EducarePackages(props) {
               </div>{" "}
               <div className="col-md-3 left-cards e-learning">
                 <h3>{elearningData.heading1}</h3>
-                <h1>{elearningData.amount}</h1>
+                <div className="flexy flexyM">
+                  {" "}
+                  <h1>{elearningData.amount}</h1>
+                  <h6>Per Student (Monthly)</h6>
+                </div>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
                   {elearningData.packages.map((items, index) => (
@@ -86,7 +90,13 @@ function EducarePackages(props) {
               <div className="col-md-4 ">
                 <div className="col-md-11 right-cards premium">
                   <h3>{premiumData.heading1}</h3>
-                  <h1>{premiumData.amount}</h1>
+                  <div className="flexy flexyM">
+                    {" "}
+                    <h1>{premiumData.amount}</h1>
+                    <h6>
+                      Per Student <br /> (Monthly)
+                    </h6>
+                  </div>
                   <button className="price-button">Get started</button>
                   <ul className="list-unstyled">
                     {premiumData.packages.map((items, index) => (
@@ -115,7 +125,7 @@ function EducarePackages(props) {
               </div>
             </div>
           </div>
-          <div className={`panel ${checkActive(2, "active2")}`}>2</div>
+          <div className={`panel ${checkActive(2, "active2")}`}></div>
         </div>
       </div>
       <div className="col-md-12 upcoming"></div>
