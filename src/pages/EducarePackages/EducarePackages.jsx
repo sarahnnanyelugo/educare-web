@@ -56,11 +56,11 @@ function EducarePackages(props) {
             </div>
             <div className="col-md-10 flexy monthly-container">
               <div className="col-md-3 left-cards enterprise">
-                <h3>{enterpriseData.heading1}</h3>
-                <h1>{enterpriseData.amount}</h1>
+                <h3>{basicData.heading1}</h3>
+                <h1>{basicData.amount}</h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
-                  {enterpriseData.packages.map((items, index) => (
+                  {basicData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -88,7 +88,7 @@ function EducarePackages(props) {
                 </ul>
               </div>
               <div className="col-md-4 ">
-                <div className="col-md-11 right-cards premium">
+                <div className="col-md-11  premium">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -110,11 +110,11 @@ function EducarePackages(props) {
                 </div>
               </div>
               <div className="col-md-3 right-cards e-learning basic">
-                <h3>{basicData.heading1}</h3>
-                <h1>{basicData.amount}</h1>
+                <h3>{enterpriseData.heading1}</h3>
+                <h1>{enterpriseData.amount}</h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
-                  {basicData.packages.map((items, index) => (
+                  {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
