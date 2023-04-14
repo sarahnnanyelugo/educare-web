@@ -1,0 +1,26 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.faq-accordion-container {
+  .accordion-body {
+    p {
+      font-size: 18px;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    background: #fff !important;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+
+  .accordion-button:focus {
+    border-color: #fff !important;
+    outline: none !important;
+  }
+  .accordion-button {
+    box-shadow: 0 0 3px 3px rgb(249, 246, 246) !important;
+    margin-top: 40px;
+    font-family: brother-regular;
+  }
+}

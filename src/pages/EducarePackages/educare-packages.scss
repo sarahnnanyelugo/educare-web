@@ -84,6 +84,7 @@ button.active2 {
     box-shadow: 0 0 1px 1px #9a9999;
     border-top-left-radius: 10px;
     height: fit-content;
+    background: #fff;
     @media screen and (max-width: 620px) {
       border: solid 1px #e6e6e6;
       border-radius: 10px;
@@ -170,5 +171,17 @@ button.active2 {
   padding-left: 150px;
   @media screen and (max-width: 620px) {
     padding: 0;
+  }
+}
+.more-details-container {
+  height: fit-content;
+  background: #f6f5f9;
+  padding-top: 500px;
+  margin-top: -400px;
+  .onboarding {
+    p {
+      font-size: 16px;
+      margin-top: 20px;
+    }
   }
 }

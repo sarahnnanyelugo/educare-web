@@ -1,0 +1,42 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.compare-features-container {
+  .accordion-button::after {
+    margin-left: 20px !important;
+    margin-top: 0px !important;
+  }
+
+  p {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: rebondG-Semi-Bold;
+  }
+  .accordion-body {
+  }
+  .accordion-button:not(.collapsed) {
+    background: #fff !important;
+  }
+  .accordion-item {
+    border: none !important;
+  }
+
+  .accordion-button:focus {
+    border-color: rgb(99, 97, 97) !important;
+    outline: none !important;
+    background: #e7e7e7 !important;
+    color: #161617 !important;
+  }
+  .accordion-button {
+    box-shadow: 0 0 3px 3px rgb(249, 246, 246) !important;
+    margin-top: 140px;
+    font-family: brother-regular;
+    width: 250px;
+    border: solid 1px rgb(214, 210, 210) !important;
+    margin-left: 40%;
+    padding: 5px 5px 0 10px !important;
+    border-radius: 35px !important;
+    text-align: center !important;
+  }
+}
