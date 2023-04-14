@@ -14,12 +14,7 @@ import Screen from "../../assets/images/screen.svg";
 import Classroom from "../../assets/images/read-book.svg";
 import Wallet from "../../assets/images/wallet.svg";
 import Student from "../../assets/images/students.svg";
-import Standard from "../../assets/images/standard.png";
-import Paystack from "../../assets/images/paystack.svg";
-import Microsoft from "../../assets/images/microsoft.svg";
-import Flutterwave from "../../assets/images/flutterwave.svg";
-import Apen from "../../assets/images/apen.png";
-import Aisa from "../../assets/images/aisa.svg";
+
 import Message from "../../assets/images/message.svg";
 import Features from "./Features/Features";
 import EducareProducts from "./EducareProducts/EducareProducts";
@@ -63,6 +58,7 @@ import Recruitment from "../../assets/images/recruitment.png";
 import Access from "../../assets/images/control.png";
 import Striped from "../../assets/images/stripe-bg.png";
 import { Link, NavLink } from "react-router-dom";
+import { Partners } from "../../components/Partners/Partners";
 
 export const Home = () => {
   return (
@@ -674,19 +670,7 @@ export const Home = () => {
           </center>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 mt5 partners-container flexy">
-        <h1 className="col-md-4 flexy">Corporate membership & partners</h1>
-        <div className="mt5 ">
-          {" "}
-          <img className="" src={Aisa} alt="Scholar" width="100%" />
-          <img className="" src={Microsoft} alt="Scholar" width="100%" />
-          <img className="" src={Flutterwave} alt="Scholar" width="100%" />
-          <br />
-          <img className="" src={Paystack} alt="Scholar" width="100%" />
-          <img className="" src={Standard} alt="Scholar" width="100%" />
-          <img className="apen" src={Apen} alt="Scholar" width="100%" />
-        </div>
-      </div>
+      <Partners />
     </>
   );
 };

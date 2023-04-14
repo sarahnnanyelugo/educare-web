@@ -9,6 +9,8 @@ import {
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
 import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
+import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
+import { Partners } from "../../components/Partners/Partners";
 
 function EducarePackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -148,7 +150,15 @@ function EducarePackages(props) {
             </div>
           </center>
         </div>
-        {/* <div className=""></div> */}
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-4">
+            <h1>FAQs</h1>
+          </div>
+          <div className="col-md-8">
+            <FAQAccordion />
+          </div>
+        </div>
+        <Partners />
       </div>
     </>
   );
