@@ -57,6 +57,15 @@ export const EducareForSchools = () => {
           </div>
         </div>
       </div>
+      <div className="col-m-12 mt">
+        <center>
+          <div className="col-md-4">
+            <h2>
+              A comprehensive system to manage all operations for your school
+            </h2>
+          </div>
+        </center>
+      </div>
       <div className="col-md-12">
         {" "}
         <div className="col-md-4 offset-md-4 flexy">

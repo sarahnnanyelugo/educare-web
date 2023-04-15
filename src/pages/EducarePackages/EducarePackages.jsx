@@ -95,7 +95,7 @@ function EducarePackages(props) {
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
-                    <h1>{premiumData.amount}</h1>
+                    <h1>&#8358;{premiumData.amount}</h1>
                     <h6>
                       Per Student <br /> (Monthly)
                     </h6>

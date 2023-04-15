@@ -132,7 +132,7 @@ export const Home = () => {
                 and drives business growth.
               </p>
               <br />
-              <Link to={"/finance-overview"}>
+              <Link to={"/educare-business"}>
                 {" "}
                 <button>Get Started</button>
               </Link>

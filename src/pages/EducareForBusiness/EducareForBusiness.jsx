@@ -8,7 +8,7 @@ import MailboxDashboard from "../../assets/images/mailbox.png";
 import FacilityDashboard from "../../assets/images/facility.png";
 import Tick from "../../assets/images/tick2.png";
 
-import "./finance-overview-page.scss";
+import "./educare-for-business.scss";
 import Form from "../../components/Form/Form";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import Operations from "../../components/Operations/Operations";
@@ -19,7 +19,7 @@ import Finance from "../../assets/images/half-circle.svg";
 import Mailbox from "../../assets/images/edit.svg";
 import Facility from "../../assets/images/people.svg";
 import HR from "../../assets/images/people2.svg";
-export const FinanceOverviewPage = () => {
+export const EducareForBusiness = () => {
   return (
     <>
       <div className="col-md-12 nav-two-business sticky-top">
