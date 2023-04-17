@@ -40,16 +40,27 @@
   }
   .for-schs-button {
     @include login-or-signup-button;
+    &:hover {
+      background: #005b83 !important;
+      color: #fff !important;
+      transition: 0.5s ease;
+    }
   }
   .demo-button {
     @include get-started-button;
-    background: $blue;
+    background: transparent;
     border: solid 1px #fff !important;
     margin-left: 10px;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+      border: solid 1px #414244;
+      transition: 0.5s ease;
+    }
   }
 }
 .reports-container {
-  margin-top: 120px;
+  padding-top: 120px;
   button {
     background: #cef0ff;
     color: #0098da;
@@ -60,12 +71,10 @@
     border-radius: 35px;
   }
   p {
-    font-size: 16px !important;
+    font-size: 15px !important;
     margin-top: 30px;
     margin-bottom: 50px;
-    font-family: rebondG;
-    letter-spacing: 1px;
-    font-weight: 500;
+    line-height: 18px;
   }
 }
 .pastoral-container {
@@ -91,12 +100,8 @@
   }
 }
 .cbt-container {
+  padding-bottom: 50px;
   button {
-    background: #d0fcef;
-    color: #11a377;
-    border: none;
-    padding: 7px 25px;
-    font-family: rebondG-Medium;
     margin-bottom: 35px;
     margin-top: 130px;
 
@@ -114,11 +119,8 @@
 .eclassroom-container {
   margin-top: 170px;
   button {
-    background: #f5dcf8;
-    color: #ff0089;
-    border: none;
     padding: 7px 25px;
-    font-family: rebondG-Medium;
+
     margin-bottom: 35px;
     margin-top: 130px;
 
@@ -142,5 +144,14 @@
     90deg,
     rgba(248, 253, 254, 1) 64%,
     rgba(255, 255, 255, 1) 68%
+  );
+}
+.shadow {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(240, 240, 240, 1) 53%,
+    rgba(255, 255, 255, 1) 70%
   );
 }

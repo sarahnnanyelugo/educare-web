@@ -15,8 +15,10 @@ const FAQAccordion = () => {
           <Accordion.Body>
             <p>
               Getting your school enrolled is so easy. Click on signup to
-              onboard your school in seconds.
+              onboard your <br />
+              school in seconds.
             </p>
+            <button className="accord-get-started">Get started</button>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -26,7 +28,8 @@ const FAQAccordion = () => {
           <Accordion.Body>
             <p>
               Getting your school enrolled is so easy. Click on signup to
-              onboard your school in seconds.
+              onboard your <br />
+              school in seconds.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -38,9 +41,10 @@ const FAQAccordion = () => {
           <Accordion.Body>
             <p>
               educare is GDPR COMPLIANT. From day one, we built educare to help
-              you manage your school efficiently. We do not share/sell your
-              data. The educare software is optimize with end-to-end encription
-              to ensure maximum data security.
+              you manage your school efficiently. We
+              <br /> do not share/sell your data. The educare software is
+              optimize with end-to-end encription to ensure maximum <br />
+              data security.
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -52,8 +56,10 @@ const FAQAccordion = () => {
           <Accordion.Body>
             <p>
               Yes, our customer support team are here 24/7 to assist you with a
-              prompt response. Give it a shot! Get help now.
+              prompt <br />
+              response. Give it a shot! Get help now.
             </p>
+            <button className="accord-get-started">Get started</button>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

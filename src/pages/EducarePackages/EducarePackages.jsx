@@ -153,11 +153,11 @@ function EducarePackages(props) {
             </div>
           </center>
         </div>
-        <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-4">
+        <div className="col-md-10 offset-md-1 flexy faq-container">
+          <div className="col-md-3">
             <h1>FAQs</h1>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <FAQAccordion />
           </div>
         </div>

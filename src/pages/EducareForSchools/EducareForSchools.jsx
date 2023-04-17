@@ -12,10 +12,11 @@ import CBT from "../../assets/images/cbtDashboard.png";
 import EClassroom from "../../assets/images/eclassroomDashboard.png";
 import WhyEducare from "../../components/WhyEducare/WhyEducare";
 import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
-import Finance from "../../assets/images/half-circle.svg";
-import Mailbox from "../../assets/images/edit.svg";
-import Facility from "../../assets/images/people.svg";
-import HR from "../../assets/images/people2.svg";
+import Finance from "../../assets/images/chart.svg";
+import Mailbox from "../../assets/images/screen.svg";
+import Facility from "../../assets/images/read-book.svg";
+import HR from "../../assets/images/pastoral.svg";
+import { Heading } from "../../components/Heading/Heading";
 export const EducareForSchools = () => {
   return (
     <>
@@ -27,10 +28,13 @@ export const EducareForSchools = () => {
       <div className="col-md-12 flexy for-schools-container">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6">
-            <div className="educare-for-schools col-md-5">
-              <p>Introducing educare for Businesses</p>
-            </div>
-            <h1>
+            <Heading
+              text="Introducing educare for Schools"
+              bg="#CEF0FF"
+              color="#0098DA"
+            />
+
+            <h1 className="mt3">
               Elevate Your School’s Efficiency with educare for school modules
             </h1>
             <p>
@@ -88,11 +92,14 @@ export const EducareForSchools = () => {
           </div>
         </div>
       </div>
-      <OverviewVideo />
-      <div className="col-md-12 reports-container">
+      <center>
+        {" "}
+        <OverviewVideo />
+      </center>
+      <div className="col-md-12 reports-container ">
         <center>
-          <div className="col-md-6">
-            <button>Report</button>
+          <div className="col-md-5">
+            <Heading text="Report" bg="#CEF0FF" color="#0098DA" />
             <h3>Comprehensive Reporting and Analysis</h3>
             <p>
               educare report facilitates comprehensive reporting and analysis
@@ -105,7 +112,7 @@ export const EducareForSchools = () => {
           </div>
         </center>
       </div>
-      <div className="col-md-12">
+      <div className="col-md-12 ">
         <center>
           <div className="col-md-7">
             {" "}
@@ -115,7 +122,7 @@ export const EducareForSchools = () => {
       </div>
       <div className="col-md-11 offset-md-1 flexy pastoral-container">
         <div className="col-md-4">
-          <button>Pastoral</button>
+          <Heading text="Pastoral" bg="#FCDCE3" color="#ED2F59" />
           <h3>Enhancing Student Well-Being</h3>
           <p>
             Pastoral provides a detailed platform for holistic student support,
@@ -130,10 +137,11 @@ export const EducareForSchools = () => {
           <img className="   logo" src={Pastoral} alt="Scholar" width="100%" />
         </div>
       </div>
-      <div className="col-md-12 cbt-container">
+      <div className="col-md-12 cbt-container  shadow">
         <center>
           <div className="col-md-5">
-            <button>CBT</button>
+            <Heading text="CBT" bg="#D0FCEF" color="#11A377" />
+
             <h3>
               Comprehensive Cognitive Behavioral Therapy (CBT) Support for
               Educations
@@ -157,9 +165,9 @@ export const EducareForSchools = () => {
           </div>
         </center>
       </div>
-      <div className="col-md-11 offset-md-1 flexy eclassroom-container">
+      <div className="col-md-11 offset-md-1 flexy eclassroom-container  ">
         <div className="col-md-4">
-          <button>eClassroom</button>
+          <Heading text="eClassroom" bg="#F5DCF8" color="#FF0089" />
           <h3>Efficient Online Learning</h3>
           <p>
             It offers tools for organizing and delivering virtual lessons,
