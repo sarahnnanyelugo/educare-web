@@ -46,7 +46,7 @@ function NavBar() {
         {" "}
         <Link to={"/"}>
           {" "}
-          <img className="   logo" src={Logo} alt="Scholar" width="60%" />
+          <img className="   logo" src={Logo} alt="Scholar" width="50%" />
         </Link>
       </div>
       <ul className=" list-inline list-unstyled nav-links-container">

@@ -19,6 +19,7 @@ import Finance from "../../assets/images/half-circle.svg";
 import Mailbox from "../../assets/images/edit.svg";
 import Facility from "../../assets/images/people.svg";
 import HR from "../../assets/images/people2.svg";
+import { Heading } from "../../components/Heading/Heading";
 export const EducareForBusiness = () => {
   return (
     <>
@@ -30,9 +31,11 @@ export const EducareForBusiness = () => {
       <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
         <div className="col-md-7">
           {" "}
-          <div className="educare-for-business col-md-6">
-            <p>Introducing educare for Businesses</p>
-          </div>
+          <Heading
+            text="Introducing educare for Business"
+            bg="#DED0FA"
+            color="#3B0F8E"
+          />
           <h1>
             Streamline your business with our powerful apps made just for them.
           </h1>
@@ -59,8 +62,17 @@ export const EducareForBusiness = () => {
           </div>
         </div>
       </div>
-
-      <div className="col-md-12 mt">
+      <div className="col--md-12  mt">
+        <center>
+          <div className="col-md-4">
+            {" "}
+            <h3>
+              A comprehensive system to manage all operations for your business
+            </h3>
+          </div>
+        </center>
+      </div>
+      <div className="col-md-12">
         {" "}
         <div className="col-md-6  offset-md-3 flexy">
           <div className="col-md-3">
@@ -82,13 +94,13 @@ export const EducareForBusiness = () => {
           </div>
         </div>
       </div>
-      <OverviewVideo />
+      <center>
+        {" "}
+        <OverviewVideo />
+      </center>
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
-          <div className="col-md-2 finance-heading">
-            {" "}
-            <h5>Finance</h5>
-          </div>
+          <Heading text="Finance" bg="#DED0FA" color="#3B0F8E" />
           <h3>Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,
@@ -114,9 +126,7 @@ export const EducareForBusiness = () => {
           <img className="" src={HRDashboard} alt="Scholar" width="90%" />
         </div>
         <div className="col-md-4 ">
-          <div className="col-md-3 hr-header">
-            <h5>HR Manager</h5>
-          </div>
+          <Heading text="HR Manager" bg="#fdf5eb" color="#bf741c" />
           <h3>
             Provide your employees with outstanding experiences they will never
             forget.
@@ -141,10 +151,7 @@ export const EducareForBusiness = () => {
       </div>
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-4 offset-md-1">
-          <div className="col-md-2 mail-heading">
-            {" "}
-            <h5>Mail</h5>
-          </div>
+          <Heading text="Mail" bg="#f6e9f8" color="#b054bb" />
           <h3>Simplifying core HR operations</h3>
           <p>
             Mail provides secure email hosting with state-of-the-art data
@@ -170,9 +177,7 @@ export const EducareForBusiness = () => {
           <img className="" src={FacilityDashboard} alt="Scholar" width="90%" />
         </div>
         <div className="col-md-4">
-          <div className="facility-heading col-md-5">
-            <h6>Facility Management</h6>{" "}
-          </div>
+          <Heading text="Facility Management" bg="#eaedfe" color="#204bc8" />
           <h3>Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,
@@ -196,7 +201,10 @@ export const EducareForBusiness = () => {
         </div>
       </div>
 
-      <WhyEducare />
+      <div className="col-md-12 mt" style={{ marginTop: "190px" }}>
+        {" "}
+        <WhyEducare />
+      </div>
 
       <EducarePrivacy />
     </>

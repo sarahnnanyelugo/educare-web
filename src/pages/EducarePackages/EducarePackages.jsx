@@ -77,7 +77,10 @@ function EducarePackages(props) {
                 <div className="flexy flexyM">
                   {" "}
                   <h1>{elearningData.amount}</h1>
-                  <h6>Per Student (Monthly)</h6>
+                  <h6>
+                    Per Student <br />
+                    (Monthly)
+                  </h6>
                 </div>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">

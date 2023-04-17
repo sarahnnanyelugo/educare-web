@@ -14,7 +14,7 @@ function EducarePrivacy() {
             style={{ width: 366, height: 366, marginTop: "-50px" }}
           />
         </div>
-        <div className="col-md-6 offset-md-2">
+        <div className="col-md-5 offset-md-2">
           <h3>educare’s Privacy and Protection</h3>
           <p>
             educare ensures data privacy by implementing advanced security
