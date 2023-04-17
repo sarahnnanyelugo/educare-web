@@ -70,15 +70,6 @@ function NavBar() {
         </li>{" "}
         <li className="list-inline-item web-nav">
           <NavLink
-            to={"/pricing"}
-            className="nav-links"
-            activeClassName="active"
-          >
-            Pricing
-          </NavLink>
-        </li>{" "}
-        <li className="list-inline-item web-nav">
-          <NavLink
             to={"/support"}
             className="nav-links"
             activeClassName="active"

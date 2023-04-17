@@ -28,7 +28,7 @@ const FeaturesTable = (props) => {
                       width="100%"
                     />
                   ) : (
-                    item.icon.conent
+                    item.icon.content
                   )}
                 </td>
                 <td>
@@ -59,7 +59,7 @@ const FeaturesTable = (props) => {
                 </td>
                 <td>
                   {" "}
-                  {item.icon4.type === "image" ? (
+                  {item.icon3.type === "image" ? (
                     <img
                       className="   logo"
                       src={item.icon4.content}
@@ -67,12 +67,7 @@ const FeaturesTable = (props) => {
                       width="100%"
                     />
                   ) : (
-                    ""
-                  )}
-                  {item.icon.type === "string" ? (
-                    <p>{item.icon4.content}</p>
-                  ) : (
-                    ""
+                    item.icon4.content
                   )}
                 </td>
               </tr>

@@ -5,7 +5,7 @@ export const accountCredits = {
   headers: ["", "Basic", "e-Learning", "Premium", "Enterprise"],
   data: [
     {
-      id: 4,
+      id: 1,
 
       name: "Report Card",
       icon: { type: "image", content: Tick },
@@ -15,7 +15,7 @@ export const accountCredits = {
     },
 
     {
-      id: 5,
+      id: 2,
       name: "Teacher Profile",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -23,7 +23,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 6,
+      id: 3,
       name: "Parent Profile",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -31,7 +31,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 7,
+      id: 4,
       name: "Student Profile",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -39,7 +39,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 8,
+      id: 5,
       name: "Admin Profile (1 User)",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -47,7 +47,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 9,
+      id: 6,
       name: "Bulk Sms",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -55,16 +55,16 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 10,
-      name: "Bulk Sms",
-      icon: { type: "image", content: Tick },
-      icon2: { type: "image", content: Tick },
-      icon3: { type: "image", content: Tick },
-      icon4: { type: "image", content: Tick },
+      id: 7,
+      name: "Onboarding",
+      icon: { type: "string", content: "Assisted" },
+      icon2: { type: "string", content: "Assisted" },
+      icon3: { type: "string", content: "Assisted" },
+      icon4: { type: "string", content: "Assisted" },
     },
 
     {
-      id: 11,
+      id: 8,
       name: "Learning Management",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -72,7 +72,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 12,
+      id: 9,
       name: "Customized Report Card",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -80,7 +80,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 13,
+      id: 10,
       name: "Assignment",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -88,7 +88,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 14,
+      id: 11,
       name: "Newsfeed",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -96,7 +96,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 15,
+      id: 12,
       name: "Calender",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -104,7 +104,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 16,
+      id: 13,
       name: "Computer-Based Testing(Cbt)",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -112,7 +112,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 17,
+      id: 14,
       name: "Mailbox",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -120,7 +120,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 18,
+      id: 15,
       name: "Library Management",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -128,7 +128,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 19,
+      id: 16,
       name: "Accounts",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -136,7 +136,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 20,
+      id: 17,
       name: "Human Resource Manager",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -144,7 +144,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 21,
+      id: 18,
       name: "Feedback Manager",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -152,7 +152,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 22,
+      id: 19,
       name: "Medicals",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -160,7 +160,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 23,
+      id: 20,
       name: "Staff Attendance",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -168,7 +168,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 24,
+      id: 21,
       name: "Weekly Remark",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -176,7 +176,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 25,
+      id: 22,
       name: "Phone And Email Support",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -184,7 +184,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 26,
+      id: 23,
       name: "Custom Request",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -192,7 +192,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 27,
+      id: 24,
       name: "On-Site-Training",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -200,7 +200,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 28,
+      id: 25,
       name: "State-Of-The-Art School Website",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -208,7 +208,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 29,
+      id: 26,
       name: "Priority Support",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
@@ -216,7 +216,7 @@ export const accountCredits = {
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 30,
+      id: 27,
       name: "Data Migration",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
