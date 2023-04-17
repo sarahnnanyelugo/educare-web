@@ -127,14 +127,14 @@
 }
 
 .features-holder2 {
-  // background: rgb(255, 255, 255);
-  // background: linear-gradient(
-  //   0deg,
-  //   rgba(255, 255, 255, 1) 31%,
-  //   rgba(240, 240, 240, 1) 36%,
-  //   rgba(255, 255, 255, 1) 80%
-  // );
-  padding-bottom: 150px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 6%,
+    rgba(240, 240, 240, 1) 14%,
+    rgba(255, 255, 255, 1) 59%
+  );
+  padding-top: 50px;
 }
 .bundles {
   border: solid 1px rgb(234, 232, 232);
@@ -271,15 +271,41 @@
   padding-top: 30px;
   height: fit-content;
 }
-// .radiant-bg2 {
-//   background: rgb(255, 255, 255);
-//   background: linear-gradient(
-//     180deg,
-//     rgba(255, 255, 255, 1) 5%,
-//     rgba(240, 240, 240, 1) 22%,
-//     rgba(255, 255, 255, 1) 48%,
-//     rgba(240, 240, 240, 1) 71%,
-//     rgba(255, 255, 255, 1) 91%
-//   );
-//   // padding-top: 30px;
-// }
+.radiant-bg2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 6%,
+    rgba(240, 240, 240, 1) 14%,
+    rgba(255, 255, 255, 1) 59%
+  );
+  padding-top: 30px;
+}
+.radiant {
+  // background: rgb(255, 255, 255);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(255, 255, 255, 1) 3%,
+  //   rgba(180, 45, 45, 1) 12%,
+  //   rgba(255, 255, 255, 1) 16%,
+  //   rgba(255, 255, 255, 1) 42%,
+  //   rgba(125, 42, 42, 1) 51%,
+  //   rgba(255, 255, 255, 1) 57%,
+  //   rgba(255, 255, 255, 1) 100%,
+  //   rgba(213, 50, 50, 1) 100%
+  // );
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 3%,
+    rgba(240, 240, 240, 1) 12%,
+    rgba(255, 255, 255, 1) 16%,
+    rgba(255, 255, 255, 1) 38%,
+    rgba(240, 240, 240, 1) 46%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(255, 255, 255, 1) 76%,
+    rgba(240, 240, 240, 1) 79%,
+    rgba(255, 255, 255, 1) 83%
+  );
+}

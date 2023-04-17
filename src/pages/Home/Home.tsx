@@ -120,7 +120,7 @@ export const Home = () => {
         {" "}
         <div
           className="col-md-12  flexy features-holder"
-          style={{ paddingBottom: "150px" }}
+          style={{ paddingBottom: "50px" }}
         >
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-10  features-container flexy">
@@ -233,11 +233,11 @@ export const Home = () => {
         <center className="mt">
           <h1>Bundles</h1>
         </center>
-        <div className="col-md-12 bundles-container flexy">
+        <div className="col-md-12 bundles-container flexy ">
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-10 bundles"></div>
         </div>
-        <div className="col-md-12 products-container">
+        <div className="col-md-12 products-container radiant">
           <center className="mt">
             <h1>All educare Products</h1>
           </center>
