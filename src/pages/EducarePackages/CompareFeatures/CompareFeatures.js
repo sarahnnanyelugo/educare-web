@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import "./compare-features.scss";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
-
+import FeaturesTable from "./FeaturesTable/FeaturesTable";
+import {
+  allTransactions,
+  accountCredits,
+  moneySpent,
+  withdrawal,
+  refund,
+  regularPayments,
+} from "../../../TestData";
 export const CompareFeatures = () => {
   return (
     <div className="compare-features-container">
@@ -13,13 +21,10 @@ export const CompareFeatures = () => {
             <p>Compare all features</p>
           </Accordion.Header>
           <Accordion.Body>
-            <p>
-              The Wellspring College was founded in ------. Starting with grades
-              K-6, the school added a grade level each year until our first
-              senior class graduated in 1994. In each of the classes graduating
-              since that time, every graduating senior has been accepted to
-              college.
-            </p>
+            <div className="col-md-10 offset-md-1">
+              {" "}
+              <FeaturesTable data={accountCredits} tableTitle="Transactions" />
+            </div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

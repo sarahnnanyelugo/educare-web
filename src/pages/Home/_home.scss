@@ -248,3 +248,38 @@
     rgba(255, 255, 255, 1) 74%
   );
 }
+.radiant-bg {
+  // background: rgb(240, 240, 240);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(240, 240, 240, 1) 10%,
+  //   rgba(255, 255, 255, 1) 22%,
+  //   rgba(240, 240, 240, 1) 35%,
+  //   rgba(255, 255, 255, 1) 48%,
+  //   rgba(240, 240, 240, 1) 61%,
+  //   rgba(255, 255, 255, 1) 72%,
+  //   rgba(240, 240, 240, 1) 83%,
+  //   rgba(255, 255, 255, 1) 95%
+  // );
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(240, 240, 240, 1) 22%,
+    rgba(255, 255, 255, 1) 67%
+  );
+  padding-top: 30px;
+  height: fit-content;
+}
+// .radiant-bg2 {
+//   background: rgb(255, 255, 255);
+//   background: linear-gradient(
+//     180deg,
+//     rgba(255, 255, 255, 1) 5%,
+//     rgba(240, 240, 240, 1) 22%,
+//     rgba(255, 255, 255, 1) 48%,
+//     rgba(240, 240, 240, 1) 71%,
+//     rgba(255, 255, 255, 1) 91%
+//   );
+//   // padding-top: 30px;
+// }

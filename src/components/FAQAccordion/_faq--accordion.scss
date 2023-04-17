@@ -30,7 +30,7 @@
   }
   .accordion-button::after {
     background-image: none !important;
-    content: "+";
+    content: " \002B";
     font-size: 15px !important;
     color: $purple !important;
     font-weight: bold !important;
@@ -40,7 +40,7 @@
     margin-top: 0 !important;
   }
   .accordion-button:not(.collapsed)::after {
-    content: "-" !important;
+    content: " \002D" !important;
     padding-left: 5px;
     // padding-top: -3px;
   }

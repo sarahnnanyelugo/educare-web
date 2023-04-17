@@ -60,7 +60,7 @@ export const EducareForBusiness = () => {
         </div>
       </div>
 
-      <div className="col-md-12">
+      <div className="col-md-12 mt">
         {" "}
         <div className="col-md-6  offset-md-3 flexy">
           <div className="col-md-3">

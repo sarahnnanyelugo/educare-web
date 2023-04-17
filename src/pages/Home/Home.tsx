@@ -174,500 +174,502 @@ export const Home = () => {
               </div>
             </div>
           </div>
-        </div>{" "}
-        <div className="col-md-12  flexy features-holder2">
-          <div className="col-md-1">&nbsp;</div>
-          <div className="col-md-10  features-container flexy ">
-            <div className="col-md-6 first-container">
-              <h3>educare for Schools</h3>
-              <p>
-                Revolutionize your school’s operations and student learning
-                experiences with our innovative software solution.
-              </p>
-              <br />
-              <Link to={"/educare-schools"}>
-                {" "}
-                <button>Get Started</button>
-              </Link>
-            </div>
-            <div className="col-md-6">
-              <div className="col-md-12 flexy">
-                {" "}
-                <div className="col-md-6 right-features">
-                  <Features
-                    feature="Report"
-                    detail="Generate detailed school reports with ease using our user-friendly report."
-                    icon={Chart}
-                  />{" "}
-                </div>{" "}
-                <div className="col-md-6 pastoral">
-                  <Features
-                    feature="Pastoral"
-                    detail="Enhance your institution’s pastoral care with our innovative software module"
-                    icon={Pastoral}
-                  />{" "}
-                </div>
+        </div>
+        <div>
+          <div className="col-md-12  flexy features-holder2">
+            <div className="col-md-1">&nbsp;</div>
+            <div className="col-md-10  features-container flexy ">
+              <div className="col-md-6 first-container">
+                <h3>educare for Schools</h3>
+                <p>
+                  Revolutionize your school’s operations and student learning
+                  experiences with our innovative software solution.
+                </p>
+                <br />
+                <Link to={"/educare-schools"}>
+                  {" "}
+                  <button>Get Started</button>
+                </Link>
               </div>
-              <div className="col-md-12 flexy second-grid">
-                {" "}
-                <div className="col-md-6 right-features">
-                  <Features
-                    feature="CBT"
-                    detail="Revolutionize your testing process with our computer-based test module."
-                    icon={Screen}
-                  />{" "}
-                </div>{" "}
-                <div className="col-md-6">
-                  <Features
-                    feature="eClassroom"
-                    detail="Streamline your HR tasks with our comprehensive HR manager."
-                    icon={Classroom}
-                  />{" "}
+              <div className="col-md-6">
+                <div className="col-md-12 flexy">
+                  {" "}
+                  <div className="col-md-6 right-features">
+                    <Features
+                      feature="Report"
+                      detail="Generate detailed school reports with ease using our user-friendly report."
+                      icon={Chart}
+                    />{" "}
+                  </div>{" "}
+                  <div className="col-md-6 pastoral">
+                    <Features
+                      feature="Pastoral"
+                      detail="Enhance your institution’s pastoral care with our innovative software module"
+                      icon={Pastoral}
+                    />{" "}
+                  </div>
+                </div>
+                <div className="col-md-12 flexy second-grid">
+                  {" "}
+                  <div className="col-md-6 right-features">
+                    <Features
+                      feature="CBT"
+                      detail="Revolutionize your testing process with our computer-based test module."
+                      icon={Screen}
+                    />{" "}
+                  </div>{" "}
+                  <div className="col-md-6">
+                    <Features
+                      feature="eClassroom"
+                      detail="Streamline your HR tasks with our comprehensive HR manager."
+                      icon={Classroom}
+                    />{" "}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <center className="mt">
-        <h1>Bundles</h1>
-      </center>
-      <div className="col-md-12 bundles-container flexy">
-        <div className="col-md-1">&nbsp;</div>
-        <div className="col-md-10 bundles"></div>
-      </div>
-      <div className="col-md-12 products-container">
         <center className="mt">
-          <h1>All educare Products</h1>
+          <h1>Bundles</h1>
         </center>
-        <div className="col-md-10  flexy offset-md-1">
-          <div className="col-md-4 first-product-column">
-            <EducareProducts
-              productName="Finance"
-              productDetail="The one and only accounting and payroll solution your business will ever need"
-              productIcon={HalfCircle}
-              url={"./"}
-            />
-            <div className="col-md-12 flexy flexyM mt9">
-              <div className="col-md-6 col-6 grid1">
-                <div className="col-md-12 bb other-components">
-                  {" "}
-                  <OtherEducareProducts
-                    productIcon={Screen}
-                    productName="Payroll"
-                    url={"./"}
-                  />{" "}
+        <div className="col-md-12 bundles-container flexy">
+          <div className="col-md-1">&nbsp;</div>
+          <div className="col-md-10 bundles"></div>
+        </div>
+        <div className="col-md-12 products-container">
+          <center className="mt">
+            <h1>All educare Products</h1>
+          </center>
+          <div className="col-md-10  flexy offset-md-1">
+            <div className="col-md-4 first-product-column">
+              <EducareProducts
+                productName="Finance"
+                productDetail="The one and only accounting and payroll solution your business will ever need"
+                productIcon={HalfCircle}
+                url={"./"}
+              />
+              <div className="col-md-12 flexy flexyM mt9">
+                <div className="col-md-6 col-6 grid1">
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Screen}
+                      productName="Payroll"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Account}
+                      productName="Charts of Accounts"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 other-components">
+                    <OtherEducareProducts
+                      productIcon={Requisition}
+                      productName="Requisition"
+                      url={"./"}
+                    />
+                  </div>
                 </div>
-                <div className="col-md-12 bb other-components">
+                <div className="col-md-6 col-6">
                   {" "}
-                  <OtherEducareProducts
-                    productIcon={Account}
-                    productName="Charts of Accounts"
-                    url={"./"}
-                  />{" "}
-                </div>
-                <div className="col-md-12 other-components">
-                  <OtherEducareProducts
-                    productIcon={Requisition}
-                    productName="Requisition"
-                    url={"./"}
-                  />
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={PinkChart}
+                      productName="Inventory"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Budjet}
+                      productName="Budget Management"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={""}
+                      productName=""
+                      url={"./"}
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="col-md-6 col-6">
-                {" "}
-                <div className="col-md-12 bb other-components">
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Calendar"
+                  productDetail="Stay organized and on schedule with our intuitive calendar module."
+                  productIcon={Calendar}
+                  url={"./"}
+                />
+              </div>
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Facility Management"
+                  productDetail="Efficiently manage your facilities with our innovative software module."
+                  productIcon={People}
+                  url={"./"}
+                />
+              </div>
+              <div className="col-md-12 flexy flexyM  ">
+                <div className="col-md-6 col-6 other-components bb br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={PinkChart}
-                    productName="Inventory"
+                    productIcon={Facility}
+                    productName="Facility List"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 bb other-components">
+                <div className="col-md-6 col-6 other-components bb ">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Budjet}
-                    productName="Budget Management"
+                    productIcon={Report2}
+                    productName="Facility Report"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 other-components">
+              </div>
+              <div className="col-md-12 flexy flexyM ">
+                <div className="col-md-6 col-6 other-components br">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Configure}
+                    productName="Configuration"
+                    url={"./"}
+                  />{" "}
+                </div>
+                <div className="col-md-6 col-6 other-components">
                   {" "}
                   <OtherEducareProducts
                     productIcon={""}
                     productName=""
                     url={"./"}
-                  />
+                  />{" "}
                 </div>
               </div>
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Calendar"
-                productDetail="Stay organized and on schedule with our intuitive calendar module."
-                productIcon={Calendar}
-                url={"./"}
-              />
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Facility Management"
-                productDetail="Efficiently manage your facilities with our innovative software module."
-                productIcon={People}
-                url={"./"}
-              />
-            </div>
-            <div className="col-md-12 flexy flexyM  ">
-              <div className="col-md-6 col-6 other-components bb br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Facility}
-                  productName="Facility List"
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Wallet Manager"
+                  productDetail="Take control of your finances with our intuitive wallet manager module."
+                  productIcon={Wallet}
                   url={"./"}
-                />{" "}
-              </div>
-              <div className="col-md-6 col-6 other-components bb ">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Report2}
-                  productName="Facility Report"
+                />
+              </div>{" "}
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Students Admission"
+                  productDetail="Transform your admissions process with our streamlined software module."
+                  productIcon={Student}
                   url={"./"}
-                />{" "}
-              </div>
-            </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Configure}
-                  productName="Configuration"
+                />
+              </div>{" "}
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Weekly remarks"
+                  productDetail="Effortlessly track performance with our weekly remarks module."
+                  productIcon={Remarks}
                   url={"./"}
-                />{" "}
+                />
               </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={""}
-                  productName=""
-                  url={"./"}
-                />{" "}
-              </div>
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Wallet Manager"
-                productDetail="Take control of your finances with our intuitive wallet manager module."
-                productIcon={Wallet}
-                url={"./"}
-              />
             </div>{" "}
-            <div className="col-md-12 bt pd">
+            <div className="col-md-4 second-product-column">
               <EducareProducts
-                productName="Students Admission"
-                productDetail="Transform your admissions process with our streamlined software module."
-                productIcon={Student}
+                productName="Reports"
+                productDetail="The one and only accounting and payroll solution your business will ever need"
+                productIcon={Chart}
                 url={"./"}
               />
-            </div>{" "}
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Weekly remarks"
-                productDetail="Effortlessly track performance with our weekly remarks module."
-                productIcon={Remarks}
-                url={"./"}
-              />
-            </div>
-          </div>{" "}
-          <div className="col-md-4 second-product-column">
-            <EducareProducts
-              productName="Reports"
-              productDetail="The one and only accounting and payroll solution your business will ever need"
-              productIcon={Chart}
-              url={"./"}
-            />
-            <div className="col-md-12 flexy flexyM mt9">
-              <div className="col-md-6 col-6 grid1">
-                <div className="col-md-12 bb other-components">
+              <div className="col-md-12 flexy flexyM mt9">
+                <div className="col-md-6 col-6 grid1">
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Junior}
+                      productName="Junior School Report"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Transcript}
+                      productName="Transcripts"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 other-components">
+                    <OtherEducareProducts
+                      productIcon={Transfer}
+                      productName="Transfer Manager"
+                      url={"./"}
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6 col-6">
+                  {" "}
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Senior}
+                      productName="Senior School Report"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Insight}
+                      productName="Report Insight"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Communication}
+                      productName="Communication Bool"
+                      url={"./"}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Mailbox"
+                  productDetail="Simplify communication with our powerful mailbox"
+                  productIcon={Mailbox}
+                  url={"./"}
+                />
+              </div>
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="CBT"
+                  productDetail="Revolutionize your testing process with our computer-based test module."
+                  productIcon={Screen}
+                  url={"./"}
+                />
+              </div>
+              <div className="col-md-12 flexy flexyM bb">
+                <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Junior}
-                    productName="Junior School Report"
+                    productIcon={Result}
+                    productName="Result"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 bb other-components">
+                <div className="col-md-6 col-6 other-components">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Transcript}
-                    productName="Transcripts"
+                    productIcon={Question}
+                    productName="Question"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 other-components">
-                  <OtherEducareProducts
-                    productIcon={Transfer}
-                    productName="Transfer Manager"
-                    url={"./"}
-                  />
-                </div>
               </div>
-              <div className="col-md-6 col-6">
-                {" "}
-                <div className="col-md-12 bb other-components">
+              <div className="col-md-12 flexy flexyM bb">
+                <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Senior}
-                    productName="Senior School Report"
+                    productIcon={CBT2}
+                    productName="CBT Setup"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 bb other-components">
+                <div className="col-md-6 col-6 other-components">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Insight}
-                    productName="Report Insight"
+                    productIcon={Test}
+                    productName="Test Manager"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-12 other-components">
+              </div>
+              <div className="col-md-12 flexy flexyM bb">
+                <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Communication}
-                    productName="Communication Bool"
+                    productIcon={TestResult}
+                    productName="Test Results"
                     url={"./"}
-                  />
+                  />{" "}
+                </div>
+                <div className="col-md-6 col-6 other-components">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Analysis}
+                    productName="Test Analysis"
+                    url={"./"}
+                  />{" "}
                 </div>
               </div>
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Medicals"
+                  productDetail="Streamline medical operations with our innovative software module"
+                  productIcon={Medical}
+                  url={"./"}
+                />
+              </div>{" "}
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Library"
+                  productDetail="Simplify your library management with our innovative software module."
+                  productIcon={Lib}
+                  url={"./"}
+                />
+              </div>
             </div>
-            <div className="col-md-12 bt pd">
+            <div className="col-md-4 third-product-column">
               <EducareProducts
-                productName="Mailbox"
-                productDetail="Simplify communication with our powerful mailbox"
-                productIcon={Mailbox}
+                productName="HR Manager"
+                productDetail="Streamline your HR tasks with our comprehensive HR manager."
+                productIcon={People2}
                 url={"./"}
               />
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="CBT"
-                productDetail="Revolutionize your testing process with our computer-based test module."
-                productIcon={Screen}
-                url={"./"}
-              />
-            </div>
-            <div className="col-md-12 flexy flexyM bb">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Result}
-                  productName="Result"
-                  url={"./"}
-                />{" "}
+              <div className="col-md-12 flexy flexyM mt9">
+                <div className="col-md-6 col-6 grid1">
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Recruitment}
+                      productName="Recruitment"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Work}
+                      productName="Work Leave"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                </div>
+                <div className="col-md-6 col-6">
+                  {" "}
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Access}
+                      productName="Access Control"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Performance}
+                      url={"./"}
+                      productName="Performance"
+                    />{" "}
+                  </div>
+                </div>
               </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Question}
-                  productName="Question"
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Timetable"
+                  productDetail="Organize schedules with ease using our intuitive timetable module."
+                  productIcon={Timetable}
                   url={"./"}
-                />{" "}
+                />
               </div>
-            </div>
-            <div className="col-md-12 flexy flexyM bb">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={CBT2}
-                  productName="CBT Setup"
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Pastoral"
+                  productDetail="Enhance your institution’s pastoral care with our innovative software module"
+                  productIcon={Pastoral}
                   url={"./"}
-                />{" "}
+                />
               </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Test}
-                  productName="Test Manager"
+              <div className="col-md-12 flexy flexyM bb">
+                <div className="col-md-6 col-6 other-components br">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Exeact}
+                    productName="Exeat Request"
+                    url={"./"}
+                  />{" "}
+                </div>
+                <div className="col-md-6 col-6 other-components">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Activity}
+                    productName="Activity Point"
+                    url={"./"}
+                  />{" "}
+                </div>
+              </div>
+              <div className="col-md-12 flexy flexyM ">
+                <div className="col-md-6 col-6 other-components br">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Points}
+                    productName="Points Analysis"
+                    url={"./"}
+                  />{" "}
+                </div>
+                <div className="col-md-6 col-6 other-components">
+                  {" "}
+                  <OtherEducareProducts
+                    productIcon={Hostel}
+                    productName="Hostel Report"
+                    url={"./"}
+                  />{" "}
+                </div>
+              </div>
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="eClassroom"
+                  productDetail="Streamline your HR tasks with our comprehensive HR manager.."
+                  productIcon={Classroom}
                   url={"./"}
-                />{" "}
-              </div>
-            </div>
-            <div className="col-md-12 flexy flexyM bb">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={TestResult}
-                  productName="Test Results"
+                />
+              </div>{" "}
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Voting System"
+                  productDetail="Securely manage and conduct elections with our powerful voting system module."
+                  productIcon={Voting}
                   url={"./"}
-                />{" "}
-              </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Analysis}
-                  productName="Test Analysis"
+                />
+              </div>{" "}
+              <div className="col-md-12 bt pd">
+                <EducareProducts
+                  productName="Lesson Planner"
+                  productDetail="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals."
+                  productIcon={Lesson}
                   url={"./"}
-                />{" "}
+                />
               </div>
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Medicals"
-                productDetail="Streamline medical operations with our innovative software module"
-                productIcon={Medical}
-                url={"./"}
-              />
-            </div>{" "}
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Library"
-                productDetail="Simplify your library management with our innovative software module."
-                productIcon={Lib}
-                url={"./"}
-              />
             </div>
           </div>
-          <div className="col-md-4 third-product-column">
-            <EducareProducts
-              productName="HR Manager"
-              productDetail="Streamline your HR tasks with our comprehensive HR manager."
-              productIcon={People2}
-              url={"./"}
-            />
-            <div className="col-md-12 flexy flexyM mt9">
-              <div className="col-md-6 col-6 grid1">
-                <div className="col-md-12 bb other-components">
-                  {" "}
-                  <OtherEducareProducts
-                    productIcon={Recruitment}
-                    productName="Recruitment"
-                    url={"./"}
-                  />{" "}
-                </div>
-                <div className="col-md-12 bb other-components">
-                  {" "}
-                  <OtherEducareProducts
-                    productIcon={Work}
-                    productName="Work Leave"
-                    url={"./"}
-                  />{" "}
-                </div>
-              </div>
-              <div className="col-md-6 col-6">
-                {" "}
-                <div className="col-md-12 bb other-components">
-                  {" "}
-                  <OtherEducareProducts
-                    productIcon={Access}
-                    productName="Access Control"
-                    url={"./"}
-                  />{" "}
-                </div>
-                <div className="col-md-12 bb other-components">
-                  {" "}
-                  <OtherEducareProducts
-                    productIcon={Performance}
-                    url={"./"}
-                    productName="Performance"
-                  />{" "}
-                </div>
-              </div>
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Timetable"
-                productDetail="Organize schedules with ease using our intuitive timetable module."
-                productIcon={Timetable}
-                url={"./"}
-              />
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Pastoral"
-                productDetail="Enhance your institution’s pastoral care with our innovative software module"
-                productIcon={Pastoral}
-                url={"./"}
-              />
-            </div>
-            <div className="col-md-12 flexy flexyM bb">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Exeact}
-                  productName="Exeat Request"
-                  url={"./"}
-                />{" "}
-              </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Activity}
-                  productName="Activity Point"
-                  url={"./"}
-                />{" "}
-              </div>
-            </div>
-            <div className="col-md-12 flexy flexyM ">
-              <div className="col-md-6 col-6 other-components br">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Points}
-                  productName="Points Analysis"
-                  url={"./"}
-                />{" "}
-              </div>
-              <div className="col-md-6 col-6 other-components">
-                {" "}
-                <OtherEducareProducts
-                  productIcon={Hostel}
-                  productName="Hostel Report"
-                  url={"./"}
-                />{" "}
-              </div>
-            </div>
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="eClassroom"
-                productDetail="Streamline your HR tasks with our comprehensive HR manager.."
-                productIcon={Classroom}
-                url={"./"}
-              />
-            </div>{" "}
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Voting System"
-                productDetail="Securely manage and conduct elections with our powerful voting system module."
-                productIcon={Voting}
-                url={"./"}
-              />
-            </div>{" "}
-            <div className="col-md-12 bt pd">
-              <EducareProducts
-                productName="Lesson Planner"
-                productDetail="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals."
-                productIcon={Lesson}
-                url={"./"}
-              />
-            </div>
-          </div>
-        </div>
-        <center className="mt7">
-          {" "}
-          <button>View all products</button>
-        </center>
-      </div>
-      <div className="col-md-12 privacy-protection">
-        <div className="col-md-6 offset-md-3">
-          <center>
-            <h1>educare’s Privacy and Protection</h1>
-            <p>
-              educare ensures data privacy by implementing advanced security
-              measures, including encryption and secure communication channels.
-              The platform has no access to your data, and strict policies are
-              in place to keep your data under your control. Trust us to keep
-              your data safe and secure
-            </p>
+          <center className="mt7">
+            {" "}
+            <button>View all products</button>
           </center>
+        </div>
+        <div className="col-md-12 privacy-protection">
+          <div className="col-md-6 offset-md-3">
+            <center>
+              <h1>educare’s Privacy and Protection</h1>
+              <p>
+                educare ensures data privacy by implementing advanced security
+                measures, including encryption and secure communication
+                channels. The platform has no access to your data, and strict
+                policies are in place to keep your data under your control.
+                Trust us to keep your data safe and secure
+              </p>
+            </center>
+          </div>
         </div>
       </div>
       <Partners />
