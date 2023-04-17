@@ -101,7 +101,7 @@ export const EducareForBusiness = () => {
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
           <Heading text="Finance" bg="#DED0FA" color="#3B0F8E" />
-          <h3>Automated employee reimbursements.</h3>
+          <h3 className="mt3">Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,
             ensuring that employees are reimbursed quickly and accurately.
@@ -127,7 +127,7 @@ export const EducareForBusiness = () => {
         </div>
         <div className="col-md-4 ">
           <Heading text="HR Manager" bg="#fdf5eb" color="#bf741c" />
-          <h3>
+          <h3 className="mt3">
             Provide your employees with outstanding experiences they will never
             forget.
           </h3>
@@ -152,7 +152,7 @@ export const EducareForBusiness = () => {
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-4 offset-md-1">
           <Heading text="Mail" bg="#f6e9f8" color="#b054bb" />
-          <h3>Simplifying core HR operations</h3>
+          <h3 className="mt3">Simplifying core HR operations</h3>
           <p>
             Mail provides secure email hosting with state-of-the-art data
             centers that prioritize top-notch security and surveillance. With a
@@ -178,7 +178,7 @@ export const EducareForBusiness = () => {
         </div>
         <div className="col-md-4">
           <Heading text="Facility Management" bg="#eaedfe" color="#204bc8" />
-          <h3>Automated employee reimbursements.</h3>
+          <h3 className="mt3">Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,
             ensuring that employees are reimbursed quickly and accurately.
@@ -187,7 +187,7 @@ export const EducareForBusiness = () => {
           </p>
           <h3>Streamlined quote-to-cash process</h3>
           <p>
-            Generate quotes and orders in one application and seamlessly fulfill
+            Generate quotes and orders in one application and seamlessly fulfil
             them in another, with real-time availability of data. Invoice
             customers and collect payments promptly for improved cash flow
             management.

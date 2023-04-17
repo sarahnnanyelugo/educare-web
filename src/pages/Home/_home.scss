@@ -66,7 +66,7 @@
   }
 }
 .features-container {
-  border: solid 2px rgb(234, 232, 232);
+  border: solid 1px #e7e7e7;
   // box-shadow: 0 0 2px 2px rgb(238, 235, 235);
   border-radius: 10px !important;
   height: fit-content;
@@ -78,7 +78,7 @@
     padding-right: 130px;
     background: #fff;
     padding-left: 30px;
-    border-right: solid 1px rgb(206, 205, 205);
+    border-right: solid 1px #e7e7e7;
     @media screen and (max-width: 620px) {
       padding: 0;
       text-align: center;
@@ -106,13 +106,13 @@
     }
   }
   .second-grid {
-    border-top: solid 1px rgb(231, 228, 228);
+    border-top: solid 1px #e7e7e7;
     @media screen and (max-width: 620px) {
       text-align: center;
     }
   }
   .right-features {
-    border-right: solid 1px rgb(231, 228, 228);
+    border-right: solid 1px #e7e7e7;
     @media screen and (max-width: 620px) {
       text-align: center;
     }
@@ -140,7 +140,7 @@
   padding-top: 50px;
 }
 .bundles {
-  border: solid 1px rgb(234, 232, 232);
+  border: solid 1px #e7e7e7;
   // box-shadow: 0 0 2px 2px rgb(238, 235, 235);
   border-radius: 10px !important;
   height: 250px;
@@ -162,8 +162,8 @@
   .first-product-column {
     padding: 50px 0px;
     background: #ffff;
-    border-top: solid 1px rgb(233, 229, 229);
-    border-left: solid 1px rgb(233, 229, 229);
+    border-top: solid 1px #e7e7e7;
+    border-left: solid 1px #e7e7e7;
     margin-top: 150px;
     height: fit-content;
 
@@ -177,7 +177,7 @@
   .second-product-column {
     padding: 50px 0px;
     background: #ffff;
-    border: solid 1px rgb(233, 229, 229);
+    border: solid 1px #e7e7e7;
     // box-shadow: 0 0 1px 1px rgb(233, 229, 229);
     border-radius: 12px;
     height: fit-content;
@@ -190,8 +190,8 @@
   .third-product-column {
     padding: 50px 0px;
     background: #ffff;
-    border-top: solid 1px rgb(233, 229, 229);
-    border-right: solid 1px rgb(233, 229, 229);
+    border-top: solid 1px #e7e7e7;
+    border-right: solid 1px #e7e7e7;
     margin-top: 150px;
     // box-shadow: 0 0 1px 1px rgb(233, 229, 229);
     border-top-right-radius: 12px;
@@ -203,7 +203,7 @@
     }
   }
   .grid1 {
-    border-right: solid 1px rgb(233, 229, 229);
+    border-right: solid 1px #e7e7e7;
   }
   .other-components {
     padding-top: 60px;

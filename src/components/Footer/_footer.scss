@@ -1,16 +1,21 @@
 .footer-container {
   height: fit-content;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 30px;
   background: rgb(30, 30, 30);
   color: #fff;
   @media screen and (max-width: 620px) {
     padding-top: 50px;
     margin-top: 40px;
   }
-  .quick-links ul li {
-    line-height: 40px;
-    text-align: left;
+  .quick-links {
+    padding-bottom: 50px;
+    ul li {
+      line-height: 40px;
+      text-align: left;
+    }
   }
+
   .logo {
     @media screen and (max-width: 620px) {
       margin-bottom: 40px;

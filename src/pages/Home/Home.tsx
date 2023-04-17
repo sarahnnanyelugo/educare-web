@@ -94,7 +94,7 @@ export const Home = () => {
           <div className="col-md-9">
             {" "}
             <RandomComponent
-              title="work smart not hard"
+              title="Work smart not hard"
               icon={YellowIcon}
               paragraph="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
             />
