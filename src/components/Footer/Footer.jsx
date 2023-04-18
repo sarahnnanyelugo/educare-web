@@ -91,7 +91,7 @@ export const Footer = () => {
                 <h4>Resources</h4>
                 <li>
                   <Link to="" className="links">
-                    Help
+                    Help Center
                   </Link>
                 </li>
                 <li>

@@ -61,6 +61,9 @@
     p {
       flex-grow: 1;
     }
+    .links {
+      font-family: rebondLight !important;
+    }
   }
   .mobile-ul {
     @media screen and (max-width: 620px) {
