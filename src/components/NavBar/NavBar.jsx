@@ -117,7 +117,6 @@ function NavBar() {
           <button className="sign-in-button">Log in</button>
         </Link>
         <Link to={"/sign-up"}>
-          {" "}
           <button
             className="get-started-button"
             style={{ backgroundColor: "" + themeSet }}
