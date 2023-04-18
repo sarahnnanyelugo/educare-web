@@ -11,7 +11,10 @@ function SignUpPage() {
           {" "}
           <div className="col-md-2" style={{ flexGrow: 1 }}>
             {" "}
-            <img className="   logo" src={Logo} alt="Scholar" width="20%" />
+            <Link to={"/"}>
+              {" "}
+              <img className="   logo" src={Logo} alt="Scholar" width="20%" />
+            </Link>
           </div>
           <p>
             Already have an educare Account?{" "}
