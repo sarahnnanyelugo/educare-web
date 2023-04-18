@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./educare-packages.scss";
 import {
@@ -6,17 +6,45 @@ import {
   elearningData,
   premiumData,
   basicData,
+  rates,
+  currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
 import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
+import Axios from "axios";
+import Testing from "../../components/NavBar/Testing/Testing";
+import CurrencyConverter from "../../components/NavBar/Testing/Testing";
 
 function EducarePackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleClick = (index) => setActiveIndex(index);
   const checkActive = (index, className) =>
     activeIndex === index ? className : "";
+
+  const [amount, setAmount] = useState(0);
+  const [toCurrency, setToCurrency] = useState("NGN");
+  const [conversionRate, setConversionRate] = useState(1);
+
+  const convertCurrency = () => {
+    setConversionRate(rates[toCurrency]);
+  };
+  function setThisCurrency(curr) {
+    if (curr !== toCurrency) {
+      setToCurrency(curr);
+    }
+  }
+  useEffect(() => {
+    convertCurrency();
+    console.log(toCurrency, conversionRate);
+  }, []);
+  useEffect(() => {
+    convertCurrency();
+    setTimeout(() => {
+      console.log(toCurrency, conversionRate);
+    }, 1000);
+  }, [toCurrency]);
   return (
     <>
       <div className="col-md-12 nav-two-business sticky-top">
@@ -34,9 +62,8 @@ function EducarePackages(props) {
             </h1>
           </div>
         </center>
-      </div>
+      </div>{" "}
       <div>
-        {" "}
         <div className="tabs">
           <button
             className={`tab ${checkActive(1, "active2")}`}
@@ -51,6 +78,11 @@ function EducarePackages(props) {
             Yearly
           </button>
         </div>
+        <div className="currency-buttons flexy flexym offset-md-10">
+          <button onClick={() => setThisCurrency("USD")}>USD</button>
+          <button onClick={() => setThisCurrency("NGN")}>NGN</button>
+        </div>
+
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
             <div className="offset-md-7">
@@ -76,7 +108,14 @@ function EducarePackages(props) {
                 <h3>{elearningData.heading1}</h3>
                 <div className="flexy flexyM">
                   {" "}
-                  <h1>&#8358;{elearningData.monthlyAmount}</h1>
+                  <h1>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {elearningData.monthlyAmount * conversionRate}
+                  </h1>
                   <h6>
                     Per Student <br />
                     (Monthly)
@@ -237,6 +276,7 @@ function EducarePackages(props) {
         </div>
         <Partners />
       </div>
+      <CurrencyConverter />
     </>
   );
 }

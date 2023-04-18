@@ -197,3 +197,23 @@ button.active2 {
     margin-top: 100px;
   }
 }
+.currency-buttons {
+  margin-top: -50px;
+  button {
+    border: none;
+    font-family: rebondG-Semi-Bold !important;
+    font-size: 16px;
+    color: #161617;
+    background: transparent;
+    height: 30px;
+    border-bottom: solid 1px #ded0fa;
+    &:focus {
+      border-bottom: solid 3px $purple;
+      transition: 0.5s ease;
+    }
+    &:active {
+      border-bottom: solid 3px $purple;
+      transition: 0.5s ease;
+    }
+  }
+}
