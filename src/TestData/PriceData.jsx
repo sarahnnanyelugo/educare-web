@@ -1,6 +1,7 @@
 export const enterpriseData = {
   heading1: "Enterprise",
-  amount: "Contact Us",
+  monthlyAmount: "Contact Us",
+  yearlyAmount: "Contact Us",
   packages: [
     { id: 1, value: "Data Migration" },
     { id: 2, value: "Custom Request" },
@@ -12,7 +13,8 @@ export const enterpriseData = {
 };
 export const elearningData = {
   heading1: "e- Learning",
-  amount: "200.00",
+  monthlyAmount: "200.00",
+  yearlyAmount: "2,400",
   packages: [
     { id: 1, value: "All Basic Features" },
     { id: 2, value: "Learning Management" },
@@ -25,7 +27,8 @@ export const elearningData = {
 };
 export const premiumData = {
   heading1: "Premium",
-  amount: "500.00",
+  monthlyAmount: "500.00",
+  yearlyAmount: "6,000",
   packages: [
     { id: 1, value: "All E-Learning Features" },
     { id: 2, value: "Computer-Based Testing(Cbt)" },
@@ -42,7 +45,8 @@ export const premiumData = {
 };
 export const basicData = {
   heading1: "Basic",
-  amount: "100.00",
+  monthlyAmount: "100.00",
+  yearlyAmount: "1,200",
   packages: [
     { id: 1, value: "Report Card" },
     { id: 2, value: "Teacher Profile" },
