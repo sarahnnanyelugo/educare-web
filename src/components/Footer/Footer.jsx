@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Logo from "../../assets/images/white-logo.png";
 import LinkedIn from "../../assets/images/linkedin.svg";
 import FB from "../../assets/images/fb.svg";
@@ -7,9 +7,33 @@ import { Link, NavLink } from "react-router-dom";
 
 import "./_footer.scss";
 export const Footer = () => {
+  const prevUrlRef = useRef(null);
+  const [showNav, setShowNav] = useState(true);
+  useEffect(() => {
+    const currentUrl = window.location.pathname;
+
+    if (prevUrlRef.current !== currentUrl) {
+      prevUrlRef.current = currentUrl;
+      console.log(currentUrl);
+      setTimeout(() => {
+        switch (currentUrl) {
+          case "/login":
+            setShowNav(false);
+            break;
+          case "/sign-up":
+            setShowNav(false);
+            break;
+          default:
+            setShowNav(true);
+            break;
+        }
+        console.log(showNav);
+      }, 200);
+    }
+  });
   return (
     <>
-      <div className="footer-container ">
+      <div className={`footer-container  ${showNav ? "" : "hide"}`}>
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-2 logo">
             {" "}
