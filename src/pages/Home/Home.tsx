@@ -72,7 +72,10 @@ export const Home = () => {
               Solutions Designed to Streamline Operations, Optimize Performance,
               and Drive Growth.
             </p>
-            <button className="gs-button">Get started</button>
+            <Link to={"/sign-up"}>
+              {" "}
+              <button className="gs-button">Get started</button>
+            </Link>
             <button className="request-button">Request for a demo</button>
           </div>
         </center>
