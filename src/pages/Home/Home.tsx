@@ -80,31 +80,27 @@ export const Home = () => {
           </div>
         </center>
       </div>
-      {/* <div className="empty2 col-md-12"></div> */}
+
       <div className="col-md-12 stripe-bg"></div>
-      <div className="col-md-12 actions-container flexy">
-        <div className="col-md-4">
-          <div className="col-md-9">
+      <div className="col-md-12 actions-container ">
+        <div className="col-md-10 offset-md-1 flexy">
+          {" "}
+          <div className="col-md-4">
             {" "}
             <RandomComponent
               title="Pick your tools"
               icon={RedIcon}
-              paragraph=" Unlock Your Business Potential with Cutting-Edge Software  Solutions Designed to Streamline"
+              paragraph=" Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
             />
           </div>
-        </div>
-        <div className="col-md-4">
-          <div className="col-md-9">
-            {" "}
+          <div className="col-md-4">
             <RandomComponent
               title="Work smart not hard"
               icon={YellowIcon}
-              paragraph="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
+              paragraph="Our smart solutions empower you to work smarter, not harder, allowing you to achieve more in less time and with less effort"
             />
           </div>
-        </div>
-        <div className="col-md-4">
-          <div className="col-md-9">
+          <div className="col-md-4">
             {" "}
             <RandomComponent
               title="We’ve got your back"
@@ -438,7 +434,7 @@ export const Home = () => {
                     {" "}
                     <OtherEducareProducts
                       productIcon={Communication}
-                      productName="Communication Bool"
+                      productName="Communication Book"
                       url={"./"}
                     />
                   </div>
@@ -632,7 +628,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="eClassroom"
-                  productDetail="Streamline your HR tasks with our comprehensive HR manager.."
+                  productDetail="Empower Your School with eClassroom: A Comprehensive Software Module for Virtual Learning and Collaboration."
                   productIcon={Classroom}
                   url={"./"}
                 />
@@ -648,7 +644,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Lesson Planner"
-                  productDetail="Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals."
+                  productDetail="Streamline and simplify your lesson planning process with our lesson planner."
                   productIcon={Lesson}
                   url={"./"}
                 />

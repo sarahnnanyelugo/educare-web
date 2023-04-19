@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Logo from "../../assets/images/educare-logo.png";
+import Logo from "../../assets/images/logo2.png";
 import Arrow from "../../assets/images/arrowdown.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 
 function NavBar() {
   const prevUrlRef = useRef(null);
-
+  const [stick, setStick] = useState(true);
   const [themeSet, setTheme] = useState("");
   const location = useLocation();
   const [navWidth, setNavWidth] = useState(0);
@@ -65,8 +65,32 @@ function NavBar() {
       }, 200);
     }
   });
+  useEffect(() => {
+    const currentUrl = window.location.pathname;
+
+    if (prevUrlRef.current !== currentUrl) {
+      prevUrlRef.current = currentUrl;
+      console.log(currentUrl);
+      setTimeout(() => {
+        switch (currentUrl) {
+          case "/":
+            setStick(true);
+            break;
+
+          default:
+            setStick(false);
+            break;
+        }
+        console.log(showNav);
+      }, 200);
+    }
+  });
   return (
-    <div className={`navbar-container ${showNav ? "" : "hide"}`}>
+    <div
+      className={`navbar-container offset-md-1 col-md-10 ${
+        showNav ? "" : "hide"
+      } ${stick ? "" : "sticky"}`}
+    >
       <div className="logo-holder  col-md-2">
         {" "}
         <Link to={"/"}>
@@ -76,39 +100,23 @@ function NavBar() {
       </div>
       <ul className=" list-inline list-unstyled nav-links-container">
         <li className="list-inline-item web-nav">
-          <NavLink
-            to={"/finance-overview"}
-            className="nav-links"
-            activeClassName="active"
-          >
-            Solutions{" "}
+          <NavLink to={"/finance-overview"} activeClassName="active">
+            <button className="nav-links"> Solutions</button>
           </NavLink>
         </li>{" "}
         <li className="list-inline-item web-nav">
-          <NavLink
-            to={"/resources"}
-            className="nav-links"
-            activeClassName="active"
-          >
-            Resources
+          <NavLink to={"/resources"} activeClassName="active">
+            <button className="nav-links"> Resourcess</button>
           </NavLink>
         </li>{" "}
         <li className="list-inline-item web-nav">
-          <NavLink
-            to={"/support"}
-            className="nav-links"
-            activeClassName="active"
-          >
-            Support
+          <NavLink to={"/support"} activeClassName="active">
+            <button className="nav-links"> Support</button>
           </NavLink>
         </li>{" "}
         <li className="list-inline-item web-nav">
-          <NavLink
-            to={"/contact"}
-            className="nav-links"
-            activeClassName="active"
-          >
-            Contact us
+          <NavLink to={"/contact"} activeClassName="active">
+            <button className="nav-links"> Contact us</button>
           </NavLink>
         </li>
       </ul>

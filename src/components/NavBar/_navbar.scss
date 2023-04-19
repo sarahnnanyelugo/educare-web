@@ -3,8 +3,9 @@
 
 .navbar-container {
   background: #fff;
-  padding: 5px 80px;
+  padding: 5px 0px;
   display: flex;
+
   .web-nav {
     @media screen and (max-width: "620px") {
       display: none;
@@ -17,21 +18,19 @@
     flex-grow: 1;
     margin-top: 20px;
     .nav-links {
-      margin: 25px;
+      padding: 8px 20px;
       color: #414244;
       text-decoration: none;
       font-weight: bold;
-      font-family: rebondG-Bold;
+      font-family: rebondG-Semi-Bold;
       font-size: 14px;
-    }
-    li {
-      padding: 3px 0px;
-      border-radius: 50px;
-      transition: 0.5s ease;
+      border: none;
+      background: #fff;
       &:hover {
         background: rgb(231, 231, 231) !important;
 
-        // border: solid 1px grey;
+        border-radius: 50px;
+        transition: 0.5s ease;
       }
     }
   }
@@ -62,4 +61,8 @@
 }
 .hide {
   display: none !important;
+}
+.sticky {
+  position: fixed;
+  margin-bottom: 50px !important;
 }

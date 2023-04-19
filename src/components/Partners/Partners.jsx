@@ -9,7 +9,7 @@ export const Partners = () => {
   return (
     <>
       {" "}
-      <div className="col-md-10 offset-md-1 mt5 partners-container flexy">
+      <div className="col-md-12 offset-md- mt5 partners-container flexy">
         <h1 className="col-md-4 flexy">Corporate membership & partners</h1>
         <div className="mt5 ">
           {" "}

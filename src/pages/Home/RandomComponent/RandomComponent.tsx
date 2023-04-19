@@ -12,9 +12,12 @@ export const RandomComponent = (props: RandomComponentProps) => {
       <div className="heading">
         {" "}
         <img className="" src={props.icon} alt="Scholar" width="100%" />
-        <h2>{props.title}</h2>
+        <h3>{props.title}</h3>
       </div>
-      <p>{props.paragraph}</p>
+      <div className="col-md-10" style={{ marginLeft: "52px" }}>
+        {" "}
+        <p>{props.paragraph}</p>
+      </div>
     </div>
   );
 };
