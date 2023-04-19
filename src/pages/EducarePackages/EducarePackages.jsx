@@ -316,7 +316,6 @@ function EducarePackages(props) {
         </div>
         <Partners />
       </div>
-      <CurrencyConverter />
     </>
   );
 }
