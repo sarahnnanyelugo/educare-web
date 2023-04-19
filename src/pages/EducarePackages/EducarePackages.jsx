@@ -92,7 +92,15 @@ function EducarePackages(props) {
             <div className="col-md-10 flexy monthly-container">
               <div className="col-md-3 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>&#8358;{basicData.monthlyAmount}</h1>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {basicData.monthlyAmount * conversionRate}
+                </h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
@@ -137,7 +145,15 @@ function EducarePackages(props) {
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
-                    <h1>&#8358;{premiumData.monthlyAmount}</h1>
+                    <h1>
+                      {" "}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: currencyChar[toCurrency],
+                        }}
+                      ></span>
+                      {premiumData.monthlyAmount * conversionRate}
+                    </h1>
                     <h6>
                       Per Student <br /> (Monthly)
                     </h6>
@@ -174,7 +190,15 @@ function EducarePackages(props) {
             <div className="col-md-10 flexy monthly-container">
               <div className="col-md-3 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>&#8358;{basicData.yearlyAmount}</h1>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {basicData.yearlyAmount * conversionRate}
+                </h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
@@ -189,8 +213,16 @@ function EducarePackages(props) {
               <div className="col-md-3 left-cards e-learning">
                 <h3>{elearningData.heading1}</h3>
                 <div className="flexy flexyM">
-                  {" "}
-                  <h1>&#8358;{elearningData.yearlyAmount}</h1>
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {elearningData.yearlyAmount * conversionRate}
+                  </h1>
+
                   <h6>
                     Per Student <br />
                     (Yearly)
@@ -212,7 +244,15 @@ function EducarePackages(props) {
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
-                    <h1>&#8358;{premiumData.yearlyAmount}</h1>
+                    <h1>
+                      {" "}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: currencyChar[toCurrency],
+                        }}
+                      ></span>
+                      {premiumData.yearlyAmount * conversionRate}
+                    </h1>
                     <h6>
                       Per Student <br /> (Yearly)
                     </h6>

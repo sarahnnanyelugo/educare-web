@@ -14,7 +14,7 @@ export const enterpriseData = {
 export const elearningData = {
   heading1: "e- Learning",
   monthlyAmount: "200.00",
-  yearlyAmount: "2,400",
+  yearlyAmount: "2400",
   packages: [
     { id: 1, value: "All Basic Features" },
     { id: 2, value: "Learning Management" },
@@ -28,7 +28,7 @@ export const elearningData = {
 export const premiumData = {
   heading1: "Premium",
   monthlyAmount: "500.00",
-  yearlyAmount: "6,000",
+  yearlyAmount: "6000",
   packages: [
     { id: 1, value: "All E-Learning Features" },
     { id: 2, value: "Computer-Based Testing(Cbt)" },
@@ -46,7 +46,7 @@ export const premiumData = {
 export const basicData = {
   heading1: "Basic",
   monthlyAmount: "100.00",
-  yearlyAmount: "1,200",
+  yearlyAmount: "1200",
   packages: [
     { id: 1, value: "Report Card" },
     { id: 2, value: "Teacher Profile" },
