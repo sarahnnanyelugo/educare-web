@@ -9,17 +9,20 @@ export const Partners = () => {
   return (
     <>
       {" "}
-      <div className="col-md-12 offset-md- mt5 partners-container flexy">
-        <h1 className="col-md-4 flexy">Corporate membership & partners</h1>
-        <div className="mt5 ">
+      <div className="col-md-11 offset-md-1 mt5 partners-container flexy">
+        <h1 className="col-md- flexy">
+          Corporate membership
+          <br /> & partners
+        </h1>
+        <div className="mt5 offset-md-1 col-md-">
           {" "}
-          <img className="" src={Aisa} alt="Scholar" width="100%" />
-          <img className="" src={Microsoft} alt="Scholar" width="100%" />
-          <img className="" src={Flutterwave} alt="Scholar" width="100%" />
+          <img className="aisa" src={Aisa} alt="Scholar" />
+          <img className="ms" src={Microsoft} alt="Scholar" />
+          <img className="flutter" src={Flutterwave} alt="Scholar" />
           <br />
-          <img className="" src={Paystack} alt="Scholar" width="100%" />
-          <img className="" src={Standard} alt="Scholar" width="100%" />
-          <img className="apen" src={Apen} alt="Scholar" width="100%" />
+          <img className="pay" src={Paystack} alt="Scholar" />
+          <img className="standard" src={Standard} alt="Scholar" />
+          <img className="apen" src={Apen} alt="Scholar" />
         </div>
       </div>
     </>
