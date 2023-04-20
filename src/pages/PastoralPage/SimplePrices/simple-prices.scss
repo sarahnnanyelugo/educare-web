@@ -53,9 +53,12 @@
   font-weight: bold;
   border: none;
   border-radius: 35px;
-  margin-bottom: -80px;
-  //   margin-top: -40px;
+  margin-bottom: -80px !important;
+  margin-left: 20px;
 }
 .recommended-container {
   margin-top: -30px;
+}
+.active-button {
+  border: solid 2px #414244;
 }

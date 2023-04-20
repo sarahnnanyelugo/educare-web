@@ -53,32 +53,34 @@ function Pastoral(props) {
           <h1>Run a more efficient student care for your schools</h1>
         </div>
       </center>
-      <div className="col-md-10 offset-md-1 flexy ">
-        <div className="col-md-4">
-          <div className="col-md-10">
-            <Efficiency
-              title="Streamlined management of pastoral care activities"
-              icon={Setting}
-              paragraph="Provides schools with a centralized platform to efficiently manage various pastoral care activities, such as tracking student attendance, behavior, and well-being, scheduling and documenting pastoral care interventions, and recording student interactions."
-            />
-          </div>
-        </div>{" "}
-        <div className="col-md-4">
-          <div className="col-md-10">
-            <Efficiency
-              title="Customizable tools for tracking student well-being"
-              icon={Track}
-              paragraph="Track and monitor the well-being and engagement of students with our customizable tools. This include features such as student check-ins, mood tracking, and behavior logs, which help schools identify students who may need additional support and interventions."
-            />
-          </div>
-        </div>{" "}
-        <div className="col-md-4">
-          <div className="col-md-10">
-            <Efficiency
-              title="Centralized data storage for easy access and analysis"
-              icon={Storage}
-              paragraph="Store and access pastoral care data, making it easy for schools to analyze trends, patterns, and outcomes related to student well-being. This data-driven approach allows schools to identify areas that require further attention and make informed decisions on pastoral care strategies."
-            />
+      <div className="rad col-md-12">
+        <div className="col-md-10 offset-md-1 flexy ">
+          <div className="col-md-4">
+            <div className="col-md-10">
+              <Efficiency
+                title="Streamlined management of pastoral care activities"
+                icon={Setting}
+                paragraph="Provides schools with a centralized platform to efficiently manage various pastoral care activities, such as tracking student attendance, behavior, and well-being, scheduling and documenting pastoral care interventions, and recording student interactions."
+              />
+            </div>
+          </div>{" "}
+          <div className="col-md-4">
+            <div className="col-md-10">
+              <Efficiency
+                title="Customizable tools for tracking student well-being"
+                icon={Track}
+                paragraph="Track and monitor the well-being and engagement of students with our customizable tools. This include features such as student check-ins, mood tracking, and behavior logs, which help schools identify students who may need additional support and interventions."
+              />
+            </div>
+          </div>{" "}
+          <div className="col-md-4">
+            <div className="col-md-10">
+              <Efficiency
+                title="Centralized data storage for easy access and analysis"
+                icon={Storage}
+                paragraph="Store and access pastoral care data, making it easy for schools to analyze trends, patterns, and outcomes related to student well-being. This data-driven approach allows schools to identify areas that require further attention and make informed decisions on pastoral care strategies."
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -119,56 +121,60 @@ function Pastoral(props) {
       <center>
         <h1>Our simple prices made for you </h1>
       </center>
-      <div className="col-md-10 offset-md-1 flexy mb5 mt5">
-        <div className="col-md-3">
-          <div className="col-md-11 otherpackages">
-            <SimplePrices
-              package="Basic"
-              amount="100.00"
-              paragraph="Per Student (Monthly)"
-              annualAmount="75 billed annually"
-              url={""}
-              currency="₦"
-            />
+      <div className="rad col-md-12">
+        {" "}
+        <div className="col-md-10 offset-md-1 flexy mb5 mt5">
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Basic"
+                amount="100.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="75 billed annually"
+                url={""}
+                currency="₦"
+              />
+            </div>
           </div>
-        </div>
-        <div className="col-md-3 recommended-container">
-          <div className="offset-md-5">
-            <button className="recommended-badge">Recommended</button>
+          <div className="col-md-3 recommended-container">
+            <div className="offset-md-5">
+              <button className="recommended-badge">Recommended</button>
+            </div>
+            <div className="col-md-11 recommended">
+              <SimplePrices
+                package="e-learning"
+                amount="200.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="150 billed annually"
+                url={""}
+                currency="₦"
+                active="active-button "
+                // cls="recommended"
+              />
+            </div>
           </div>
-          <div className="col-md-11 recommended">
-            <SimplePrices
-              package="e-learning"
-              amount="200.00"
-              paragraph="Per Student (Monthly)"
-              annualAmount="150 billed annually"
-              url={""}
-              currency="₦"
-              // cls="recommended"
-            />
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Premium"
+                amount="500.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="450 billed annually"
+                url={""}
+                currency="₦"
+              />
+            </div>
           </div>
-        </div>
-        <div className="col-md-3">
-          <div className="col-md-11 otherpackages">
-            <SimplePrices
-              package="Premium"
-              amount="500.00"
-              paragraph="Per Student (Monthly)"
-              annualAmount="450 billed annually"
-              url={""}
-              currency="₦"
-            />
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="col-md-11 otherpackages">
-            <SimplePrices
-              package="Enterprise"
-              amount="Contact Us"
-              paragraph=""
-              annualAmount=""
-              url={""}
-            />
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Enterprise"
+                amount="Contact Us"
+                paragraph=""
+                annualAmount=""
+                url={""}
+              />
+            </div>
           </div>
         </div>
       </div>

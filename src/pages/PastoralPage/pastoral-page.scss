@@ -85,3 +85,12 @@
   }
 }
 
+.rad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(240, 240, 240, 1) 39%,
+    rgba(255, 255, 255, 1) 80%
+  );
+}

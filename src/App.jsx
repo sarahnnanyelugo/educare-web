@@ -13,6 +13,7 @@ import EducarePackages from "./pages/EducarePackages/EducarePackages";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUp/SignUpPage";
 import Pastoral from "./pages/PastoralPage/PastoralPage";
+import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="login" element={<LoginPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="pastoral" element={<Pastoral />} />
+        <Route path="medicals" element={<MedicalsPage />} />
       </Routes>
       <Footer />
     </>

@@ -34,6 +34,9 @@ function NavBar() {
       case "/pastoral":
         setTheme("#ED2F59");
         break;
+      case "/medicals":
+        setTheme("#0B2FF7");
+        break;
     }
     console.log(location.pathname);
 

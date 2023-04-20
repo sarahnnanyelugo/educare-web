@@ -7,8 +7,7 @@ $purple: #5044b2;
   border: solid 1px #414244;
   padding: 8px 20px;
   font-size: 14px;
-  font-weight: bold;
-  font-family: rebondG;
+  font-family: rebondG-Semi-Bold;
 
   // &:hover {
   //   background: #30266b;
@@ -21,10 +20,11 @@ $purple: #5044b2;
   border-radius: 32px;
   padding: 8px 20px;
   font-size: 14px;
-  font-weight: bold;
+  // font-weight: bold;
   border: none;
   border: solid 2px rgb(230, 225, 225);
-  font-family: rebondG;
+  font-family: rebondG-Semi-Bold;
+
   &:hover {
     background: rgb(231, 231, 231) !important;
     transition: 0.5s ease;

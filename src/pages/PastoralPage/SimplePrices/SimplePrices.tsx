@@ -15,7 +15,7 @@ export interface SimplePricesProps {
   currency: string;
   cls: string;
 }
-function SimplePrices(props: SimplePricesProps, cls: any) {
+function SimplePrices(props: SimplePricesProps, cls: any, active: any) {
   return (
     <div className={`col-md-12 simple-prices ${cls}`}>
       <h2>{props.package}</h2>
@@ -31,7 +31,7 @@ function SimplePrices(props: SimplePricesProps, cls: any) {
       </p>
       <Link to={props.url}>
         {" "}
-        <button>Get Start</button>
+        <button className={` ${active}`}>Get Start</button>
       </Link>
     </div>
   );

@@ -1,0 +1,138 @@
+import React from "react";
+import { NavTwo } from "../../components/NavTwo/NavTwo";
+import "./medicals-page.scss";
+import Ambulance from "../../assets/images/ambulance.png";
+import Report from "../../assets/images/medical-report.png";
+import MedicalTabNav from "./MedicalTab/TabNav";
+import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import { Link } from "react-router-dom";
+
+function MedicalsPage() {
+  return (
+    <>
+      {" "}
+      <div className="col-md-12 medicals-nav sticky-top">
+        {" "}
+        <NavTwo title="Medicals" />
+      </div>
+      <div className="col-md-10 offset-md-1 flexy services-container">
+        <div className="col-md-5 health-services">
+          <h1>
+            Schools Health Services
+            <br /> with a difference
+          </h1>
+          <p>
+            Communicate with parents and healthcare providers, as well as
+            reporting and analytics for tracking health trends and
+            <br /> making data-driven decisions.
+          </p>
+          <div className="flexy flexyM">
+            <button className="started">Get Started</button>
+            <button className="demo">Request for Demo</button>
+          </div>
+        </div>
+        <div className="col-md-6 offset-md-1">
+          {" "}
+          <img className="" src={Ambulance} alt="Scholar" width="100%" />
+        </div>
+      </div>
+      <center>
+        <h1 style={{ fontFamily: "recoAltSemiBold" }}>
+          Care, Manage and Report
+        </h1>
+      </center>
+      <div className="col-md-10 offset-md-1">
+        {" "}
+        <img className="" src={Report} alt="Scholar" width="100%" />
+      </div>
+      <div className="col-md-11 offset-md-1">
+        <MedicalTabNav />
+      </div>
+      <center>
+        <h1 className="mt">Our simple prices made for you </h1>
+      </center>
+      <div className="rad col-md-12">
+        {" "}
+        <div className="col-md-10 offset-md-1 flexy mb5 mt5">
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Basic"
+                amount="100.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="75 billed annually"
+                url={""}
+                currency="₦"
+              />
+            </div>
+          </div>
+          <div className="col-md-3 recommended-container">
+            <div className="offset-md-5">
+              <button className="recommended-badge">Recommended</button>
+            </div>
+            <div className="col-md-11 recommended">
+              <SimplePrices
+                package="e-learning"
+                amount="200.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="150 billed annually"
+                url={""}
+                currency="₦"
+                active="active-button "
+                // cls="recommended"
+              />
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Premium"
+                amount="500.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="450 billed annually"
+                url={""}
+                currency="₦"
+              />
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="col-md-11 otherpackages">
+              <SimplePrices
+                package="Enterprise"
+                amount="Contact Us"
+                paragraph=""
+                annualAmount=""
+                url={""}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <center>
+        <p>
+          Kindly check out our{" "}
+          <Link to={""} className="link">
+            Pricing page
+          </Link>
+          {""} for complete details
+        </p>
+      </center>
+      <div className="col-md-10 offset-md-1 tools-management">
+        <center>
+          <div className="col-md-8">
+            <h2>Enhance your Pastoral Care Management Process with</h2>
+            <p>
+              educare Medicals offers comprehensive platform for managing
+              medical services in schools, ensuring the health and well-being of
+              students
+            </p>
+          </div>
+
+          <button>Sign up for a free trial today</button>
+        </center>
+      </div>
+    </>
+  );
+}
+
+export default MedicalsPage;

@@ -1,0 +1,74 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.medicals-nav {
+  background: rgb(241, 243, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 243, 255, 1) 51%,
+    rgba(255, 255, 255, 1) 89%
+  );
+}
+
+.services-container {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  .health-services {
+    padding-top: 150px;
+    h1 {
+      font-family: recoAltSemiBold;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  .started {
+    @include get-started-button;
+    background: #0b2ff7;
+    margin-right: 10px;
+    &:hover {
+      background: #051b96;
+      transition: 0.5s ease;
+    }
+  }
+  .demo {
+    @include get-started-button;
+    background: inherit;
+    color: #292d32;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+.tools-management {
+  height: 392px;
+  padding-top: 100px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  background-image: url("../../assets/images/tools-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(247, 169, 169);
+  h2 {
+    margin-top: 15px;
+  }
+  img {
+    height: 62px;
+    width: 166px;
+  }
+  button {
+    @include get-started-button;
+    background: #ed2f59;
+    margin-top: 40px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+}

@@ -515,7 +515,7 @@ export const Home = () => {
                   productName="Medicals"
                   productDetail="Streamline medical operations with our innovative software module"
                   productIcon={Medical}
-                  url={"./"}
+                  url={"./medicals"}
                 />
               </div>{" "}
               <div className="col-md-12 bt pd">
