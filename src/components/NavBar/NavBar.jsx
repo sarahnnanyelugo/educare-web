@@ -31,6 +31,9 @@ function NavBar() {
       case "/educare-schools":
         setTheme("#2f99da");
         break;
+      case "/pastoral":
+        setTheme("#ED2F59");
+        break;
     }
     console.log(location.pathname);
 

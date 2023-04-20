@@ -1,0 +1,61 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.simple-prices {
+  padding: 10px 30px;
+
+  height: 259px;
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: recoAltMedium;
+    font-size: 44px !important;
+  }
+  button {
+    color: #fff;
+    border-radius: 35px;
+    border: solid 1px #414244;
+    height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: rebondG;
+    background: #ed2f59;
+    width: 100%;
+    bottom: 10px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  h2 {
+    font-family: rebondG-Medium;
+  }
+  p {
+    line-height: 10px;
+  }
+  span {
+    font-size: 30px;
+  }
+}
+.recommended {
+  border: solid 2px #ed2f59 !important;
+  border-radius: 10px;
+}
+.otherpackages {
+  border: solid 1px #a1a4aa;
+  border-radius: 10px;
+}
+.recommended-badge {
+  color: #ed2f59;
+  background: #fcdce3;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  margin-bottom: -80px;
+  //   margin-top: -40px;
+}
+.recommended-container {
+  margin-top: -30px;
+}

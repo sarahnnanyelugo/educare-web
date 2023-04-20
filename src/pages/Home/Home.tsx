@@ -586,7 +586,7 @@ export const Home = () => {
                   productName="Pastoral"
                   productDetail="Enhance your institution’s pastoral care with our innovative software module"
                   productIcon={Pastoral}
-                  url={"./"}
+                  url={"./pastoral"}
                 />
               </div>
               <div className="col-md-12 flexy flexyM bb">

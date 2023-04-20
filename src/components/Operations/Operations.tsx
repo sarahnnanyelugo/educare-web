@@ -21,7 +21,7 @@ function Operations(props: OperationsProp) {
             <center>
               {" "}
               <img className="" src={props.icon} alt="Scholar" width="100%" />
-              <h6>{props.title}</h6>
+              <p>{props.title}</p>
             </center>
           </div>{" "}
         </Link>

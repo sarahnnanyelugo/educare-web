@@ -12,6 +12,7 @@ import ScrollToTop from "./components/scrollToTop";
 import EducarePackages from "./pages/EducarePackages/EducarePackages";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUp/SignUpPage";
+import Pastoral from "./pages/PastoralPage/PastoralPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="educare-packages" element={<EducarePackages />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
+        <Route path="pastoral" element={<Pastoral />} />
       </Routes>
       <Footer />
     </>

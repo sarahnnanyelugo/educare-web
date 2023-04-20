@@ -7,16 +7,23 @@
     display: none;
   }
   .topnav-heading {
-    flex-grow: 1;
+    flex-grow: 1 !important;
   }
   .top-nav-links {
+    padding: 8px 20px;
     color: #414244;
     text-decoration: none;
-    font-family: rebondG-Bold;
-    margin: 10px;
-    font-weight: 500;
-    padding: 8px 20px;
-    font-size: 15px !important;
+    font-weight: bold;
+    font-family: rebondG-Semi-Bold;
+    font-size: 14px;
+    border: none;
+    background: #fff;
+    &:hover {
+      background: rgb(231, 231, 231) !important;
+
+      border-radius: 50px;
+      transition: 0.5s ease;
+    }
   }
   .active {
     background: #e7e7e7;

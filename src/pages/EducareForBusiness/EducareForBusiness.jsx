@@ -76,27 +76,30 @@ export const EducareForBusiness = () => {
         {" "}
         <div className="col-md-6  offset-md-3 flexy">
           <div className="col-md-3">
-            <Operations icon={Finance} title="Finance" url="" size="190px" />
+            <Operations icon={Finance} title="Finance" url="" size="170px" />
           </div>{" "}
           <div className="col-md-3">
-            <Operations icon={HR} title="HR Manager" url="" size="190px" />
+            <Operations icon={HR} title="HR Manager" url="" size="170px" />
           </div>{" "}
           <div className="col-md-3">
-            <Operations icon={Mailbox} title="Mailbox" url="" size="190px" />
+            <Operations icon={Mailbox} title="Mailbox" url="" size="170px" />
           </div>{" "}
           <div className="col-md-3">
             <Operations
               icon={Facility}
               title="Facility Management"
               url=""
-              size="190px"
+              size="170px"
             />
           </div>
         </div>
       </div>
       <center>
         {" "}
-        <OverviewVideo />
+        <div className="col-md-2">
+          {" "}
+          <OverviewVideo />
+        </div>
       </center>
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
