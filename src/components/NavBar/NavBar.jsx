@@ -37,6 +37,9 @@ function NavBar() {
       case "/medicals":
         setTheme("#0B2FF7");
         break;
+      case "/e-classroom":
+        setTheme("#CC006E");
+        break;
     }
     console.log(location.pathname);
 

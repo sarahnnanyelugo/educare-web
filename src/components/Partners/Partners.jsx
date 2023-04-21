@@ -2,8 +2,9 @@ import Standard from "../../assets/images/standard.png";
 import Paystack from "../../assets/images/paystack.svg";
 import Microsoft from "../../assets/images/microsoft.svg";
 import Flutterwave from "../../assets/images/flutterwave.svg";
-import Apen from "../../assets/images/apen.png";
 import Aisa from "../../assets/images/aisa.svg";
+import Apen from "../../assets/images/apen.png";
+
 import "./partners.scss";
 export const Partners = () => {
   return (

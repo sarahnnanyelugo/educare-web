@@ -630,7 +630,7 @@ export const Home = () => {
                   productName="eClassroom"
                   productDetail="Empower Your School with eClassroom: A Comprehensive Software Module for Virtual Learning and Collaboration."
                   productIcon={Classroom}
-                  url={"./"}
+                  url={"./e-classroom"}
                 />
               </div>{" "}
               <div className="col-md-12 bt pd">

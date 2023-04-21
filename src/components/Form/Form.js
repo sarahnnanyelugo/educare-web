@@ -4,7 +4,7 @@ import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
 function Form(props) {
-  const { bg } = props;
+  const { bg, text } = props;
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -81,7 +81,7 @@ function Form(props) {
           <strong> Privacy Policy.</strong>
         </span>
         <button className="overviewButton" style={{ backgroundColor: bg }}>
-          Continue
+          {text}
         </button>
       </div>
     </>

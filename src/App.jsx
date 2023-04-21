@@ -14,6 +14,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import SignUpPage from "./pages/SignUp/SignUpPage";
 import Pastoral from "./pages/PastoralPage/PastoralPage";
 import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
+import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="pastoral" element={<Pastoral />} />
         <Route path="medicals" element={<MedicalsPage />} />
+        <Route path="e-classroom" element={<EClassroomPage />} />
       </Routes>
       <Footer />
     </>
