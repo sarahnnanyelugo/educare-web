@@ -12,6 +12,7 @@ import Logo from "../../assets/images/logo2.png";
 import SimplePrices from "./SimplePrices/SimplePrices";
 import { Link, NavLink } from "react-router-dom";
 import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
+import Badge from "../../components/Badge/Badge";
 
 function Pastoral(props) {
   return (
@@ -125,7 +126,7 @@ function Pastoral(props) {
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="Basic"
                 amount="100.00"
@@ -133,14 +134,15 @@ function Pastoral(props) {
                 annualAmount="75 billed annually"
                 url={""}
                 currency="₦"
+                btnBg="#ed2f59"
               />
             </div>
           </div>
           <div className="col-md-3 recommended-container">
             <div className="offset-md-5">
-              <button className="recommended-badge">Recommended</button>
+              <Badge btnBg="#FCDCE3" btnColor="#ED2F59" />
             </div>
-            <div className="col-md-11 recommended">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="e-learning"
                 amount="200.00"
@@ -149,12 +151,13 @@ function Pastoral(props) {
                 url={""}
                 currency="₦"
                 active="active-button "
-                // cls="recommended"
+                cls="recommended"
+                btnBg="#ed2f59"
               />
             </div>
           </div>
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11">
               <SimplePrices
                 package="Premium"
                 amount="500.00"
@@ -162,17 +165,19 @@ function Pastoral(props) {
                 annualAmount="450 billed annually"
                 url={""}
                 currency="₦"
+                btnBg="#ed2f59"
               />
             </div>
           </div>
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="Enterprise"
                 amount="Contact Us"
                 paragraph=""
                 annualAmount=""
                 url={""}
+                btnBg="#ed2f59"
               />
             </div>
           </div>

@@ -7,8 +7,8 @@ import Report from "../../../assets/images/latest-report.png";
 import "./medical-tab.scss";
 function MedicalTabNav() {
   return (
-    <div className="firstcaro">
-      <Carousel fade>
+    <div className="medcaro ">
+      <Carousel fade indicatorLabels="1234">
         <Carousel.Item>
           <div className="col-md-12 flexy">
             {" "}

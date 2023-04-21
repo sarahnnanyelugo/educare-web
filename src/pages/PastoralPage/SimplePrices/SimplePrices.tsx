@@ -14,24 +14,28 @@ export interface SimplePricesProps {
   url: string;
   currency: string;
   cls: string;
+  btnBg: string;
 }
-function SimplePrices(props: SimplePricesProps, cls: any, active: any) {
+function SimplePrices(props: SimplePricesProps, active: any) {
+  const { btnBg } = props;
   return (
-    <div className={`col-md-12 simple-prices ${cls}`}>
+    <div className={`col-md-12 simple-prices ${props.cls}`}>
       <h2>{props.package}</h2>
-      <h1>
-        {" "}
-        <span>{props.currency}</span>
-        {props.amount}
-      </h1>
-      <p>{props.paragraph}</p>
-      <p>
-        <strong>{props.currency}</strong>
-        {props.annualAmount}
-      </p>
+      <div style={{ height: "135px" }}>
+        <h1>
+          {" "}
+          <span>{props.currency}</span>
+          {props.amount}
+        </h1>
+        <p>{props.paragraph}</p>
+        <p>
+          <strong>{props.currency}</strong>
+          {props.annualAmount}
+        </p>
+      </div>
       <Link to={props.url}>
         {" "}
-        <button className={` ${active}`}>Get Start</button>
+        <button style={{ backgroundColor: btnBg }}>Get Start</button>
       </Link>
     </div>
   );

@@ -6,6 +6,7 @@ import Report from "../../assets/images/medical-report.png";
 import MedicalTabNav from "./MedicalTab/TabNav";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
+import Badge from "../../components/Badge/Badge";
 
 function MedicalsPage() {
   return (
@@ -45,17 +46,20 @@ function MedicalsPage() {
         {" "}
         <img className="" src={Report} alt="Scholar" width="100%" />
       </div>
-      <div className="col-md-11 offset-md-1">
-        <MedicalTabNav />
+      <div className="col-md-12 grad">
+        {" "}
+        <div className="col-md-11 offset-md-1">
+          <MedicalTabNav />
+        </div>
       </div>
       <center>
-        <h1 className="mt">Our simple prices made for you </h1>
+        <h1 className="mtt mb5">Our simple prices made for you </h1>
       </center>
-      <div className="rad col-md-12">
+      <div className="grad col-md-12">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="Basic"
                 amount="100.00"
@@ -63,14 +67,15 @@ function MedicalsPage() {
                 annualAmount="75 billed annually"
                 url={""}
                 currency="₦"
+                btnBg="#0B2FF7"
               />
             </div>
           </div>
           <div className="col-md-3 recommended-container">
             <div className="offset-md-5">
-              <button className="recommended-badge">Recommended</button>
+              <Badge btnBg="#D6DCFE" btnColor="#0B2FF7" />
             </div>
-            <div className="col-md-11 recommended">
+            <div className="col-md-11">
               <SimplePrices
                 package="e-learning"
                 amount="200.00"
@@ -79,12 +84,13 @@ function MedicalsPage() {
                 url={""}
                 currency="₦"
                 active="active-button "
-                // cls="recommended"
+                cls="recommended2"
+                btnBg="#0B2FF7"
               />
             </div>
           </div>
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="Premium"
                 amount="500.00"
@@ -92,15 +98,17 @@ function MedicalsPage() {
                 annualAmount="450 billed annually"
                 url={""}
                 currency="₦"
+                btnBg="#0B2FF7"
               />
             </div>
           </div>
           <div className="col-md-3">
-            <div className="col-md-11 otherpackages">
+            <div className="col-md-11 ">
               <SimplePrices
                 package="Enterprise"
                 amount="Contact Us"
                 paragraph=""
+                btnBg="#0B2FF7"
                 annualAmount=""
                 url={""}
               />
@@ -120,7 +128,7 @@ function MedicalsPage() {
       <div className="col-md-10 offset-md-1 tools-management">
         <center>
           <div className="col-md-8">
-            <h2>Enhance your Pastoral Care Management Process with</h2>
+            <h2>We’ve got the tools you need</h2>
             <p>
               educare Medicals offers comprehensive platform for managing
               medical services in schools, ensuring the health and well-being of

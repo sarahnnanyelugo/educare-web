@@ -1,3 +1,5 @@
+@import "../../../variables";
+@import "../../../shared-styles";
 .carousel {
   position: relative;
   z-index: 0;
@@ -10,6 +12,7 @@
   height: fit-content;
   margin-top: -100px !important;
   padding-top: 0px !important;
+
   h2 {
     margin-top: 140px;
     margin-bottom: 40px;
@@ -34,19 +37,56 @@
 .carousel-indicators button {
   width: 48px !important;
   height: 35px !important;
-  margin: 33px 25px !important;
+  margin: 33px 10px !important;
   border-radius: 27px !important;
   background-color: inherit !important;
-  border: 1px solid green !important;
   transition: all 0.5s linear;
   display: inline !important;
   color: #64656c !important;
   margin-top: 250px !important;
-}
-
-.carousel-indicators button:focus {
-  outline: 0;
-  border-color: #4287bd;
+  &:active {
+    background-repeat: no-repeat;
+  }
+  &[aria-label="1"] {
+    background-image: url("../../../assets/images/1.png") !important;
+    // content: "1" !important;
+    background-repeat: no-repeat !important;
+    background-size: 6px !important;
+    background-position: center !important;
+    &.active {
+      background-image: url("../../../assets/images/_1.png") !important;
+    }
+  }
+  &[aria-label="2"] {
+    background-image: url("../../../assets/images/2.png") !important;
+    // content: "1" !important;
+    background-repeat: no-repeat !important;
+    background-size: 10px !important;
+    background-position: center !important;
+    &.active {
+      background-image: url("../../../assets/images/_2.png") !important;
+    }
+  }
+  &[aria-label="3"] {
+    background-image: url("../../../assets/images/3.png") !important;
+    // content: "1" !important;
+    background-repeat: no-repeat !important;
+    background-size: 10px !important;
+    background-position: center !important;
+    &.active {
+      background-image: url("../../../assets/images/_3.png") !important;
+    }
+  }
+  &[aria-label="4"] {
+    background-image: url("../../../assets/images/4.png") !important;
+    // content: "1" !important;
+    background-repeat: no-repeat !important;
+    background-size: 10px !important;
+    background-position: center !important;
+    &.active {
+      background-image: url("../../../assets/images/_4.png") !important;
+    }
+  }
 }
 
 .carousel-control-next-icon {
@@ -72,12 +112,6 @@
   outline: none;
   border: solid 1px #dbdde8;
   display: inline;
-  width: 150px;
+  width: 100px;
   height: 150px;
-}
-.carousel-indicators button [aria-label="Slide 1"] {
-  &:after {
-    content: "1";
-    color: black;
-  }
 }

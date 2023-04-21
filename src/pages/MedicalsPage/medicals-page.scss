@@ -50,13 +50,21 @@
   border-radius: 20px;
   margin-bottom: 150px;
   margin-top: 150px;
-  background-image: url("../../assets/images/tools-bg.svg");
-  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgb(247, 169, 169);
+  background: url("../../assets/images/tools-bg.svg"),
+    linear-gradient(
+      90deg,
+      rgba(185, 184, 243, 1) 17%,
+      rgba(239, 219, 235, 1) 89%
+    );
+  background-size: cover !important;
   h2 {
     margin-top: 15px;
+    font-family: recoAltMedium;
+  }
+  p {
+    font-family: recoAltRegular;
   }
   img {
     height: 62px;
@@ -64,11 +72,23 @@
   }
   button {
     @include get-started-button;
-    background: #ed2f59;
+    background: #0b2ff7;
     margin-top: 40px;
     &:hover {
-      background: #9d0e2d;
+      background: #051b96;
       transition: 0.5s ease;
     }
   }
+  p {
+    font-size: 19px;
+  }
+}
+.grad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 4%,
+    rgba(240, 240, 240, 1) 32%,
+    rgba(255, 255, 255, 1) 70%
+  );
 }
