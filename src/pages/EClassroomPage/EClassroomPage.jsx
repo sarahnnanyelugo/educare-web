@@ -7,6 +7,11 @@ import WhyEClassroom from "./WhyEClassroom/WhyEclssroom";
 import Microsoft from "../../assets/images/microsoft.svg";
 import Flutterwave from "../../assets/images/flutterwave.svg";
 import Aisa from "../../assets/images/aisa.svg";
+import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
+import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import Badge from "../../components/Badge/Badge";
+import { Link } from "react-router-dom";
+
 function EClassroomPage() {
   return (
     <>
@@ -100,6 +105,100 @@ function EClassroomPage() {
               </p>
             </div>
           </div>{" "}
+        </center>
+      </div>
+      <div className="col-md-10 offset-md-1  privacy-container">
+        {" "}
+        <EducarePrivacy
+          heading="Enjoy secure virtual learning with educare’s Privacy and Protection"
+          paragraph="educare ensures data privacy by implementing advanced security measures, including encryption and secure communication channels. We have no access to your data, and strict policies are in place to keep your data under your control. Trust us to keep your data safe and secure"
+        />
+      </div>
+      <center>
+        <h1>Our simple prices made for you </h1>
+      </center>
+      <div className="grad col-md-12">
+        {" "}
+        <div className="col-md-10 offset-md-1 flexy mb5 mt5">
+          <div className="col-md-3">
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Basic"
+                amount="100.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="75 billed annually"
+                url={""}
+                currency="₦"
+                btnBg="#CE456D"
+              />
+            </div>
+          </div>
+          <div className="col-md-3 recommended-container">
+            <div className="offset-md-5">
+              <Badge btnBg="#fd97b6" btnColor="#CE456D" />
+            </div>
+            <div className="col-md-11">
+              <SimplePrices
+                package="e-learning"
+                amount="200.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="150 billed annually"
+                url={""}
+                currency="₦"
+                active="active-button "
+                cls="recommended3"
+                btnBg="#CE456D"
+              />
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Premium"
+                amount="500.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="450 billed annually"
+                url={""}
+                currency="₦"
+                btnBg="#CE456D"
+              />
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Enterprise"
+                amount="Contact Us"
+                paragraph=""
+                btnBg="#CE456D"
+                annualAmount=""
+                url={""}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <center>
+        <p>
+          Kindly check out our{" "}
+          <Link to={""} className="link">
+            Pricing page
+          </Link>
+          {""} for complete details
+        </p>
+      </center>
+      <div className="col-md-10 offset-md-1 tools-management">
+        <center>
+          <div className="col-md-8">
+            <h2>We’ve got the tools you need</h2>
+            <p>
+              educare Medicals offers comprehensive platform for managing
+              medical services in schools, ensuring the health and well-being of
+              students
+            </p>
+          </div>
+
+          <button>Sign up for a free trial today</button>
         </center>
       </div>
     </>

@@ -1,7 +1,13 @@
 import React from "react";
 import Shield from "../../assets/images/shield-icon.json";
 import Lottie from "react-lottie-player";
-function EducarePrivacy() {
+
+export interface PrivacyProps {
+  heading: string;
+  paragraph: string;
+}
+
+function EducarePrivacy(props: PrivacyProps) {
   return (
     <>
       {" "}
@@ -14,15 +20,9 @@ function EducarePrivacy() {
             style={{ width: 366, height: 366, marginTop: "-50px" }}
           />
         </div>
-        <div className="col-md-5 offset-md-2">
-          <h3>educare’s Privacy and Protection</h3>
-          <p>
-            educare ensures data privacy by implementing advanced security
-            measures, including encryption and secure communication channels.
-            The platform has no access to your data, and strict policies are in
-            place to keep your data under your control. Trust us to keep your
-            data safe and secure
-          </p>
+        <div className="col-md-6 offset-md-2">
+          <h3>{props.heading}</h3>
+          <p>{props.paragraph}</p>
         </div>
       </div>
     </>

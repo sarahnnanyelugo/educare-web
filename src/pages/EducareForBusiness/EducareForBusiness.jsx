@@ -209,7 +209,14 @@ export const EducareForBusiness = () => {
         <WhyEducare />
       </div>
 
-      <EducarePrivacy />
+      <EducarePrivacy
+        heading="educare’s Privacy and Protection"
+        paragraph=" educare ensures data privacy by implementing advanced security
+            measures, including encryption and secure communication channels.
+            The platform has no access to your data, and strict policies are in
+            place to keep your data under your control. Trust us to keep your
+            data safe and secure"
+      />
     </>
   );
 };
