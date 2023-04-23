@@ -15,6 +15,7 @@ import SignUpPage from "./pages/SignUp/SignUpPage";
 import Pastoral from "./pages/PastoralPage/PastoralPage";
 import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
 import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
+import { HRMPage } from "./pages/HRMPage/HRMPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="pastoral" element={<Pastoral />} />
         <Route path="medicals" element={<MedicalsPage />} />
         <Route path="e-classroom" element={<EClassroomPage />} />
+        <Route path="hrm" element={<HRMPage />} />
       </Routes>
       <Footer />
     </>

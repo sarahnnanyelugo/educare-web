@@ -532,7 +532,7 @@ export const Home = () => {
                 productName="HR Manager"
                 productDetail="Streamline your HR tasks with our comprehensive HR manager."
                 productIcon={People2}
-                url={"./"}
+                url={"./hrm"}
               />
               <div className="col-md-12 flexy flexyM mt9">
                 <div className="col-md-6 col-6 grid1">
