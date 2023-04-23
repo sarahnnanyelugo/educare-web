@@ -5,6 +5,7 @@ import HRDashboard from "../../assets/images/hr-page.png";
 import HRSimple from "../../assets/images/hr-simple.png";
 
 import "./hrm-page.scss";
+import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
 
 export const HRMPage = () => {
   return (
@@ -72,6 +73,9 @@ export const HRMPage = () => {
 
           <img className="   mt9" src={HRSimple} alt="Scholar" width="100%" />
         </div>
+      </div>
+      <div className="col-md-11 offset-md-1 dashboard-accordion flexy">
+        <DashboardAccordion />
       </div>
       <div className="pricing-plans col-md-10 offset-md-1 flexy">
         <div className="col-md-7">
