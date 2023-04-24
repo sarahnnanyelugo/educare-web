@@ -57,3 +57,8 @@
 .mb4 {
   margin-bottom: 40px;
 }
+// @media screen and (max-width: 620px) {
+.sticky-top {
+  z-index: 5 !important;
+}
+// }

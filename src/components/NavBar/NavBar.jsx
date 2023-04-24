@@ -4,6 +4,7 @@ import Arrow from "../../assets/images/arrowdown.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
 import { useLocation } from "react-router-dom";
+import Icofont from "react-icofont";
 
 function NavBar() {
   const prevUrlRef = useRef(null);
@@ -44,6 +45,14 @@ function NavBar() {
       case "/educare-school-packages":
         setTheme("#0098DA");
         setTheme2("#DED0FA");
+        break;
+      case "/sign-up":
+        setTheme("#2F99DA");
+        setTheme2("#ffffff");
+        break;
+      case "/login":
+        setTheme("#1777F2");
+        setTheme2("#ffffff");
         break;
     }
     // localStorage.setItem("globalTheme", themeSet);
@@ -162,6 +171,9 @@ function NavBar() {
                   aria-current="true"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-help-robot"></i>
+                  </span>
                   Solutions
                 </button>
               </NavLink>
@@ -172,6 +184,9 @@ function NavBar() {
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-package"></i>
+                  </span>
                   Resources
                 </button>{" "}
               </NavLink>
@@ -182,6 +197,9 @@ function NavBar() {
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-support"></i>
+                  </span>
                   Support
                 </button>
               </NavLink>
@@ -192,6 +210,9 @@ function NavBar() {
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-phone"></i>
+                  </span>
                   Contact us
                 </button>
               </NavLink>
@@ -202,6 +223,9 @@ function NavBar() {
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-sign-in"></i>
+                  </span>
                   Login
                 </button>
               </NavLink>{" "}
@@ -212,6 +236,9 @@ function NavBar() {
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
                 >
+                  <span style={{ color: themeSet }}>
+                    <i class="icofont-dashboard-web"></i>
+                  </span>
                   Get started
                 </button>
               </NavLink>

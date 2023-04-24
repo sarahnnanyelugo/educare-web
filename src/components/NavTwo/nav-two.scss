@@ -2,7 +2,11 @@
   display: flex;
   padding: 13px 0 0 0;
   @media screen and (max-width: 620px) {
-    display: none;
+    // display: none;
+    padding: 0px 0 0 0;
+    position: relative !important;
+    z-index: 0 !important;
+    margin: 0;
   }
   .topnav-heading {
     flex-grow: 1 !important;
@@ -22,9 +26,19 @@
       border-radius: 50px;
       transition: 0.5s ease;
     }
+    @media screen and (max-width: 620px) {
+      // display: none;
+      padding: 0px 0 0 0;
+      font-size: 12px;
+    }
   }
   .active {
     background: #e7e7e7;
     border-radius: 50px !important;
+  }
+  h4 {
+    @media screen and (max-width: 620px) {
+      font-size: 17px;
+    }
   }
 }
