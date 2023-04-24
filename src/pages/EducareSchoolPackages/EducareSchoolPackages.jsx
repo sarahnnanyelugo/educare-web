@@ -1,15 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
-import "./educare-packages.scss";
+import "./educare-school-packages.scss";
 import {
   enterpriseData,
   elearningData,
   premiumData,
   basicData,
-  standardData,
   rates,
-  professionalData,
-  businessEnterpriseData,
   currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
@@ -20,7 +17,7 @@ import Axios from "axios";
 import Testing from "../../components/NavBar/Testing/Testing";
 import CurrencyConverter from "../../components/NavBar/Testing/Testing";
 
-function EducarePackages(props) {
+function EducareSchoolPackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleClick = (index) => setActiveIndex(index);
   const checkActive = (index, className) =>
@@ -38,6 +35,11 @@ function EducarePackages(props) {
       setToCurrency(curr);
     }
   }
+  const inputReference = useRef(null);
+
+  useEffect(() => {
+    inputReference.current.focus();
+  }, []);
   useEffect(() => {
     convertCurrency();
     console.log(toCurrency, conversionRate);
@@ -50,22 +52,23 @@ function EducarePackages(props) {
   }, [toCurrency]);
   return (
     <>
-      <div className="col-md-12 nav-two-business sticky-top">
+      <div className="col-md-12 nav-two-school-packages sticky-top">
         {" "}
         <NavTwo title="educare for Business" />
       </div>
-      <div className="packages-first-heading col-md-12 nav-two-business">
+      <div className="school-packages-first-heading col-md-12 nav-two-business">
         <center>
           {" "}
           <div className="col-md-6">
             '
             <h1>
-              Run your entire back office with an integrated suite of apps.
+              Get the complete set of tools needed for your Business success and
+              progress.
             </h1>
           </div>
         </center>
       </div>{" "}
-      <div className="business-pricing-tab ">
+      <div className="educare-for-school-packages">
         <div className="tabs">
           <button
             className={`tab ${checkActive(1, "active2")}`}
@@ -80,8 +83,10 @@ function EducarePackages(props) {
             Yearly
           </button>
         </div>
-        <div className="currency-buttons flexy flexym offset-md-10">
-          <button onClick={() => setThisCurrency("NGN")}>NGN</button>
+        <div className="currency-buttons2 flexy flexym offset-md-10">
+          <button onClick={() => setThisCurrency("NGN")} ref={inputReference}>
+            NGN
+          </button>
           <button onClick={() => setThisCurrency("USD")}>USD</button>
         </div>
 
@@ -91,10 +96,60 @@ function EducarePackages(props) {
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container">
+              <div className="col-md-3 left-cards enterprise">
+                <h3>{basicData.heading1}</h3>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {basicData.monthlyAmount * conversionRate}
+                </h1>
+                <button className="price-button">Get started</button>
+                <ul className="list-unstyled">
+                  {basicData.packages.map((items, index) => (
+                    <li key={items.id}>
+                      {" "}
+                      <img className="" src={Tick} alt="Scholar" width="4%" />
+                      {items.value}
+                    </li>
+                  ))}
+                </ul>
+              </div>{" "}
+              <div className="col-md-3 left-cards e-learning">
+                <h3>{elearningData.heading1}</h3>
+                <div className="flexy flexyM">
+                  {" "}
+                  <h1>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {elearningData.monthlyAmount * conversionRate}
+                  </h1>
+                  <h6>
+                    Per Student <br />
+                    (Monthly)
+                  </h6>
+                </div>
+                <button className="price-button">Get started</button>
+                <ul className="list-unstyled">
+                  {elearningData.packages.map((items, index) => (
+                    <li key={items.id}>
+                      {" "}
+                      <img className="" src={Tick} alt="Scholar" width="4%" />
+                      {items.value}
+                    </li>
+                  ))}
+                </ul>
+              </div>
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
-                  <h3>{standardData.heading1}</h3>
+                <div className="col-md-11  premium">
+                  <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
                     <h1>
@@ -104,7 +159,7 @@ function EducarePackages(props) {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {standardData.monthlyAmount * conversionRate}
+                      {premiumData.monthlyAmount * conversionRate}
                     </h1>
                     <h6>
                       Per Student <br /> (Monthly)
@@ -112,7 +167,7 @@ function EducarePackages(props) {
                   </div>
                   <button className="price-button">Get started</button>
                   <ul className="list-unstyled">
-                    {standardData.packages.map((items, index) => (
+                    {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
                         {" "}
                         <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -122,34 +177,12 @@ function EducarePackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards2 e-learning ">
-                <h3>{professionalData.heading1}</h3>
-                <h1>
-                  {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {professionalData.monthlyAmount * conversionRate}
-                </h1>
+              <div className="col-md-3 right-cards e-learning basic">
+                <h3>{enterpriseData.heading1}</h3>
+                <h1>{enterpriseData.monthlyAmount}</h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
-                  {professionalData.packages.map((items, index) => (
-                    <li key={items.id}>
-                      {" "}
-                      <img className="" src={Tick} alt="Scholar" width="4%" />
-                      {items.value}
-                    </li>
-                  ))}
-                </ul>
-              </div>{" "}
-              <div className="col-md-4 right-cards e-learning ">
-                <h3>{businessEnterpriseData.heading1}</h3>
-                <h1>{businessEnterpriseData.monthlyAmount}</h1>
-                <button className="price-button">Get started</button>
-                <ul className="list-unstyled">
-                  {businessEnterpriseData.packages.map((items, index) => (
+                  {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -161,10 +194,61 @@ function EducarePackages(props) {
             </div>
           </div>
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container">
+              <div className="col-md-3 left-cards enterprise">
+                <h3>{basicData.heading1}</h3>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {basicData.yearlyAmount * conversionRate}
+                </h1>
+                <button className="price-button">Get started</button>
+                <ul className="list-unstyled">
+                  {basicData.packages.map((items, index) => (
+                    <li key={items.id}>
+                      {" "}
+                      <img className="" src={Tick} alt="Scholar" width="4%" />
+                      {items.value}
+                    </li>
+                  ))}
+                </ul>
+              </div>{" "}
+              <div className="col-md-3 left-cards e-learning">
+                <h3>{elearningData.heading1}</h3>
+                <div className="flexy flexyM">
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {elearningData.yearlyAmount * conversionRate}
+                  </h1>
+
+                  <h6>
+                    Per Student <br />
+                    (Yearly)
+                  </h6>
+                </div>
+                <button className="price-button">Get started</button>
+                <ul className="list-unstyled">
+                  {elearningData.packages.map((items, index) => (
+                    <li key={items.id}>
+                      {" "}
+                      <img className="" src={Tick} alt="Scholar" width="4%" />
+                      {items.value}
+                    </li>
+                  ))}
+                </ul>
+              </div>
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
-                  <h3>{standardData.heading1}</h3>
+                <div className="col-md-11  premium">
+                  <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
                     <h1>
@@ -174,7 +258,7 @@ function EducarePackages(props) {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {standardData.yearlyAmount * conversionRate}
+                      {premiumData.yearlyAmount * conversionRate}
                     </h1>
                     <h6>
                       Per Student <br /> (Yearly)
@@ -182,7 +266,7 @@ function EducarePackages(props) {
                   </div>
                   <button className="price-button">Get started</button>
                   <ul className="list-unstyled">
-                    {standardData.packages.map((items, index) => (
+                    {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
                         {" "}
                         <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -192,34 +276,12 @@ function EducarePackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards e-learning basic">
-                <h3>{professionalData.heading1}</h3>
-                <h1>
-                  {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {professionalData.yearlyAmount * conversionRate}
-                </h1>
+              <div className="col-md-3 right-cards e-learning basic">
+                <h3>{enterpriseData.heading1}</h3>
+                <h1>{enterpriseData.yearlyAmount}</h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
-                  {professionalData.packages.map((items, index) => (
-                    <li key={items.id}>
-                      {" "}
-                      <img className="" src={Tick} alt="Scholar" width="4%" />
-                      {items.value}
-                    </li>
-                  ))}
-                </ul>
-              </div>{" "}
-              <div className="col-md-4 right-cards e-learning basic">
-                <h3>{businessEnterpriseData.heading1}</h3>
-                <h1>{businessEnterpriseData.yearlyAmount}</h1>
-                <button className="price-button">Get started</button>
-                <ul className="list-unstyled">
-                  {businessEnterpriseData.packages.map((items, index) => (
+                  {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -265,4 +327,4 @@ function EducarePackages(props) {
   );
 }
 
-export default EducarePackages;
+export default EducareSchoolPackages;

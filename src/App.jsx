@@ -16,6 +16,7 @@ import Pastoral from "./pages/PastoralPage/PastoralPage";
 import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
 import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
 import { HRMPage } from "./pages/HRMPage/HRMPage";
+import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPackages";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         <Route path="educare-business" element={<EducareForBusiness />} />
         <Route path="educare-schools" element={<EducareForSchools />} />
         <Route path="educare-packages" element={<EducarePackages />} />
+        <Route
+          path="educare-school-packages"
+          element={<EducareSchoolPackages />}
+        />
         <Route path="login" element={<LoginPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="pastoral" element={<Pastoral />} />

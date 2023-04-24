@@ -43,6 +43,7 @@ export const premiumData = {
     { id: 11, value: "Phone And Email Support" },
   ],
 };
+
 export const basicData = {
   heading1: "Basic",
   monthlyAmount: "100.00",
@@ -56,6 +57,56 @@ export const basicData = {
     { id: 6, value: "Bulk Sms" },
   ],
 };
+
+///////PRICEDATA FOR EDUCARE FOR BUSINESS
+
+export const standardData = {
+  heading1: "Standard",
+  monthlyAmount: "200.00",
+  yearlyAmount: "2400",
+  packages: [
+    { id: 1, value: "All Basic Features" },
+    { id: 2, value: "Learning Management" },
+    { id: 3, value: "Customized Report Card" },
+    { id: 4, value: "Assignment" },
+    { id: 5, value: "Newsfeed" },
+    { id: 6, value: "Teacher Rating" },
+    { id: 7, value: "Calender" },
+  ],
+};
+
+export const professionalData = {
+  heading1: "Professional",
+  monthlyAmount: "500.00",
+  yearlyAmount: "6000",
+  packages: [
+    { id: 1, value: "All E-Learning Features" },
+    { id: 2, value: "Computer-Based Testing(Cbt)" },
+    { id: 3, value: "Mailbox" },
+    { id: 4, value: "Library Management" },
+    { id: 5, value: "Accounts" },
+    { id: 6, value: "Human Resource Manager" },
+    { id: 7, value: "Feedback Manager" },
+    { id: 8, value: "Medicals" },
+    { id: 9, value: "Staff Attendance" },
+    { id: 10, value: "Weekly Remark" },
+    { id: 11, value: "Phone And Email Support" },
+  ],
+};
+export const businessEnterpriseData = {
+  heading1: "Enterprise",
+  monthlyAmount: "Contact Us",
+  yearlyAmount: "Contact Us",
+  packages: [
+    { id: 1, value: "All Premium Features" },
+    { id: 2, value: "Custom Request" },
+    { id: 3, value: "On-Site-Training" },
+    { id: 4, value: "LState-Of-The-Art School Website" },
+    { id: 5, value: "Priority Support" },
+    { id: 6, value: "Data Migration" },
+  ],
+};
+
 export const currencyChar = {
   NGN: "&#8358;",
   USD: "&#36;",

@@ -14,7 +14,7 @@ export const HRMPage = () => {
         {" "}
         <NavTwo title="HR Manager" />
       </div>
-      <div className="col-md-12  hr-manager ">
+      <div className="col-md-12  hr-manager-container">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt9">
             {" "}

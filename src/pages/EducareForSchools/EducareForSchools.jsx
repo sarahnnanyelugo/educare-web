@@ -22,7 +22,10 @@ export const EducareForSchools = () => {
     <>
       <div className="col-md-12 nav-two-for-schs sticky-top">
         {" "}
-        <NavTwo title="educare for Schools" />
+        <NavTwo
+          title="educare for Schools"
+          priceUrl={"/educare-school-packages"}
+        />
       </div>
 
       <div className="col-md-12 flexy for-schools-container">

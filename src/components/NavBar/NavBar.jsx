@@ -40,6 +40,9 @@ function NavBar() {
       case "/e-classroom":
         setTheme("#CC006E");
         break;
+      case "/educare-school-packages":
+        setTheme("#0098DA");
+        break;
     }
     console.log(location.pathname);
 

@@ -25,7 +25,7 @@ export const EducareForBusiness = () => {
     <>
       <div className="col-md-12 nav-two-business sticky-top">
         {" "}
-        <NavTwo title="educare for Business" />
+        <NavTwo title="educare for Business" priceUrl={"/educare-packages"} />
       </div>
 
       <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
