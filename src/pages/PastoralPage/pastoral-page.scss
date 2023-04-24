@@ -67,6 +67,11 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h2 {
     margin-top: 15px;
   }
@@ -93,4 +98,15 @@
     rgba(240, 240, 240, 1) 39%,
     rgba(255, 255, 255, 1) 80%
   );
+}
+.pdash {
+  img {
+    margin-top: -180px;
+  }
+}
+.reco-badge {
+  @media screen and (max-width: 620px) {
+    margin-bottom: -30px;
+    margin-top: 50px;
+  }
 }

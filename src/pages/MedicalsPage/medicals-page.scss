@@ -17,11 +17,20 @@
     padding-top: 150px;
     h1 {
       font-family: recoAltSemiBold;
+      @media screen and (max-width: 620px) {
+        text-align: center;
+      }
     }
     p {
       font-size: 18px;
       margin-top: 30px;
       margin-bottom: 30px;
+      @media screen and (max-width: 620px) {
+        text-align: center;
+      }
+    }
+    @media screen and (max-width: 620px) {
+      padding-top: 50px !important;
     }
   }
   .started {

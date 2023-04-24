@@ -2,10 +2,6 @@ import { useEffect, useState } from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./educare-packages.scss";
 import {
-  enterpriseData,
-  elearningData,
-  premiumData,
-  basicData,
   standardData,
   rates,
   professionalData,
@@ -17,8 +13,6 @@ import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
-import Testing from "../../components/NavBar/Testing/Testing";
-import CurrencyConverter from "../../components/NavBar/Testing/Testing";
 
 function EducarePackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);

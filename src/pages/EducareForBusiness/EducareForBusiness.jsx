@@ -58,7 +58,7 @@ export const EducareForBusiness = () => {
         <div className="col-md-4 offset-md-1">
           <div className="col-md-11">
             {" "}
-            <Form bg="#5044b2" />
+            <Form bg="#5044b2" text="Get started" />
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ export const EducareForBusiness = () => {
       </div>
       <center>
         {" "}
-        <div className="col-md-2">
+        <div className="col-md-2 offset-md-5">
           {" "}
           <OverviewVideo />
         </div>
@@ -220,6 +220,6 @@ export const EducareForBusiness = () => {
     </>
   );
 };
-// eslint-disable-next-line no-lone-blocks
+
 {
 }

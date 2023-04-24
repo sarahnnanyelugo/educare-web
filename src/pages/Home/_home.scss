@@ -11,6 +11,9 @@
     rgba(244, 244, 244, 1) 15%,
     rgba(253, 253, 253, 1) 71%
   );
+  @media screen and (max-width: 620px) {
+    padding-top: 0;
+  }
   h1 {
     font-family: recoMedium;
     font-size: 40px !important;

@@ -14,8 +14,6 @@ import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
-import Testing from "../../components/NavBar/Testing/Testing";
-import CurrencyConverter from "../../components/NavBar/Testing/Testing";
 
 function EducareSchoolPackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);

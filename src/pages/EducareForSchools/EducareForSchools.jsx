@@ -56,10 +56,10 @@ export const EducareForSchools = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-4 offset-md-1">
+          <div className="col-md-4 offset-md-1 formyy">
             <div className="col-md-11">
               {" "}
-              <Form bg="#2f99da" />
+              <Form bg="#2f99da" text="Get started" />
             </div>
           </div>
         </div>

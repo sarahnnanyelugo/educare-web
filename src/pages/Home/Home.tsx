@@ -65,7 +65,7 @@ export const Home = () => {
     <>
       <div className="col-md-12 modern-solutions-container">
         <center>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <h1>Modern solution for your Business</h1>
             <p>
               Unlock Your Business’s Potential with Cutting-Edge Software

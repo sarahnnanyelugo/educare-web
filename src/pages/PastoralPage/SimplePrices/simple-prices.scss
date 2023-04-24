@@ -6,6 +6,9 @@
   border: solid 1px #a1a4aa;
   border-radius: 10px;
   height: 279px;
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
+  }
   h1 {
     margin-top: 20px;
     margin-bottom: 20px;

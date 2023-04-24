@@ -1,7 +1,7 @@
 import React from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./pastoral-page.scss";
-import PastoralDashboard from "../../assets/images/pastoralDashboard2.png";
+import PastoralDashboard from "../../assets/images/pastoral2.png";
 import Efficiency from "./Efficiency/Efficiency";
 import Setting from "../../assets/images/Layer.svg";
 import Track from "../../assets/images/track.svg";
@@ -39,15 +39,16 @@ function Pastoral(props) {
         </center>{" "}
       </div>
       <div className="empty-bg"></div>
-      {/* <div className="col-md-8 offset-md-2">
+      <div className="col-md-10 offset-md-1 pdash">
         {" "}
         <img
-          className="   logo"
+          className="   "
           src={PastoralDashboard}
           alt="Scholar"
           width="100%"
+          height="100%"
         />
-      </div> */}
+      </div>
       <center>
         <div className="col-md-5 efficient">
           {" "}
@@ -139,7 +140,7 @@ function Pastoral(props) {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div className="offset-md-5">
+            <div className="offset-md-5 reco-badge">
               <Badge btnBg="#FCDCE3" btnColor="#ED2F59" />
             </div>
             <div className="col-md-11 ">

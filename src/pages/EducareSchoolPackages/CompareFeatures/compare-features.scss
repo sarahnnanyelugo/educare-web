@@ -18,6 +18,9 @@
   }
   .accordion-body {
     background-color: #f2fafe !important;
+    @media screen and (max-width: 620px) {
+      padding: 0 !important;
+    }
   }
   .accordion-button:not(.collapsed) {
     background: #fff !important;
@@ -48,6 +51,9 @@
     padding: 5px 5px 0 10px !important;
     border-radius: 35px !important;
     text-align: center !important;
+    @media screen and (max-width: 620px) {
+      margin-left: 21%;
+    }
   }
   .accordion-button::after {
     background-image: none !important;
@@ -58,7 +64,7 @@
     font-weight: bold !important;
   }
   .accordion-button:not(.collapsed)::after {
-    content: "\02C6" !important;
+    content: "\02C7" !important;
     margin-top: -5px !important;
   }
   .accordion-button:not(.collapsed) {

@@ -58,6 +58,11 @@
       transition: 0.5s ease;
     }
   }
+  .formyy {
+    @media screen and (max-width: 620px) {
+      margin-top: 30px;
+    }
+  }
 }
 .reports-container {
   padding-top: 120px;
@@ -79,7 +84,9 @@
 }
 .pastoral-container {
   margin-top: 170px;
-
+  @media screen and (max-width: 620px) {
+    margin-top: 70px;
+  }
   button {
     background: #fcdce3;
     color: #ed2f59;
@@ -118,6 +125,9 @@
 }
 .eclassroom-container {
   margin-top: 170px;
+  @media screen and (max-width: 620px) {
+    margin-top: 50px;
+  }
   button {
     padding: 7px 25px;
 
