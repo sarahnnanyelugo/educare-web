@@ -12,7 +12,7 @@ export const enterpriseData = {
   ],
 };
 export const elearningData = {
-  heading1: "e- Learning",
+  heading1: "e-Learning",
   monthlyAmount: "200.00",
   yearlyAmount: "2400",
   packages: [

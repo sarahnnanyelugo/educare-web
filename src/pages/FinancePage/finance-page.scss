@@ -1,0 +1,33 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.nav-two-finance {
+  background: rgb(248, 245, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 245, 252, 1) 65%,
+    rgba(255, 255, 255, 1) 83%
+  );
+}
+.finance-intro {
+  padding: 120px 0 120px 0;
+  button {
+    @include get-started-button;
+  }
+  .started {
+    background: $purple;
+    margin-right: 20px;
+    &:hover {
+      background: #3b0f8e;
+      transition: 0.5s ease;
+    }
+  }
+
+  .demo {
+    background: transparent;
+    color: #292d32;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+}

@@ -205,13 +205,13 @@
       color: #161617;
       background: transparent;
       height: 30px;
-      border-bottom: solid 1px #ded0fa;
+      border-bottom: solid 1px #2f99da;
       &:focus {
-        border-bottom: solid 3px $purple;
+        border-bottom: solid 3px #2f99da;
         transition: 0.5s ease;
       }
       &:active {
-        border-bottom: solid 3px $purple;
+        border-bottom: solid 4px #2f99da;
         transition: 0.5s ease;
       }
     }

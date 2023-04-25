@@ -17,6 +17,7 @@ import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
 import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
 import { HRMPage } from "./pages/HRMPage/HRMPage";
 import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPackages";
+import { FinancePage } from "./pages/FinancePage/FInancePage";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="medicals" element={<MedicalsPage />} />
         <Route path="e-classroom" element={<EClassroomPage />} />
         <Route path="hrm" element={<HRMPage />} />
+        <Route path="finance" element={<FinancePage />} />
       </Routes>
       <Footer />
     </>

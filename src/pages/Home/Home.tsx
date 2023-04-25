@@ -246,7 +246,7 @@ export const Home = () => {
                 productName="Finance"
                 productDetail="The one and only accounting and payroll solution your business will ever need"
                 productIcon={HalfCircle}
-                url={"./"}
+                url={"./finance"}
               />
               <div className="col-md-12 flexy flexyM mt9">
                 <div className="col-md-6 col-6 grid1">

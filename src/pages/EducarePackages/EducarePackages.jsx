@@ -13,6 +13,7 @@ import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
+import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
 
 function EducarePackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -250,7 +251,7 @@ function EducarePackages(props) {
             <h1>FAQs</h1>
           </div>
           <div className="col-md-9">
-            <FAQAccordion />
+            <FAQAccordionBlue />
           </div>
         </div>
         <Partners />

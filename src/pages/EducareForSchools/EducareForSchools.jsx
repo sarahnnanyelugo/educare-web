@@ -64,6 +64,7 @@ export const EducareForSchools = () => {
           </div>
         </div>
       </div>
+      <div className="col-md-12 empty-grad"></div>
       <div className="col-m-12 mt">
         <center>
           <div className="col-md-4">
