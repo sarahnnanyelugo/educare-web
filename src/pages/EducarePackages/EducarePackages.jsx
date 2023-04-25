@@ -48,7 +48,7 @@ function EducarePackages(props) {
         {" "}
         <NavTwo title="educare for Business" />
       </div>
-      <div className="packages-first-heading col-md-12 nav-two-business">
+      <div className="packages-first-heading col-md-12 ">
         <center>
           {" "}
           <div className="col-md-6">
@@ -81,7 +81,7 @@ function EducarePackages(props) {
 
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-7">
+            <div className="offset-md-3">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
@@ -186,7 +186,7 @@ function EducarePackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards e-learning basic">
+              <div className="col-md-4 right-cards e-learning ">
                 <h3>{professionalData.heading1}</h3>
                 <h1>
                   {" "}
@@ -208,7 +208,7 @@ function EducarePackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4 right-cards e-learning basic">
+              <div className="col-md-4 right-cards e-learning ">
                 <h3>{businessEnterpriseData.heading1}</h3>
                 <h1>{businessEnterpriseData.yearlyAmount}</h1>
                 <button className="price-button">Get started</button>
