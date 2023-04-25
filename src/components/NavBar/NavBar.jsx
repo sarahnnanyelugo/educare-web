@@ -44,7 +44,7 @@ function NavBar() {
         break;
       case "/educare-school-packages":
         setTheme("#0098DA");
-        setTheme2("#DED0FA");
+        setTheme2("#CEF0FE");
         break;
       case "/sign-up":
         setTheme("#2F99DA");

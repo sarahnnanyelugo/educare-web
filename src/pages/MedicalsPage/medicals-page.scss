@@ -33,6 +33,11 @@
       padding-top: 50px !important;
     }
   }
+  .heading-container {
+    @media screen and (max-width: 620px) {
+      margin-left: 20%;
+    }
+  }
   .started {
     @include get-started-button;
     background: #0b2ff7;
@@ -40,6 +45,9 @@
     &:hover {
       background: #051b96;
       transition: 0.5s ease;
+    }
+    @media screen and (max-width: 620px) {
+      margin-left: 10%;
     }
   }
   .demo {

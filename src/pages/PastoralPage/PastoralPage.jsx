@@ -187,7 +187,7 @@ function Pastoral(props) {
       <center>
         <p>
           Kindly check out our{" "}
-          <Link to={""} className="link">
+          <Link to={"/educare-packages"} className="link">
             Pricing page
           </Link>
           {""} for complete details

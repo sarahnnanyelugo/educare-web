@@ -7,6 +7,7 @@ import MedicalTabNav from "./MedicalTab/TabNav";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import Badge from "../../components/Badge/Badge";
+import { Heading } from "../../components/Heading/Heading";
 
 function MedicalsPage() {
   return (
@@ -18,7 +19,11 @@ function MedicalsPage() {
       </div>
       <div className="col-md-10 offset-md-1 flexy services-container">
         <div className="col-md-5 health-services">
-          <h1>
+          <div className="heading-container">
+            {" "}
+            <Heading bg="#D6DCFE" color="#0B2FF7" text="Introducing Medical" />
+          </div>
+          <h1 style={{ marginTop: "10px" }}>
             Schools Health Services
             <br /> with a difference
           </h1>
@@ -72,7 +77,7 @@ function MedicalsPage() {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div className="offset-md-5">
+            <div className="offset-md-5 offset-5">
               <Badge btnBg="#D6DCFE" btnColor="#0B2FF7" />
             </div>
             <div className="col-md-11">
@@ -119,7 +124,7 @@ function MedicalsPage() {
       <center>
         <p>
           Kindly check out our{" "}
-          <Link to={""} className="link">
+          <Link to={"/educare-packages"} className="link">
             Pricing page
           </Link>
           {""} for complete details
