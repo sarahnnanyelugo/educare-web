@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-icofont": "^1.0.19",
     "react-lottie-player": "^1.5.4",
+    "react-phone-number-input": "^3.2.20",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-select": "^5.7.2",

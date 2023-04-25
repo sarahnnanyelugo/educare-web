@@ -3,7 +3,11 @@ import { FacebookButton } from "../../../components/FacebookButton/FacebookButto
 import { Password } from "../../../components/Form/Password";
 import { GoogleButton } from "../../../components/GoogleButton/GoogleButton";
 import "./login-form.scss";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+
 function LoginForm(props) {
+  const [value, setValue] = useState();
   const { bg } = props;
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
@@ -36,21 +40,26 @@ function LoginForm(props) {
             onChange={handleChange}
           />
           <label for="text" class="label-name">
-            <span class="content-name">Organisation Name *</span>
+            <span class="content-name">Email *</span>
           </label>
         </div>{" "}
         <div class="form">
-          <input
-            type="number"
+          {/* <input
+            type="phone"
             name="number"
             autocomplete="new-number"
             required
             value={emailValue}
             onChange={handleEmailChange}
+          /> */}
+          <PhoneInput
+            placeholder="Enter phone number"
+            value={value}
+            onChange={setValue}
           />
-          <label for="text" class="label-name">
+          {/* <label for="text" class="label-name">
             <span class="content-name">Mobile Number *</span>
-          </label>
+          </label> */}
         </div>{" "}
         <div>
           {" "}

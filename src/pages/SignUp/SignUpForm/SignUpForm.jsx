@@ -34,9 +34,10 @@ function SignUpForm(props) {
             required
             value={nameValue}
             onChange={handleChange}
+            className="phone-input"
           />
           <label for="text" class="label-name">
-            <span class="content-name">Organisation Name *</span>
+            <span class="content-name">Email *</span>
           </label>
         </div>{" "}
         <div>
