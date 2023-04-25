@@ -90,7 +90,7 @@ function EducareSchoolPackages(props) {
 
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-7">
+            <div className="offset-md-5">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
@@ -117,36 +117,8 @@ function EducareSchoolPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-3 left-cards e-learning">
-                <h3>{elearningData.heading1}</h3>
-                <div className="flexy flexyM">
-                  {" "}
-                  <h1>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: currencyChar[toCurrency],
-                      }}
-                    ></span>
-                    {elearningData.monthlyAmount * conversionRate}
-                  </h1>
-                  <h6>
-                    Per Student <br />
-                    (Monthly)
-                  </h6>
-                </div>
-                <button className="price-button">Get started</button>
-                <ul className="list-unstyled">
-                  {elearningData.packages.map((items, index) => (
-                    <li key={items.id}>
-                      {" "}
-                      <img className="" src={Tick} alt="Scholar" width="4%" />
-                      {items.value}
-                    </li>
-                  ))}
-                </ul>
-              </div>
               <div className="col-md-4 ">
-                <div className="col-md-11  premium">
+                <div className="col-md-12  premium">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -175,7 +147,35 @@ function EducareSchoolPackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3 right-cards e-learning basic">
+              <div className="col-md-3 left-cards2 e-learning">
+                <h3>{elearningData.heading1}</h3>
+                <div className="flexy flexyM">
+                  {" "}
+                  <h1>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {elearningData.monthlyAmount * conversionRate}
+                  </h1>
+                  <h6>
+                    Per Student <br />
+                    (Monthly)
+                  </h6>
+                </div>
+                <button className="price-button">Get started</button>
+                <ul className="list-unstyled">
+                  {elearningData.packages.map((items, index) => (
+                    <li key={items.id}>
+                      {" "}
+                      <img className="" src={Tick} alt="Scholar" width="4%" />
+                      {items.value}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="col-md-3 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.monthlyAmount}</h1>
                 <button className="price-button">Get started</button>

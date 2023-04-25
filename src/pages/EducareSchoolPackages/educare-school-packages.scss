@@ -36,7 +36,7 @@
   margin-top: -20px;
   font-family: rebondG-Bold;
   position: relative;
-  z-index: 66;
+  z-index: 2;
   @media screen and (max-width: 620px) {
     width: 40%;
     margin-left: 0%;
@@ -77,9 +77,9 @@ button.active2 {
   padding-top: 150px;
   background: #fff;
   .premium {
-    border: solid 1px #0098da;
+    border: solid 2px #0098da;
     border-radius: 10px;
-    box-shadow: 0 0 1px 1px #8073e3;
+    box-shadow: 0 0 1px 1px #0098da;
     padding: 30px;
     position: relative !important;
     z-index: 2;
@@ -108,6 +108,23 @@ button.active2 {
     border-top-left-radius: 10px;
     height: fit-content;
     background: #fff;
+    @media screen and (max-width: 620px) {
+      border: solid 1px #e6e6e6;
+      border-radius: 10px;
+    }
+  }
+  .left-cards2 {
+    padding: 30px;
+    border-top: solid 1px #e6e6e6;
+    border-right: solid 1px #e6e6e6 !important;
+    border-bottom: solid 1px #e6e6e6;
+    border-bottom-right-radius: 10px !important;
+    box-shadow: 0 0 1px 1px #9a9999;
+    border-top-right-radius: 10px;
+    height: fit-content;
+    border-left: none !important;
+
+    // background: #fff;
     @media screen and (max-width: 620px) {
       border: solid 1px #e6e6e6;
       border-radius: 10px;
