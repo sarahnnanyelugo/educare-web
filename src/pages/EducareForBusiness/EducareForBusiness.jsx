@@ -28,37 +28,41 @@ export const EducareForBusiness = () => {
         <NavTwo title="educare for Business" priceUrl={"/educare-packages"} />
       </div>
 
-      <div className="col-md-10 offset-md-1 flexy introduction-container mt2">
-        <div className="col-md-7">
-          {" "}
-          <Heading
-            text="Introducing educare for Business"
-            bg="#DED0FA"
-            color="#3B0F8E"
-          />
-          <h1>
-            Streamline your business with our powerful apps made just for them.
-          </h1>
-          <p>
-            educare apps for Businesses is designed to empower your team by
-            simplifying complex tasks and automating time-consuming processes.
-            With easy-to-use tools and seamless integration between different
-            apps, your team can work smarter and more efficiently, freeing up
-            valuable time to focus on strategic initiatives that drive business
-            growth.
-          </p>
-          <div style={{ display: "flex" }}>
+      <div className="col-md-12 grad">
+        {" "}
+        <div className="col-md-10 offset-md-1 flexy introduction-container mt2 ">
+          <div className="col-md-7 mt8 no-margin ">
+            {" "}
+            <Heading
+              text="Introducing educare for Business"
+              bg="#CEF0FF"
+              color="#007AAE"
+            />
+            <h1>
+              Streamline your business with our powerful apps made just for
+              them.
+            </h1>
+            <p>
+              educare apps for Businesses is designed to empower your team by
+              simplifying complex tasks and automating time-consuming processes.
+              With easy-to-use tools and seamless integration between different
+              apps, your team can work smarter and more efficiently, freeing up
+              valuable time to focus on strategic initiatives that drive
+              business growth.
+            </p>
+            {/* <div style={{ display: "flex" }}>
             <Link to={"/educare-packages"}>
               {" "}
               <button className="gs-button">Get started</button>
             </Link>
             <button className="demo-button">Request for demo</button>
+          </div> */}
           </div>
-        </div>
-        <div className="col-md-4 offset-md-1">
-          <div className="col-md-11">
-            {" "}
-            <Form bg="#5044b2" text="Get started" />
+          <div className="col-md-4 offset-md-1">
+            <div className="col-md-11">
+              {" "}
+              <Form bg="#0098DA" text="Get started" />
+            </div>
           </div>
         </div>
       </div>
@@ -96,7 +100,7 @@ export const EducareForBusiness = () => {
       </div>
       <center>
         {" "}
-        <div className="col-md-2 offset-md-5">
+        <div className="col-md-2 ">
           {" "}
           <OverviewVideo />
         </div>

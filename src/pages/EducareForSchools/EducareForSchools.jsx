@@ -30,7 +30,7 @@ export const EducareForSchools = () => {
 
       <div className="col-md-12 flexy for-schools-container">
         <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-6">
+          <div className="col-md-6 mt8 no-margin">
             <Heading
               text="Introducing educare for Schools"
               bg="#CEF0FF"
@@ -97,9 +97,12 @@ export const EducareForSchools = () => {
       </div>
       <center>
         {" "}
-        <OverviewVideo />
+        <div className="col-md-2 overview-container">
+          {" "}
+          <OverviewVideo />
+        </div>
       </center>
-      <div className="col-md-12 reports-container ">
+      <div className="col-md-12 reports-container grad2">
         <center>
           <div className="col-md-5">
             <Heading text="Report" bg="#CEF0FF" color="#0098DA" />
@@ -114,15 +117,22 @@ export const EducareForSchools = () => {
             </p>
           </div>
         </center>
+
+        <div className="col-md-12 ">
+          <center>
+            <div className="col-md-7">
+              {" "}
+              <img
+                className="   logo"
+                src={Result}
+                alt="Scholar"
+                width="100%"
+              />
+            </div>
+          </center>
+        </div>
       </div>
-      <div className="col-md-12 ">
-        <center>
-          <div className="col-md-7">
-            {" "}
-            <img className="   logo" src={Result} alt="Scholar" width="100%" />
-          </div>
-        </center>
-      </div>
+
       <div className="col-md-11 offset-md-1 flexy pastoral-container">
         <div className="col-md-4">
           <Heading text="Pastoral" bg="#FCDCE3" color="#ED2F59" />
@@ -140,7 +150,7 @@ export const EducareForSchools = () => {
           <img className="   logo" src={Pastoral} alt="Scholar" width="100%" />
         </div>
       </div>
-      <div className="col-md-12 cbt-container  shadow">
+      <div className="col-md-12 cbt-container  grad">
         <center>
           <div className="col-md-5">
             <Heading text="CBT" bg="#D0FCEF" color="#11A377" />

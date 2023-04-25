@@ -22,9 +22,9 @@ function NavBar() {
         setTheme2("#CEF0FE");
         break;
       default:
-      case "/finance-overview":
-        setTheme("#5044b2");
-        setTheme2("#DED0FA");
+      case "/educare-business":
+        setTheme("#2F99DA");
+        setTheme2("#CEF0FE");
         break;
       case "/educare-schools":
         setTheme("#2f99da");
