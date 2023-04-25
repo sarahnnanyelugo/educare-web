@@ -90,7 +90,7 @@ function EducareSchoolPackages(props) {
 
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-">
+            <div className="offset-md-5">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
@@ -192,6 +192,10 @@ function EducareSchoolPackages(props) {
             </div>
           </div>
           <div className={`panel ${checkActive(2, "active2")}`}>
+            <div className="offset-md-5">
+              {" "}
+              <button className="premium-button">Recommended</button>
+            </div>
             <div className="col-md-10 flexy monthly-container">
               <div className="col-md-3 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
