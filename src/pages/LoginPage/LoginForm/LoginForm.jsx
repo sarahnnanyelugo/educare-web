@@ -44,14 +44,6 @@ function LoginForm(props) {
           </label>
         </div>{" "}
         <div class="form">
-          {/* <input
-            type="phone"
-            name="number"
-            autocomplete="new-number"
-            required
-            value={emailValue}
-            onChange={handleEmailChange}
-          /> */}
           <PhoneInput
             placeholder="Enter phone number"
             value={value}
