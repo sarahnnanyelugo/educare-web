@@ -32,7 +32,7 @@ import Senior from "../../assets/images/rep.svg";
 import Junior from "../../assets/images/junior.svg";
 import Transcript from "../../assets/images/cert.svg";
 import Insight from "../../assets/images/insights.svg";
-import Transfer from "../../assets/images/finance.png";
+import Transfer from "../../assets/images/transfer-manager.svg";
 import Communication from "../../assets/images/book-review.svg";
 import Mailbox from "../../assets/images/edit.svg";
 import Result from "../../assets/images/result.svg";
@@ -45,13 +45,13 @@ import Medical from "../../assets/images/med.svg";
 import Lib from "../../assets/images/lib.svg";
 import Remarks from "../../assets/images/remark.svg";
 import Lesson from "../../assets/images/reporting.svg";
-import Voting from "../../assets/images/rank.png";
+import Voting from "../../assets/images/voting.svg";
 // import Eclassroom from "../../assets/images/read-book.svg";
 import Points from "../../assets/images/meeting-points.svg";
 import Hostel from "../../assets/images/yellow-chart.svg";
 import Exeact from "../../assets/images/logout.svg";
 import Activity from "../../assets/images/empty.png";
-import Timetable from "../../assets/images/purple-chart.png";
+import Timetable from "../../assets/images/timetable.svg";
 import Work from "../../assets/images/fast-forward.svg";
 import Performance from "../../assets/images/clock.svg";
 import Recruitment from "../../assets/images/recruitment.svg";
@@ -87,26 +87,35 @@ export const Home = () => {
           {" "}
           <div className="col-md-4">
             {" "}
-            <RandomComponent
-              title="Pick your tools"
-              icon={RedIcon}
-              paragraph=" Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
-            />
+            <div className="col-md-11">
+              {" "}
+              <RandomComponent
+                title="Pick your tools"
+                icon={RedIcon}
+                paragraph=" Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
+              />
+            </div>
           </div>
           <div className="col-md-4">
-            <RandomComponent
-              title="Work smart not hard"
-              icon={YellowIcon}
-              paragraph="Our smart solutions empower you to work smarter, not harder, allowing you to achieve more in less time and with less effort"
-            />
+            <div className="col-md-11">
+              {" "}
+              <RandomComponent
+                title="Work smart not hard"
+                icon={YellowIcon}
+                paragraph="Our smart solutions empower you to work smarter, not harder, allowing you to achieve more in less time and with less effort"
+              />
+            </div>
           </div>
           <div className="col-md-4">
             {" "}
-            <RandomComponent
-              title="We’ve got your back"
-              icon={BlueIcon}
-              paragraph="You can count on our support and expertise every step of the way, so you can focus on your business’s growth and success."
-            />
+            <div className="col-md-11">
+              {" "}
+              <RandomComponent
+                title="We’ve got your back"
+                icon={BlueIcon}
+                paragraph="You can count on our support and expertise every step of the way, so you can focus on your business’s growth and success."
+              />
+            </div>
           </div>
         </div>
       </div>

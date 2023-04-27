@@ -47,16 +47,16 @@ export const EducareForSchools = () => {
               their operations, optimize administrative processes, and enhance
               overall efficiency.
             </p>
-            <div className="flexy flexyM">
+            {/* <div className="flexy flexyM">
               <Link to={""}>
                 <button className="for-schs-button">Get Started</button>
               </Link>
               <Link to={""}>
                 <button className="demo-button">Request for demo</button>
               </Link>
-            </div>
+            </div> */}
           </div>
-          <div className="col-md-4 offset-md-1 formyy">
+          <div className="col-md-4 offset-md-2 formyy">
             <div className="col-md-11">
               {" "}
               <Form bg="#2f99da" text="Get started" />
@@ -136,19 +136,28 @@ export const EducareForSchools = () => {
 
       <div className="col-md-11 offset-md-1 flexy pastoral-container">
         <div className="col-md-4">
-          <Heading text="Pastoral" bg="#FCDCE3" color="#ED2F59" />
-          <h3>Enhancing Student Well-Being</h3>
-          <p>
-            Pastoral provides a detailed platform for holistic student support,
-            promoting well-being, engagement, and success, facilitating
-            proactive interventions, simplifying pastoral care administration
-            and communication, and empowering schools to prioritize student
-            well-being and pastoral care.
-          </p>
+          <div className="col-md-11">
+            {" "}
+            <Heading text="Pastoral" bg="#FCDCE3" color="#ED2F59" />
+            <h3>Enhancing Student Well-Being</h3>
+            <p>
+              Pastoral provides a detailed platform for holistic student
+              support, promoting well-being, engagement, and success,
+              facilitating proactive interventions, simplifying pastoral care
+              administration and communication, and empowering schools to
+              prioritize student well-being and pastoral care.
+            </p>
+          </div>
         </div>
         <div className="col-md-8">
           {" "}
-          <img className="   logo" src={Pastoral} alt="Scholar" width="100%" />
+          <img
+            className="   logo"
+            src={Pastoral}
+            alt="Scholar"
+            width="95%"
+            style={{ marginLeft: "5%" }}
+          />
         </div>
       </div>
       <div className="col-md-12 cbt-container  grad">
@@ -181,6 +190,7 @@ export const EducareForSchools = () => {
       </div>
       <div className="col-md-11 offset-md-1 flexy eclassroom-container  ">
         <div className="col-md-4">
+          {/* <div className="col-md-11"> */}
           <Heading text="eClassroom" bg="#F5DCF8" color="#FF0089" />
           <h3>Efficient Online Learning</h3>
           <p>
@@ -190,6 +200,7 @@ export const EducareForSchools = () => {
             communication with students and parents, making online learning more
             effective and streamlined.
           </p>
+          {/* </div> */}
         </div>
         <div className="col-md-8">
           {" "}
@@ -197,7 +208,8 @@ export const EducareForSchools = () => {
             className="   logo"
             src={EClassroom}
             alt="Scholar"
-            width="100%"
+            width="95%"
+            style={{ marginLeft: "5%" }}
           />
         </div>
       </div>

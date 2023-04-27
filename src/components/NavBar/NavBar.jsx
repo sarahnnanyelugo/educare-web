@@ -39,8 +39,8 @@ function NavBar() {
         setTheme2("#8CA8F7");
         break;
       case "/e-classroom":
-        setTheme("#CC006E");
-        setTheme2("#671F37");
+        setTheme("#671F37");
+        setTheme2("#CC006E");
         break;
       case "/educare-school-packages":
         setTheme("#0098DA");

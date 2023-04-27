@@ -49,7 +49,8 @@
   background: #fdf3e7;
   border: solid 1px #e7e7e7;
   border-radius: 10px;
-  padding: 50px 0 50px 50px;
+  height: fit-content;
+  padding: 50px 0;
   margin-top: 190px;
   margin-bottom: 90px;
   h3 {
@@ -63,7 +64,7 @@
     @include get-started-button;
     background: #ea8713;
     color: #fff;
-    margin-top: 60px;
+    // margin-top: 60px;
     &:hover {
       background: #8c510b;
       transition: 0.5s ease;
@@ -95,4 +96,16 @@
     background: #8c510b;
     transition: 0.5s ease;
   }
+}
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  overflow: hidden;
 }

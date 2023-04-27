@@ -21,23 +21,21 @@
     margin-bottom: 30px;
     height: 35px;
     padding-top: 6px;
-    p {
-      font-size: 15px !important;
-      color: $blue !important;
-    }
   }
   h1 {
     font-size: 40px !important;
     color: #fff;
     line-height: 55px !important;
     margin-bottom: 25px;
+    font-family: recoAltSemiBold;
+
     @media screen and (max-width: 620px) {
       font-size: 40px !important;
       line-height: 50px !important;
     }
   }
   p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     margin-bottom: 40px;
     color: #fff;
@@ -173,8 +171,10 @@
   margin-left: 100px !important;
 }
 .empty-grad {
-  margin-top: -20px;
-  height: 60px;
+  margin-top: -40px;
+  height: 70px;
+  // position: relative;
+  // z-index: -1;
   background: rgb(216, 239, 249);
   background: linear-gradient(
     180deg,

@@ -2,6 +2,9 @@ import { Heading } from "../../components/Heading/Heading";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./finance-page.scss";
 
+import DashboardCarousel from "./DashboardCarousel";
+import DashboardDisplay from "./DashboardDisplay/DashboardDisplay";
+
 export const FinancePage = () => {
   return (
     <>
@@ -33,6 +36,8 @@ export const FinancePage = () => {
           </div>
         </div>
       </center>
+      <DashboardCarousel />
+      {/* <DashboardDisplay /> */}
     </>
   );
 };

@@ -32,6 +32,13 @@
     @include get-started-button;
     background: transparent;
     border: solid 1px #fff !important;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    text-align: center;
+    padding-top: 10px;
   }
 }
 .why-eclassroom {
@@ -67,9 +74,10 @@
   }
 }
 .privacy-container {
-  background: #fff2f9;
+  background: #33001b;
   padding-top: 1px !important;
   border-radius: 20px;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: #fff;
 }

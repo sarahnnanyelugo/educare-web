@@ -17,12 +17,15 @@ function EducarePrivacy(props: PrivacyProps) {
             loop
             animationData={Shield}
             play
-            style={{ width: 366, height: 366, marginTop: "-50px" }}
+            style={{ width: 366, height: 366, marginTop: "-110px" }}
           />
         </div>
         <div className="col-md-6 offset-md-2">
-          <h3>{props.heading}</h3>
-          <p>{props.paragraph}</p>
+          <h2 style={{ fontFamily: "rebondG-Medium" }}>{props.heading}</h2>
+          <div className="col-md-12">
+            {" "}
+            <p>{props.paragraph}</p>
+          </div>
         </div>
       </div>
     </>

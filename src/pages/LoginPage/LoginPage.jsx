@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/images/educare-logo.png";
+import Logo from "../../assets/images/logo2.png";
 import { Link, NavLink } from "react-router-dom";
 import "./login-page.scss";
 import LoginForm from "./LoginForm/LoginForm";

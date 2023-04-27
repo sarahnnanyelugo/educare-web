@@ -6,6 +6,7 @@ import HRSimple from "../../assets/images/hr-simple.png";
 
 import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
+import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 
 export const HRMPage = () => {
   return (
@@ -31,7 +32,7 @@ export const HRMPage = () => {
             </p>
           </div>
           <div className="col-md-4 offset-md-2">
-            <div className="col-md-10">
+            <div className="col-md-12">
               {" "}
               <Form bg="#EA8713" text="Get started" />
             </div>
@@ -77,19 +78,62 @@ export const HRMPage = () => {
       <div className="col-md-11 offset-md-1 dashboard-accordion flexy">
         <DashboardAccordion />
       </div>
-      <div className="pricing-plans col-md-10 offset-md-1 flexy">
-        <div className="col-md-7">
-          <h3>Pricing plans start at just ₦400/month</h3>
-          <p>
-            Select from a range of plans and supplementary features. You will
-            not be charged until you are prepared to use our HR Manager.
-          </p>
+      <div className="pricing-plans col-md-12">
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-7">
+            <h3>Pricing plans start at just ₦400/month</h3>
+            <p>
+              Select from a range of plans and supplementary features. You will
+              not be charged until you are prepared to use our HR Manager.
+            </p>
+          </div>
+          <div className="col-md-2 offset-md-2">
+            <center>
+              {" "}
+              <button>See prices</button>
+            </center>
+          </div>
         </div>
-        <div className="col-md-2 offset-md-2">
-          <center>
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-3 zoom">
             {" "}
-            <button>See prices</button>
-          </center>
+            <SimplePrices
+              package="Basic"
+              amount="400.00"
+              annualAmount="₦75 billed annually"
+              paragraph="per student (monthly)"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <SimplePrices
+              package="Basic"
+              amount="400.00"
+              annualAmount="₦75 billed annually"
+              paragraph="per student (monthly)"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <SimplePrices
+              package="Basic"
+              amount="400.00"
+              annualAmount="₦75 billed annually"
+              paragraph="per student (monthly)"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <SimplePrices
+              package="Premium"
+              amount="500.00"
+              paragraph="Per Student (Monthly)"
+              annualAmount="450 billed annually"
+              url={""}
+              currency="₦"
+              // btnBg="#ed2f59"
+            />
+          </div>
         </div>
       </div>
       <center>
