@@ -57,8 +57,9 @@
     margin-bottom: 30px;
     font-family: recoAltMedium;
   }
-  p {
+  .paragraph {
     font-size: 18px;
+    margin-bottom: 90px;
   }
   button {
     @include get-started-button;
@@ -100,7 +101,7 @@
 .zoom {
   transition: transform 0.2s; /* Animation */
   overflow: hidden;
-  margin: 0 auto;
+  box-shadow: 0 0 1px 1px rgb(236, 233, 233);
 }
 
 .zoom:hover {
@@ -108,4 +109,28 @@
     1.1
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   overflow: hidden;
+}
+.prices-contain {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  // box-shadow: 0 0 1px 1px rgb(236, 233, 233);
+}
+.curve {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.curve2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.recomend {
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 2;
+  button {
+    color: #bb6c0f;
+    background: #fcebd7;
+    border: none;
+    font-size: 16px;
+  }
 }

@@ -3,10 +3,11 @@ import { Heading } from "../../components/Heading/Heading";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import HRDashboard from "../../assets/images/hr-page.png";
 import HRSimple from "../../assets/images/hr-simple.png";
+import { Link } from "react-router-dom";
 
 import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import Prices from "./Prices/Prices";
 
 export const HRMPage = () => {
   return (
@@ -79,62 +80,77 @@ export const HRMPage = () => {
         <DashboardAccordion />
       </div>
       <div className="pricing-plans col-md-12">
-        <div className="col-md-10 offset-md-1 flexy">
+        <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
-            <p>
+            <p className="paragraph">
               Select from a range of plans and supplementary features. You will
               not be charged until you are prepared to use our HR Manager.
             </p>
           </div>
-          <div className="col-md-2 offset-md-2">
+          {/* <div className="col-md-2 offset-md-2">
             <center>
               {" "}
               <button>See prices</button>
             </center>
-          </div>
+          </div> */}
         </div>
-        <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-3 zoom">
+        <div className="offset-md-5 recomend">
+          {" "}
+          <button>Recommended</button>
+        </div>
+        <div className="col-md-10 offset-md-1 flexy prices-contain">
+          <div className="col-md-3 zoom curve">
             {" "}
-            <SimplePrices
+            <Prices
               package="Basic"
               amount="400.00"
               annualAmount="₦75 billed annually"
-              paragraph="per student (monthly)"
-            />
-          </div>{" "}
-          <div className="col-md-3 zoom">
-            {" "}
-            <SimplePrices
-              package="Basic"
-              amount="400.00"
-              annualAmount="₦75 billed annually"
-              paragraph="per student (monthly)"
-            />
-          </div>{" "}
-          <div className="col-md-3 zoom">
-            {" "}
-            <SimplePrices
-              package="Basic"
-              amount="400.00"
-              annualAmount="₦75 billed annually"
-              paragraph="per student (monthly)"
-            />
-          </div>{" "}
-          <div className="col-md-3 zoom">
-            {" "}
-            <SimplePrices
-              package="Premium"
-              amount="500.00"
               paragraph="Per Student (Monthly)"
-              annualAmount="450 billed annually"
-              url={""}
               currency="₦"
+              // cls="curve"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Professional"
+              amount="600.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Premium"
+              amount="800.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom curve2">
+            {" "}
+            <Prices
+              package="Enterprise"
+              amount="Contact Us"
+              url={""}
+              // clss="curve2"
               // btnBg="#ed2f59"
             />
           </div>
         </div>
+        <center>
+          <p>
+            Kindly check out our{" "}
+            <Link to={"/educare-business"} className="link">
+              Pricing page
+            </Link>{" "}
+            for complete details
+          </p>
+        </center>
       </div>
       <center>
         <div className="col-md-6" style={{ marginBottom: "30px" }}>

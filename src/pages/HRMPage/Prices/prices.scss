@@ -1,16 +1,16 @@
 @import "../../../variables";
 @import "../../../shared-styles";
 
-.simple-prices {
-  padding: 10px 30px;
-  border: solid 1px #a1a4aa;
-  border-radius: 10px;
-  height: 279px;
+.prices {
+  padding: 60px 60px;
+  border: solid 1px #e7e7e7;
+  box-shadow: 0 0 1px 1px #a1a4aa;
+  height: 356px;
   background: #fff;
   @media screen and (max-width: 620px) {
     margin-top: 30px;
   }
-  h1 {
+  h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: recoAltMedium;
@@ -20,19 +20,18 @@
     color: #fff;
     border-radius: 35px;
     border: solid 1px #414244;
-    height: 44px;
+    height: 54px;
     font-size: 14px;
     font-weight: bold;
     font-family: rebondG;
-    // background: #ed2f59;
     width: 100%;
-    bottom: 10px;
+    margin-bottom: 60px;
     &:hover {
-      background: #9d0e2d;
+      background: #8c510b;
       transition: 0.5s ease;
     }
   }
-  h4 {
+  h3 {
     font-family: rebondG-Medium;
   }
   p {
@@ -57,6 +56,12 @@
   @media screen and (max-width: 620px) {
   }
 }
-.active-button {
-  border: solid 2px #414244;
+
+.curve {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#curve2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
