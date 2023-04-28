@@ -3,23 +3,24 @@ import Logo from "../../assets/images/logo3.png";
 import LinkedIn from "../../assets/images/linkedin.svg";
 import FB from "../../assets/images/fb.svg";
 import Twitter from "../../assets/images/twitter.svg";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 import "./_footer.scss";
 export const Footer = () => {
   const prevUrlRef = useRef(null);
   const [showNav, setShowNav] = useState(true);
+  const location = useLocation();
+  let currentUrl;
   useEffect(() => {
-    const currentUrl = window.location.pathname;
-
+    currentUrl = location.pathname;
+  });
+  useEffect(() => {
     if (prevUrlRef.current !== currentUrl) {
       prevUrlRef.current = currentUrl;
       console.log(currentUrl);
       setTimeout(() => {
         switch (currentUrl) {
           case "/login":
-            setShowNav(false);
-            break;
           case "/sign-up":
             setShowNav(false);
             break;
@@ -27,8 +28,8 @@ export const Footer = () => {
             setShowNav(true);
             break;
         }
-        console.log(showNav);
-      }, 200);
+        console.log(currentUrl, showNav);
+      }, 10);
     }
   });
   return (

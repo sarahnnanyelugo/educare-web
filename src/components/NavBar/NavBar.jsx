@@ -12,9 +12,7 @@ function NavBar() {
   const [themeSet, setTheme] = useState("");
   const [themeSet2, setTheme2] = useState("");
   const location = useLocation();
-  const [navWidth, setNavWidth] = useState(0);
   const [showNav, setShowNav] = useState(true);
-
   function SwitchTheme(theme) {
     switch (location.pathname) {
       case "/":
@@ -31,8 +29,8 @@ function NavBar() {
         setTheme2("#CEF0FE");
         break;
       case "/pastoral":
-        setTheme("#ED2F59");
-        setTheme2("#F1B3B3");
+        setTheme("#FADAB6");
+        setTheme2("#FCE0DD");
         break;
       case "/medicals":
         setTheme("#0B2FF7");
@@ -82,30 +80,30 @@ function NavBar() {
             setShowNav(true);
             break;
         }
-        console.log(showNav);
+        localStorage.setItem("showNav", showNav);
       }, 200);
     }
   });
-  useEffect(() => {
-    const currentUrl = window.location.pathname;
+  // useEffect(() => {
+  //   const currentUrl = window.location.pathname;
 
-    if (prevUrlRef.current !== currentUrl) {
-      prevUrlRef.current = currentUrl;
-      console.log(currentUrl);
-      setTimeout(() => {
-        switch (currentUrl) {
-          case "/":
-            setStick(true);
-            break;
+  //   if (prevUrlRef.current !== currentUrl) {
+  //     prevUrlRef.current = currentUrl;
+  //     console.log(currentUrl);
+  //     setTimeout(() => {
+  //       switch (currentUrl) {
+  //         case "/":
+  //           setStick(true);
+  //           break;
 
-          default:
-            setStick(false);
-            break;
-        }
-        console.log(showNav);
-      }, 200);
-    }
-  });
+  //         default:
+  //           setStick(false);
+  //           break;
+  //       }
+  //       console.log(showNav);
+  //     }, 200);
+  //   }
+  // });
 
   return (
     <>
@@ -170,6 +168,11 @@ function NavBar() {
                   class="list-group-item list-group-item-action "
                   aria-current="true"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-help-robot"></i>
@@ -183,6 +186,11 @@ function NavBar() {
                   type="button"
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-package"></i>
@@ -196,6 +204,11 @@ function NavBar() {
                   type="button"
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-support"></i>
@@ -209,6 +222,11 @@ function NavBar() {
                   type="button"
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-phone"></i>
@@ -222,6 +240,11 @@ function NavBar() {
                   type="button"
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-sign-in"></i>
@@ -235,6 +258,11 @@ function NavBar() {
                   type="button"
                   class="list-group-item list-group-item-action"
                   style={{ background: themeSet2 }}
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
                 >
                   <span style={{ color: themeSet }}>
                     <i class="icofont-dashboard-web"></i>
