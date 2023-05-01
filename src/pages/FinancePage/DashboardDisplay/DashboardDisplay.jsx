@@ -9,87 +9,112 @@ import Inventory from "../../../assets/images/store-inventory.png";
 import "./dashboard-display.scss";
 function DashboardDisplay() {
   return (
-    <div className="dasboard-display-carousel ">
-      <Carousel fade>
-        <Carousel.Item>
-          <div className="col-md-12 flexy">
-            {" "}
-            <div className="col-md-2 wing-imgs">
-              <img className="" src={Statement} alt="Scholar" />
-            </div>
-            <div className="col-md-8">
+    <>
+      <div className="col-md-12 emptied flexy flexyM">
+        <div className="inner col-md-10 col-10"></div>
+        <div className="innerW col-md-2 col-2"></div>
+      </div>
+      <div className="dasboard-display-carousel ">
+        <Carousel fade>
+          <Carousel.Item>
+            <div className="col-md-12 flexy">
               {" "}
-              <div className="col-md-10 center-dashboard">
-                <img className="" src={Dashboard} alt="Scholar" width="100%" />
+              <div className="col-md-2 wing-imgs">
+                <img className="" src={Statement} alt="Scholar" />
+              </div>
+              <div className="col-md-8">
+                {" "}
+                <div className="col-md-10 center-dashboard">
+                  <img
+                    className=""
+                    src={Dashboard}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 wing-imgs2">
+                <img className="" src={Requisition} alt="Scholar" />
               </div>
             </div>
-            <div className="col-md-2 wing-imgs2">
-              <img className="" src={Dashboard} alt="Scholar" />
-            </div>
-          </div>
-        </Carousel.Item>
+          </Carousel.Item>
 
-        {/* <Carousel.Item>
-          <div className="col-md-12 flexy">
-            {" "}
-            <div className="col-md-4">
-              <h2>Student Safety</h2>
-              <p>
-                educare Medical prioritizes the safety and well-being of
-                students. It helps schools keep track of students’ health
-                conditions, medications, and allergies, ensuring that
-                appropriate care is provided when needed. This promotes student
-                safety and minimizes the risk of medical emergencies or
-                incidents in schools.
-              </p>
-            </div>
-            <div className="col-md-8">
+          <Carousel.Item>
+            <div className="col-md-12 flexy">
               {" "}
-              <img className="" src={Report} alt="Scholar" width="100%" />
+              <div className="col-md-2 wing-imgs">
+                <img className="" src={Dashboard} alt="Scholar" />
+              </div>
+              <div className="col-md-8">
+                {" "}
+                <div className="col-md-10 center-dashboard">
+                  <img
+                    className=""
+                    src={Requisition}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 wing-imgs2">
+                <img className="" src={Statement} alt="Scholar" />
+              </div>
             </div>
-          </div>
-        </Carousel.Item> */}
-
-        {/* <Carousel.Item>
-          <div className="col-md-12 flexy">
-            {" "}
-            <div className="col-md-4">
-              <h2>Enhanced Health Services</h2>
-              <p>
-                educare”s medical helps schools streamline their health
-                services, ensuring that students receive prompt and appropriate
-                medical care. It facilitates efficient communication among
-                school staff, parents, and healthcare providers, ensuring timely
-                and accurate information exchange.
-              </p>
-            </div>
-            <div className="col-md-8">
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="col-md-12 flexy">
               {" "}
-              <img className="" src={Diagnosis} alt="Scholar" width="100%" />
+              <div className="col-md-2 wing-imgs">
+                <img className="" src={Requisition} alt="Scholar" />
+              </div>
+              <div className="col-md-8">
+                {" "}
+                <div className="col-md-10 center-dashboard">
+                  <img
+                    className=""
+                    src={Statement}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 wing-imgs2">
+                <img className="" src={Inventory} alt="Scholar" />
+              </div>
             </div>
-          </div>
-        </Carousel.Item> */}
-        {/* <Carousel.Item>
-          <div className="col-md-12 flexy">
-            {" "}
-            <div className="col-md-4">
-              <h2>Customizable and Scalable</h2>
-              <p>
-                The medical module of educare is highly customizable, allowing
-                schools to adapt it to their specific medical policies,
-                procedures, and workflows. It is also scalable, making it
-                suitable for schools of different sizes and types, from local
-                schools to international institutions.
-              </p>
-            </div>
-            <div className="col-md-8">
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="col-md-12 flexy">
               {" "}
-              <img className="" src={Profile} alt="Scholar" width="100%" />
+              <div className="col-md-2 wing-imgs">
+                <img className="" src={Requisition} alt="Scholar" />
+              </div>
+              <div className="col-md-8">
+                {" "}
+                <div className="col-md-10 center-dashboard">
+                  <img
+                    className=""
+                    src={Inventory}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+              </div>
+              <div className="col-md-2 wing-imgs2">
+                <img className="" src={Dashboard} alt="Scholar" />
+              </div>
             </div>
-          </div>
-        </Carousel.Item> */}
-      </Carousel>
-    </div>
+          </Carousel.Item>
+        </Carousel>
+        <center>
+          <h3>Streamlined payroll accounting</h3>
+        </center>
+      </div>
+      <div className="col-md-12 emptied2 flexy flexyM">
+        <div className="innerW2 col-md-2 col-2"></div>
+        <div className="inner col-md-10 col-10"></div>
+      </div>
+    </>
   );
 }
 

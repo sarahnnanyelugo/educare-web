@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
-import Prices from "./Prices/Prices";
+import Prices from "../../components/Prices/Prices";
 
 export const HRMPage = () => {
   return (

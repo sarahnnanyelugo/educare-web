@@ -20,6 +20,7 @@
     font-size: 14px;
     border: none;
     background: inherit;
+    border-radius: 35px !important;
     &:hover {
       background: rgb(231, 231, 231) !important;
 
@@ -28,17 +29,21 @@
     }
     @media screen and (max-width: 620px) {
       // display: none;
-      padding: 0px 0 0 0;
+      padding: 10px 10px 0 10px;
       font-size: 12px;
     }
   }
   .active {
     background: #e7e7e7;
-    border-radius: 50px !important;
+    border-radius: 35px !important;
+    @media screen and (max-width: 620px) {
+      background: none;
+    }
   }
   h4 {
     @media screen and (max-width: 620px) {
       font-size: 17px;
+      margin-top: 10px;
     }
   }
 }

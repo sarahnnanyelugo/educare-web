@@ -30,19 +30,18 @@ export default class DashboardCarousel extends Component {
   render() {
     const settings = {
       className: "center",
-      //   fade: true,
-
       centerMode: true,
       infinite: true,
-      centerPadding: "200px",
+      centerPadding: "300px",
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: true,
+      // fade: true,
       speed: 500,
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
-      //   adaptiveHeight: true,
+
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
@@ -53,6 +52,7 @@ export default class DashboardCarousel extends Component {
             slidesToScroll: 1,
             infinite: true,
             dots: true,
+            centerMode: false,
           },
         },
         {
@@ -61,6 +61,7 @@ export default class DashboardCarousel extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
+            centerMode: false,
           },
         },
         {
@@ -68,6 +69,7 @@ export default class DashboardCarousel extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            centerMode: false,
           },
         },
       ],
@@ -77,18 +79,21 @@ export default class DashboardCarousel extends Component {
         <Slider {...settings}>
           <div className="col-md-2 tiral-box">
             {" "}
-            <img className="" src={Finance} alt="Scholar" width="100%" />
+            <img className="" src={Finance} alt="Scholar" width="95%" />
           </div>
           <div className="col-md-2 tiral-box">
-            <img className="" src={Requisition} alt="Scholar" width="100%" />
+            <img className="" src={Requisition} alt="Scholar" width="95%" />
           </div>
           <div className="col-md-2 tiral-box">
-            <img className="" src={Statement} alt="Scholar" width="100%" />
+            <img className="" src={Statement} alt="Scholar" width="95%" />
           </div>
           <div className="col-md-2 tiral-box">
-            <img className="" src={Inventory} alt="Scholar" width="100%" />
+            <img className="" src={Inventory} alt="Scholar" width="95%" />
           </div>
         </Slider>
+        <center>
+          <h3>Streamlined payroll accounting</h3>
+        </center>
       </div>
     );
   }

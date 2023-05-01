@@ -1,12 +1,12 @@
 .footer-container {
   height: fit-content;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 30px;
-  background: rgb(30, 30, 30);
+  background: #161617;
   color: #fff;
   @media screen and (max-width: 620px) {
     padding-top: 50px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
   h4 {
     font-family: rebondG-Semi-Bold;

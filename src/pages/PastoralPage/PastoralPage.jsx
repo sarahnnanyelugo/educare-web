@@ -2,7 +2,7 @@ import React from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./pastoral-page.scss";
 import PastoralDashboard from "../../assets/images/pastoral2.png";
-import Efficiency from "./Efficiency/Efficiency";
+// import Efficiency from "../../components/Efficiency/Efficiency";
 import Setting from "../../assets/images/Layer.svg";
 import Track from "../../assets/images/track.svg";
 import Storage from "../../assets/images/data-storage.svg";
@@ -13,6 +13,7 @@ import SimplePrices from "./SimplePrices/SimplePrices";
 import { Link, NavLink } from "react-router-dom";
 import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
 import Badge from "../../components/Badge/Badge";
+import Efficiency from "../../components/Efficiency/Efficiency";
 
 function Pastoral(props) {
   return (

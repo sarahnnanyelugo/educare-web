@@ -52,6 +52,10 @@ function NavBar() {
         setTheme("#1777F2");
         setTheme2("#ffffff");
         break;
+      case "/finance":
+        setTheme("#4A13B2");
+        setTheme2("#DED0FA");
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }
