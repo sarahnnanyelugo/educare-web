@@ -4,6 +4,8 @@ import React from "react";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import { Heading } from "../../components/Heading/Heading";
 import Dashboard from "../../assets/images/voting-dashboard.png";
+import Prices from "../../components/Prices/Prices";
+import { Link, NavLink } from "react-router-dom";
 
 function VotingSystem() {
   return (
@@ -106,6 +108,79 @@ function VotingSystem() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="voting-plans col-md-12 mtt">
+        <div className="col-md-10 offset-md-1 flexy ">
+          <div className="col-md-7">
+            <h3>Pricing plans start at just ₦400/month</h3>
+            <p className="paragraph">
+              Select from a range of plans and supplementary features. You will
+              not be charged until you are prepared to use our HR Manager.
+            </p>
+          </div>
+          {/* <div className="col-md-2 offset-md-2">
+            <center>
+              {" "}
+              <button>See prices</button>
+            </center>
+          </div> */}
+        </div>
+        <div className="offset-md-4 recomend">
+          {" "}
+          <button>Recommended</button>
+        </div>
+        <div className="col-md-10 offset-md-1 flexy prices-contain">
+          <div className="col-md-3 zoom curve">
+            {" "}
+            <Prices
+              package="Basic"
+              amount="400.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+              // cls="curve"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Professional"
+              amount="600.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Premium"
+              amount="800.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom curve2">
+            {" "}
+            <Prices
+              package="Enterprise"
+              amount="Contact Us"
+              url={""}
+              // clss="curve2"
+              // btnBg="#ed2f59"
+            />
+          </div>
+        </div>
+        <center>
+          <p>
+            Kindly check out our{" "}
+            <Link to={"/educare-business"} className="link">
+              Pricing page
+            </Link>{" "}
+            for complete details
+          </p>
+        </center>
       </div>
       <div className="col-md-10 offset-md-1 participation">
         <center>
