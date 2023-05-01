@@ -454,7 +454,7 @@ export const Home = () => {
                   productName="Mailbox"
                   productDetail="Simplify communication with our powerful mailbox"
                   productIcon={Mailbox}
-                  url={"./"}
+                  url={"./mail-box"}
                 />
               </div>
               <div className="col-md-12 bt pd">
@@ -647,7 +647,7 @@ export const Home = () => {
                   productName="Voting System"
                   productDetail="Securely manage and conduct elections with our powerful voting system module."
                   productIcon={Voting}
-                  url={"./"}
+                  url={"./voting-system"}
                 />
               </div>{" "}
               <div className="col-md-12 bt pd">

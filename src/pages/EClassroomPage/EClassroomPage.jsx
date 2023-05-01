@@ -41,7 +41,7 @@ function EClassroomPage() {
           <div className="col-md-4 offset-md-4">
             <div className="col-md-10">
               {" "}
-              <Form bg="#CC006E" text="Get started" />
+              <Form bg="#CC006E" text="Get started" body="#fff" />
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ export const EducareForBusiness = () => {
           <div className="col-md-4 offset-md-1">
             <div className="col-md-11">
               {" "}
-              <Form bg="#0098DA" text="Get started" />
+              <Form bg="#0098DA" text="Get started" body="#fff" />
             </div>
           </div>
         </div>

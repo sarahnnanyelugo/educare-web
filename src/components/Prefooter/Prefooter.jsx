@@ -1,18 +1,16 @@
 import "./prefooter.scss";
 
-export const Prefooter = () => {
+export const Prefooter = (props) => {
   return (
     <>
       <div className="col-md-12 prefooter-div">
         <div className="prefooter-inner col-md-10 offset-md-1 flexy ">
           <div className="col-md-4 prefooter-heading">
             {" "}
-            <h3>
-              Provide a Finance experience that <br />
-              will scale your business upward.
-            </h3>
+            <h3>{props.text}</h3>
+            <p>{props.paragraph}</p>
           </div>
-          <div>
+          <div className="offset-md-6">
             {" "}
             <button>Get started for free</button>
           </div>

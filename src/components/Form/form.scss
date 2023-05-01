@@ -2,11 +2,11 @@
 @import "../../shared-styles";
 
 .form-container {
-  border: solid 1px rgb(255, 255, 255);
+  // border: solid 1px rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221);
   padding: 30px 20px 50px 20px;
-  background: #fff;
+  // background: #fff;
 }
 
 .form {
@@ -27,7 +27,7 @@
   height: 40px;
   margin-top: 20px;
   border: solid 1px #e7e7e7;
-  background-color: transparent;
+  background: #fff;
   font-family: rebondG-Semi-Bold;
 }
 .form label {

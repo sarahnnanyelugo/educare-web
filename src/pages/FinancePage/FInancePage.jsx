@@ -203,7 +203,10 @@ export const FinancePage = () => {
           />
         </div>
       </div>
-      <Prefooter />
+      <Prefooter
+        text="Provide a Finance experience that 
+              will scale your business upward."
+      />
     </>
   );
 };

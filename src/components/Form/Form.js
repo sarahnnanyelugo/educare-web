@@ -4,7 +4,7 @@ import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
 function Form(props) {
-  const { bg, text } = props;
+  const { bg, text, body } = props;
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -21,7 +21,7 @@ function Form(props) {
   };
   return (
     <>
-      <div className=" form-container">
+      <div className=" form-container" style={{ backgroundColor: body }}>
         <h6>
           <strong>
             Sign up and deploy your business in <br />

@@ -18,6 +18,8 @@ import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
 import { HRMPage } from "./pages/HRMPage/HRMPage";
 import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPackages";
 import { FinancePage } from "./pages/FinancePage/FInancePage";
+import MailPage from "./pages/MailPage/MailPage";
+import VotingSystem from "./pages/VotingSystem/VotingSystem";
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
         <Route path="e-classroom" element={<EClassroomPage />} />
         <Route path="hrm" element={<HRMPage />} />
         <Route path="finance" element={<FinancePage />} />
+        <Route path="mail-box" element={<MailPage />} />
+        <Route path="voting-system" element={<VotingSystem />} />
       </Routes>
       <Footer />
     </>

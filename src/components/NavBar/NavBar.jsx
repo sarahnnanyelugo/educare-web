@@ -56,6 +56,14 @@ function NavBar() {
         setTheme("#4A13B2");
         setTheme2("#DED0FA");
         break;
+      case "/mail-box":
+        setTheme("#C32BD6");
+        setTheme2("#F5DCF8");
+        break;
+      case "/voting-system":
+        setTheme("#0098DA");
+        setTheme2("#CEF0FF");
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }
