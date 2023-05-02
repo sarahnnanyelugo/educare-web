@@ -2,11 +2,9 @@
 @import "../../../shared-styles";
 
 .contact-form-container {
-  // border: solid 1px rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221);
   padding: 10px 20px 50px 20px;
-  // background: #fff;
   .submitButton {
     color: #fff;
     border: solid 1px #414244;
@@ -123,7 +121,7 @@
     padding-bottom: 10px;
     padding-left: 20px;
     border-radius: 10px;
-
+    padding-top: 20px;
     margin-top: 40px;
     border: solid 1px #e7e7e7;
     background: #fff;
@@ -169,6 +167,7 @@
     font-size: 10px;
     left: 0px;
     color: black;
+    margin-bottom: 12px;
   }
   .formtext textarea:focus + .label-name::after,
   .formtext textarea:valid + .label-name::after {
@@ -187,8 +186,6 @@
   }
 
   .formyphone input {
-    width: 100%;
-    height: 100%;
     color: #191919;
     padding-top: 10px;
     padding-bottom: 10px;

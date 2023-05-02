@@ -14,11 +14,7 @@ function ContactPage() {
           <div className="  offset-md-2">
             {" "}
             <Heading text="Contact Us" bg="#CEF0FF" color="#0098DA" />
-            <h1>
-              Stay Connected <br />
-              and Reach Out!
-            </h1>{" "}
-            <br />
+            <h1 className="col-md-5">Stay Connected and Reach Out!</h1> <br />
             <h5>
               We appreciate your visit! If you have any inquiries, comments, or
               simply want to reach out, feel free to contact us. We value our
@@ -37,22 +33,25 @@ function ContactPage() {
             <h4> +234 904 303 8325</h4>
             <br /> <br />
             <h2>Visit Us</h2>
-            <p>COme say hello at our office</p> <br />
-            <h5 className="address">
-              UK: 20-23 Wenlock Road, London, England, N17GU and our registered
-              number is 14455617.
-            </h5>{" "}
-            <br />
-            <h5 className="address">
-              U.S.A: 651, North Broad Street, Middletown, DE 19709, United
-              States.
-            </h5>{" "}
-            <br />
-            <h5 className="address">
+            <p>Come say hello at our office</p> <br />
+            <div className="col-md-10">
               {" "}
-              NIGERIA: 16B, Alhaji Hussein Sunmonu Street, Lekki Phase 1, Lagos
-              State, Nigeria.
-            </h5>
+              <h4 className="address">
+                UK: 20-23 Wenlock Road, London, England, N17GU and our
+                registered number is 14455617.
+              </h4>{" "}
+              <br />
+              <h4 className="address">
+                U.S.A: 651, North Broad Street, Middletown, DE 19709, United
+                States.
+              </h4>{" "}
+              <br />
+              <h4 className="address">
+                {" "}
+                NIGERIA: 16B, Alhaji Hussein Sunmonu Street, Lekki Phase 1,
+                Lagos State, Nigeria.
+              </h4>
+            </div>
             <ul className="list-unstyled list-inline mobile-ul media-icons">
               <li className="list-inline-item">
                 {" "}

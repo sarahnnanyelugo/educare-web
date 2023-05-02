@@ -59,15 +59,15 @@ function Form(props) {
         </div>{" "}
         <div className=" formyphone">
           <PhoneInput
-            placeholder="Enter phone number"
+            // placeholder="Enter phone number"
             value={value}
             onChange={setValue}
             className="input"
           />
 
-          {/* <label for="text" class="label-name">
+          <label for="text" class="label-name">
             <p class="content-name">Enter phone number*</p>
-          </label> */}
+          </label>
         </div>{" "}
         <div className=" formtext">
           <textarea
@@ -77,7 +77,7 @@ function Form(props) {
             cols={5}
           />
 
-          <label for="textarea" class="label-name" style={{ top: "-65px" }}>
+          <label for="textarea" class="label-name" style={{ top: "-80px" }}>
             <p class="content-name2">Type your message here *</p>
           </label>
         </div>
