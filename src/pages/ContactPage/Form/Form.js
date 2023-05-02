@@ -41,7 +41,7 @@ function Form(props) {
             onChange={handleChange}
           />
           <label for="text" class="label-name">
-            <span class="content-name">Your Name *</span>
+            <p class="content-name">Your Name *</p>
           </label>
         </div>{" "}
         <div class="form">
@@ -54,7 +54,7 @@ function Form(props) {
             onChange={handleEmailChange}
           />
           <label for="text" class="label-name">
-            <span class="content-name">Your Email *</span>
+            <p class="content-name">Your Email *</p>
           </label>
         </div>{" "}
         <div className=" formyphone">
@@ -62,22 +62,23 @@ function Form(props) {
             placeholder="Enter phone number"
             value={value}
             onChange={setValue}
+            className="input"
           />
 
           {/* <label for="text" class="label-name">
-            <span class="content-name">Enter phone number*</span>
+            <p class="content-name">Enter phone number*</p>
           </label> */}
         </div>{" "}
         <div className=" formtext">
           <textarea
             value={textarea}
             onChange={handleMessage}
-            // className="form-control"
             rows={5}
             cols={5}
           />
-          <label for="textarea" class="label-name">
-            <span class="content-name">Type your message here *</span>
+
+          <label for="textarea" class="label-name" style={{ top: "-65px" }}>
+            <p class="content-name2">Type your message here *</p>
           </label>
         </div>
         <input

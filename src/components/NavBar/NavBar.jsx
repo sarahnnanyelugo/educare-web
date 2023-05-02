@@ -11,6 +11,7 @@ function NavBar() {
   const [stick, setStick] = useState(true);
   const [themeSet, setTheme] = useState("");
   const [themeSet2, setTheme2] = useState("");
+  const [themeSet3, setTheme3] = useState("");
   const location = useLocation();
   const [showNav, setShowNav] = useState(true);
   function SwitchTheme(theme) {
@@ -63,6 +64,26 @@ function NavBar() {
       case "/voting-system":
         setTheme("#0098DA");
         setTheme2("#CEF0FF");
+        break;
+      case "/contact-us":
+        setTheme("#0098DA");
+        setTheme2("#CEF0FF");
+        setTheme3("#E7E7E7");
+        break;
+      case "solutions":
+        setTheme("#0098DA");
+        setTheme2("#CEF0FF");
+        // setTheme3("#E7E7E7");
+        break;
+      case "/resources":
+        setTheme("#0098DA");
+        setTheme2("#CEF0FF");
+        // setTheme3("#E7E7E7");
+        break;
+      case "/support":
+        setTheme("#0098DA");
+        setTheme2("#CEF0FF");
+        // setTheme3("#E7E7E7");
         break;
     }
     // localStorage.setItem("globalTheme", themeSet);
@@ -149,7 +170,16 @@ function NavBar() {
           </li>{" "}
           <li className="list-inline-item web-nav">
             <NavLink to={"/contact-us"} activeClassName="active">
-              <button className="nav-links"> Contact us</button>
+              <button
+                className="nav-links"
+                style={{
+                  backgroundColor: "" + themeSet3,
+                  borderRadius: "33px",
+                }}
+              >
+                {" "}
+                Contact us
+              </button>
             </NavLink>
           </li>
         </ul>
