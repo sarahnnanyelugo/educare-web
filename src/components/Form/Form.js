@@ -56,8 +56,8 @@ function Form(props) {
         </div>{" "}
         <div style={{ marginBottom: "20px" }}>
           {" "}
-          <Password label="Password" />
-          <Password label="confirm password" />
+          <Password placeholder="Password" />
+          <Password placeholder="Confirm password" />
         </div>
         <CountrySelect />
         <input
