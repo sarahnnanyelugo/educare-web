@@ -42,7 +42,7 @@ function SignUpForm(props) {
         </div>{" "}
         <div>
           {" "}
-          <Password label="Password" />
+          <Password placeholder="Password" />
         </div>
         <input
           type="checkbox"
