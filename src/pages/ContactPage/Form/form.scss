@@ -5,7 +5,7 @@
   // border: solid 1px rgb(255, 255, 255);
   border-radius: 15px;
   box-shadow: 0 0 1px 1px rgb(221, 221, 221);
-  padding: 30px 20px 50px 20px;
+  padding: 10px 20px 50px 20px;
   // background: #fff;
   .submitButton {
     color: #fff;
@@ -42,7 +42,7 @@
     padding-left: 20px;
     border-radius: 10px;
     height: 54px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: solid 1px #e7e7e7;
     background: #fff;
     font-family: rebondG-Semi-Bold;
@@ -82,32 +82,18 @@
   .form input:focus + .label-name .content-name,
   .form input:valid + .label-name .content-name {
     transform: translateY(-100%);
-    font-size: 8px;
+    font-size: 10px;
     left: 0px;
     color: black;
+    margin-bottom: 8px;
   }
   .form input:focus + .label-name::after,
   .form input:valid + .label-name::after {
     transform: translateX(0%);
   }
-  .password-input {
-    input {
-      border: solid 1px #edecec !important;
-      padding: 9px 5px;
-      border-radius: 10px;
-      background: #fff !important;
-      width: 100%;
-      height: 40px;
-    }
-    img {
-      margin-left: -35px;
-      border-right: solid 1px rgb(226, 220, 220) !important;
-      border-radius: 7px;
-    }
-  }
 
   .PhoneInputCountry {
-    margin-top: 21px !important;
+    margin-top: 40px !important;
     height: 54px !important;
     border: solid 1px #edecec !important;
 
@@ -121,12 +107,13 @@
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
     height: 54px !important;
+    margin-top: 40px !important;
   }
 
   .formtext {
     width: 100%;
     position: relative;
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
   }
 
@@ -134,11 +121,10 @@
     width: 100%;
     height: 100%;
     color: #191919;
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: solid 1px #e7e7e7;
     background: #fff;
     font-family: rebondG-Semi-Bold;

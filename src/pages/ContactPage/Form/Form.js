@@ -59,16 +59,16 @@ function Form(props) {
         </div>{" "}
         <div className=" formyphone">
           <PhoneInput
-            // placeholder="Enter phone number"
+            placeholder="Enter phone number"
             value={value}
             onChange={setValue}
           />
 
-          <label for="text" class="label-name">
+          {/* <label for="text" class="label-name">
             <span class="content-name">Enter phone number*</span>
-          </label>
+          </label> */}
         </div>{" "}
-        <div className="mt2 formtext">
+        <div className=" formtext">
           <textarea
             value={textarea}
             onChange={handleMessage}
