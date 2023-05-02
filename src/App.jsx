@@ -20,6 +20,7 @@ import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPa
 import { FinancePage } from "./pages/FinancePage/FInancePage";
 import MailPage from "./pages/MailPage/MailPage";
 import VotingSystem from "./pages/VotingSystem/VotingSystem";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="finance" element={<FinancePage />} />
         <Route path="mail-box" element={<MailPage />} />
         <Route path="voting-system" element={<VotingSystem />} />
+        <Route path="contact-us" element={<ContactPage/>} />
       </Routes>
       <Footer />
     </>

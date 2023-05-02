@@ -148,7 +148,7 @@ function NavBar() {
             </NavLink>
           </li>{" "}
           <li className="list-inline-item web-nav">
-            <NavLink to={"/contact"} activeClassName="active">
+            <NavLink to={"/contact-us"} activeClassName="active">
               <button className="nav-links"> Contact us</button>
             </NavLink>
           </li>
@@ -228,7 +228,7 @@ function NavBar() {
                   Support
                 </button>
               </NavLink>
-              <NavLink to={""} className="menu-navs">
+              <NavLink to={"/contact-us"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
