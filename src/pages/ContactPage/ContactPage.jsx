@@ -14,7 +14,7 @@ function ContactPage() {
           <div className="  offset-md-2">
             {" "}
             <Heading text="Contact Us" bg="#CEF0FF" color="#0098DA" />
-            <h1 className="col-md-5">Stay Connected and Reach Out!</h1> <br />
+            <h1 className="col-md-6">Stay Connected and Reach Out!</h1> <br />
             <h5>
               We appreciate your visit! If you have any inquiries, comments, or
               simply want to reach out, feel free to contact us. We value our
@@ -69,7 +69,7 @@ function ContactPage() {
           </div>
         </div>
         <div className="col-md-4 offset-md-1 mtt">
-          <Form text="submit" bg="#0098DA" />
+          <Form text="Submit" bg="#0098DA" />
         </div>
       </div>
       <Prefooter text="Provide a Finance experience that will scale your business upward." />

@@ -57,16 +57,21 @@ function Form(props) {
             <p class="content-name">Your Email *</p>
           </label>
         </div>{" "}
-        <div className=" formyphone">
+        <div className=" formyphone ">
           <PhoneInput
-            // placeholder="Enter phone number"
             value={value}
             onChange={setValue}
-            className="input"
+            placeholder="Mobile number"
           />
-
+          {/* <input
+            type="tel"
+            name="number"
+            required
+            value={emailValue}
+            onChange={handleEmailChange}
+          /> */}
           <label for="text" class="label-name">
-            <p class="content-name">Enter phone number*</p>
+            {/* <p class="content-name">Mobile number*</p> */}
           </label>
         </div>{" "}
         <div className=" formtext">

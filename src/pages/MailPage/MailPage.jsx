@@ -206,7 +206,7 @@ function MailPage() {
         <center>
           <p>
             Kindly check out our{" "}
-            <Link to={"/educare-business"} className="link">
+            <Link to={"/educare-business"} className="linkp">
               Pricing page
             </Link>{" "}
             for complete details

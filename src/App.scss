@@ -72,6 +72,15 @@ ul li {
     color: #0098da;
   }
 }
+.linkp {
+  color: #c660d6;
+  text-decoration: none;
+  font-family: recoAltRegular;
+  &:hover {
+    text-decoration: underline;
+    color: #fbf2fc;
+  }
+}
 button {
   font-family: rebondG-Semi-Bold;
 }

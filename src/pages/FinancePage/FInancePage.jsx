@@ -35,7 +35,7 @@ export const FinancePage = () => {
           <h1>
             Simplify your business with our powerful apps made just for them.
           </h1>
-          <p>
+          <p className="col-md-11">
             From invoicing to order management to accounting, educare Finance
             has all the tools you need to streamline all of your back office
             operations. Gain insight into your financial performance and make
