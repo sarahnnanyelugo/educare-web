@@ -153,6 +153,7 @@ export const Home = () => {
                     feature="Finance"
                     detail="The one and only accounting and payroll solution your business will ever need"
                     icon={HalfCircle}
+                    url={"./finance"}
                   />{" "}
                 </div>{" "}
                 <div className="col-md-6 hr-manager">
@@ -160,6 +161,7 @@ export const Home = () => {
                     feature="HR Manager"
                     detail="The one and only accounting and payroll solution your business will ever need"
                     icon={People2}
+                    url={"./hrm"}
                   />{" "}
                 </div>
               </div>
@@ -170,6 +172,7 @@ export const Home = () => {
                     feature="MailBox"
                     detail="Simplify communication with our powerful mailbox"
                     icon={Mail}
+                    url={"./mail-box"}
                   />{" "}
                 </div>{" "}
                 <div className="col-md-6">
@@ -177,6 +180,7 @@ export const Home = () => {
                     feature="Facility Management"
                     detail="Optimize your workforce with our staff management module."
                     icon={People}
+                    url={"./"}
                   />{" "}
                 </div>
               </div>
@@ -207,6 +211,7 @@ export const Home = () => {
                       feature="Report"
                       detail="Generate detailed school reports with ease using our user-friendly report."
                       icon={Chart}
+                      url={"./"}
                     />{" "}
                   </div>{" "}
                   <div className="col-md-6 pastoral">
@@ -214,6 +219,7 @@ export const Home = () => {
                       feature="Pastoral"
                       detail="Enhance your institution’s pastoral care with our innovative software module"
                       icon={Pastoral}
+                      url={"./pastoral"}
                     />{" "}
                   </div>
                 </div>
@@ -224,6 +230,7 @@ export const Home = () => {
                       feature="CBT"
                       detail="Revolutionize your testing process with our computer-based test module."
                       icon={Screen}
+                      url={"./"}
                     />{" "}
                   </div>{" "}
                   <div className="col-md-6">
@@ -231,6 +238,7 @@ export const Home = () => {
                       feature="eClassroom"
                       detail="Streamline your HR tasks with our comprehensive HR manager."
                       icon={Classroom}
+                      url={"./e-classroom"}
                     />{" "}
                   </div>
                 </div>

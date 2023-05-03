@@ -4,6 +4,7 @@ import { NavTwo } from "../../components/NavTwo/NavTwo";
 import HRDashboard from "../../assets/images/hr-page.png";
 import HRSimple from "../../assets/images/hr-simple.png";
 import { Link } from "react-router-dom";
+import People from "../../assets/images/people2.svg";
 
 import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
@@ -14,7 +15,7 @@ export const HRMPage = () => {
     <>
       <div className="col-md-12 hrm-nav sticky-top">
         {" "}
-        <NavTwo title="HR Manager" />
+        <NavTwo title="HR Manager" headerIcon={People} />
       </div>
       <div className="col-md-12  hr-manager-container">
         <div className="col-md-10 offset-md-1 flexy">

@@ -1,12 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./nav-two.scss";
+import Logo from "../../assets/images/logo2.png";
 
 export const NavTwo = (props) => {
   return (
     <div className="col-md-12 ">
       <div className="col-md-10 offset-md-1 top-nav-container ">
-        {" "}
+        {props.headerIcon ? (
+          <img
+            className="   logo"
+            src={props.headerIcon}
+            alt="Scholar"
+            // width="50%"
+          />
+        ) : (
+          ""
+        )}
         <div className="topnav-heading ">
           <h4>{props.title}</h4>
         </div>

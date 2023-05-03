@@ -1,9 +1,12 @@
 import React from "react";
 import "./_features.scss";
+import { Link, NavLink } from "react-router-dom";
+
 export interface featuresProps {
   feature: string;
   detail: string;
   icon: string;
+  url: string;
 }
 export const Features = (props: featuresProps) => {
   return (
@@ -12,7 +15,10 @@ export const Features = (props: featuresProps) => {
         <img className="" src={props.icon} alt="Scholar" />
         <h4>{props.feature}</h4>
         <p>{props.detail}</p>
-        <button>Sign up now</button>
+        <Link to={props.url}>
+          {" "}
+          <button>Sign up now</button>
+        </Link>
       </div>
     </>
   );
