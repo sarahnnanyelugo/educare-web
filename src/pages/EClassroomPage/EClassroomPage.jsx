@@ -39,7 +39,7 @@ function EClassroomPage() {
             <button>Request for demo</button>
           </div>
           <div className="col-md-4 offset-md-4">
-            <div className="col-md-10">
+            <div className="col-md-12">
               {" "}
               <Form bg="#CC006E" text="Get started" body="#fff" />
             </div>

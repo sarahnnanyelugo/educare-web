@@ -11,7 +11,7 @@ import People2 from "../../assets/images/people2.svg";
 import Pastoral from "../../assets/images/pastoral.svg";
 import Chart from "../../assets/images/chart.svg";
 import Screen from "../../assets/images/screen.svg";
-import Classroom from "../../assets/images/wages.svg";
+import Classroom from "../../assets/images/read-book.svg";
 import Wallet from "../../assets/images/wallet.svg";
 import Student from "../../assets/images/students.svg";
 
@@ -50,7 +50,7 @@ import Voting from "../../assets/images/voting.svg";
 import Points from "../../assets/images/meeting-points.svg";
 import Hostel from "../../assets/images/yellow-chart.svg";
 import Exeact from "../../assets/images/logout.svg";
-import Activity from "../../assets/images/empty.png";
+import Activity from "../../assets/images/empty.svg";
 import Timetable from "../../assets/images/timetable.svg";
 import Work from "../../assets/images/fast-forward.svg";
 import Performance from "../../assets/images/clock.svg";
