@@ -80,7 +80,9 @@ function App() {
       <Footer />
       <div
         className={`top col-md-1 offset-md-11  ${
-          scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
+          (scrollPosition >= 400 && scrollDirection < 0) || scrollPosition == 0
+            ? "hide"
+            : ""
         }`}
       >
         {" "}
