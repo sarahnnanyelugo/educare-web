@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const MailboxFAQ = () => {
   return (
-    <div className="faq-accordion-blue-container">
+    <div className="faq-accordion-blue-container2">
       {" "}
       <Accordion defaultActiveKey="">
         <Accordion.Item eventKey="0">

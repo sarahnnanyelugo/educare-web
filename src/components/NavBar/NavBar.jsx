@@ -70,6 +70,11 @@ function NavBar() {
         setTheme2("#CEF0FF");
         setTheme3("#E7E7E7");
         break;
+      case "/hrm":
+        setTheme("#EA8713");
+        setTheme2("#E4D5F5");
+        // setTheme3("#E7E7E7");
+        break;
       case "solutions":
         setTheme("#0098DA");
         setTheme2("#CEF0FF");

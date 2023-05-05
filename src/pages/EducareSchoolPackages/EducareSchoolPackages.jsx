@@ -53,7 +53,7 @@ function EducareSchoolPackages(props) {
     <>
       <div className="col-md-12 nav-two-school-packages sticky-top">
         {" "}
-        <NavTwo title="educare for Business" />
+        <NavTwo title="educare for Schools" />
       </div>
       <div className="school-packages-first-heading col-md-12 nav-two-business">
         <center>
