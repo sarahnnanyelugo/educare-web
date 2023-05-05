@@ -21,6 +21,7 @@ import { FinancePage } from "./pages/FinancePage/FInancePage";
 import MailPage from "./pages/MailPage/MailPage";
 import VotingSystem from "./pages/VotingSystem/VotingSystem";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import Top from "./assets/images/top2.png";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           path="educare-school-packages"
           element={<EducareSchoolPackages />}
         />
+
         <Route path="login" element={<LoginPage />} />
         <Route path="sign-up" element={<SignUpPage />} />
         <Route path="pastoral" element={<Pastoral />} />
@@ -45,9 +47,16 @@ function App() {
         <Route path="finance" element={<FinancePage />} />
         <Route path="mail-box" element={<MailPage />} />
         <Route path="voting-system" element={<VotingSystem />} />
-        <Route path="contact-us" element={<ContactPage/>} />
+        <Route path="contact-us" element={<ContactPage />} />
       </Routes>
       <Footer />
+      <div className="top col-md-1 offset-md-11">
+        {" "}
+        <a href="#nav">
+          {" "}
+          <img src={Top} alt="Scholar" />
+        </a>
+      </div>
     </>
   );
 }
