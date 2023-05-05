@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,6 +24,34 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import Top from "./assets/images/top2.png";
 
 function App() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [scrollDirection, setScrollDirection] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+    // console.log(scrollPosition);
+  };
+  const [y, setY] = useState(window.scrollY);
+  const handleNavigation = (e) => {
+    const window = e.currentTarget;
+    if (y > window.scrollY) {
+      // console.log("scrolling up");
+      setScrollDirection(1);
+    } else if (y < window.scrollY) {
+      // console.log("scrolling down");
+      setScrollDirection(-1);
+    }
+    setY(window.scrollY);
+    handleScroll();
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", (e) => handleNavigation(e));
+
+    return () => {
+      // return a cleanup function to unregister our function since it's going to run multiple times
+      window.removeEventListener("scroll", (e) => handleNavigation(e));
+    };
+  }, [y]);
   return (
     <>
       <ScrollToTop />
@@ -50,7 +78,11 @@ function App() {
         <Route path="contact-us" element={<ContactPage />} />
       </Routes>
       <Footer />
-      <div className="top col-md-1 offset-md-11">
+      <div
+        className={`top col-md-1 offset-md-11  ${
+          scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
+        }`}
+      >
         {" "}
         <a href="#nav">
           {" "}
