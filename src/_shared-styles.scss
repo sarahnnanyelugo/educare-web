@@ -43,6 +43,11 @@
 .br {
   border-right: solid 1px rgb(233, 229, 229);
 }
+.no-m {
+  @media screen and (max-width: 620px) {
+    margin: 0;
+  }
+}
 .features-link {
   color: #191919;
   text-decoration: none;

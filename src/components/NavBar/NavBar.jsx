@@ -88,7 +88,12 @@ function NavBar() {
       case "/support":
         setTheme("#0098DA");
         setTheme2("#CEF0FF");
-        // setTheme3("#E7E7E7");
+
+        break;
+      case "/lesson-planner":
+        setTheme("#11A377");
+        setTheme2("#FCEBCE");
+
         break;
     }
     // localStorage.setItem("globalTheme", themeSet);

@@ -663,7 +663,7 @@ export const Home = () => {
                   productName="Lesson Planner"
                   productDetail="Streamline and simplify your lesson planning process with our lesson planner."
                   productIcon={Lesson}
-                  url={"./"}
+                  url={"./lesson-planner"}
                 />
               </div>
             </div>

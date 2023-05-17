@@ -22,6 +22,7 @@ import MailPage from "./pages/MailPage/MailPage";
 import VotingSystem from "./pages/VotingSystem/VotingSystem";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import Top from "./assets/images/top2.png";
+import LessonPlanner from "./pages/LessonPlanner/LessonPlanner";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -76,6 +77,7 @@ function App() {
         <Route path="mail-box" element={<MailPage />} />
         <Route path="voting-system" element={<VotingSystem />} />
         <Route path="contact-us" element={<ContactPage />} />
+        <Route path="lesson-planner" element={<LessonPlanner />} />
       </Routes>
       <Footer />
       <div
