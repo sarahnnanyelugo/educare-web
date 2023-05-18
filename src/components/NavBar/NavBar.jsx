@@ -95,6 +95,11 @@ function NavBar() {
         setTheme2("#FCEBCE");
 
         break;
+      case "/library":
+        setTheme("#ED2F59");
+        setTheme2("#FCDCE3");
+
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }

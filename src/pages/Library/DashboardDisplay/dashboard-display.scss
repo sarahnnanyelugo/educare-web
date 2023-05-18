@@ -1,32 +1,73 @@
-.testimonial-carousel {
-  margin-bottom: 100px;
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.lib-dashboard-display-carousel {
+  .carousel {
+    position: relative;
+    z-index: 0;
+  }
+
+  .center-dashboard {
+    @media screen and (max-width: 620px) {
+      margin-left: 0px;
+    }
+  }
+  .wing-imgs2 {
+    max-height: 400px;
+    width: 350px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-left: 130px;
+    img {
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+
+    padding-top: 0px !important;
+
+    h2 {
+      margin-top: 140px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .imgCaro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .carousel-control-next-icon {
-    background-image: url("../../../assets/images/right2.png");
-    margin-left: 150px !important;
+    background-image: url("../../../assets/images/lib-arrow-right.png");
+    // margin-left: 150px !important;
     position: relative !important;
-    margin-top: -60px !important;
+    height: 46px !important;
+    width: 46px !important;
+    margin-left: -1300% !important;
+    margin-top: -248px !important;
   }
   .carousel-control-prev-icon {
-    background-image: url("../../../assets/images/left2.png");
-    margin-right: 150px !important;
-    margin-top: -60px !important;
-  }
-  .carousel-indicators button {
-    background: #11a377 !important;
-    border: solid 1px #707070 !important;
-    border-radius: 50% !important;
-    height: 7px !important;
-    width: 7px !important;
-    margin-top: 400px !important;
+    background-image: url("../../../assets/images/lib-arrow-left.png");
+    // margin-right: 150px !important;
+    margin-top: -250px !important;
+    height: 46px !important;
+    width: 46px !important;
+    margin-left: -520% !important;
   }
   .carousel-indicators {
-    bottom: -35px !important;
+    display: none;
   }
-  small {
-    font-size: 12px;
-    color: grey;
+  .carousel-control-prev {
+    left: 10% !important;
   }
-  h6 {
-    color: #11a377;
+  .carousel-control-next {
+    right: 10% !important;
   }
 }

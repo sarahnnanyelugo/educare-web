@@ -11,6 +11,9 @@ import User from "../../assets/images/user.svg";
 import Accessibility from "../../assets/images/load.svg";
 import Security from "../../assets/images/security.svg";
 import LibFeatures from "./LibFeatures/LibFeatures";
+import DashboardDisplay from "./DashboardDisplay/DashboardDisplay";
+import Prices from "../../components/Prices/Prices";
+import { Link, NavLink } from "react-router-dom";
 
 function Library() {
   return (
@@ -41,14 +44,14 @@ function Library() {
             </div>
           </div>
           <div className="lottie-divs col-md-7">
-            <div className="flexy">
-              <div className="col-md-6">
+            <div className="flexy flexyM">
+              <div className="col-md-6 col-6">
                 <div className="col-md-11  book-animations">
                   {" "}
                   <h1>player1</h1>
                 </div>
               </div>{" "}
-              <div className="col-md-6 ">
+              <div className="col-md-6 col-6">
                 <div
                   className="col-md-11 book-animations"
                   style={{ height: "", marginLeft: "50px" }}
@@ -58,17 +61,17 @@ function Library() {
                 </div>
               </div>
             </div>
-            <div className="flexy">
-              <div className="col-md-6 ">
+            <div className="flexy flexyM">
+              <div className="col-md-6 col-6">
                 <div className="col-md-11 book-animations">
                   {" "}
                   <h1>player3</h1>
                 </div>
               </div>{" "}
-              <div className="col-md-3 ">
+              <div className="col-md-3 col-6">
                 <div
                   className="col-md-11 book-animations"
-                  style={{ height: "200px", marginLeft: "50px" }}
+                  style={{ height: "", marginLeft: "50px" }}
                 >
                   <Lottie
                     loop
@@ -141,6 +144,91 @@ function Library() {
               </div>
             </div>
           </div>
+        </center>
+      </div>
+      <div className="col-md-12 mt mb5 flexy">
+        <div className="col-md-12 ">
+          <DashboardDisplay />
+        </div>
+      </div>
+      <div className="library-plans col-md-12">
+        <div className="col-md-10 offset-md-1 flexy ">
+          <div className="col-md-7">
+            <h3>Pricing plans start at just ₦400/month</h3>
+            <p className="paragraph">
+              Select from a range of plans and supplementary features. You will
+              not be charged until you are prepared to use our Library Module.
+            </p>
+          </div>
+        </div>
+        <div className="offset-md-4 recomendF">
+          {" "}
+          <button>Recommended</button>
+        </div>
+        <div className="col-md-10 offset-md-1 flexy prices-contain">
+          <div className="col-md-3 zoom curve">
+            {" "}
+            <Prices
+              package="Basic"
+              amount="400.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+              // cls="curve"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Professional"
+              amount="600.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom">
+            {" "}
+            <Prices
+              package="Premium"
+              amount="800.00"
+              annualAmount="₦75 billed annually"
+              paragraph="Per Student (Monthly)"
+              currency="₦"
+            />
+          </div>{" "}
+          <div className="col-md-3 zoom curve2">
+            {" "}
+            <Prices
+              package="Enterprise"
+              amount="Contact Us"
+              url={""}
+              // clss="curve2"
+              // btnBg="#ed2f59"
+            />
+          </div>
+        </div>
+        <center>
+          <p>
+            Kindly check out our{" "}
+            <Link to={"/educare-business"} className="link">
+              Pricing page
+            </Link>{" "}
+            for complete details
+          </p>
+        </center>
+      </div>
+      <div className="col-md-10 offset-md-1 lib-get-started flexy">
+        <div className="col-md-5 started-div">
+          <h2>Get started with a 15-day trial</h2>
+          <p>
+            Sign up for a free trial and see how easy it is acquiring <br />
+            knowledge with our software.
+          </p>
+        </div>
+        <center>
+          <button className="started">Get Started</button>
+          <button className="demo">Request for demo</button>
         </center>
       </div>
     </>

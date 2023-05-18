@@ -11,6 +11,9 @@
 .library-container {
   padding: 100px 0 50px 0;
   background: #f6f2fe;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
   h1 {
     margin: 20px 0 40px 0;
     font-family: recoAltMedium !important;
@@ -27,6 +30,9 @@
     &:hover {
       background: #9d0e2d;
       transition: 0.5s ease;
+    }
+    @media screen and (max-width: 620px) {
+      margin-left: 15%;
     }
   }
   .demo {
@@ -62,4 +68,75 @@
     rgba(240, 240, 240, 1) 90%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+.library-plans {
+  // background: #cdfaec98;
+
+  height: fit-content;
+  padding: 50px 0;
+  margin-bottom: 90px;
+  h3 {
+    margin-bottom: 30px;
+    font-family: recoAltMedium;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 90px;
+  }
+  button {
+    @include get-started-button;
+    background: #ed2f59;
+    color: #fff;
+    // margin-top: 60px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  .recomendF button {
+    background: #fcdce3;
+    color: #ed2f59;
+    border: none;
+  }
+}
+.lib-get-started {
+  margin-bottom: 50px;
+  height: 300px;
+  padding: 80px 60px;
+  background: #7e001c;
+  color: #fff;
+  border-radius: 20px;
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+  button {
+    @include get-started-button;
+    margin-top: 50px !important;
+    margin: 10px;
+  }
+  .started-div {
+    flex-grow: 1;
+    h2 {
+      margin: 20px 0;
+    }
+  }
+  .demo {
+    background: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+      color: black;
+    }
+  }
+  .started {
+    background: #ed2f59;
+    color: #fff;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
 }
