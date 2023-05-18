@@ -1,0 +1,65 @@
+@import "../../variables";
+@import "../../shared-styles";
+.library-nav {
+  background: rgb(249, 218, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 218, 225, 1) 22%,
+    rgba(255, 255, 255, 1) 82%
+  );
+}
+.library-container {
+  padding: 100px 0 50px 0;
+  background: #f6f2fe;
+  h1 {
+    margin: 20px 0 40px 0;
+    font-family: recoAltMedium !important;
+  }
+  p {
+    line-height: 18px;
+  }
+  button {
+    @include get-started-button;
+    margin: 20px 10px 0 0;
+  }
+  .started {
+    background: #ed2f59;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  .demo {
+    border: solid 1px #7da0c3;
+    background: transparent;
+    color: black;
+    &:hover {
+      background: #e7e7e7;
+      border: solid 1px #414244;
+      transition: 0.5s ease;
+    }
+  }
+  .lottie-divs {
+    background-image: url("../../assets/images/wave-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: fit-content;
+    .book-animations {
+      background: #fff;
+      margin-left: 10px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+  }
+}
+.graded {
+  padding-bottom: 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 52%,
+    rgba(240, 240, 240, 1) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}

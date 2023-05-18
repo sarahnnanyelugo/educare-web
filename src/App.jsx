@@ -23,6 +23,7 @@ import VotingSystem from "./pages/VotingSystem/VotingSystem";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import Top from "./assets/images/top2.png";
 import LessonPlanner from "./pages/LessonPlanner/LessonPlanner";
+import Library from "./pages/Library/Library";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -78,6 +79,7 @@ function App() {
         <Route path="voting-system" element={<VotingSystem />} />
         <Route path="contact-us" element={<ContactPage />} />
         <Route path="lesson-planner" element={<LessonPlanner />} />
+        <Route path="library" element={<Library />} />
       </Routes>
       <Footer />
       <div

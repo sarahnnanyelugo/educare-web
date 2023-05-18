@@ -540,7 +540,7 @@ export const Home = () => {
                   productName="Library"
                   productDetail="Simplify your library management with our innovative software module."
                   productIcon={Lib}
-                  url={"./"}
+                  url={"./library"}
                 />
               </div>
             </div>

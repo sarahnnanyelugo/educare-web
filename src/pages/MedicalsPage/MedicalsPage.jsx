@@ -8,12 +8,7 @@ import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import Badge from "../../components/Badge/Badge";
 import { Heading } from "../../components/Heading/Heading";
-import {
-  basicData,
-  eLearningData,
-  premiumData,
-  enterpriseData,
-} from "../../TestData";
+
 function MedicalsPage() {
   return (
     <>
