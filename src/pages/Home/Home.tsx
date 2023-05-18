@@ -595,7 +595,7 @@ export const Home = () => {
                   productName="Timetable"
                   productDetail="Organize schedules with ease using our intuitive timetable module."
                   productIcon={Timetable}
-                  url={"./"}
+                  url={"./timetable"}
                 />
               </div>
               <div className="col-md-12 bt pd">

@@ -14,6 +14,11 @@ import LibFeatures from "./LibFeatures/LibFeatures";
 import DashboardDisplay from "./DashboardDisplay/DashboardDisplay";
 import Prices from "../../components/Prices/Prices";
 import { Link, NavLink } from "react-router-dom";
+import Access from "../../assets/images/access.png";
+import Manage from "../../assets/images/bulb.png";
+import Learn from "../../assets/images/learn.png";
+import Dashed1 from "../../assets/images/dashed_line_1.png";
+import Dashed2 from "../../assets/images/dashed_line_2.png";
 
 function Library() {
   return (
@@ -29,6 +34,7 @@ function Library() {
               bg="#FCDCE3"
               color="#ED2F59"
               text="Introducing Lesson planner"
+              boda="solid 1px #FCDCE3"
             />
             <h1>Your Gateway to Knowledge</h1>
             <p>
@@ -86,8 +92,25 @@ function Library() {
         </div>
       </div>
       <center>
-        <div className="col-md-10">
-          {/* <img className="lI" src={Benefits} alt="Scholar" width="100%" /> */}
+        <div className="col-md-8 flexy mtt mb5 flexyM no-m">
+          <div className="col-md-1 col-1">
+            <img className="" src={Access} alt="Scholar" width="100%" />
+            <h6>Access</h6>
+          </div>{" "}
+          <div className="col-md-4 col-4 mt1">
+            <img className="" src={Dashed1} alt="Scholar" width="100%" />
+          </div>{" "}
+          <div className="col-md-1 col-1">
+            <img className="" src={Manage} alt="Scholar" width="100%" />
+            <h6>Manage</h6>
+          </div>{" "}
+          <div className="col-md-4 col-4">
+            <img className="" src={Dashed2} alt="Scholar" width="100%" />
+          </div>{" "}
+          <div className="col-md-1 col-1">
+            <img className="" src={Learn} alt="Scholar" width="100%" />
+            <h6>Learn</h6>
+          </div>
         </div>
       </center>
       <div className="col-md-12 graded mt ">

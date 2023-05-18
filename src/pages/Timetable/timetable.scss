@@ -1,0 +1,47 @@
+@import "../../variables";
+@import "../../shared-styles";
+.timetable-nav {
+  background: rgb(231, 224, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 224, 244, 1) 30%,
+    rgba(255, 255, 255, 1) 86%
+  );
+}
+
+.timetable-container {
+  background: #f8f8f8;
+  .timetable-div {
+    padding: 100px 0;
+    @media screen and (max-width: 620px) {
+      padding: 50px;
+    }
+    h1 {
+      margin: 30px 0 50px 0;
+    }
+
+    .started {
+      background: #4a13b2;
+      color: #fff;
+      &:hover {
+        background: #2c0b6b;
+        transition: 0.5em;
+      }
+    }
+
+    .btns {
+      button {
+        margin: 40px 10px;
+        @include get-started-button;
+      }
+    }
+    .demo {
+      background: transparent;
+      color: #161617 !important;
+      &:hover {
+        background: #e7e7e7;
+        transition: 0.5em;
+      }
+    }
+  }
+}

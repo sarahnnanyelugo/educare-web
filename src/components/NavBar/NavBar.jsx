@@ -100,6 +100,11 @@ function NavBar() {
         setTheme2("#FCDCE3");
 
         break;
+      case "/timetable":
+        setTheme("#4A13B2");
+        setTheme2("#E7E0F4");
+
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }
