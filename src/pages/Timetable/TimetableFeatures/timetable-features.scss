@@ -3,11 +3,17 @@
   padding: 30px;
   height: 338px;
   border-radius: 10px;
-  box-shadow: 0 0 1px 1px #16161715;
+  box-shadow: 8px 20px 5px 0px rgba(240, 240, 240, 0.75);
+  -webkit-box-shadow: 8px 20px 5px 0px rgba(240, 240, 240, 0.75);
+  -moz-box-shadow: 8px 20px 5px 0px rgba(240, 240, 240, 0.75);
   img {
     height: 45px;
+    width: 45px;
   }
   h4 {
     margin: 20px 0;
+  }
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
   }
 }

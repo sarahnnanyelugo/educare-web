@@ -7,7 +7,7 @@ export interface TimetableFeaturesProps {
 }
 function TimetableFeatures(props: TimetableFeaturesProps) {
   return (
-    <div className="col-md-12">
+    <div className="col-md-12 timetable-features-container ">
       <img className=" " src={props.icon} alt="Scholar" width="100%" />
       <h4>{props.title}</h4>
       <p>{props.paragraph}</p>

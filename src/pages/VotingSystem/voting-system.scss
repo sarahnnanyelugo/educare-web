@@ -39,8 +39,13 @@
   }
 }
 .dashboard {
-  background: #fcdce358;
+  background-color: #fcdce358;
   padding: 80px 0;
+  // background-image: url("../../assets/images/voting-system-bg.png");
+
+  background-size: cover;
+  // background-position: center center;
+  background-repeat: no-repeat;
   p {
     font-family: recoAltMedium;
     font-size: 28px;
@@ -59,10 +64,10 @@
   }
 }
 .engagement {
-  background: #fcebd76c;
+  background: #f2ecfd;
 }
 .assessment {
-  background: #ded0fa67;
+  background: #fef7ee;
 }
 .accessibility {
   padding: 70px 70px;

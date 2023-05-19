@@ -6,6 +6,12 @@ import { Heading } from "../../components/Heading/Heading";
 import Dashboard from "../../assets/images/voting-dashboard.png";
 import Prices from "../../components/Prices/Prices";
 import { Link, NavLink } from "react-router-dom";
+import Lottie from "react-lottie-player";
+import Engagement from "../../assets/images/lottie11.json";
+import Assessment from "../../assets/images/lottie10.json";
+import Assessibility from "../../assets/images/lottie9.json";
+import Data from "../../assets/images/lottie8.json";
+import Bias from "../../assets/images/lottie7.json";
 
 function VotingSystem() {
   return (
@@ -62,6 +68,9 @@ function VotingSystem() {
               Student engagement can be increased by making learning more
               interactive and participatory.
             </p>
+            <div className="col-md-8 offset-md-4">
+              <Lottie loop animationData={Engagement} play className="l" />
+            </div>
           </div>
         </div>
         <div className="col-md-6">
@@ -72,10 +81,13 @@ function VotingSystem() {
               assessment, providing teachers with valuable feedback on student
               understanding.
             </p>
+            <div className="col-md-12 offset-md-2">
+              <Lottie loop animationData={Assessment} play className="l" />
+            </div>
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 accessibility">
+      <div className="col-md-10 offset-md-1 accessibility flexy flexyM">
         <div className="col-md-6">
           {" "}
           <h5>Accessibility</h5>
@@ -85,6 +97,15 @@ function VotingSystem() {
             <br />
             in class.
           </p>
+        </div>
+        <div className="col-md-6">
+          <Lottie
+            loop
+            animationData={Assessibility}
+            play
+            className=""
+            style={{ height: "300px", marginTop: "-60px" }}
+          />
         </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy">
@@ -96,6 +117,9 @@ function VotingSystem() {
               providing teachers with insights into student needs and areas for
               improvement.
             </p>
+            <div className="col-md-12 offset-md-">
+              <Lottie loop animationData={Data} play className="l" />
+            </div>
           </div>
         </div>
         <div className="col-md-6">
@@ -106,6 +130,15 @@ function VotingSystem() {
               equal opportunity to participate and share their thoughts and
               ideas.
             </p>
+            <div className="col-md-8 offset-md-4 ">
+              <Lottie
+                loop
+                animationData={Bias}
+                play
+                className="l"
+                style={{ height: "300px" }}
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -51,9 +51,12 @@
 .recommended3 {
   border: solid 2px #ce456d !important;
 }
+.recommendedT {
+  border: solid 2px #4a13b2 !important;
+}
 
 .recommended-container {
-  margin-top: -30px;
+  margin-top: -35px !important;
   @media screen and (max-width: 620px) {
   }
 }
