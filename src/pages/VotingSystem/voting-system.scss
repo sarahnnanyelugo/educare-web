@@ -39,12 +39,11 @@
   }
 }
 .dashboard {
-  background-color: #fcdce358;
   padding: 80px 0;
-  // background-image: url("../../assets/images/voting-system-bg.png");
-
+  background-image: url("../../assets/images/voting-system-bg.png");
+  background-color: #fcdce358;
   background-size: cover;
-  // background-position: center center;
+  // backdrop-filter: blur(5px);
   background-repeat: no-repeat;
   p {
     font-family: recoAltMedium;
@@ -58,6 +57,13 @@
 
   padding: 70px 70px;
   border-radius: 10px;
+  @media screen and (max-width: 620px) {
+    padding: 30px 10px;
+    height: fit-content;
+    text-align: center;
+
+    margin-top: 30px;
+  }
   h5 {
     margin-bottom: 20px;
     font-family: recoAltMedium;
@@ -82,6 +88,11 @@
   );
   margin-top: 20px;
   margin-bottom: 40px;
+  @media screen and (max-width: 620px) {
+    padding: 30px 10px;
+    height: fit-content;
+    text-align: center;
+  }
 }
 .rating-heading {
   margin-top: 110px;
@@ -129,10 +140,12 @@
 }
 .voting-plans {
   background: #cef0ff;
-
   height: fit-content;
   padding: 50px 0;
   margin-bottom: 90px;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
   h3 {
     margin-bottom: 30px;
     font-family: recoAltMedium;

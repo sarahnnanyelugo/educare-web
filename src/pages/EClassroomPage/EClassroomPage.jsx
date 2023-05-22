@@ -21,25 +21,27 @@ function EClassroomPage() {
         <NavTwo title="eClassroom" />
       </div>
       <div className="col-md-12  e-classroom ">
-        <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-4 mt9">
+        <div className="col-md-12  flexy">
+          <div className="col-md-6 right-section">
             {" "}
-            <Heading
-              bg="#FCEBD7"
-              color="#EA8713"
-              text="Introducing eClassroom"
-            />
-            <h1>Virtual Learning and Collaboration</h1>
-            <p>
-              eClassroom is a dynamic and versatile software module designed to
-              enhance virtual learning and collaboration within schools. Unlock
-              a multitude of features and benefits that empower their
-              educational environment.
-            </p>
-            <button>Request for demo</button>
+            <div className="col-md-8 offset-md-2">
+              <Heading
+                bg="#FCEBD7"
+                color="#EA8713"
+                text="Introducing eClassroom"
+              />
+              <h1>Virtual Learning and Collaboration</h1>
+              <p>
+                eClassroom is a dynamic and versatile software module designed
+                to enhance virtual learning and collaboration within schools.
+                Unlock a multitude of features and benefits that empower their
+                educational environment.
+              </p>
+              <button>Request for demo</button>
+            </div>
           </div>
-          <div className="col-md-4 offset-md-4">
-            <div className="col-md-12">
+          <div className="col-md-6  eclassroom-form">
+            <div className="col-md-6 offset-md-3">
               {" "}
               <Form bg="#CC006E" text="Get started" body="#fff" />
             </div>

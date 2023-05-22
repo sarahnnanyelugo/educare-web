@@ -26,6 +26,7 @@ function VotingSystem() {
             text="Introducing voting system"
             bg="#CEF0FF"
             color="#0098DA"
+            boda="#CEF0FF"
           />
           <h1>Engage your staff and students in an interesting way</h1>
           <p>
@@ -60,7 +61,7 @@ function VotingSystem() {
           A platform to run fair forms of voting and rating
         </h3>
       </center>
-      <div className="col-md-10 offset-md-1 flexy">
+      <div className="col-md-10 offset-md-1 flexy ">
         <div className="col-md-6">
           <div className="col-md-11 engagement rating">
             <h5>Engagement</h5>
@@ -87,7 +88,7 @@ function VotingSystem() {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 accessibility flexy flexyM">
+      <div className="col-md-10 offset-md-1 accessibility flexy ">
         <div className="col-md-6">
           {" "}
           <h5>Accessibility</h5>

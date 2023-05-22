@@ -19,6 +19,7 @@ import Manage from "../../assets/images/bulb.png";
 import Learn from "../../assets/images/learn.png";
 import Dashed1 from "../../assets/images/dashed_line_1.png";
 import Dashed2 from "../../assets/images/dashed_line_2.png";
+import LibraryFAQ from "./LibraryFAQ/LibraryFAQ";
 
 function Library() {
   return (
@@ -253,6 +254,12 @@ function Library() {
           <button className="started">Get Started</button>
           <button className="demo">Request for demo</button>
         </center>
+      </div>
+      <div className="col-md-8 offset-md-2 mt">
+        <center>
+          <h1>Frequently asked questions</h1>
+        </center>
+        <LibraryFAQ />
       </div>
     </>
   );

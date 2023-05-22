@@ -10,14 +10,14 @@
   );
 }
 .e-classroom {
-  padding: 50px 0 60px 0;
-  background: rgb(102, 0, 55);
-  background: linear-gradient(
-    90deg,
-    rgba(102, 0, 55, 1) 42%,
-    rgba(128, 38, 76, 1) 61%,
-    rgba(123, 31, 73, 1) 88%
-  );
+  // padding: 50px 0 60px 0;
+  // background: rgb(102, 0, 55);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(102, 0, 55, 1) 42%,
+  //   rgba(128, 38, 76, 1) 61%,
+  //   rgba(123, 31, 73, 1) 88%
+  // );
   p {
     font-size: 18px;
     margin-top: 30px;
@@ -40,6 +40,19 @@
     text-align: center;
     padding-top: 10px;
   }
+}
+.eclassroom-form {
+  background: rgb(127, 42, 77);
+  background: radial-gradient(
+    circle,
+    rgba(127, 42, 77, 1) 45%,
+    rgba(103, 31, 55, 1) 78%
+  );
+  padding: 50px 0 60px 0;
+}
+.right-section {
+  background: rgb(103, 31, 55);
+  padding: 50px 0 60px 0;
 }
 .why-eclassroom {
   border: solid 1px #70707072;
