@@ -21,7 +21,12 @@ function MedicalsPage() {
         <div className="col-md-5 health-services">
           <div className="heading-container">
             {" "}
-            <Heading bg="#D6DCFE" color="#0B2FF7" text="Introducing Medical" />
+            <Heading
+              bg="#D6DCFE"
+              color="#0B2FF7"
+              text="Introducing Medical"
+              boda="#D6DCFE"
+            />
           </div>
           <h1 style={{ marginTop: "10px" }}>
             Schools Health Services

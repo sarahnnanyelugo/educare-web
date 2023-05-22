@@ -31,6 +31,7 @@ export const FinancePage = () => {
             color="#3B0F8E"
             text="Introducing educare Finance"
             bg="#DED0FA"
+            boda="#DED0FA"
           />
           <h1>
             Simplify your business with our powerful apps made just for them.

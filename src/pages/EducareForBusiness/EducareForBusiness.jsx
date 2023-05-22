@@ -37,6 +37,7 @@ export const EducareForBusiness = () => {
               text="Introducing educare for Business"
               bg="#CEF0FF"
               color="#007AAE"
+              boda="#CEF0FF"
             />
             <h1>
               Streamline your business with our powerful apps made just for

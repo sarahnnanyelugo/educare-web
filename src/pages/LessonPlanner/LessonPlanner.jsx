@@ -27,6 +27,7 @@ function LessonPlanner() {
               bg="#D4E8C3"
               color="#11A377"
               text="Introducing Lesson Planner"
+              boda="#D4E8C3"
             />
             <h1>Simplify Your lesson Planning With educare Lesson Planner</h1>
             <p>Create, schedule, and manage your lessons with ease</p>

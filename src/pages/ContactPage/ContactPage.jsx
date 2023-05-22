@@ -13,7 +13,12 @@ function ContactPage() {
         <div className="col-md-6 address-div ">
           <div className="  offset-md-2">
             {" "}
-            <Heading text="Contact Us" bg="#CEF0FF" color="#0098DA" />
+            <Heading
+              text="Contact Us"
+              bg="#CEF0FF"
+              color="#0098DA"
+              boda="#CEF0FF"
+            />
             <h1 className="col-md-6">Stay Connected and Reach Out!</h1> <br />
             <h5>
               We appreciate your visit! If you have any inquiries, comments, or

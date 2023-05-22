@@ -25,6 +25,7 @@ export const HRMPage = () => {
               bg="#FCEBD7"
               color="#EA8713"
               text="Introducing HR Manager"
+              boda="#FCEBD7"
             />
             <h1>A people management platform built for people</h1>
             <p>

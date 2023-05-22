@@ -35,6 +35,7 @@ export const EducareForSchools = () => {
               text="Introducing educare for Schools"
               bg="#CEF0FF"
               color="#0098DA"
+              boda="#CEF0FF"
             />
 
             <h1 className="mt3">
