@@ -6,6 +6,7 @@ import "./e-classroom.scss";
 import WhyEClassroom from "./WhyEClassroom/WhyEclssroom";
 import Microsoft from "../../assets/images/microsoft.svg";
 import Flutterwave from "../../assets/images/flutterwave.svg";
+import Eclassroom from "../../assets/images/eclassroom_dashboard.png";
 import Aisa from "../../assets/images/aisa.svg";
 import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
@@ -108,6 +109,9 @@ function EClassroomPage() {
             </div>
           </div>{" "}
         </center>
+      </div>
+      <div className="col-md-10 offset-md-1">
+        <img className="" src={Eclassroom} alt="Scholar" width="100%" />
       </div>
       <div className="col-md-10 offset-md-1  privacy-container">
         {" "}

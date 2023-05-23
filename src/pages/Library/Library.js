@@ -55,7 +55,7 @@ function Library() {
               <div className="col-md-6 col-6">
                 <div className="col-md-11  book-animations">
                   {" "}
-                  <h1>player1</h1>
+                  <h2>1</h2>
                 </div>
               </div>{" "}
               <div className="col-md-6 col-6">
@@ -64,7 +64,7 @@ function Library() {
                   style={{ height: "", marginLeft: "50px" }}
                 >
                   {" "}
-                  <h1>player2</h1>
+                  <h2>2</h2>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ function Library() {
               <div className="col-md-6 col-6">
                 <div className="col-md-11 book-animations">
                   {" "}
-                  <h1>player3</h1>
+                  <h2>3</h2>
                 </div>
               </div>{" "}
               <div className="col-md-3 col-6">
