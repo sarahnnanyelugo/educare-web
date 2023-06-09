@@ -25,6 +25,7 @@ import Top from "./assets/images/top2.png";
 import LessonPlanner from "./pages/LessonPlanner/LessonPlanner";
 import Library from "./pages/Library/Library";
 import Timetable from "./pages/Timetable/Timetable";
+import WeeklyRemarks from "./pages/WeeklyRemarks/WeeklyRemarks";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -82,6 +83,7 @@ function App() {
         <Route path="lesson-planner" element={<LessonPlanner />} />
         <Route path="library" element={<Library />} />
         <Route path="timetable" element={<Timetable />} />
+        <Route path="weekly-remarks" element={<WeeklyRemarks />} />
       </Routes>
       <Footer />
       <div

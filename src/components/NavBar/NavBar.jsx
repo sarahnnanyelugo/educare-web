@@ -105,6 +105,11 @@ function NavBar() {
         setTheme2("#E7E0F4");
 
         break;
+      case "/weekly-remarks":
+        setTheme("#C32BD6");
+        setTheme2("#E5A8E0");
+
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }

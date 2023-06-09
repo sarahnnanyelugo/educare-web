@@ -108,7 +108,7 @@ export const EducareForBusiness = () => {
       </center>
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-5 offset-md-1">
-          <Heading text="Finance" bg="#DED0FA" color="#3B0F8E" />
+          <Heading text="Finance" bg="#DED0FA" color="#3B0F8E" boda="#DED0FA" />
           <h3 className="mt3">Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,
@@ -134,7 +134,12 @@ export const EducareForBusiness = () => {
           <img className="" src={HRDashboard} alt="Scholar" width="90%" />
         </div>
         <div className="col-md-4 ">
-          <Heading text="HR Manager" bg="#fdf5eb" color="#bf741c" />
+          <Heading
+            text="HR Manager"
+            bg="#fdf5eb"
+            color="#bf741c"
+            boda="#fdf5eb"
+          />
           <h3 className="mt3">
             Provide your employees with outstanding experiences they will never
             forget.
@@ -159,7 +164,7 @@ export const EducareForBusiness = () => {
       </div>
       <div className="col-md-12  flexy finance-container">
         <div className="col-md-4 offset-md-1">
-          <Heading text="Mail" bg="#f6e9f8" color="#b054bb" />
+          <Heading text="Mail" bg="#f6e9f8" color="#b054bb" boda="#f6e9f8" />
           <h3 className="mt3">Simplifying core HR operations</h3>
           <p>
             Mail provides secure email hosting with state-of-the-art data
@@ -185,7 +190,12 @@ export const EducareForBusiness = () => {
           <img className="" src={FacilityDashboard} alt="Scholar" width="90%" />
         </div>
         <div className="col-md-4">
-          <Heading text="Facility Management" bg="#eaedfe" color="#204bc8" />
+          <Heading
+            text="Facility Management"
+            bg="#eaedfe"
+            color="#204bc8"
+            boda="#eaedfe"
+          />
           <h3 className="mt3">Automated employee reimbursements.</h3>
           <p>
             educare Finance automates the reimbursement approval process,

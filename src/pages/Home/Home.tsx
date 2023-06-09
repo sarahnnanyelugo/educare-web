@@ -392,7 +392,7 @@ export const Home = () => {
                   productName="Weekly remarks"
                   productDetail="Effortlessly track performance with our weekly remarks module."
                   productIcon={Remarks}
-                  url={"./"}
+                  url={"./weekly-remarks"}
                 />
               </div>
             </div>{" "}

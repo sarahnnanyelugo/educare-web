@@ -107,7 +107,12 @@ export const EducareForSchools = () => {
       <div className="col-md-12 reports-container grad2">
         <center>
           <div className="col-md-5">
-            <Heading text="Report" bg="#CEF0FF" color="#0098DA" />
+            <Heading
+              text="Report"
+              bg="#CEF0FF"
+              color="#0098DA"
+              boda="#CEF0FF"
+            />
             <h3>Comprehensive Reporting and Analysis</h3>
             <p>
               educare report facilitates comprehensive reporting and analysis
@@ -139,7 +144,12 @@ export const EducareForSchools = () => {
         <div className="col-md-4">
           <div className="col-md-11">
             {" "}
-            <Heading text="Pastoral" bg="#FCDCE3" color="#ED2F59" />
+            <Heading
+              text="Pastoral"
+              bg="#FCDCE3"
+              color="#ED2F59"
+              boda="#FCDCE3"
+            />
             <h3>Enhancing Student Well-Being</h3>
             <p>
               Pastoral provides a detailed platform for holistic student
@@ -164,7 +174,7 @@ export const EducareForSchools = () => {
       <div className="col-md-12 cbt-container  grad">
         <center>
           <div className="col-md-5">
-            <Heading text="CBT" bg="#D0FCEF" color="#11A377" />
+            <Heading text="CBT" bg="#D0FCEF" color="#11A377" boda="#D0FCEF" />
 
             <h3>
               Comprehensive Cognitive Behavioral Therapy (CBT) Support for
@@ -192,7 +202,12 @@ export const EducareForSchools = () => {
       <div className="col-md-11 offset-md-1 flexy eclassroom-container  ">
         <div className="col-md-4">
           {/* <div className="col-md-11"> */}
-          <Heading text="eClassroom" bg="#F5DCF8" color="#FF0089" />
+          <Heading
+            text="eClassroom"
+            bg="#F5DCF8"
+            color="#FF0089"
+            boda="#F5DCF8"
+          />
           <h3>Efficient Online Learning</h3>
           <p>
             It offers tools for organizing and delivering virtual lessons,

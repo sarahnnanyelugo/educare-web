@@ -21,7 +21,7 @@ function Form(props) {
   };
   return (
     <>
-      <div className=" form-container" style={{ backgroundColor: body }}>
+      <form className=" form-container" style={{ backgroundColor: body }}>
         <h6>
           <strong>
             Sign up and deploy your business in <br />
@@ -83,7 +83,7 @@ function Form(props) {
         <button className="overviewButton" style={{ backgroundColor: bg }}>
           {text}
         </button>
-      </div>
+      </form>
     </>
   );
 }

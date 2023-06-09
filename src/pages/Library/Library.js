@@ -3,6 +3,7 @@ import { Heading } from "../../components/Heading/Heading";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./library.scss";
 import Player1 from "../../assets/images/lottie6.json";
+import Player3 from "../../assets/images/libuser.json";
 import Lottie from "react-lottie-player";
 import Benefits from "../../assets/images/p-chart.svg";
 import Management from "../../assets/images/management.svg";
@@ -72,7 +73,12 @@ function Library() {
               <div className="col-md-6 col-6">
                 <div className="col-md-11 book-animations">
                   {" "}
-                  <h2>3</h2>
+                  <Lottie
+                    loop
+                    animationData={Player3}
+                    play
+                    className="lottieee"
+                  />
                 </div>
               </div>{" "}
               <div className="col-md-3 col-6">
