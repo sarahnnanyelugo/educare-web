@@ -230,7 +230,7 @@ export const Home = () => {
                       feature="CBT"
                       detail="Revolutionize your testing process with our computer-based test module."
                       icon={Screen}
-                      url={"./"}
+                      url={"./cbt"}
                     />{" "}
                   </div>{" "}
                   <div className="col-md-6">
@@ -470,7 +470,7 @@ export const Home = () => {
                   productName="CBT"
                   productDetail="Revolutionize your testing process with our computer-based test module."
                   productIcon={Screen}
-                  url={"./"}
+                  url={"./cbt"}
                 />
               </div>
               <div className="col-md-12 flexy flexyM bb">
@@ -497,7 +497,7 @@ export const Home = () => {
                   <OtherEducareProducts
                     productIcon={CBT2}
                     productName="CBT Setup"
-                    url={"./"}
+                    url={"./cbt"}
                   />{" "}
                 </div>
                 <div className="col-md-6 col-6 other-components">

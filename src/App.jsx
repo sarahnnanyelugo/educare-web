@@ -26,6 +26,7 @@ import LessonPlanner from "./pages/LessonPlanner/LessonPlanner";
 import Library from "./pages/Library/Library";
 import Timetable from "./pages/Timetable/Timetable";
 import WeeklyRemarks from "./pages/WeeklyRemarks/WeeklyRemarks";
+import CBT from "./pages/CBT/CBT";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -84,6 +85,7 @@ function App() {
         <Route path="library" element={<Library />} />
         <Route path="timetable" element={<Timetable />} />
         <Route path="weekly-remarks" element={<WeeklyRemarks />} />
+        <Route path="cbt" element={<CBT />} />
       </Routes>
       <Footer />
       <div
