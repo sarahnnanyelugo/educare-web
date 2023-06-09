@@ -8,6 +8,7 @@ export const Prefooter = (props) => {
           <div className="col-md-4 prefooter-heading">
             {" "}
             <h3>{props.text}</h3>
+            <h4>{props.textb}</h4>
             <p>{props.paragraph}</p>
           </div>
           <div className="offset-md-6">

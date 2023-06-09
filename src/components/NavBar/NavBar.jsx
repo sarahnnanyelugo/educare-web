@@ -110,6 +110,11 @@ function NavBar() {
         setTheme2("#E5A8E0");
 
         break;
+      case "/cbt":
+        setTheme("#11A377");
+        setTheme2("#E0F3ED");
+
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }
