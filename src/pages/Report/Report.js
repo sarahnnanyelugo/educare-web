@@ -100,6 +100,50 @@ function Report() {
         <h1>How educare reports help you</h1>
       </center>
       <ReportTable />
+      <div className="col-md-10 offset-md-1 flexy">
+        <div className="col-md-4">
+          <center>
+            {" "}
+            <div className="col-md-11 reports-feats">
+              <h5>Automated Data</h5>
+              <p>
+                Seamless integration with student information systems,
+                gradebooks, and attendance tracking systems to automatically
+                populate data into the report. This saves time and reduces the
+                risk of errors.
+              </p>
+            </div>
+          </center>
+        </div>
+        <div className="col-md-4">
+          <center>
+            {" "}
+            <div className="col-md-11 reports-feats">
+              <h5>Automated Data</h5>
+              <p>
+                Seamless integration with student information systems,
+                gradebooks, and attendance tracking systems to automatically
+                populate data into the report. This saves time and reduces the
+                risk of errors.
+              </p>
+            </div>
+          </center>
+        </div>
+        <div className="col-md-4">
+          <center>
+            {" "}
+            <div className="col-md-11 reports-feats">
+              <h5>Automated Data</h5>
+              <p>
+                Seamless integration with student information systems,
+                gradebooks, and attendance tracking systems to automatically
+                populate data into the report. This saves time and reduces the
+                risk of errors.
+              </p>
+            </div>
+          </center>
+        </div>
+      </div>
     </>
   );
 }
