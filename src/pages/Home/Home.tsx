@@ -211,7 +211,7 @@ export const Home = () => {
                       feature="Report"
                       detail="Generate detailed school reports with ease using our user-friendly report."
                       icon={Chart}
-                      url={"./"}
+                      url={"./report"}
                     />{" "}
                   </div>{" "}
                   <div className="col-md-6 pastoral">
@@ -324,7 +324,7 @@ export const Home = () => {
                   productName="Calendar"
                   productDetail="Stay organized and on schedule with our intuitive calendar module."
                   productIcon={Calendar}
-                  url={"./"}
+                  url={"./calendar"}
                 />
               </div>
               <div className="col-md-12 bt pd">
@@ -401,7 +401,7 @@ export const Home = () => {
                 productName="Reports"
                 productDetail="The one and only accounting and payroll solution your business will ever need"
                 productIcon={Chart}
-                url={"./"}
+                url={"./report"}
               />
               <div className="col-md-12 flexy flexyM mt9">
                 <div className="col-md-6 col-6 grid1">

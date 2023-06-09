@@ -27,6 +27,8 @@ import Library from "./pages/Library/Library";
 import Timetable from "./pages/Timetable/Timetable";
 import WeeklyRemarks from "./pages/WeeklyRemarks/WeeklyRemarks";
 import CBT from "./pages/CBT/CBT";
+import Calendar from "./pages/Calendar/Calendar";
+import Report from "./pages/Report/Report";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -86,6 +88,8 @@ function App() {
         <Route path="timetable" element={<Timetable />} />
         <Route path="weekly-remarks" element={<WeeklyRemarks />} />
         <Route path="cbt" element={<CBT />} />
+        <Route path="calendar" element={<Calendar />} />
+        <Route path="report" element={<Report />} />
       </Routes>
       <Footer />
       <div

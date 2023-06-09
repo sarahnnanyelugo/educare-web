@@ -22,7 +22,7 @@ function Form(props) {
   return (
     <>
       <form className=" form-container" style={{ backgroundColor: body }}>
-        <h6>
+        <h6 style={{ color: "black" }}>
           <strong>
             Sign up and deploy your business in <br />
             seconds.
@@ -72,6 +72,7 @@ function Form(props) {
         <span
           style={{
             fontFamily: " rebondG-Medium",
+            color: "black",
             fontSize: "12px",
             marginTop: "90px",
           }}

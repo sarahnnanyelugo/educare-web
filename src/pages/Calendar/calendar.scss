@@ -1,0 +1,26 @@
+@import "../../variables";
+@import "../../shared-styles";
+.calendar-nav-div {
+  background: #def5ff;
+}
+.calendar-div {
+  background: #def5ff;
+  padding: 60px 0;
+  h1 {
+    font-family: recoAltMedium;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #161617;
+    border: solid 1px #7da0c3;
+    &:hover {
+      background: transparent;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+}

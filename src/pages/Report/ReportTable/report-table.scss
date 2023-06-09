@@ -1,0 +1,66 @@
+.reports-tab {
+  background: rgb(185, 224, 240);
+  padding: 20px 10px;
+  border-radius: 20px;
+  .bid-ball-rad {
+    height: 314px;
+    width: 306px;
+    border-radius: 100%;
+    background: rgb(237, 206, 176);
+    background: linear-gradient(
+      90deg,
+      rgba(237, 206, 176, 1) 35%,
+      rgba(245, 188, 194, 1) 80%
+    );
+    margin-top: 200px;
+  }
+}
+
+.reports-tab .tabs {
+  display: flex;
+
+  border-radius: 10px;
+  font-family: AgrandirBold;
+  width: 100%;
+  margin-left: 0;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.reports-tab .tab {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  /* border: none; */
+  color: black;
+  background: rgb(185, 224, 240);
+  font-size: 16px;
+}
+
+.reports-tab .tab.active2 {
+  background: #ed4e86;
+  color: #fff;
+  font-weight: bold;
+}
+
+.panel {
+  display: none;
+  padding-top: 130px;
+  /* color: #fff; */
+  height: 497px;
+  background: rgb(185, 224, 240);
+  p {
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .reports-tab .panel {
+    padding: 0px;
+  }
+}
+
+.reports-tab .panel.active2 {
+  display: block;
+}
