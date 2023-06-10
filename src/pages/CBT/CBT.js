@@ -71,7 +71,7 @@ function CBT() {
           </div>
         </center>
         <div className="potential-div col-md-12  flexy parallax">
-          <div className="col-md-5 follow ">
+          <div className="col-md-4 follow ">
             {" "}
             <h1 className="col-md-12">
               “Unleash Your Potential: Experience Seamless Computer-Based
@@ -88,9 +88,9 @@ function CBT() {
               />
             </div>
           </div>
-          <div className="col-md-6 numbers-container offset-md-6 text">
+          <div className="col-md-5 numbers-container offset-md-7 text">
             {" "}
-            <div className="col-md-8">
+            <div className="col-md-10">
               <div className="flexy flexyM ">
                 <div className="col-md-2 number-div col-3">
                   <h1>1</h1>
