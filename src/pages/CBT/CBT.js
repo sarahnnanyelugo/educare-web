@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Heading } from "../../components/Heading/Heading";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import Icon1 from "../../assets/images/cbt-bell.png";
@@ -12,6 +12,30 @@ import Prices from "../../components/Prices/Prices";
 import { Link } from "react-router-dom";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
 function CBT() {
+  const handleScroll = () => {
+    const $element = document.querySelector(".parallax");
+    const $follow = $element.querySelector(".follow");
+    const followHeight = $follow.offsetHeight;
+    const height = $element.offsetHeight;
+    const window_height = window.innerHeight;
+
+    const pos = window.pageYOffset || document.documentElement.scrollTop;
+    const top = $element.offsetTop;
+
+    // Check if element totally above or totally below viewport
+    if (top + height - followHeight < pos || top > pos + window_height) {
+      return;
+    }
+
+    const offset = parseInt(pos - top);
+    console.log("pos", pos, "top", top, "offset", offset);
+    if (offset > 0) {
+      $follow.style.transform = `translateY(${offset}px)`;
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, true);
+  });
   return (
     <>
       <div className="col-md-12 cbt-nav-div">
@@ -46,9 +70,10 @@ function CBT() {
             </div>
           </div>
         </center>
-        <div className="potential-div col-md-12  flexy">
-          <div className="col-md-5 ">
-            <h1 className="col-md-9">
+        <div className="potential-div col-md-12  flexy parallax">
+          <div className="col-md-5 follow ">
+            {" "}
+            <h1 className="col-md-12">
               “Unleash Your Potential: Experience Seamless Computer-Based
               Testing.
             </h1>
@@ -63,7 +88,7 @@ function CBT() {
               />
             </div>
           </div>
-          <div className="col-md-6 numbers-container offset-md-1">
+          <div className="col-md-6 numbers-container offset-md-6 text">
             {" "}
             <div className="col-md-8">
               <div className="flexy flexyM ">

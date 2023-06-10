@@ -119,7 +119,7 @@ function Report() {
           <center>
             {" "}
             <div className="col-md-11 reports-feats">
-              <h5>Automated Data</h5>
+              <h5>Data Export</h5>
               <p>
                 Seamless integration with student information systems,
                 gradebooks, and attendance tracking systems to automatically
