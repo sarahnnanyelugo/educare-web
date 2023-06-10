@@ -65,7 +65,7 @@ function WeeklyRemarks() {
         </center>
       </div>
 
-      <div className="teams mt">
+      <div className="teams mt7">
         {" "}
         <center>
           <h2>Trusted by teams at</h2>

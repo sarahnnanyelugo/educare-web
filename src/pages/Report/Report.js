@@ -2,9 +2,16 @@ import React from "react";
 import Form from "../../components/Form/Form";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import CountUp from "react-countup";
-
+import Icon1 from "../../assets/images/reportsicon.png";
+import Icon2 from "../../assets/images/reportsicon2.png";
+import Icon3 from "../../assets/images/reportsicon3.png";
+import Player1 from "../../assets/images/reportslottie.json";
+import Lottie from "react-lottie-player";
 import "./report.scss";
 import ReportTable from "./ReportTable/ReportTable";
+import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import { Link } from "react-router-dom";
+import { Heading } from "../../components/Heading/Heading";
 function Report() {
   return (
     <>
@@ -15,9 +22,9 @@ function Report() {
       </div>
       <div className="report-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
-          <div className="col-md-6 mtt">
+          <div className="col-md-6 mtt  no-m">
             <h1>Never Miss an Important Date</h1>
-            <p>
+            <p className="col-md-10">
               Say goodbye to messy paper schedules and hello to easy time
               management with our time table software module. With customizable
               schedules, syncing across all devices, and collaboration features,
@@ -97,7 +104,9 @@ function Report() {
         </div>
       </div>
       <center>
-        <h1>How educare reports help you</h1>
+        <h1 className="mtt   font-family: recoAltMedium;">
+          How educare reports help you
+        </h1>
       </center>
       <ReportTable />
       <div className="col-md-10 offset-md-1 flexy">
@@ -105,6 +114,7 @@ function Report() {
           <center>
             {" "}
             <div className="col-md-11 reports-feats">
+              <img className="aisa" src={Icon1} alt="Scholar" height="54px" />
               <h5>Automated Data</h5>
               <p>
                 Seamless integration with student information systems,
@@ -119,6 +129,7 @@ function Report() {
           <center>
             {" "}
             <div className="col-md-11 reports-feats">
+              <img className="aisa" src={Icon2} alt="Scholar" height="54px" />
               <h5>Data Export</h5>
               <p>
                 Seamless integration with student information systems,
@@ -133,6 +144,7 @@ function Report() {
           <center>
             {" "}
             <div className="col-md-11 reports-feats">
+              <img className="aisa" src={Icon3} alt="Scholar " height="54px" />
               <h5>Automated Data</h5>
               <p>
                 Seamless integration with student information systems,
@@ -144,6 +156,104 @@ function Report() {
           </center>
         </div>
       </div>
+      <div className="col-md-10 offset-md-1 flexy v-learning">
+        <div className="col-md-3 offset-md-1">
+          <Lottie loop animationData={Player1} play className="lottieee" />
+        </div>
+        <div className="col-md-6 offset-md-1">
+          <h1>
+            Enjoy secure virtual learning with educare’s Privacy and Protection
+          </h1>
+          <p>
+            educare ensures data privacy by implementing advanced security
+            measures, including encryption and secure communication channels. We
+            have no access to your data, and strict policies are in place to
+            keep your data under your control. Trust us to keep your data safe
+            and secure
+          </p>
+        </div>
+      </div>
+      <center>
+        <h1 className="mtt mb5">Our simple prices made for you </h1>
+      </center>
+      <div className="grad col-md-12 mt">
+        {" "}
+        <div className="col-md-10 offset-md-1 flexy mb5 mt5">
+          <div className="col-md-3 " style={{ marginTop: "-20px" }}>
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Basic"
+                amount="100.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="75 billed annually"
+                url={""}
+                currency="₦"
+                btnBg="#0098DA"
+              />
+            </div>
+          </div>
+          <div className="col-md-3 recommended-container ">
+            <div
+              className="offset-md-5 offset-5"
+              style={{ marginBottom: "-50px" }}
+            >
+              <Heading
+                bg="#FCDCE3"
+                color="#ED2F59"
+                boda="#FCDCE3"
+                text="Recommended"
+              />
+            </div>
+            <div className="col-md-11 mt3">
+              <SimplePrices
+                package="e-learning"
+                amount="200.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="150 billed annually"
+                url={""}
+                currency="₦"
+                active="active-button "
+                cls="recommended6"
+                btnBg="#0098DA"
+              />
+            </div>
+          </div>
+          <div className="col-md-3" style={{ marginTop: "-20px" }}>
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Premium"
+                amount="500.00"
+                paragraph="Per Student (Monthly)"
+                annualAmount="450 billed annually"
+                url={""}
+                currency="₦"
+                btnBg="#0098DA"
+              />
+            </div>
+          </div>
+          <div className="col-md-3" style={{ marginTop: "-20px" }}>
+            <div className="col-md-11 ">
+              <SimplePrices
+                package="Enterprise"
+                amount="Contact Us"
+                paragraph=""
+                btnBg="#0098DA"
+                annualAmount=""
+                url={""}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <center>
+        <p>
+          Kindly check out our{" "}
+          <Link to={"/educare-packages"} className="link">
+            Pricing page
+          </Link>
+          {""} for complete details
+        </p>
+      </center>
     </>
   );
 }

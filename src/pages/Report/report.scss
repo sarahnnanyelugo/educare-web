@@ -10,6 +10,10 @@
   background: #005b83;
   padding-bottom: 60px;
   color: #fff;
+  @media screen and (max-width: 620px) {
+    padding-top: 40px;
+    text-align: center;
+  }
   h1 {
     font-family: recoAltMedium;
     margin-top: 70px;
@@ -28,12 +32,18 @@
   border-radius: 20px;
   margin-top: 150px;
   color: #fff;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
   .div-1 {
     background: #007aae;
-    padding: 80px 0;
+    padding: 30px 0;
     padding-left: 30px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    @media screen and (max-width: 620px) {
+      border-radius: 20px;
+    }
     h1 {
       font-family: recoAltMedium;
     }
@@ -50,8 +60,34 @@
   border-radius: 10px;
   height: 338px;
   margin-top: 100px;
-  padding: 70px 30px;
+  padding: 40px 40px;
   h6 {
     margin: 20px 0;
+    font-family: recoAltMedium;
+  }
+  img {
+    margin-bottom: 30px;
+  }
+}
+.v-learning {
+  padding: 10px 0;
+  border: solid 1px #707070;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+  h1 {
+    font-family: recoAltMedium;
+    color: #57585a;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    @media screen and (max-width: 620px) {
+      margin-top: 30px;
+    }
+  }
+  p {
+    color: #57585a;
   }
 }

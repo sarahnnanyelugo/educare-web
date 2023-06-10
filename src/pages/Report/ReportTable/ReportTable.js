@@ -35,8 +35,8 @@ function ReportTable() {
           </button>{" "}
         </div>{" "}
         <div className="flexy  flexyM">
-          <div className="bid-ball-rad col-md-4" />
-          <div className="panels col-md-4 offset-md-4">
+          <div className="bid-ball-rad col-md-4 col-4" />
+          <div className="panels col-md-4 offset-md-4 col-8">
             <div className="col-md-10">
               {" "}
               <div className={`panel ${checkActive(1, "active2")}`}>

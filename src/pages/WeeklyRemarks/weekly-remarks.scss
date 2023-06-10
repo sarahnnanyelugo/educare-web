@@ -6,10 +6,10 @@
 }
 .weeky-intro {
   padding: 70px 0;
-  background: url("../../assets/images/curly-bg2.png");
+  background: url("../../assets/images/curly-bg2.svg");
   background-repeat: no-repeat;
-  // background-size
-  margin-top: -1px;
+  background-size: cover;
+  height: 700px;
 }
 .remark-intro-div {
   h1 {
