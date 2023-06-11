@@ -186,12 +186,18 @@ function NavBar() {
         <ul className=" list-inline list-unstyled nav-links-container web-nav">
           <li className="list-inline-item web-nav">
             <NavLink to={"/finance-overview"} activeClassName="active">
-              <button className="nav-links"> Solutions</button>
+              <button className="nav-links">
+                {" "}
+                Solutions <i class="icofont-curved-down"></i>
+              </button>
             </NavLink>
           </li>{" "}
           <li className="list-inline-item web-nav">
             <NavLink to={"/resources"} activeClassName="active">
-              <button className="nav-links"> Resourcess</button>
+              <button className="nav-links">
+                {" "}
+                Resourcess <i class="icofont-curved-down"></i>
+              </button>
             </NavLink>
           </li>{" "}
           <li className="list-inline-item web-nav">
@@ -250,7 +256,11 @@ function NavBar() {
                   <span style={{ color: themeSet }}>
                     <i class="icofont-help-robot"></i>
                   </span>
-                  Solutions
+                  Solutions{" "}
+                  <span>
+                    {" "}
+                    <i class="icofont-curved-down"></i>
+                  </span>
                 </button>
               </NavLink>
               <NavLink to={""} className="menu-navs">
@@ -268,7 +278,7 @@ function NavBar() {
                   <span style={{ color: themeSet }}>
                     <i class="icofont-package"></i>
                   </span>
-                  Resources
+                  Resources <i class="icofont-curved-down"></i>
                 </button>{" "}
               </NavLink>
               <NavLink to={""} className="menu-navs">

@@ -23,7 +23,10 @@ export const NavTwo = (props) => {
         <ul className="list-unstyled list-inline">
           <li className="list-inline-item">
             <NavLink to={"/features"} activeClassName="active">
-              <button className="top-nav-links"> Features</button>
+              <button className="top-nav-links">
+                {" "}
+                Features <i class="icofont-curved-down"></i>
+              </button>
             </NavLink>
           </li>
           <li className="list-inline-item">
@@ -33,7 +36,10 @@ export const NavTwo = (props) => {
           </li>
           <li className="list-inline-item">
             <NavLink to={"/resources"} activeClassName="active">
-              <button className="top-nav-links"> Resources</button>
+              <button className="top-nav-links">
+                {" "}
+                Resources <i class="icofont-curved-down"></i>
+              </button>
             </NavLink>
           </li>
         </ul>
