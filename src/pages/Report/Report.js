@@ -5,6 +5,10 @@ import CountUp from "react-countup";
 import Icon1 from "../../assets/images/reportsicon.png";
 import Icon2 from "../../assets/images/reportsicon2.png";
 import Icon3 from "../../assets/images/reportsicon3.png";
+import Dot1 from "../../assets/images/dot1.svg";
+import Dot2 from "../../assets/images/dot2.svg";
+import Dot3 from "../../assets/images/dot3.svg";
+import Dot4 from "../../assets/images/dot4.svg";
 import Player1 from "../../assets/images/reportslottie.json";
 import Lottie from "react-lottie-player";
 import "./report.scss";
@@ -23,13 +27,17 @@ function Report() {
       <div className="report-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-6 mtt  no-m">
-            <h1>Never Miss an Important Date</h1>
-            <p className="col-md-10">
+            <img className="offset-md-8" src={Dot1} alt="Scholar" />
+            <h1>Get more done in less time!</h1>
+            <p className="col-md-10 flexy flexyM">
+              <img className="" src={Dot2} alt="Scholar" />
               Say goodbye to messy paper schedules and hello to easy time
               management with our time table software module. With customizable
               schedules, syncing across all devices, and collaboration features,
               managing your time has never been easier.
             </p>
+            <img className="offset-md-9 mt5" src={Dot3} alt="Scholar" />
+            <img className="offset-md-3 mt7" src={Dot4} alt="Scholar" />
           </div>
           <div className="col-md-6 formmy-dive">
             {" "}
