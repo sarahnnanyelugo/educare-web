@@ -26,16 +26,16 @@ function Report() {
       </div>
       <div className="report-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
-          <img
-            className=""
-            src={Dot2}
-            alt="Scholar"
-            style={{ marginRight: "5px" }}
-          />
           <div className="col-md-6 mtt  no-m">
             <img className="offset-md-8" src={Dot1} alt="Scholar" />
             <h1>Get more done in less time!</h1>
             <p className="col-md-10 flexy flexyM">
+              <img
+                className=""
+                src={Dot2}
+                alt="Scholar"
+                style={{ marginLeft: "-5px" }}
+              />
               Say goodbye to messy paper schedules and hello to easy time
               management with our time table software module. With customizable
               schedules, syncing across all devices, and collaboration features,
