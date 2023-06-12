@@ -26,7 +26,7 @@ function Calendar() {
             </p>
             <button className="demo">Request for demo</button>
           </div>
-          <div className="col-md-4 offset-md-2">
+          <div className="col-md-4 offset-md-2 form-divvv">
             {" "}
             <Form bg="#0098DA" text="Get started" body="transparent" />
           </div>
@@ -203,6 +203,22 @@ function Calendar() {
           {""} for complete details
         </p>
       </center>
+      <div className="col-md-12 prefooterCal">
+        <div className="col-md-10 offset-md-1 prefooterCal-inner">
+          <center>
+            <div className="col-md-7">
+              <h2>
+                Stay on top of your schedule with our intuitive calendar
+                software
+              </h2>
+              <center>
+                <button className="started">Get started</button>
+                <button className="demo">Request for demo</button>
+              </center>
+            </div>
+          </center>
+        </div>
+      </div>
     </>
   );
 }
