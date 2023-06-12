@@ -12,6 +12,10 @@ import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
 import { Link } from "react-router-dom";
+import Shield from "../../assets/images/security.json";
+import Quote1 from "../../assets/images/lottieq1.json";
+import Quote2 from "../../assets/images/quote2.json";
+import Lottie from "react-lottie-player";
 
 function EClassroomPage() {
   return (
@@ -115,10 +119,68 @@ function EClassroomPage() {
       </div>
       <div className="col-md-10 offset-md-1  privacy-container">
         {" "}
-        <EducarePrivacy
+        {/* <EducarePrivacy
           heading="Enjoy secure virtual learning with educare’s Privacy and Protection"
           paragraph="educare ensures data privacy by implementing advanced security measures, including encryption and secure communication channels. We have no access to your data, and strict policies are in place to keep your data under your control. Trust us to keep your data safe and secure"
-        />
+        /> */}
+        <div className="col-md-12 flexy mt">
+          <div className="col-md-2 offset-md-1">
+            <Lottie
+              loop
+              animationData={Shield}
+              play
+              style={{ width: 366, height: 366, marginTop: "-110px" }}
+            />
+          </div>
+          <div className="col-md-6 offset-md-2">
+            <h2 style={{ fontFamily: "rebondG-Medium" }}>
+              Enjoy secure virtual learning with educare’s Privacy and
+              Protection
+            </h2>
+            <div className="col-md-12">
+              {" "}
+              <p>
+                educare ensures data privacy by implementing advanced security
+                measures, including encryption and secure communication
+                channels. We have no access to your data, and strict policies
+                are in place to keep your data under your control. Trust us to
+                keep your data safe and secure
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-12 empty-cream" />
+      <div className="col-md-12 trial-sign-up">
+        <center>
+          {" "}
+          <button>Sign up for a free trial today</button>
+        </center>
+      </div>
+      <div className="flexy lotie-quotes">
+        <div className="col-md-2 offset-md-1">
+          <div className="col-md-10">
+            <Lottie loop animationData={Quote1} play />
+          </div>
+        </div>
+
+        <div className="col-md-5">
+          <div className="col-md-12">
+            <center>
+              {" "}
+              <h3>
+                “This is a very useful meeting tools, as we use educare to
+                conduct classes even during the COVID pandemic, it was an easy
+                choice to use educare eclassroom. “
+              </h3>
+            </center>
+          </div>
+        </div>
+        <div className="col-md-2 offset-md-1" style={{ marginLeft: "40px" }}>
+          <div className="col-md-10">
+            <Lottie loop animationData={Quote2} play className="lquote" />
+          </div>
+        </div>
       </div>
       <center>
         <h1>Our simple prices made for you </h1>
@@ -140,8 +202,16 @@ function EClassroomPage() {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div className="offset-md-5">
-              <Badge btnBg="#fd97b6" btnColor="#CE456D" />
+            <div
+              className="offset-md-4 offset-5"
+              style={{ marginBottom: "-10px" }}
+            >
+              <Heading
+                bg="#FFD5EB"
+                color="#CC006E"
+                boda="solid 1px #FFD5EB"
+                text="Recommended"
+              />
             </div>
             <div className="col-md-11">
               <SimplePrices
@@ -193,7 +263,7 @@ function EClassroomPage() {
           {""} for complete details
         </p>
       </center>
-      <div className="col-md-10 offset-md-1 tools-management">
+      {/* <div className="col-md-10 offset-md-1 tools-management">
         <center>
           <div className="col-md-8">
             <h2>We’ve got the tools you need</h2>
@@ -206,7 +276,7 @@ function EClassroomPage() {
 
           <button>Sign up for a free trial today</button>
         </center>
-      </div>
+      </div> */}
     </>
   );
 }
