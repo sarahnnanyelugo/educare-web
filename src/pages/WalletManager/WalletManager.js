@@ -29,7 +29,8 @@ function WalletManager() {
       </div>
       <div className="col-md-12 wallet-div">
         <img className="offset-md-9" src={Dot1} alt="Scholar" />
-        <div className="col-md-12 flexy">
+        <div className="col-md-12 ">
+          <img className="offset-md-2" src={Dot4} alt="Scholar" />
           <center>
             <div className="col-md-7">
               <h1>
