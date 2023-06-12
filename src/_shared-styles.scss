@@ -45,7 +45,7 @@
 }
 .no-m {
   @media screen and (max-width: 620px) {
-    margin: 0;
+    margin: 0 !important;
   }
 }
 .features-link {

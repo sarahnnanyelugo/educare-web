@@ -30,24 +30,34 @@ function WalletManager() {
       <div className="col-md-12 wallet-div">
         <img className="offset-md-9" src={Dot1} alt="Scholar" />
         <div className="col-md-12 ">
-          <img className="offset-md-2" src={Dot4} alt="Scholar" />
+          {/* <img className="offset-md-2" src={Dot4} alt="Scholar" /> */}
           <center>
             <div className="col-md-7">
-              <h1>
+              <h1 className="col-md-9">
                 Take control of your finances with our powerful wallet manager
                 software
               </h1>
-              <p className="col-md-9">
-                Experience hassle-free money management with our user-friendly
-                wallet manager to track your expenses, set budgets, and reach
-                your financial goals like never before.
-              </p>
+              <div className="flexy flexyM">
+                <img className="" src={Dot4} alt="Scholar" />
+                <p className="col-md-9 no-m" style={{ marginLeft: "80px" }}>
+                  Experience hassle-free money management with our user-friendly
+                  wallet manager to track your expenses, set budgets, and reach
+                  your financial goals like never before.
+                </p>
+              </div>
+
               <center>
                 <button className="started">Get started</button>
                 <button className="demo">Request for demo</button>
               </center>
             </div>
           </center>
+          <img
+            className="offset-md-11 no-m offset-5"
+            src={Dot3}
+            alt="Scholar"
+            style={{ marginTop: "-360px" }}
+          />
         </div>
         <div className="col-md-12 mt5">
           <img className="" src={Dot2} alt="Scholar" />
