@@ -115,6 +115,12 @@ function NavBar() {
         setTheme2("#E0F3ED");
 
         break;
+        break;
+      case "/wallet-manager":
+        setTheme("#11A377");
+        setTheme2("#D9F0E9");
+
+        break;
     }
     // localStorage.setItem("globalTheme", themeSet);
   }

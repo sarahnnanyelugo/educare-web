@@ -5,16 +5,16 @@
   padding: 10px 30px;
   border: solid 1px #a1a4aa;
   border-radius: 10px;
-  height: 279px;
+  // height: 269px;
   background: #fff;
   @media screen and (max-width: 620px) {
     margin-top: 40px;
   }
-  h1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .price-tag {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-family: recoAltMedium;
-    font-size: 44px !important;
+    font-size: 33px !important;
   }
   button {
     color: #fff;
@@ -26,7 +26,7 @@
     font-family: rebondG;
     // background: #ed2f59;
     width: 100%;
-    bottom: 10px;
+    // bottom: 5px;
     &:hover {
       background: #9d0e2d;
       transition: 0.5s ease;
@@ -37,9 +37,10 @@
   }
   p {
     line-height: 10px;
+    font-size: 14px;
   }
   span {
-    font-size: 30px;
+    // font-size: 30px;
   }
 }
 .recommended {
@@ -60,7 +61,9 @@
 .recommendedT {
   border: solid 2px #4a13b2 !important;
 }
-
+.recommendedWallet {
+  border: solid 2px #11a377 !important;
+}
 .recommended-container {
   margin-top: -35px !important;
   @media screen and (max-width: 620px) {

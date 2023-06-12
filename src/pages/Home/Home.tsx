@@ -376,7 +376,7 @@ export const Home = () => {
                   productName="Wallet Manager"
                   productDetail="Take control of your finances with our intuitive wallet manager module."
                   productIcon={Wallet}
-                  url={"./"}
+                  url={"./wallet-manager"}
                 />
               </div>{" "}
               <div className="col-md-12 bt pd">

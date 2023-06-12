@@ -29,6 +29,7 @@ import WeeklyRemarks from "./pages/WeeklyRemarks/WeeklyRemarks";
 import CBT from "./pages/CBT/CBT";
 import Calendar from "./pages/Calendar/Calendar";
 import Report from "./pages/Report/Report";
+import WalletManager from "./pages/WalletManager/WalletManager";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -90,6 +91,7 @@ function App() {
         <Route path="cbt" element={<CBT />} />
         <Route path="calendar" element={<Calendar />} />
         <Route path="report" element={<Report />} />
+        <Route path="wallet-manager" element={<WalletManager />} />
       </Routes>
       <Footer />
       <div

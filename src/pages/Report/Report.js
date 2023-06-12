@@ -34,7 +34,7 @@ function Report() {
                 className=""
                 src={Dot2}
                 alt="Scholar"
-                style={{ marginLeft: "-5px" }}
+                style={{ marginLeft: "-qa5px" }}
               />
               Say goodbye to messy paper schedules and hello to easy time
               management with our time table software module. With customizable

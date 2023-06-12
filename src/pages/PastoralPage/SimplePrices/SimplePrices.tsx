@@ -20,13 +20,13 @@ function SimplePrices(props: SimplePricesProps, active: any) {
   const { btnBg } = props;
   return (
     <div className={`col-md-12 simple-prices ${props.cls}`}>
-      <h2>{props.package}</h2>
+      <h3>{props.package}</h3>
       <div style={{ height: "135px" }}>
-        <h1>
+        <h2 className="price-tag">
           {" "}
           <span>{props.currency}</span>
           {props.amount}
-        </h1>
+        </h2>
         <p>{props.paragraph}</p>
         <p>
           <strong>{props.currency}</strong>
