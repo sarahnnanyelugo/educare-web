@@ -31,6 +31,7 @@ import Calendar from "./pages/Calendar/Calendar";
 import Report from "./pages/Report/Report";
 import WalletManager from "./pages/WalletManager/WalletManager";
 import AdmissionPage from "./pages/AdmissionPage/AdmissionPage";
+import FacilityManager from "./pages/FacilityManager/FacilityManager";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -94,6 +95,7 @@ function App() {
         <Route path="report" element={<Report />} />
         <Route path="wallet-manager" element={<WalletManager />} />
         <Route path="admission" element={<AdmissionPage />} />
+        <Route path="facility-manager" element={<FacilityManager />} />
       </Routes>
       <Footer />
       <div

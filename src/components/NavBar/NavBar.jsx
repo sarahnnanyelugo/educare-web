@@ -115,10 +115,15 @@ function NavBar() {
         setTheme2("#E0F3ED");
 
         break;
-        break;
+
       case "/wallet-manager":
         setTheme("#11A377");
         setTheme2("#D9F0E9");
+
+        break;
+      case "/facility-manager":
+        setTheme("#0B2FF7");
+        setTheme2("#FEF5F7");
 
         break;
     }

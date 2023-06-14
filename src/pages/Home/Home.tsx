@@ -332,7 +332,7 @@ export const Home = () => {
                   productName="Facility Management"
                   productDetail="Efficiently manage your facilities with our innovative software module."
                   productIcon={People}
-                  url={"./"}
+                  url={"./facility-manager"}
                 />
               </div>
               <div className="col-md-12 flexy flexyM  ">

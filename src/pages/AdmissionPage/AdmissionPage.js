@@ -48,6 +48,7 @@ function AdmissionPage() {
               className="col-md-12 dashboard1"
               src={Dashboard1}
               alt="Scholar"
+              width="100%"
             />
             <center>
               <div className="flexy">
@@ -80,7 +81,7 @@ function AdmissionPage() {
             </center>
           </div>
         </center>
-        <div className="flexy col-md-6 offset-md-3 mt5">
+        <div className="flexy col-md-6 offset-md-3 mt5 no-m">
           {" "}
           <div className="col-md-6">
             <div className="col-md-11  steps">
@@ -136,7 +137,12 @@ function AdmissionPage() {
           </div>
           <div className="col-md-6 offset-md-1">
             {" "}
-            <img className="col-md-12" src={Dashboard2} alt="Scholar" />
+            <img
+              className="col-md-12"
+              src={Dashboard2}
+              alt="Scholar"
+              width="100%"
+            />
           </div>
         </div>
       </div>{" "}
@@ -158,7 +164,12 @@ function AdmissionPage() {
           {" "}
           <div className="col-md-6 mt6">
             {" "}
-            <img className="col-md-12" src={Dashboard3} alt="Scholar" />
+            <img
+              className="col-md-12"
+              src={Dashboard3}
+              alt="Scholar"
+              width="100%"
+            />
           </div>
           <div className="col-md-5  offset-md-1">
             <h4>Scoring or Rating of Applicants</h4>
@@ -219,7 +230,12 @@ function AdmissionPage() {
           </div>
           <div className="col-md-6 offset-md-1">
             {" "}
-            <img className="col-md-12" src={Dashboard6} alt="Scholar" />
+            <img
+              className="col-md-12"
+              src={Dashboard6}
+              alt="Scholar"
+              width="100%"
+            />
           </div>
         </div>
       </div>{" "}
@@ -239,7 +255,12 @@ function AdmissionPage() {
           {" "}
           <div className="col-md-6 mt6">
             {" "}
-            <img className="col-md-12" src={Dashboard4} alt="Scholar" />
+            <img
+              className="col-md-12"
+              src={Dashboard4}
+              alt="Scholar"
+              width="100%"
+            />
           </div>
           <div className="col-md-5  offset-md-1">
             <h4>Centralized Platform for Decision-making</h4>
@@ -294,7 +315,12 @@ function AdmissionPage() {
           </div>
           <div className="col-md-6 offset-md-1">
             {" "}
-            <img className="col-md-12" src={Dashboard5} alt="Scholar" />
+            <img
+              className="col-md-12"
+              src={Dashboard5}
+              alt="Scholar"
+              width="100%"
+            />
           </div>
         </div>
       </div>{" "}
