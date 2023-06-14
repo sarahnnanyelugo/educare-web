@@ -384,7 +384,7 @@ export const Home = () => {
                   productName="Students Admission"
                   productDetail="Transform your admissions process with our streamlined software module."
                   productIcon={Student}
-                  url={"./"}
+                  url={"./admission"}
                 />
               </div>{" "}
               <div className="col-md-12 bt pd">
