@@ -7,6 +7,9 @@
     rgba(254, 245, 247, 1) 58%,
     rgba(255, 255, 255, 1) 100%
   );
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .facility-div {
   background: #fcdce348;

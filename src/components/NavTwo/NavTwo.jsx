@@ -5,7 +5,7 @@ import Logo from "../../assets/images/logo2.png";
 
 export const NavTwo = (props) => {
   return (
-    <div className="col-md-12 ">
+    <div className="col-md-12 sticky-top">
       <div className="col-md-10 offset-md-1 top-nav-container ">
         {props.headerIcon ? (
           <img
