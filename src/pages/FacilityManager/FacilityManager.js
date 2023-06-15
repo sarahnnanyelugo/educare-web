@@ -5,6 +5,12 @@ import "./facility-manager.scss";
 import Fac1 from "../../assets/images/fac1.svg";
 import Fac2 from "../../assets/images/fac2.svg";
 import Fac3 from "../../assets/images/facility_dash1.png";
+import Fac4 from "../../assets/images/fac-img2.png";
+import Fac5 from "../../assets/images/fac-img3.png";
+import Fac6 from "../../assets/images/fac-img4.png";
+import Player1 from "../../assets/images/settings-lottie.json";
+import Lottie from "react-lottie-player";
+import Tick from "../../assets/images/fac-tick.png";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
@@ -77,32 +83,39 @@ function FacilityManager() {
               </p>
             </div>
           </div>
+          <div className="col-md-6">
+            <img className="col-md-" src={Fac4} alt="Scholar" width="100%" />
+          </div>
         </div>
       </div>
       <div className="col-md-10 offset-md-1 asset-management2 mtt">
         <center>
-          <h1>Asset Management</h1>
+          <h1>Maintenance and Repair</h1>
         </center>
         <div className="flexy">
-          <div className="col-md-6">&nbsp;</div>
-          <div className="col-md-6 ">
+          <div className="col-md-6 mt7">
+            {" "}
+            <img className="col-md-12" src={Fac5} alt="Scholar" />
+          </div>
+          <div className="col-md-5 offset-md-1 mt4">
             <div className="col-md-10">
-              <h4>Centralized asset database</h4>
+              <h4>Work order management</h4>
               <p>
-                A module allows for the creation of a centralized repository to
-                manage and track all facility assets, including equipment,
-                furniture, and infrastructure.
+                We help streamline the process of creating, assigning, and
+                tracking work orders for maintenance, repairs, or service
+                requests.
               </p>
-              <h4>Preventive maintenance</h4>
+              <h4>Asset maintenance history</h4>
               <p>
-                The module enables the scheduling and management of preventive
-                maintenance tasks to minimize downtime and extend asset
-                lifespan.
+                It maintains a detailed record of maintenance activities
+                performed on assets, facilitating historical analysis and
+                informed decision-making.
               </p>
-              <h4>Asset lifecycle management</h4>
+              <h4>Labourers management</h4>
               <p>
-                It facilitates monitoring asset conditions, tracking maintenance
-                schedules, and managing repair and replacement processes.
+                The management of contracts, service agreements, and performance
+                tracking to ensure efficient and quality service delivery can be
+                enabled on the educare facility management module.
               </p>
             </div>
           </div>
@@ -112,7 +125,7 @@ function FacilityManager() {
         <center>
           <h1>Asset Management</h1>
         </center>
-        <div className="flexy">
+        <div className="flexy mt7">
           <div className="col-md-6">
             <div className="col-md-10">
               <h4>Preventive maintenance</h4>
@@ -128,6 +141,54 @@ function FacilityManager() {
               </p>
             </div>
           </div>
+          <div className="col-md-6 ">
+            <img className="col-md-12" src={Fac6} alt="Scholar" />
+          </div>
+        </div>
+      </div>
+      <center>
+        <div className="col-md-6 mt">
+          <h2>Efficiently Manage Your Facilities with Ease</h2>
+          <p>
+            We understand how managing facility can be like and that is why we
+            are here to cater to all your facility management needs without
+            worry
+          </p>
+        </div>
+      </center>
+      <div className="col-md-8 offset-md-2 flexy fac-settings mt7">
+        <div className="col-md-4">
+          {" "}
+          <Lottie loop animationData={Player1} play className="lottieee" />
+        </div>
+        <div className="offset-md-2 col-md-6">
+          <ul className="list-unstyled mt4">
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Efficient operations and streamlined processes
+            </li>{" "}
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Cost savings through optimized resource allocation
+            </li>{" "}
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Increased productivity and employee satisfaction
+            </li>{" "}
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Ensures regulatory compliance
+            </li>{" "}
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Data-driven decision-making and insights
+            </li>
+          </ul>
         </div>
       </div>
       <div className="col-md-12 admin-simple-prices">

@@ -72,28 +72,36 @@
   }
 }
 .asset-management {
-  padding: 80px 70px;
+  padding: 40px 40px 20px 40px;
   border-radius: 20px;
-  background: #3452f8;
+  background: #051b96;
   margin-bottom: 100px;
   color: #fff;
   @media screen and (max-width: 620px) {
     padding: 10px 5px;
   }
   h4 {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 .asset-management2 {
-  padding: 60px 0px;
+  padding: 40px 0px;
 
   margin-bottom: 100px;
   @media screen and (max-width: 620px) {
     padding: 10px 5px;
   }
   h4 {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+.fac-settings {
+  ul li {
+    line-height: 60px;
+  }
+  img {
+    margin-right: 30px;
   }
 }
