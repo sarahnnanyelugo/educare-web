@@ -6,6 +6,8 @@ import "./_navbar.scss";
 import { useLocation } from "react-router-dom";
 import Icofont from "react-icofont";
 import { MenuTab } from "./MenuTab/MenuTab";
+import { MobileDrop } from "./MobileDrop/Mobile-drop";
+import Accordion from "react-bootstrap/Accordion";
 
 function NavBar() {
   const prevUrlRef = useRef(null);
@@ -326,47 +328,85 @@ function NavBar() {
         <div className="phone ">
           <div className="menu" style={{ background: themeSet }}>
             <div class="list-group options">
-              <NavLink to={""} className="menu-navs">
+              <div className="mobile-drop-container">
                 {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action "
-                  aria-current="true"
-                  style={{ background: themeSet2 }}
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-                  <span style={{ color: themeSet }}>
-                    <i class="icofont-help-robot"></i>
-                  </span>
-                  Solutions{" "}
-                  <span>
-                    {" "}
-                    <i class="icofont-curved-down"></i>
-                  </span>
-                </button>
-              </NavLink>
-              <NavLink to={""} className="menu-navs">
-                {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action"
-                  style={{ background: themeSet2 }}
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-                  <span style={{ color: themeSet }}>
-                    <i class="icofont-package"></i>
-                  </span>
-                  Resources <i class="icofont-curved-down"></i>
-                </button>{" "}
-              </NavLink>
+                <Accordion defaultActiveKey="">
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header
+                      style={{ background: themeSet2 }}
+                      className="menu-navs"
+                    >
+                      <button
+                        type="button"
+                        className="list-group-item list-group-item-action m-accord"
+                        style={{ background: themeSet2 }}
+                      >
+                        {" "}
+                        <span style={{ color: themeSet }}>
+                          <i class="icofont-help-robot"></i>
+                        </span>
+                        Solutions
+                      </button>
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <div className="col-md-12 ">
+                        <MenuTab />
+                      </div>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+              <Accordion defaultActiveKey="">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header
+                    style={{ background: themeSet2 }}
+                    className="menu-navs"
+                  >
+                    <button
+                      type="button"
+                      className="list-group-item list-group-item-action m-accord"
+                      style={{ background: themeSet2 }}
+                    >
+                      {" "}
+                      <span style={{ color: themeSet }}>
+                        <i class="icofont-package"></i>
+                      </span>
+                      Resources
+                    </button>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <ul class="list-unstyled">
+                      <li>
+                        <NavLink
+                          to={"/help"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                        >
+                          Help center
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to={"/api"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                        >
+                          API Docs
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to={"/blog"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                        >
+                          Blog
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
               <NavLink to={""} className="menu-navs">
                 {" "}
                 <button
@@ -386,22 +426,57 @@ function NavBar() {
                 </button>
               </NavLink>
               <NavLink to={"/contact-us"} className="menu-navs">
-                {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action"
-                  style={{ background: themeSet2 }}
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-                  <span style={{ color: themeSet }}>
-                    <i class="icofont-phone"></i>
-                  </span>
-                  Contact us
-                </button>
+                <Accordion defaultActiveKey="">
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header
+                      style={{ background: themeSet2 }}
+                      className="menu-navs"
+                    >
+                      <button
+                        type="button"
+                        className="list-group-item list-group-item-action m-accord"
+                        style={{ background: themeSet2 }}
+                      >
+                        {" "}
+                        <span style={{ color: themeSet }}>
+                          <i class="icofont-phone"></i>
+                        </span>
+                        Company
+                      </button>
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <ul class="list-unstyled">
+                        <li>
+                          <NavLink
+                            to={"/about-us"}
+                            className="menu-links list-group-item list-group-item-action"
+                            type="button"
+                          >
+                            About Us
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to={"/contact-us"}
+                            className="menu-links list-group-item list-group-item-action"
+                            type="button"
+                          >
+                            Contact Us
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to={"/careers"}
+                            className="menu-links list-group-item list-group-item-action"
+                            type="button"
+                          >
+                            Careers
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
               </NavLink>
               <NavLink to={"/login"} className="menu-navs">
                 {" "}

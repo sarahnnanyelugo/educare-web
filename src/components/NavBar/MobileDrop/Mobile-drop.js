@@ -1,29 +1,25 @@
 import React, { useState } from "react";
-import "./compare-features.scss";
+import "./mobile-drop.scss";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
-import FeaturesTable from "./FeaturesTable/FeaturesTable";
-import {
-  allTransactions,
-  accountCredits,
-  moneySpent,
-  withdrawal,
-  refund,
-  regularPayments,
-} from "../../../TestData";
-export const CompareFeatures = () => {
+
+export const MobileDrop = () => {
   return (
-    <div className="compare-features-container">
+    <div className="mobile-drop-container">
       {" "}
       <Accordion defaultActiveKey="">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <p>Compare all features</p>
+            <p>Solutions</p>
           </Accordion.Header>
           <Accordion.Body>
             <div className="col-md-10 offset-md-1">
               {" "}
-              <FeaturesTable data={accountCredits} tableTitle="Transactions" />
+              <p>
+                ur Onboarding Experts have extensive experience working with
+                numerous businesses worldwide. They are available to assist you
+                with setting up your dashboard
+              </p>
             </div>
           </Accordion.Body>
         </Accordion.Item>

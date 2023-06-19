@@ -70,74 +70,96 @@ export const MenuTab = () => {
             <Col sm={10} className="tab-content">
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <div className="col-md-12 flexy">
-                    <div className="col-md-2">
-                      {columeOne.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeTwo.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeThree.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeFour.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeFive.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
+                  <div className="col-md-12 flexy ">
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeOne.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                      <div className="col-md-6 col-6">
+                        {columeTwo.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                    </div>
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeThree.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                      <div className="col-md-6 col-6">
+                        {columeFour.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                    </div>
+
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeFive.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                   <div className="col-md-12 flexy">
-                    <div className="col-md-2">
-                      {columeSix.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeSeven.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
+                    <div className="col-md-4 flexy flexyM">
+                      <div className="col-md-6 col-6">
+                        {columeSix.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                      <div className="col-md-6 col-6">
+                        {columeSeven.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                    </div>
                   </div>
                 </Tab.Pane>{" "}
                 <Tab.Pane eventKey="third">
-                  <div className="col-md-12 flexy">
-                    <div className="col-md-2">
-                      {columeOne.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeTwo.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeThree.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeFour.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
-                    </div>{" "}
-                    <div className="col-md-2">
-                      {columeFive.map((data, index) => (
-                        <MenuLink data={data} />
-                      ))}
+                  <div className="col-md-12 flexy ">
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeOne.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                      <div className="col-md-6 col-6">
+                        {columeTwo.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                    </div>
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeThree.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                      <div className="col-md-6 col-6">
+                        {columeFour.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>{" "}
+                    </div>
+
+                    <div className="col-md-4 flexy flexyM">
+                      {" "}
+                      <div className="col-md-6 col-6">
+                        {columeFive.map((data, index) => (
+                          <MenuLink data={data} />
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </Tab.Pane>

@@ -55,4 +55,7 @@
   padding: 10px;
   padding-left: 30px;
   color: #000;
+  @media screen and (max-width: 620px) {
+    padding: 0;
+  }
 }
