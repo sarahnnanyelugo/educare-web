@@ -10,12 +10,7 @@
     background: none !important;
     // padding-bottom: 80px;
   }
-  p {
-    font-size: 16px;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: rebondG-Semi-Bold;
-  }
+
   .accordion-body {
   }
   .accordion-button:not(.collapsed) {
@@ -35,7 +30,8 @@
   .accordion-button {
     font-family: brother-regular;
 
-    padding: 15px 5px 15px 0px !important;
+    padding-left: 15px !important;
+    padding: 0 !important;
   }
   .accordion-button::after {
     background-image: none !important;
@@ -54,4 +50,7 @@
     box-shadow: none !important;
     border: none !important;
   }
+}
+.accordion {
+  background: none !important;
 }

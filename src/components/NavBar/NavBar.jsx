@@ -328,34 +328,31 @@ function NavBar() {
         <div className="phone ">
           <div className="menu" style={{ background: themeSet }}>
             <div class="list-group options">
-              <div className="mobile-drop-container">
-                {" "}
-                <Accordion defaultActiveKey="">
-                  <Accordion.Item eventKey="0">
-                    <Accordion.Header
+              <Accordion defaultActiveKey="">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header
+                    style={{ background: themeSet2 }}
+                    className="menu-navs"
+                  >
+                    <button
+                      type="button"
+                      className="list-group-item list-group-item-action m-accord"
                       style={{ background: themeSet2 }}
-                      className="menu-navs"
                     >
-                      <button
-                        type="button"
-                        className="list-group-item list-group-item-action m-accord"
-                        style={{ background: themeSet2 }}
-                      >
-                        {" "}
-                        <span style={{ color: themeSet }}>
-                          <i class="icofont-help-robot"></i>
-                        </span>
-                        Solutions
-                      </button>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <div className="col-md-12 ">
-                        <MenuTab />
-                      </div>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </div>
+                      {" "}
+                      <span style={{ color: themeSet }}>
+                        <i class="icofont-help-robot"></i>
+                      </span>
+                      Solutions
+                    </button>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <div className="col-md-12 ">
+                      <MenuTab />
+                    </div>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
               <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header
@@ -381,6 +378,11 @@ function NavBar() {
                           to={"/help"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
                         >
                           Help center
                         </NavLink>
@@ -390,6 +392,11 @@ function NavBar() {
                           to={"/api"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
                         >
                           API Docs
                         </NavLink>
@@ -399,6 +406,11 @@ function NavBar() {
                           to={"/blog"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
                         >
                           Blog
                         </NavLink>
@@ -425,60 +437,73 @@ function NavBar() {
                   Support
                 </button>
               </NavLink>
-              <NavLink to={"/contact-us"} className="menu-navs">
-                <Accordion defaultActiveKey="">
-                  <Accordion.Item eventKey="0">
-                    <Accordion.Header
+              <Accordion defaultActiveKey="">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header
+                    style={{ background: themeSet2 }}
+                    className="menu-navs"
+                  >
+                    <button
+                      type="button"
+                      className="list-group-item list-group-item-action m-accord"
                       style={{ background: themeSet2 }}
-                      className="menu-navs"
                     >
-                      <button
-                        type="button"
-                        className="list-group-item list-group-item-action m-accord"
-                        style={{ background: themeSet2 }}
-                      >
-                        {" "}
-                        <span style={{ color: themeSet }}>
-                          <i class="icofont-phone"></i>
-                        </span>
-                        Company
-                      </button>
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <ul class="list-unstyled">
-                        <li>
-                          <NavLink
-                            to={"/about-us"}
-                            className="menu-links list-group-item list-group-item-action"
-                            type="button"
-                          >
-                            About Us
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to={"/contact-us"}
-                            className="menu-links list-group-item list-group-item-action"
-                            type="button"
-                          >
-                            Contact Us
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to={"/careers"}
-                            className="menu-links list-group-item list-group-item-action"
-                            type="button"
-                          >
-                            Careers
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </NavLink>
-              <NavLink to={"/login"} className="menu-navs">
+                      {" "}
+                      <span style={{ color: themeSet }}>
+                        <i class="icofont-phone"></i>
+                      </span>
+                      Company
+                    </button>
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <ul class="list-unstyled">
+                      <li>
+                        <NavLink
+                          to={"/about-us"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
+                        >
+                          About Us
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to={"/contact-us"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
+                        >
+                          Contact Us
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to={"/careers"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
+                        >
+                          Careers
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+              <NavLink to={"/login"} className="menu-navs spaze">
                 {" "}
                 <button
                   type="button"

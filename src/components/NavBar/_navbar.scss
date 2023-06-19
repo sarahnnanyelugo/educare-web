@@ -106,7 +106,22 @@
 
     width: 100%;
   }
-
+  .accordion-button {
+    font-family: brother-regular;
+    background: none !important;
+    padding-left: 15px !important;
+    padding: 0 !important;
+    padding-top: 20px;
+  }
+  .accordion-body {
+    background: #fff !important;
+  }
+  .accordion-item {
+    background: none !important;
+  }
+  .spaze {
+    margin-bottom: 10 !important;
+  }
   .menu {
     align-items: center;
     background-color: #3099da;
@@ -133,6 +148,7 @@
     // position: fixed;
     right: 0%;
     z-index: 150;
+    overflow: scroll;
     opacity: 1;
   }
   .options {
@@ -198,7 +214,7 @@
 .menu-navs {
   text-decoration: none;
   font-family: recoAltMedium;
-
+  margin-bottom: 10px;
   span {
     margin-right: 20px;
   }

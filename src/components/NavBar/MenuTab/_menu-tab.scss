@@ -34,8 +34,9 @@
 }
 .tab-headerss {
   padding-left: 40px;
-  // border-right: solid 1px red !important;
-  // background: red;
+  @media screen and (max-width: 620px) {
+    padding: 0;
+  }
   .drop-down-nav {
     color: #161617 !important;
     font-family: rebondG-Semi-Bold;
