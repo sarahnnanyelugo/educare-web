@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
 import { useLocation } from "react-router-dom";
 import Icofont from "react-icofont";
+import { MenuTab } from "./MenuTab/MenuTab";
 
 function NavBar() {
   const prevUrlRef = useRef(null);
@@ -194,22 +195,66 @@ function NavBar() {
             <img className="   logo" src={Logo} alt="Scholar" width="50%" />
           </Link>
         </div>
-        <ul className=" list-inline list-unstyled nav-links-container web-nav">
+        <ul className=" list-inline list-unstyled nav-links-container web-nav hList">
           <li className="list-inline-item web-nav">
-            <NavLink to={"/finance-overview"} activeClassName="active">
-              <button className="nav-links">
-                {" "}
-                Solutions <i class="icofont-curved-down"></i>
-              </button>
-            </NavLink>
+            <a href="#click" class="menu">
+              <NavLink
+                to={"/finance-overview"}
+                activeClassName="active"
+                className="menu-title"
+              >
+                <button className="nav-links menu-title">
+                  {" "}
+                  Solutions <i class="icofont-curved-down"></i>
+                </button>
+              </NavLink>
+              <div class="menu-dropdown ">
+                <MenuTab />
+              </div>
+            </a>
           </li>{" "}
           <li className="list-inline-item web-nav">
-            <NavLink to={"/resources"} activeClassName="active">
-              <button className="nav-links">
-                {" "}
-                Resourcess <i class="icofont-curved-down"></i>
-              </button>
-            </NavLink>
+            <a href="#click" class="menu">
+              <NavLink
+                to={"/finance-overview"}
+                activeClassName="active"
+                className="menu-title"
+              >
+                <button className="nav-links menu-title">
+                  {" "}
+                  Resources <i class="icofont-curved-down"></i>
+                </button>
+              </NavLink>
+              <ul class="menu-dropdown2">
+                <li>
+                  <NavLink
+                    to={"/help"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    Help center
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to={"/api"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    API Docs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to={"/blog"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    Blog
+                  </NavLink>
+                </li>
+              </ul>
+            </a>
           </li>{" "}
           <li className="list-inline-item web-nav">
             <NavLink to={"/support"} activeClassName="active">
@@ -217,20 +262,50 @@ function NavBar() {
             </NavLink>
           </li>{" "}
           <li className="list-inline-item web-nav">
-            <NavLink to={"/contact-us"} activeClassName="active">
-              <button
-                className="nav-links"
-                style={{
-                  backgroundColor: "" + themeSet3,
-                  borderRadius: "33px",
-                }}
+            <a href="#click" class="menu">
+              <NavLink
+                to={"/finance-overview"}
+                activeClassName="active"
+                className="menu-title"
               >
-                {" "}
-                Contact us
-              </button>
-            </NavLink>
-          </li>
+                <button className="nav-links menu-title">
+                  {" "}
+                  Company <i class="icofont-curved-down"></i>
+                </button>
+              </NavLink>
+              <ul class="menu-dropdown2">
+                <li>
+                  <NavLink
+                    to={"/about-us"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    About Us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to={"/contact-us"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    Contact Us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to={"/careers"}
+                    className="menu-links list-group-item list-group-item-action"
+                    type="button"
+                  >
+                    Careers
+                  </NavLink>
+                </li>
+              </ul>
+            </a>
+          </li>{" "}
         </ul>
+
         <div className="nav-buttons web-nav">
           <Link to={"/login"}>
             <button className="sign-in-button">Log in</button>

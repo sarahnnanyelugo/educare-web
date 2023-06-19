@@ -1,0 +1,58 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.nav-pills .nav-link.active {
+  color: #0098da !important;
+
+  border-radius: 0 !important;
+  transition: 1s ease !important;
+  font-size: 13px !important;
+  // margin-left: -4px;
+  background: transparent !important;
+}
+.nav-link {
+  color: #161617 !important;
+  font-family: rebondG-Semi-Bold;
+  padding: 0px !important;
+  font-size: 14px !important;
+  padding: 5px 0px 5px 0 !important;
+  margin-top: 10px;
+  width: 100%;
+  &:hover {
+    color: #161617 !important;
+    // background: #e7e7e7;
+  }
+}
+.nav-link::after {
+  content: " \276F";
+  color: #161617;
+  font-size: 8px;
+  margin-left: 40px;
+  font-family: rebondG-Semi-Bold;
+}
+.nav-rowed {
+}
+.tab-headerss {
+  padding-left: 40px;
+  // border-right: solid 1px red !important;
+  // background: red;
+  .drop-down-nav {
+    color: #161617 !important;
+    font-family: rebondG-Semi-Bold;
+
+    padding: 0px !important;
+    font-size: 14px !important;
+    line-height: 35px !important;
+    &:hover {
+      color: #0098da !important;
+    }
+  }
+}
+
+.tab-content {
+  background: #fff;
+  // margin-left: -14px;
+  padding: 10px;
+  padding-left: 30px;
+  color: #000;
+}
