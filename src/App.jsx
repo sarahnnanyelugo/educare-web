@@ -33,6 +33,7 @@ import WalletManager from "./pages/WalletManager/WalletManager";
 import AdmissionPage from "./pages/AdmissionPage/AdmissionPage";
 import FacilityManager from "./pages/FacilityManager/FacilityManager";
 import Careers from "./pages/Careers/Careers";
+import Support from "./pages/Support/Support";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -98,6 +99,7 @@ function App() {
         <Route path="admission" element={<AdmissionPage />} />
         <Route path="facility-manager" element={<FacilityManager />} />
         <Route path="careers" element={<Careers />} />
+        <Route path="support" element={<Support />} />
       </Routes>
       <Footer />
       <div
