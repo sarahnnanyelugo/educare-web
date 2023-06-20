@@ -34,6 +34,7 @@ import AdmissionPage from "./pages/AdmissionPage/AdmissionPage";
 import FacilityManager from "./pages/FacilityManager/FacilityManager";
 import Careers from "./pages/Careers/Careers";
 import Support from "./pages/Support/Support";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -100,6 +101,7 @@ function App() {
         <Route path="facility-manager" element={<FacilityManager />} />
         <Route path="careers" element={<Careers />} />
         <Route path="support" element={<Support />} />
+        <Route path="about-us" element={<AboutUs />} />
       </Routes>
       <Footer />
       <div
