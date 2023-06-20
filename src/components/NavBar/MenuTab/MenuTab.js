@@ -17,7 +17,9 @@ import {
 } from "../../../TestData";
 
 export const MenuTab = () => {
-  let dt = {};
+  function callbackHandler() {
+    console.log("clicked!");
+  }
   return (
     <>
       <div className="col-md-12">
@@ -61,7 +63,10 @@ export const MenuTab = () => {
                   </NavLink>
                 </Nav.Item>
                 <Nav.Item>
-                  <NavLink to={"/"} className="drop-down-nav">
+                  <NavLink
+                    to={"/"}
+                    className="menu-links list-group-item list-group-item-action drop-down-nav"
+                  >
                     Partner with Us
                   </NavLink>
                 </Nav.Item>
@@ -75,7 +80,10 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeOne.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink
+                            data={data}
+                            onClick={() => callbackHandler}
+                          />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">

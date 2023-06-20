@@ -130,7 +130,6 @@ function NavBar() {
 
         break;
     }
-    // localStorage.setItem("globalTheme", themeSet);
   }
   useEffect(() => {
     SwitchTheme("#2f99da");
@@ -141,7 +140,6 @@ function NavBar() {
 
   useEffect(() => {
     const currentUrl = window.location.pathname;
-
     if (prevUrlRef.current !== currentUrl) {
       prevUrlRef.current = currentUrl;
       console.log(currentUrl);
