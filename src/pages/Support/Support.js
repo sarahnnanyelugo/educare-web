@@ -1,12 +1,14 @@
 import React from "react";
 import { Heading } from "../../components/Heading/Heading";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
+import LandingImg from "../../assets/images/support-img.jpg";
+
 import "./support.scss";
 export default function Support() {
   return (
     <>
       <div className="support-div flexy">
-        <div className="col-md-6 support-intro">
+        <div className="col-md-6 support-intro col-12">
           <Heading text="Support" bg="#CEF0FF" color="#0098DA" boda="#CEF0FF" />
           <h1>educare Support</h1>
           <p>
@@ -18,7 +20,10 @@ export default function Support() {
             your business goals and drive remarkable outcomes.
           </p>
         </div>
-        <div className="col-md-8 img-diiiv"></div>
+        <div className="col-md-8 support-img ">
+          {" "}
+          <img className="" src={LandingImg} alt="Scholar" width="100%" />
+        </div>
       </div>
       <div className="col-md-12 support-need">
         <center>

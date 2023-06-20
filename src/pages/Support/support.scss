@@ -8,6 +8,7 @@
   @media screen and (max-width: 620px) {
     padding-bottom: 40px;
     padding-top: 40px;
+    height: fit-content;
   }
   .support-intro {
     margin-top: 140px;
@@ -22,6 +23,7 @@
     margin-bottom: 100px;
     @media screen and (max-width: 620px) {
       margin: 0;
+      margin-bottom: 160px;
       padding: 30px 10px;
       border-radius: 20px;
       text-align: center;
@@ -31,10 +33,12 @@
       margin: 30px 0;
     }
   }
-  .img-diiiv {
-    background: #00bfff;
+  .support-img {
+    // background: #00bfff;
     margin-top: 50px;
-    height: 400px;
+    @media screen and (max-width: 620px) {
+      margin: -200px;
+    }
   }
 }
 .support-need {
