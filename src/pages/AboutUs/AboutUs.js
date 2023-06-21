@@ -1,5 +1,13 @@
 import React from "react";
+import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
 import "./about-us.scss";
+import Standard from "../../assets/images/standard.png";
+import Paystack from "../../assets/images/paystack.svg";
+import Microsoft from "../../assets/images/microsoft.svg";
+import Flutterwave from "../../assets/images/flutterwave.svg";
+import Apen from "../../assets/images/apen.png";
+import Aisa from "../../assets/images/aisa.svg";
+import Cobis from "../../assets/images/cobis.svg";
 function AboutUs() {
   return (
     <>
@@ -105,8 +113,26 @@ function AboutUs() {
       </div>
       <center>
         {" "}
-        <div className="col-md-9 mtt">
-          <h1>We are part of the corporate membership & partners</h1>
+        <h1 className="col-md mtt">
+          We are part of the corporate membership & partners
+        </h1>
+      </center>
+      <center>
+        {" "}
+        <div className="col-md-6  partners-container2 ">
+          {" "}
+          <center>
+            <div className="mt1 col-md-">
+              {" "}
+              <img className="aisa" src={Aisa} alt="Scholar" />
+              <img className="ms" src={Microsoft} alt="Scholar" />
+              <img className="flutter" src={Flutterwave} alt="Scholar" />
+              <img className="pay" src={Paystack} alt="Scholar" />
+              <img className="standard" src={Standard} alt="Scholar" />
+              <img className="apen" src={Apen} alt="Scholar" />
+              <img className="" src={Cobis} alt="Scholar" />
+            </div>
+          </center>
         </div>
       </center>
       <div className="col-md-10 offset-md-1 cv-div mtt">

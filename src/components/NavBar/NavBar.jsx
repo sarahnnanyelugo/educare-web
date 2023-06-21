@@ -205,7 +205,7 @@ function NavBar() {
               >
                 <button className="nav-links menu-title">
                   {" "}
-                  Solutions <i class="icofont-curved-down"></i>
+                  Products <i class="icofont-curved-down"></i>
                 </button>
               </NavLink>
               <div class="menu-dropdown ">
@@ -228,11 +228,11 @@ function NavBar() {
               <ul class="menu-dropdown2">
                 <li>
                   <NavLink
-                    to={"/help"}
+                    to={"/support"}
                     className="menu-links list-group-item list-group-item-action"
                     type="button"
                   >
-                    Help center
+                    Support
                   </NavLink>
                 </li>
                 <li>
@@ -257,8 +257,8 @@ function NavBar() {
             </a>
           </li>{" "}
           <li className="list-inline-item web-nav">
-            <NavLink to={"/support"} activeClassName="active">
-              <button className="nav-links"> Support</button>
+            <NavLink to={"/"} activeClassName="active">
+              <button className="nav-links"> Pricing</button>
             </NavLink>
           </li>{" "}
           <li className="list-inline-item web-nav">
@@ -341,7 +341,7 @@ function NavBar() {
                       <span style={{ color: themeSet }}>
                         <i class="icofont-help-robot"></i>
                       </span>
-                      Solutions
+                      Products
                     </button>
                   </Accordion.Header>
                   <Accordion.Body>
@@ -373,7 +373,7 @@ function NavBar() {
                     <ul class="list-unstyled">
                       <li>
                         <NavLink
-                          to={"/help"}
+                          to={"/support"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
@@ -382,7 +382,7 @@ function NavBar() {
                               .classList.toggle("active3");
                           }}
                         >
-                          Help center
+                          Support
                         </NavLink>
                       </li>
                       <li>
@@ -432,7 +432,7 @@ function NavBar() {
                   <span style={{ color: themeSet }}>
                     <i class="icofont-support"></i>
                   </span>
-                  Support
+                  Pricing
                 </button>
               </NavLink>
               <Accordion defaultActiveKey="">
