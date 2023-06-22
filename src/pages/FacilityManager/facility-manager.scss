@@ -100,8 +100,15 @@
 .fac-settings {
   ul li {
     line-height: 60px;
+    @media screen and (max-width: 620px) {
+      line-height: 30px;
+      font-size: 15px;
+    }
   }
   img {
     margin-right: 30px;
+    @media screen and (max-width: 620px) {
+      margin-right: 10px;
+    }
   }
 }

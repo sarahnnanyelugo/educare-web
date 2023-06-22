@@ -95,7 +95,7 @@ function FacilityManager() {
         <div className="flexy">
           <div className="col-md-6 mt7">
             {" "}
-            <img className="col-md-12" src={Fac5} alt="Scholar" />
+            <img className="col-md-12" src={Fac5} alt="Scholar" width="100%" />
           </div>
           <div className="col-md-5 offset-md-1 mt4">
             <div className="col-md-10">
@@ -142,7 +142,7 @@ function FacilityManager() {
             </div>
           </div>
           <div className="col-md-6 ">
-            <img className="col-md-12" src={Fac6} alt="Scholar" />
+            <img className="col-md-12" src={Fac6} alt="Scholar" width="100%" />
           </div>
         </div>
       </div>
