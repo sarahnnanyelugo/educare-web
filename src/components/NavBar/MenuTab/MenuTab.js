@@ -80,15 +80,12 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeOne.map((data, index) => (
-                          <MenuLink
-                            data={data}
-                            onClick={() => callbackHandler}
-                          />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">
                         {columeTwo.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                     </div>
@@ -96,12 +93,12 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeThree.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">
                         {columeFour.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                     </div>
@@ -110,7 +107,7 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeFive.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>
                     </div>
@@ -121,12 +118,12 @@ export const MenuTab = () => {
                     <div className="col-md-4 flexy flexyM">
                       <div className="col-md-6 col-6">
                         {columeSix.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">
                         {columeSeven.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                     </div>
@@ -138,12 +135,12 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeOne.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">
                         {columeTwo.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                     </div>
@@ -151,12 +148,12 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeThree.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                       <div className="col-md-6 col-6">
                         {columeFour.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
                     </div>
@@ -165,7 +162,7 @@ export const MenuTab = () => {
                       {" "}
                       <div className="col-md-6 col-6">
                         {columeFive.map((data, index) => (
-                          <MenuLink data={data} />
+                          <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>
                     </div>
