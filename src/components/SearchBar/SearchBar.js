@@ -1,26 +1,21 @@
 import React from "react";
 import "./search-bar.scss";
 // import { BsSearch } from "react-icons/bs";
+import Icon from "../../assets/images/search-icon1.png";
 
 function SearchBar() {
   return (
     <>
-      <div className="mt5 offset-md-1 search-input-div">
-        {" "}
-        <div id="cover">
-          <form method="get" action="">
-            <div class="tb">
-              <div class="td">
-                <input type="text" placeholder="Search" required />
-              </div>
-              <div class="td" id="s-cover">
-                <button type="submit">
-                  <div id="s-circle"></div>
-                  <span></span>
-                </button>
-              </div>
-            </div>
-          </form>
+      <div className="search-div">
+        <div class="search-box">
+          <button class="btn-search">
+            <img className="aisa" src={Icon} alt="Scholar" width="70%" />
+          </button>
+          <input
+            type="text"
+            class="input-search"
+            placeholder="Type to Search..."
+          />
         </div>
       </div>
     </>

@@ -1,3 +1,5 @@
+@import "../../../variables";
+@import "../../../shared-styles";
 .blog-post-container {
   margin-top: 30px;
   h5 {
@@ -39,4 +41,17 @@
     width: 1em;
     //   margin-left: -1em;
   }
+}
+.more-blog {
+  @include get-started-button;
+  background: #0098da;
+  color: #fff;
+  margin: 60px 0 !important;
+  position: relative;
+  &:hover {
+    background: #005b83;
+  }
+}
+.latest-news {
+  display: flex;
 }
