@@ -1,7 +1,8 @@
 import React from "react";
 import { Heading } from "../../components/Heading/Heading";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
-import LandingImg from "../../assets/images/support-img.jpg";
+import LandingImg from "../../assets/images/support-main.png";
+import SupportImg from "../../assets/images/mic.png";
 
 import "./support.scss";
 export default function Support() {
@@ -100,7 +101,15 @@ export default function Support() {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy support-plans">
+      <div className="col-md-12 flexy flexyM mic-cont">
+        <div className="col-md-8">
+          {" "}
+          <img className="" src={SupportImg} alt="Scholar" width="100%" />
+        </div>
+        <div className="col-md-5 blue-div-empy dn" />{" "}
+      </div>
+      <h1 className="offset-md-1 mt ">Our Support Plans:</h1>
+      <div className="col-md-10 offset-md-1 flexy support-plans mt1">
         <div className="col-md-4 plans  plans1">
           <h4>Basic Support</h4>
           <p>

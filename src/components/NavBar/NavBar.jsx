@@ -345,7 +345,7 @@ function NavBar() {
                     </button>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <div className="col-md-12 mobile-drop">
+                    <div className="col-md-12 mobile-menu">
                       <MenuTab />
                     </div>
                   </Accordion.Body>

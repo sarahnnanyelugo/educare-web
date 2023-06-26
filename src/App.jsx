@@ -35,6 +35,10 @@ import FacilityManager from "./pages/FacilityManager/FacilityManager";
 import Careers from "./pages/Careers/Careers";
 import Support from "./pages/Support/Support";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Blog from "./pages/Blog/Blog";
+import MiniBlog from "./pages/Blog/BlogPost/MiniBlog";
+import MainBlog from "./pages/Blog/BlogPost/MainBlog";
+// import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -102,6 +106,9 @@ function App() {
         <Route path="careers" element={<Careers />} />
         <Route path="support" element={<Support />} />
         <Route path="about-us" element={<AboutUs />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="mini-blog" element={<MiniBlog />} />
+        <Route path="main-blog" element={<MainBlog />} />
       </Routes>
       <Footer />
       <div

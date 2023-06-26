@@ -16,7 +16,6 @@ import Facility from "../assets/images/people.svg";
 import Remarks from "../assets/images/remark.svg";
 import Voting from "../assets/images/voting.svg";
 
-//data for all products
 export const columeOne = [
   {
     title: "Finance",

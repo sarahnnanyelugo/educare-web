@@ -1,16 +1,26 @@
 .about-landing {
-  padding: 250px 0;
+  // padding: 250px 0;
   background: #fcdce348;
+  position: relative;
   h1 {
     font-size: 60px;
     line-height: 80px;
+  }
+  .centering {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
   }
 }
 
 .missions-and-vissions {
   .img-div {
-    height: 568px;
-    background: #c4e7f7;
+    // height: 568px;
+
     border-radius: 20px;
   }
   h1 {

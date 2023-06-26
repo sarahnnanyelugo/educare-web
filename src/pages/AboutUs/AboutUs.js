@@ -8,18 +8,26 @@ import Flutterwave from "../../assets/images/flutterwave.svg";
 import Apen from "../../assets/images/apen.png";
 import Aisa from "../../assets/images/aisa.svg";
 import Cobis from "../../assets/images/cobis.svg";
+import LandingImg from "../../assets/images/abt_us_landing.png";
+import Mission from "../../assets/images/mission.png";
+import Commitment from "../../assets/images/commit.png";
+import Collab from "../../assets/images/colla.png";
+import Innovate from "../../assets/images/inno.png";
 function AboutUs() {
   return (
     <>
       <div className="col-md-12 about-landing">
-        <center>
-          <h1 className="col-md-7">
+        <img className="" src={LandingImg} alt="Scholar" width="100%" />
+        <div className="centering">
+          <h1 className="col-md-12">
             We are building a better future for your School and Business
           </h1>
-        </center>
+        </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy missions-and-vissions ">
-        <div className="img-div col-md-6"></div>
+      <div className="col-md-10 offset-md-1 flexy missions-and-vissions mt">
+        <div className="img-div col-md-6">
+          <img className="" src={Mission} alt="Scholar" width="100%" />
+        </div>
         <div className="col-md-5 offset-md-1">
           <h1>Our Misson</h1>
           <p>
@@ -38,7 +46,7 @@ function AboutUs() {
           </p>
         </div>
       </div>
-      <div className="col-md-12 ">
+      <div className="col-md-12 shadow2">
         {" "}
         <center>
           <div className="col-md-6 mtt">
@@ -52,9 +60,9 @@ function AboutUs() {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 flexy  missions-and-vissions mtt">
-        <div className="col-md-6 mt">
+        <div className="col-md-6 mt6">
           <h3>Our Commitment to Continuous Improvement</h3>
-          <p className="mt5">
+          <p className="mt2">
             At Educare, we are committed to continuous improvement and the
             journey towards excellence. Our software platform evolves to meet
             the changing needs of our clients in the education sector and
@@ -70,10 +78,16 @@ function AboutUs() {
             that our clients’ evolving needs are met effectively.
           </p>
         </div>
-        <div className="col-md-6 img-div"></div>
+        <div className="col-md-6 img-div">
+          {" "}
+          <img className="" src={Commitment} alt="Scholar" width="100%" />
+        </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy  missions-and-vissions mtt">
-        <div className="col-md-6 img-div"></div>
+        <div className="col-md-6 img-div">
+          {" "}
+          <img className="" src={Innovate} alt="Scholar" width="100%" />
+        </div>
         <div className="col-md-5 offset-md-1 mt8">
           <h3>Embracing Change and Innovation</h3>
           <p className="mt5">
@@ -91,9 +105,9 @@ function AboutUs() {
         </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy  missions-and-vissions mtt">
-        <div className="col-md-5 mt">
+        <div className="col-md-5 mt6">
           <h3>Our Collaborative Approach</h3>
-          <p className="mt5">
+          <p className="mt3">
             We emphasize the significance of collaboration for success. We
             closely collaborate with our clients, understanding their unique
             challenges and requirements.
@@ -109,7 +123,10 @@ function AboutUs() {
             businesses achieve excellence.
           </p>
         </div>
-        <div className="col-md-6 img-div offset-md-1"></div>
+        <div className="col-md-6 img-div offset-md-1">
+          {" "}
+          <img className="" src={Collab} alt="Scholar" width="100%" />
+        </div>
       </div>
       <center>
         {" "}

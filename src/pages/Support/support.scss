@@ -1,7 +1,7 @@
 @import "../../variables";
 @import "../../shared-styles";
 .support-div {
-  height: 550px;
+  height: 630px;
   padding-bottom: 140px;
   background-image: url("../../assets/images/support-bg.svg");
   overflow: hidden;
@@ -11,15 +11,16 @@
     height: fit-content;
   }
   .support-intro {
-    margin-top: 140px;
+    margin-top: 130px;
     background: #fff;
-    padding: 60px 60px 60px 100px;
+    padding: 40px 60px 20px 100px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-right: -260px;
+    height: 444px;
     position: relative;
     z-index: 2;
-    height: 360px;
+    // height: 360px;
     margin-bottom: 100px;
     @media screen and (max-width: 620px) {
       margin: 0;
@@ -97,5 +98,17 @@
       background: #e7e7e7;
       color: #414244;
     }
+  }
+}
+.mic-cont {
+  overflow: hidden;
+  .blue-div-empy {
+    background: #0098da45;
+    height: 602px;
+    margin-top: 100px;
+    border-bottom-left-radius: 20px;
+    margin-left: -135px;
+    position: relative;
+    z-index: -1;
   }
 }

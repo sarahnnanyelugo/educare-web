@@ -1,0 +1,42 @@
+.blog-post-container {
+  margin-top: 30px;
+  h5 {
+    margin: 40px 0;
+  }
+  p {
+    color: #57585a;
+  }
+  .blog-link {
+    color: #0098da;
+    margin: 20px 0;
+    font-family: rebondBook;
+  }
+}
+.blog-imgg {
+  margin-top: -150px;
+}
+.main-blog-heading {
+  font-size: 60px;
+}
+.blog-link2 {
+  &:hover {
+    color: #fff;
+  }
+}
+.blog-summary {
+  ul li {
+    font-family: rebondBook !important;
+    color: #57585a !important;
+    font-size: 16px !important;
+    line-height: 35px;
+    list-style: none !important;
+  }
+  li::before {
+    content: "o";
+    color: #0098da;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    //   margin-left: -1em;
+  }
+}
