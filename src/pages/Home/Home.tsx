@@ -311,6 +311,12 @@ export const Home = () => {
                 </div>
               </div>{" "}
             </div>
+            <center>
+              <Link to={"/"}>
+                {" "}
+                <button>Get started with us</button>
+              </Link>
+            </center>
           </div>
         </div>
         <div className="col-md-12 products-container radiant">
@@ -733,29 +739,32 @@ export const Home = () => {
             <button>View all products</button>
           </center>
         </div>
-        <div className="col-md-10 offset-md-1 mt latest-news-section">
-          <center>
-            <h1>Resources and Insights</h1>
-            <p>
-              The latest news, interviews, technologies, and resources on
-              educare.
-            </p>
-          </center>
-          <section className="col-md-3 mt7">
-            {" "}
-            <div className="col-md-11 flexy gap-5 ">
+        <div className="col-md-12  latest-news-section">
+          {" "}
+          <div className="col-md-10 offset-md-1 ">
+            <center>
+              <h1>Resources and Insights</h1>
+              <p>
+                The latest news, interviews, technologies, and resources on
+                educare.
+              </p>
+            </center>
+            <section className="col-md-3 mt7">
               {" "}
-              {LatestBlogIndex.map((data, index) => (
-                <LatestBlog data={data} />
-              ))}
-            </div>
-          </section>
-          <center>
-            {" "}
-            <Link to={"/blog"}>
-              <button className="resos-btn">View all resources</button>
-            </Link>
-          </center>
+              <div className="col-md-11 flexy gap-5 ">
+                {" "}
+                {LatestBlogIndex.map((data, index) => (
+                  <LatestBlog data={data} />
+                ))}
+              </div>
+            </section>
+            <center>
+              {" "}
+              <Link to={"/blog"}>
+                <button className="resos-btn">View all resources</button>
+              </Link>
+            </center>
+          </div>
         </div>
         <div className="col-md-12 privacy-protection">
           <div className="col-md-6 offset-md-3">

@@ -1,7 +1,9 @@
 import Img1 from "../assets/images/lms.png";
 import Img2 from "../assets/images/office-view.png";
-import Img3 from "../assets/images/blog-img1.png";
-import Img4 from "../assets/images/little-girl.png";
+import Img3 from "../assets/images/ln1.png";
+import Img4 from "../assets/images/ln2.png";
+import Img5 from "../assets/images/ln3.png";
+import Img6 from "../assets/images/ln4.png";
 
 export const LatestBlog = [
   {
@@ -44,7 +46,7 @@ export const LatestBlogIndex = [
     title:
       "Using Educare LMS To Keep Up With The Pace Of Growth And Student Demand",
 
-    img: Img1,
+    img: Img5,
     blog_id: 3,
     date: "12th June, 2021",
   },
@@ -52,7 +54,7 @@ export const LatestBlogIndex = [
     title:
       "Why Schools Should Consider Adopting A Data-Driven Culture Now More Than Ever",
 
-    img: Img2,
+    img: Img6,
     blog_id: 4,
     date: "12th June, 2021",
   },

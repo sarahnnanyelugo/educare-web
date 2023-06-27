@@ -152,6 +152,23 @@
     background: #fcfcfc;
   }
 }
+.ashen {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 52%,
+    rgba(243, 243, 243, 1) 78%,
+    rgba(255, 255, 255, 1) 95%
+  );
+  button {
+    @include get-started-button;
+    background: #0098da;
+    margin-top: 50px;
+    &:hover {
+      background: #005b83;
+    }
+  }
+}
 .products-container {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -313,5 +330,8 @@
   }
 }
 .latest-news-section {
-  // background: url("../../assets/images/cbt-bg.svg");
+  background: url("../../assets/images/news-bg.svg");
+  padding-top: 70px;
+  margin-top: 50px;
+  background-size: cover;
 }
