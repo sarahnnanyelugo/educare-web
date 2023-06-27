@@ -12,15 +12,15 @@ const allData = [
   },
   {
     id: 2,
-    text: "Events",
+    text: "Oldest first",
   },
   {
     id: 3,
-    text: "Old news",
+    text: "Upcoming first",
   },
   {
     id: 4,
-    text: "All",
+    text: "Reset",
   },
 ];
 export const FilterDrop = () => {
@@ -34,7 +34,6 @@ export const FilterDrop = () => {
   };
   return (
     <div className="flexy flexyM">
-      {/* <p>Filter</p> */}
       <img className="filter-arrow" src={Arrow} alt="Scholar" />{" "}
       <DropDownList
         data={data}
