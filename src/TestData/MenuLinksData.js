@@ -99,7 +99,7 @@ export const columeThree = [
 
 export const columeFour = [
   {
-    title: "Lesson Plannerl",
+    title: "Lesson Planner",
     text: "Streamline and simplify your lesson planning process with our lesson planner..",
     icon: Lesson,
     url: "/lesson-planner",

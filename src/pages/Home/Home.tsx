@@ -59,6 +59,15 @@ import Access from "../../assets/images/control.svg";
 import Striped from "../../assets/images/stripe-bg.png";
 import { Link, NavLink } from "react-router-dom";
 import { Partners } from "../../components/Partners/Partners";
+import { LatestBlogIndex } from "../../TestData";
+import MiniBlog from "../Blog/BlogPost/MiniBlog";
+import LatestBlog from "./LatetestBlog";
+import Principles from "./Principles/Principles";
+import Prin1 from "../../assets/images/prin1.png";
+import Prin2 from "../../assets/images/prin2.png";
+import Prin3 from "../../assets/images/prin3.png";
+import Prin4 from "../../assets/images/prin4.png";
+import Prin5 from "../../assets/images/prin5.png";
 
 export const Home = () => {
   return (
@@ -246,12 +255,63 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <center className="mt">
-          <h1>Bundles</h1>
-        </center>
-        <div className="col-md-12 bundles-container flexy ">
-          <div className="col-md-1">&nbsp;</div>
-          <div className="col-md-10 bundles"></div>
+        <div className="col-md-12 ashen">
+          {" "}
+          <div className="col-md-10 offset-md-1 principles-div mt">
+            <center>
+              {" "}
+              <h2>Principles that drives us to create great products</h2>
+            </center>
+            <div className="flexy mt4">
+              <div className="col-md-4 contnrs">
+                <div className="col-md-11">
+                  <Principles
+                    heading="Excellence"
+                    detail="We strive for excellence in everything we do, delivering high-quality software solutions that exceed expectations and drive exceptional results for our clients."
+                    icon={Prin1}
+                  />
+                </div>
+              </div>{" "}
+              <div className="col-md-4  contnrs">
+                <div className="col-md-11">
+                  <Principles
+                    heading="Continuous Improvement"
+                    detail="We have an unwavering commitment to continuous improvement. We actively seek opportunities to learn, grow, and enhance our software solutions, processes, and services to better serve our clients."
+                    icon={Prin2}
+                  />
+                </div>
+              </div>{" "}
+              <div className="col-md-4  contnrs">
+                <div className="col-md-11">
+                  <Principles
+                    heading="Innovation"
+                    detail="We foster a culture of innovation, continuously pushing the boundaries to develop and refine software that anticipates future needs and embraces emerging technologies.."
+                    icon={Prin3}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flexy  offset-md-2 mt7 col-md-8">
+              <div className="col-md-6 contnrs">
+                <div className="col-md-11">
+                  <Principles
+                    heading="Customer-Centricity"
+                    detail="Our clients are at the heart of everything we do. We prioritize their success, actively listening to their feedback, and providing personalized support to ensure their satisfaction.."
+                    icon={Prin4}
+                  />
+                </div>
+              </div>{" "}
+              <div className="col-md-6  contnrs">
+                <div className="col-md-11">
+                  <Principles
+                    heading="Integrity"
+                    detail="We uphold the highest ethical standards, maintaining integrity in our interactions with clients, partners, and employees. Trust and transparency are the foundation of our relationships."
+                    icon={Prin5}
+                  />
+                </div>
+              </div>{" "}
+            </div>
+          </div>
         </div>
         <div className="col-md-12 products-container radiant">
           <center className="mt">
@@ -671,6 +731,30 @@ export const Home = () => {
           <center className="mt7">
             {" "}
             <button>View all products</button>
+          </center>
+        </div>
+        <div className="col-md-10 offset-md-1 mt latest-news-section">
+          <center>
+            <h1>Resources and Insights</h1>
+            <p>
+              The latest news, interviews, technologies, and resources on
+              educare.
+            </p>
+          </center>
+          <section className="col-md-3 mt7">
+            {" "}
+            <div className="col-md-11 flexy gap-5 ">
+              {" "}
+              {LatestBlogIndex.map((data, index) => (
+                <LatestBlog data={data} />
+              ))}
+            </div>
+          </section>
+          <center>
+            {" "}
+            <Link to={"/blog"}>
+              <button className="resos-btn">View all resources</button>
+            </Link>
           </center>
         </div>
         <div className="col-md-12 privacy-protection">

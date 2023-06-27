@@ -141,14 +141,16 @@
   );
   padding-top: 50px;
 }
-.bundles {
+.principles-div {
   border: solid 1px #e7e7e7;
-  // box-shadow: 0 0 2px 2px rgb(238, 235, 235);
+  padding: 80px 0;
   border-radius: 10px !important;
-  height: 250px;
+  height: fit-content;
   margin-bottom: 50px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+
+  .contnrs {
+    background: #fcfcfc;
+  }
 }
 .products-container {
   background: rgb(255, 255, 255);
@@ -282,4 +284,34 @@
     rgba(240, 240, 240, 1) 79%,
     rgba(255, 255, 255, 1) 83%
   );
+}
+.latest-post-container {
+  h6 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  small {
+    font-size: 12px;
+    color: #57585a;
+    margin-top: 25px;
+  }
+  .blog-link {
+    color: #0098da;
+    font-size: 14px;
+    font-family: rebondBook;
+  }
+}
+.resos-btn {
+  @include get-started-button;
+  margin-top: 50px;
+  color: #414244;
+  background: #fff;
+  border-color: #cecfd0;
+  &:hover {
+    background: #e7e7e7;
+    border-color: #cecfd0;
+  }
+}
+.latest-news-section {
+  // background: url("../../assets/images/cbt-bg.svg");
 }

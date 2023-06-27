@@ -18,8 +18,11 @@ function Blog() {
         </center>
       </div>
       <div className="flexy offset-md-1 flexyM">
-        <div className="col-md-2 col-6">
-          <SearchBar />
+        <div className="col-md-3 col-6">
+          <div className="col-md-10">
+            {" "}
+            <SearchBar />
+          </div>
         </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy mt">
