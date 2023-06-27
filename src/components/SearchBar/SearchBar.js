@@ -7,16 +7,10 @@ function SearchBar() {
   return (
     <>
       <div className="search-div">
-        <div class="search-box">
-          <button class="btn-search">
-            <img className="aisa" src={Icon} alt="Scholar" width="70%" />
-          </button>
-          <input
-            type="text"
-            class="input-search"
-            placeholder="Type to Search..."
-          />
-        </div>
+        <form action="" class="search-bar">
+          <input type="search" name="search" pattern=".*\S.*" required />
+          <button class="search-btn" type="submit"></button>
+        </form>
       </div>
     </>
   );
