@@ -9,7 +9,7 @@ function MiniBlog({ data }) {
   });
   return (
     <>
-      <div className="blog-post-container col-md-12 ">
+      <div className="blog-post-container col-md-6 ">
         <img className="" src={data.img} alt="Scholar" width="100%" />
         <h5>{data.title}</h5>
         <p>{data.paragraph}</p>
