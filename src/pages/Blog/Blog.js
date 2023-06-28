@@ -29,9 +29,9 @@ function Blog() {
         <div className="col-md-6">&nbsp;</div>
         <div className="col-md-3">
           {" "}
-          <div className="col-md-10">
+          {/* <div className="col-md-10">
             <FilterDrop />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy mt">
