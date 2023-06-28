@@ -1,3 +1,5 @@
+@import "../../variables";
+@import "../../shared-styles";
 .report-nav-div {
   background: rgb(223, 242, 250);
   background: linear-gradient(
@@ -89,5 +91,22 @@
   }
   p {
     color: #57585a;
+  }
+}
+.report-get-started {
+  height: 220px;
+  background: url("../../assets/images/report-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  button {
+    @include get-started-button;
+    background: #0098da;
+    margin-top: 100px;
+    &:hover {
+      background: #005b83;
+    }
   }
 }

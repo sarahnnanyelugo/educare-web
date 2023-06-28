@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./report-table.scss";
+import Dashboard from "../../../assets/images/report-dashboard.png";
+
 function ReportTable() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleClick = (index) => setActiveIndex(index);
@@ -34,9 +36,16 @@ function ReportTable() {
             Communication book
           </button>{" "}
         </div>{" "}
-        <div className="flexy  flexyM">
-          <div className="bid-ball-rad col-md-4 col-4" />
-          <div className="panels col-md-4 offset-md-4 col-8">
+        <div className="flexy  ">
+          <div className="col-md-8">
+            <div className="col-md-12">
+              <img className="" src={Dashboard} alt="Scholar" width="100%" />
+            </div>
+
+            <div className="bid-ball-rad col-md-6 " />
+          </div>
+
+          <div className="panels col-md-4 ">
             <div className="col-md-10">
               {" "}
               <div className={`panel ${checkActive(1, "active2")}`}>

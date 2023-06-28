@@ -13,10 +13,11 @@
       rgba(237, 206, 176, 1) 35%,
       rgba(245, 188, 194, 1) 80%
     );
-    margin-top: 200px;
+    margin-top: -350px;
     @media screen and (max-width: 620px) {
       height: 120px;
       width: 120px;
+      margin-top: -100px;
     }
   }
   h5 {
@@ -35,7 +36,7 @@
     height: 497px;
     background: rgb(185, 224, 240);
     @media screen and (max-width: 620px) {
-      padding-top: 70px !important;
+      padding: 50px 0px 10px 10px !important;
     }
     p {
       line-height: 27px;
@@ -53,7 +54,7 @@
   margin-left: 0;
   padding: 10px;
   margin-top: 60px;
-  left: 5%;
+  // left: 5%;
   @media screen and (max-width: 620px) {
     display: block;
   }

@@ -267,6 +267,11 @@ function Report() {
           {""} for complete details
         </p>
       </center>
+      <div className="col-md-10 offset-md-1 report-get-started">
+        <div className="offset-md-9">
+          <button>Get started</button>
+        </div>
+      </div>
     </>
   );
 }
