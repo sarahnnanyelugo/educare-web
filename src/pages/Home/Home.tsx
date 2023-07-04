@@ -75,7 +75,7 @@ export const Home = () => {
       <div className="col-md-12 modern-solutions-container">
         <center>
           <div className="col-md-5">
-            <h1>Modern solution for your Business</h1>
+            <h1>Modern ERP solution designed for You!</h1>
             <p>
               Unlock Your Business’s Potential with Cutting-Edge Software
               Solutions Designed to Streamline Operations, Optimize Performance,
@@ -83,9 +83,13 @@ export const Home = () => {
             </p>
             <Link to={"/sign-up"}>
               {" "}
-              <button className="gs-button">Get started</button>
+              <button className="gs-button">
+                Sign Up and Deploy in Seconds
+              </button>
             </Link>
-            <button className="request-button">Request for a demo</button>
+            <Link to={"/contact-us"}>
+              <button className="request-button">Contact Us</button>
+            </Link>
           </div>
         </center>
       </div>
