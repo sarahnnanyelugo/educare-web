@@ -14,6 +14,7 @@ import Tick from "../../assets/images/fac-tick.png";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function FacilityManager() {
   return (
@@ -281,7 +282,13 @@ function FacilityManager() {
             Streamline Your Admission Process with educare admissions today!
           </h3>
           <center>
-            <button className="started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0B2FF7"
+              cls="gsmmed"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
             <button className="demo">Request for demo</button>
           </center>
         </div>

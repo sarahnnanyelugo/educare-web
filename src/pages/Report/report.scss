@@ -95,18 +95,31 @@
 }
 .report-get-started {
   height: 220px;
-  background: url("../../assets/images/report-bg.png");
+  background: url("../../assets/images/repot-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: 100px;
+  border-radius: 30px;
   margin-bottom: 100px;
+  padding-top: 50px;
+  color: #fff;
   button {
     @include get-started-button;
-    background: #0098da;
-    margin-top: 100px;
+    background: transparent;
+    border-color: #fff;
+    margin-left: 5px;
     &:hover {
-      background: #005b83;
+      background: #e7e7e7;
+      color: #414244;
     }
+  }
+}
+
+.gsmrep {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+    color: #fff !important;
   }
 }

@@ -16,6 +16,7 @@ import { Link, NavLink } from "react-router-dom";
 import Shield from "../../assets/images/security.json";
 import Lottie from "react-lottie-player";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 export const FinancePage = () => {
   return (
     <>
@@ -43,7 +44,13 @@ export const FinancePage = () => {
             informed decisions to help your business thrive.
           </p>
           <div className="flexy flexyM offset-md-4 mt4 finance-btns">
-            <button className="started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#4A13B2"
+              cls="gsmf"
+              bgbtn="#4A13B2"
+              backdropbg="modal-backdrop-purple"
+            />
             <button className="demo">Request for demo</button>
           </div>
         </div>

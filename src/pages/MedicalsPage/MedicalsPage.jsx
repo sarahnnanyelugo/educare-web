@@ -8,6 +8,7 @@ import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import Badge from "../../components/Badge/Badge";
 import { Heading } from "../../components/Heading/Heading";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function MedicalsPage() {
   return (
@@ -38,8 +39,16 @@ function MedicalsPage() {
             <br /> making data-driven decisions.
           </p>
           <div className="flexy flexyM">
-            <button className="started">Get Started</button>
-            <button className="demo">Request for Demo</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0B2FF7"
+              cls="gsmmed"
+              bgbtn="#0B2FF7"
+              backdropbg="modal-backdrop-purple"
+            />
+            <button className="demo" style={{ marginLeft: "5px" }}>
+              Request for Demo
+            </button>
           </div>
         </div>
         <div className="col-md-6 offset-md-1">
@@ -146,7 +155,10 @@ function MedicalsPage() {
             </p>
           </div>
 
-          <button>Sign up for a free trial today</button>
+          <Link to={"/login"}>
+            {" "}
+            <button>Sign up for a free trial today</button>
+          </Link>
         </center>
       </div>
     </>

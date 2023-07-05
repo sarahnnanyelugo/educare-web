@@ -11,6 +11,7 @@ import "./cbt.scss";
 import Prices from "../../components/Prices/Prices";
 import { Link } from "react-router-dom";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function CBT() {
   const handleScroll = () => {
     const $element = document.querySelector(".parallax");
@@ -64,7 +65,13 @@ function CBT() {
                 showcase your skills with precision and confidence.
               </p>
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#11A377"
+                  cls="gsmcbt"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>

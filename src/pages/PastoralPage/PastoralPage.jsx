@@ -14,6 +14,7 @@ import { Link, NavLink } from "react-router-dom";
 import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
 import Badge from "../../components/Badge/Badge";
 import Efficiency from "../../components/Efficiency/Efficiency";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function Pastoral(props) {
   return (
@@ -34,7 +35,13 @@ function Pastoral(props) {
               administration and communication, and empowering schools to
               prioritize student well-being and pastoral care.
             </p>
-            <button className="started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#ED2F59"
+              cls="gsmpst"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
             <button className="demo">Request for a demo</button>
           </div>
         </center>{" "}

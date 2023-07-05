@@ -16,6 +16,7 @@ import ReportTable from "./ReportTable/ReportTable";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Report() {
   return (
     <>
@@ -267,9 +268,19 @@ function Report() {
           {""} for complete details
         </p>
       </center>
-      <div className="col-md-10 offset-md-1 report-get-started">
-        <div className="offset-md-9">
-          <button>Get started</button>
+      <div className="col-md-10 offset-md-1 report-get-started flexy">
+        <div className="col-md-4 offset-md-1">
+          <h2>Stay on top of your schedule, no matter where you are</h2>
+        </div>
+        <div className="offset-md-4 mt2">
+          <GetStartedForm
+            text=" Get started"
+            bg="#0098DA"
+            cls="gsmrep"
+            bgbtn="#0098DA"
+            backdropbg="modal-backdrop-dark"
+          />
+          <button>Request for demo</button>
         </div>
       </div>
     </>

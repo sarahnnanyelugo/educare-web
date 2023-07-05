@@ -18,6 +18,7 @@ import Lottie from "react-lottie-player";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function WalletManager() {
   return (
@@ -47,7 +48,13 @@ function WalletManager() {
               </div>
 
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#11A377"
+                  cls="gsmwm"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>
@@ -290,7 +297,13 @@ function WalletManager() {
                 financial decisions
               </h3>
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#0098DA"
+                  cls="gsmcal"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>

@@ -22,6 +22,7 @@ import Prices from "../../components/Prices/Prices";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
 import TimetableFAQ from "./TimetableFAQ/TimetableFAQ";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Timetable() {
   return (
     <>
@@ -46,7 +47,13 @@ function Timetable() {
               managing your time has never been easier.
             </p>
             <center className="btns">
-              <button className="started">Get Started</button>
+              <GetStartedForm
+                text=" Get started"
+                bg="#4A13B2"
+                cls="gsmtime"
+                bgbtn="#4A13B2"
+                backdropbg="modal-backdrop-purple"
+              />
               <button className="demo">Request for demo</button>
             </center>
           </div>
@@ -225,7 +232,13 @@ function Timetable() {
           </h2>
         </div>
         <center>
-          <button className="started">Get started</button>
+          <GetStartedForm
+            text=" Get started"
+            bg="#0098DA"
+            cls="gsmcal"
+            bgbtn="#0098DA"
+            backdropbg="modal-backdrop-dark"
+          />
           <button className="demo">Request for demo</button>
         </center>
       </div>

@@ -13,6 +13,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./weekly-remarks.scss";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function WeeklyRemarks() {
   return (
     <>
@@ -51,7 +52,13 @@ function WeeklyRemarks() {
                 achieve greater success in your personal and professional life.
               </p>
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#C32BD6"
+                  cls="gsmwr"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>

@@ -12,6 +12,7 @@ import Assessment from "../../assets/images/lottie10.json";
 import Assessibility from "../../assets/images/lottie9.json";
 import Data from "../../assets/images/lottie8.json";
 import Bias from "../../assets/images/lottie7.json";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function VotingSystem() {
   return (
@@ -34,7 +35,13 @@ function VotingSystem() {
             engagement from students and staff alike.
           </p>
           <div className="flexy flexyM offset-md-4 mt4 voting-btns">
-            <button className="started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0098DA"
+              cls="gsmvs"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
             <button className="demo">Request for demo</button>
           </div>
         </div>

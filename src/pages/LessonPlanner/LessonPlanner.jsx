@@ -10,6 +10,7 @@ import Setup3 from "../../assets/images/grey.png";
 import Testimonial from "./Testimonial/Testimonial";
 import { Link, NavLink } from "react-router-dom";
 import Prices from "../../components/Prices/Prices";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function LessonPlanner() {
   return (
@@ -170,7 +171,13 @@ function LessonPlanner() {
             Sign up for a free trial and see how much time and energy you can
             save with our software.
           </p>
-          <button className="started">Get started</button>
+          <GetStartedForm
+            text=" Get started"
+            bg="#11A377"
+            cls="gsmlp"
+            bgbtn="#0098DA"
+            backdropbg="modal-backdrop-dark"
+          />
           <button className="demo">Request for demo</button>
         </center>
       </div>

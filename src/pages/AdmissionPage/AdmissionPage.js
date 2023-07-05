@@ -15,6 +15,7 @@ import Step5 from "../../assets/images/step5.png";
 import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function AdmissionPage() {
   return (
@@ -33,7 +34,13 @@ function AdmissionPage() {
               communication for your institution.
             </p>
             <center>
-              <button className="started">Get started</button>
+              <GetStartedForm
+                text=" Get started"
+                bg="#0098DA"
+                cls="gsmadm"
+                bgbtn="#0098DA"
+                backdropbg="modal-backdrop-dark"
+              />
               <button className="demo">Request for demo</button>
             </center>
           </div>

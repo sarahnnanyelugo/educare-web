@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FacebookButton } from "../../../components/FacebookButton/FacebookButton";
 import { Password } from "../../../components/Form/Password";
 import { GoogleButton } from "../../../components/GoogleButton/GoogleButton";
+import { LinkedInButton } from "../../../components/LinkedInButton/LinkedInButton";
 import "./sign-up-form.scss";
 function SignUpForm(props) {
   const { bg } = props;
@@ -80,6 +81,7 @@ function SignUpForm(props) {
           <small>Sign up using</small>
         </center>
         <GoogleButton />
+        <LinkedInButton />
         <FacebookButton />
       </form>
     </>

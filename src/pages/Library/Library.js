@@ -7,6 +7,7 @@ import Player3 from "../../assets/images/libuser.json";
 import Lottie from "react-lottie-player";
 import Benefits from "../../assets/images/p-chart.svg";
 import Management from "../../assets/images/management.svg";
+import Player2 from "../../assets/images/lottiebook.png";
 import Resources from "../../assets/images/resource.svg";
 import User from "../../assets/images/user.svg";
 import Accessibility from "../../assets/images/load.svg";
@@ -21,6 +22,7 @@ import Learn from "../../assets/images/learn.png";
 import Dashed1 from "../../assets/images/dashed_line_1.png";
 import Dashed2 from "../../assets/images/dashed_line_2.png";
 import LibraryFAQ from "./LibraryFAQ/LibraryFAQ";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function Library() {
   return (
@@ -47,7 +49,13 @@ function Library() {
               knowledge today
             </p>
             <div className="flexy flexyM">
-              <button className="started">Get started</button>
+              <GetStartedForm
+                text=" Get started"
+                bg="#ED2F59"
+                cls="gsmlib"
+                bgbtn="#0098DA"
+                backdropbg="modal-backdrop-dark"
+              />
               <button className="demo">Request a demo</button>
             </div>
           </div>
@@ -65,7 +73,7 @@ function Library() {
                   style={{ height: "", marginLeft: "50px" }}
                 >
                   {" "}
-                  <h2>2</h2>
+                  <img src={Player2} alt="Scholar" width="100%" />
                 </div>
               </div>
             </div>
@@ -257,7 +265,13 @@ function Library() {
           </p>
         </div>
         <center>
-          <button className="started">Get Started</button>
+          <GetStartedForm
+            text=" Get started"
+            bg="#ED2F59"
+            cls="gsmlib"
+            bgbtn="#0098DA"
+            backdropbg="modal-backdrop-dark"
+          />
           <button className="demo">Request for demo</button>
         </center>
       </div>

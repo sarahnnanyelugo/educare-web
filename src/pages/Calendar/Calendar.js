@@ -9,6 +9,7 @@ import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import { MenuTab } from "../../components/NavBar/MenuTab/MenuTab";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function Calendar() {
   return (
@@ -213,7 +214,13 @@ function Calendar() {
                 software
               </h2>
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#0098DA"
+                  cls="gsmcal"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>

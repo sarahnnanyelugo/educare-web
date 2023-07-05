@@ -9,6 +9,7 @@ import People from "../../assets/images/people2.svg";
 import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
 import Prices from "../../components/Prices/Prices";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 export const HRMPage = () => {
   return (
@@ -199,8 +200,15 @@ export const HRMPage = () => {
       </div>
       <center>
         {" "}
-        <button className="hrbtn">Get Started</button>
+        <GetStartedForm
+          text=" Get started"
+          bg="#EA8713"
+          cls="gsmhr"
+          bgbtn="#EA8713"
+          backdropbg="modal-backdrop-dark"
+        />
       </center>
+      <br />
     </>
   );
 };
