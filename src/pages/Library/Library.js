@@ -7,7 +7,8 @@ import Player3 from "../../assets/images/libuser.json";
 import Lottie from "react-lottie-player";
 import Benefits from "../../assets/images/p-chart.svg";
 import Management from "../../assets/images/management.svg";
-import Player2 from "../../assets/images/lottiebook.png";
+import Player2 from "../../assets/images/girl-with-books.json";
+import Player4 from "../../assets/images/book-idea.json";
 import Resources from "../../assets/images/resource.svg";
 import User from "../../assets/images/user.svg";
 import Accessibility from "../../assets/images/load.svg";
@@ -48,7 +49,7 @@ function Library() {
               make learning easy and accessible. Discover your gateway to
               knowledge today
             </p>
-            <div className="flexy flexyM">
+            <div className="flexy flexyM lib-btns">
               <GetStartedForm
                 text=" Get started"
                 bg="#ED2F59"
@@ -61,19 +62,31 @@ function Library() {
           </div>
           <div className="lottie-divs col-md-7">
             <div className="flexy flexyM">
-              <div className="col-md-6 col-6">
+              <div className="col-md-4 col-6 offset-md-2">
                 <div className="col-md-11  book-animations">
                   {" "}
-                  <h2>1</h2>
+                  <Lottie
+                    loop
+                    animationData={Player2}
+                    play
+                    className="lottieee"
+                    style={{ height: "227px" }}
+                  />
                 </div>
               </div>{" "}
-              <div className="col-md-6 col-6">
+              <div className="col-md-5 col-6 mt4">
                 <div
                   className="col-md-11 book-animations"
                   style={{ height: "", marginLeft: "50px" }}
                 >
                   {" "}
-                  <img src={Player2} alt="Scholar" width="100%" />
+                  <Lottie
+                    loop
+                    animationData={Player4}
+                    play
+                    className="lottieee"
+                    style={{ height: "200px" }}
+                  />
                 </div>
               </div>
             </div>
