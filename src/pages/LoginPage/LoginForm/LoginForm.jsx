@@ -5,6 +5,7 @@ import { GoogleButton } from "../../../components/GoogleButton/GoogleButton";
 import "./login-form.scss";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+import { LinkedInButton } from "../../../components/LinkedInButton/LinkedInButton";
 
 function LoginForm(props) {
   const [value, setValue] = useState();
@@ -93,6 +94,7 @@ function LoginForm(props) {
           <small>Sign up using</small>
         </center>
         <GoogleButton />
+        <LinkedInButton />
         <FacebookButton />
       </form>
     </>

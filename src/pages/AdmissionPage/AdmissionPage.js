@@ -12,7 +12,7 @@ import Step2 from "../../assets/images/step2.png";
 import Step3 from "../../assets/images/step3.png";
 import Step4 from "../../assets/images/step4.png";
 import Step5 from "../../assets/images/step5.png";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";

@@ -4,7 +4,7 @@ import "./medicals-page.scss";
 import Ambulance from "../../assets/images/ambulance.png";
 import Report from "../../assets/images/medical-report.png";
 import MedicalTabNav from "./MedicalTab/TabNav";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import Badge from "../../components/Badge/Badge";
 import { Heading } from "../../components/Heading/Heading";

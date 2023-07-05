@@ -19,7 +19,7 @@ import "./timetable.scss";
 import TimetableFeatures from "./TimetableFeatures/TimetableFeatures";
 import DashboardDisplay from "./DashboardDisplay/DashboardDisplay";
 import Prices from "../../components/Prices/Prices";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
 import TimetableFAQ from "./TimetableFAQ/TimetableFAQ";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";

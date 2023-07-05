@@ -9,7 +9,7 @@ import Storage from "../../assets/images/data-storage.svg";
 import Support from "../../assets/images/support.svg";
 import Together from "../../assets/images/together.svg";
 import Logo from "../../assets/images/logo2.png";
-import SimplePrices from "./SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import { Link, NavLink } from "react-router-dom";
 import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
 import Badge from "../../components/Badge/Badge";

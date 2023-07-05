@@ -5,7 +5,7 @@ import "./calendar.scss";
 import Wallet3 from "../../assets/images/fin-icon.svg";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import FAQ from "./FAQ/FAQ";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import { MenuTab } from "../../components/NavBar/MenuTab/MenuTab";

@@ -11,7 +11,7 @@ import Ball3 from "../../assets/images/r-ball3.svg";
 import { Link, NavLink } from "react-router-dom";
 
 import "./weekly-remarks.scss";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function WeeklyRemarks() {

@@ -9,7 +9,7 @@ import Flutterwave from "../../assets/images/flutterwave.svg";
 import Eclassroom from "../../assets/images/eclassroom_dashboard.png";
 import Aisa from "../../assets/images/aisa.svg";
 import EducarePrivacy from "../../components/EducarePrivacy/EducarePrivacy";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import Badge from "../../components/Badge/Badge";
 import { Link } from "react-router-dom";
 import Shield from "../../assets/images/security.json";

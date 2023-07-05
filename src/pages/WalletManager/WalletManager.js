@@ -15,7 +15,7 @@ import Icon7 from "../../assets/images/chart2.svg";
 import Icon8 from "../../assets/images/chart3.svg";
 import Player1 from "../../assets/images/reportslottie.json";
 import Lottie from "react-lottie-player";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";

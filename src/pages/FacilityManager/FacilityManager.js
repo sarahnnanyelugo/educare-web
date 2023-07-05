@@ -13,7 +13,7 @@ import Lottie from "react-lottie-player";
 import Tick from "../../assets/images/fac-tick.png";
 import { Link } from "react-router-dom";
 import { Heading } from "../../components/Heading/Heading";
-import SimplePrices from "../PastoralPage/SimplePrices/SimplePrices";
+import SimplePrices from "../../components/SimplePrices/SimplePrices";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 function FacilityManager() {
