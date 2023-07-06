@@ -35,7 +35,7 @@ function Prices(props: PricesProps, active: any) {
           {props.annualAmount}
         </p>
       </div>
-      <Link to={props.url}>
+      <Link to={"/login"}>
         {" "}
         <button style={{ backgroundColor: btnBg }}>Get Start</button>
       </Link>

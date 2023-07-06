@@ -13,6 +13,7 @@ import Mission from "../../assets/images/mission.png";
 import Commitment from "../../assets/images/commit.png";
 import Collab from "../../assets/images/colla.png";
 import Innovate from "../../assets/images/inno.png";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function AboutUs() {
   return (
     <>
@@ -157,7 +158,13 @@ function AboutUs() {
           <div className="col-md-7">
             <h2>Ready to be more efficient??</h2>
             <p>Let’s get you signed up for free today!</p>
-            <button>Sign up for free now</button>
+            <GetStartedForm
+              text="Sign up for free now"
+              bg="#0098DA"
+              cls="gsmsp"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
           </div>
         </center>
       </div>

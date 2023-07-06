@@ -91,12 +91,6 @@ export const HRMPage = () => {
               not be charged until you are prepared to use our HR Manager.
             </p>
           </div>
-          {/* <div className="col-md-2 offset-md-2">
-            <center>
-              {" "}
-              <button>See prices</button>
-            </center>
-          </div> */}
         </div>
         <div className="offset-md-5 recomend">
           {" "}

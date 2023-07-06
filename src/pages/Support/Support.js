@@ -5,6 +5,7 @@ import LandingImg from "../../assets/images/support-main.png";
 import SupportImg from "../../assets/images/mic.png";
 
 import "./support.scss";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 export default function Support() {
   return (
     <>
@@ -177,7 +178,13 @@ export default function Support() {
         </div>
         <div className="col-md-3 offset-md-2">
           <center>
-            <button className="started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0098DA"
+              cls="gsmsp"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
             <button className="demo">Request for demo</button>
           </center>
         </div>

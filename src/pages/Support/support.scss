@@ -112,3 +112,9 @@
     z-index: -1;
   }
 }
+.gsmsp {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+  }
+}

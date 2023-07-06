@@ -12,6 +12,7 @@ import Dot3 from "../../assets/images/dot3.svg";
 import Dot4 from "../../assets/images/dot4.svg";
 
 import "./careers.scss";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Careers() {
   const handleScroll = () => {
     const $element = document.querySelector(".parallax");
@@ -163,7 +164,13 @@ function Careers() {
           <div className="col-md-7">
             <h1>Can’t find what you’re looking for?</h1>
             <p>Send a mail to us and drop your CV</p>
-            <button>Send a mail</button>
+            <GetStartedForm
+              text="Send a mail"
+              bg="#0098DA"
+              cls="gsmsp"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
           </div>
         </center>
       </div>
