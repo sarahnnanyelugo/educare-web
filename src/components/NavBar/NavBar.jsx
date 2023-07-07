@@ -584,10 +584,10 @@ function NavBar() {
         </ul>
 
         <div className="nav-buttons web-nav">
-          <Link to={"/login"}>
+          <Link to={"/sign-up"}>
             <button className="sign-in-button">Log in</button>
           </Link>
-          <Link to={"/sign-up"}>
+          <Link to={"/login"}>
             <button
               className="get-started-button"
               style={{ backgroundColor: "" + themeSet }}
@@ -1080,7 +1080,7 @@ function NavBar() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <NavLink to={"/login"} className="menu-navs spaze">
+              <NavLink to={"/sign-up"} className="menu-navs spaze">
                 {" "}
                 <button
                   type="button"
@@ -1098,7 +1098,7 @@ function NavBar() {
                   Login
                 </button>
               </NavLink>{" "}
-              <NavLink to={"/sign-up"} className="menu-navs">
+              <NavLink to={"/login"} className="menu-navs">
                 {" "}
                 <button
                   type="button"
