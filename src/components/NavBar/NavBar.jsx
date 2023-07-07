@@ -262,7 +262,7 @@ function NavBar() {
                   </li>
                   <li>
                     <NavLink
-                      to={"/"}
+                      to={"/logistics"}
                       className="menu-links list-group-item list-group-item-action"
                       type="button"
                     >
@@ -325,7 +325,7 @@ function NavBar() {
                   {" "}
                   <li>
                     <NavLink
-                      to={"/"}
+                      to={"/healthcare"}
                       className="menu-links list-group-item list-group-item-action"
                       type="button"
                     >
@@ -564,7 +564,7 @@ function NavBar() {
                   {" "}
                   <li>
                     <NavLink
-                      to={"/contact"}
+                      to={"/contact-us"}
                       className="menu-links list-group-item list-group-item-action"
                       type="button"
                     >
@@ -730,7 +730,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/"}
+                          to={"/healthcare"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {

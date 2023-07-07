@@ -38,6 +38,8 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Blog from "./pages/Blog/Blog";
 import MiniBlog from "./pages/Blog/BlogPost/MiniBlog";
 import MainBlog from "./pages/Blog/BlogPost/MainBlog";
+import Logistics from "./pages/Logistics/Logistics";
+import HealthCare from "./pages/HealthCare/HealthCare";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -109,6 +111,8 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="mini-blog" element={<MiniBlog />} />
         <Route path="main-blog" element={<MainBlog />} />
+        <Route path="logistics" element={<Logistics />} />
+        <Route path="healthcare" element={<HealthCare />} />
       </Routes>
       <Footer />
       <div

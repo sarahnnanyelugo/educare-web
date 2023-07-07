@@ -104,6 +104,11 @@
   margin-bottom: 100px;
   padding-top: 50px;
   color: #fff;
+  @media screen and (max-width: 620px) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: fit-content;
+  }
   button {
     @include get-started-button;
     background: transparent;
