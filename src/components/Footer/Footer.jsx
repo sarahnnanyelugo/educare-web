@@ -38,17 +38,25 @@ export const Footer = () => {
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-2 logo">
             {" "}
-            <img className="" src={Logo} alt="Scholar" width="100%" />
+            <Link to={"/"}>
+              {" "}
+              <img className="" src={Logo} alt="Scholar" width="100%" />
+            </Link>
           </div>
           <div className="col-md-6 offset-md-1 flexy flexyM quick-links">
             <div className="col-md-4">
               <ul className="list-unstyled mobile-ul">
                 <h4>Solutions</h4>
                 <li>
-                  <Link to="" className="links">
-                    Products
+                  <Link to={"/educare-schools"} className="links">
+                    For Schools
                   </Link>
-                </li>
+                </li>{" "}
+                <li>
+                  <Link to={"/educare-business"} className="links">
+                    For Businesses
+                  </Link>
+                </li>{" "}
                 <li>
                   <Link to="" className="links">
                     Enterprise offer
@@ -65,25 +73,20 @@ export const Footer = () => {
               <ul className="list-unstyled mobile-ul">
                 <h4>Company</h4>
                 <li>
-                  <Link to="" className="links">
+                  <Link to={"/about-us"} className="links">
                     About us
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="links">
-                    Jobs
+                  <Link to={"/careers"} className="links">
+                    Careers
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="links">
+                  <Link to={"/contact-us"} className="links">
                     Contact us
                   </Link>
                 </li>{" "}
-                <li>
-                  <Link to="" className="links">
-                    Enterprise offer
-                  </Link>
-                </li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -91,23 +94,33 @@ export const Footer = () => {
               <ul className="list-unstyled mobile-ul">
                 <h4>Resources</h4>
                 <li>
-                  <Link to="" className="links">
-                    Help Center
+                  <Link to={"/support"} className="links">
+                    Support Center
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="links">
-                    API Docs
+                  <Link to={"/guides"} className="links">
+                    Guides
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="links">
-                    Enterprise offer
+                  <Link to={"/blog"} className="links">
+                    Blog
                   </Link>
                 </li>
                 <li>
-                  <Link to="" className="links">
-                    Enterprise offer
+                  <Link to={"/partner"} className="links">
+                    Become a Partner
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/stories"} className="links">
+                    Customer Stories
+                  </Link>
+                </li>{" "}
+                <li>
+                  <Link to={"/contact-us"} className="links">
+                    Contact Sales
                   </Link>
                 </li>
               </ul>
