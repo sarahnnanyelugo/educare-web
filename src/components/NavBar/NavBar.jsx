@@ -592,7 +592,7 @@ function NavBar() {
               className="get-started-button"
               style={{ backgroundColor: "" + themeSet }}
             >
-              Get Started
+              Sign Up
             </button>
           </Link>
         </div>
@@ -1113,7 +1113,7 @@ function NavBar() {
                   <span style={{ color: themeSet }}>
                     <i class="icofont-dashboard-web"></i>
                   </span>
-                  Get started
+                  Sign Up
                 </button>
               </NavLink>
             </div>
