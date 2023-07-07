@@ -51,8 +51,8 @@
     width: 100%;
     height: 100%;
     font-size: 12px;
-    font-family: rebondG;
-    color: #161617;
+    font-family: rebondBook !important;
+    color: #161617 !important;
     pointer-events: none;
   }
   .form label::after {
@@ -151,8 +151,7 @@
   margin-top: 21px !important;
   height: 40px !important;
   border: solid 1px #edecec !important;
-  // border-bottom: solid 1px #edecec !important;
-  // border-left: solid 1px #edecec !important;
+
   padding-left: 7px !important;
   border-top-left-radius: 7px !important;
   border-bottom-left-radius: 7px !important;
@@ -162,4 +161,9 @@
   border-left: none !important;
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
+}
+::placeholder {
+  color: #161617 !important;
+  font-size: 12px;
+  font-family: rebondBook;
 }

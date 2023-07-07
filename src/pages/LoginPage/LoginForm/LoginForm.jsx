@@ -41,12 +41,38 @@ function LoginForm(props) {
             onChange={handleChange}
           />
           <label for="text" class="label-name">
+            <span class="content-name">Full Name *</span>
+          </label>
+        </div>{" "}
+        <div class="form">
+          <input
+            type="text"
+            name="name"
+            autocomplete="new-password"
+            required
+            value={nameValue}
+            onChange={handleChange}
+          />
+          <label for="text" class="label-name">
+            <span class="content-name">Organisation *</span>
+          </label>
+        </div>{" "}
+        <div class="form">
+          <input
+            type="text"
+            name="name"
+            autocomplete="new-password"
+            required
+            value={nameValue}
+            onChange={handleChange}
+          />
+          <label for="text" class="label-name">
             <span class="content-name">Email *</span>
           </label>
         </div>{" "}
         <div class="form">
           <PhoneInput
-            placeholder="Enter phone number"
+            placeholder="Phone number *"
             value={value}
             onChange={setValue}
           />
@@ -57,6 +83,7 @@ function LoginForm(props) {
         <div>
           {" "}
           <Password placeholder="Password" />
+          <Password placeholder="Confirm Password" />
         </div>
         <input
           type="checkbox"
