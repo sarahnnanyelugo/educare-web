@@ -10,7 +10,7 @@ function Logistics() {
   return (
     <>
       <div className="col-md-12 logistics-div">
-        <div className="col-md-11 offset-md-1 flexy">
+        <div className="col-md-11 offset-md-1 flexy ">
           <div className="col-md-5">
             <small>Distribution & Logistics</small>
             <h1>Revolutionize Your Supply Chain Management</h1>
