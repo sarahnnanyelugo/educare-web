@@ -28,7 +28,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Library() {
   return (
     <>
-      <div className="col-md-12 library-nav sticky-top">
+      <div className="col-md-12 library-nav">
         {" "}
         <NavTwo title="Library" />
       </div>

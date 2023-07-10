@@ -20,7 +20,7 @@ import { Heading } from "../../components/Heading/Heading";
 export const EducareForSchools = () => {
   return (
     <>
-      <div className="col-md-12 nav-two-for-schs sticky-top">
+      <div className="col-md-12 nav-two-for-schs ">
         {" "}
         <NavTwo
           title="educare for Schools"

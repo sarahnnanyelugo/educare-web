@@ -16,7 +16,7 @@ function LessonPlanner() {
   return (
     <>
       {" "}
-      <div className="col-md-12 lesson-planner-nav sticky-top">
+      <div className="col-md-12 lesson-planner-nav ">
         {" "}
         <NavTwo title="Lesson Planner" />
       </div>

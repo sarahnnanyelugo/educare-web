@@ -1,12 +1,14 @@
 .top-nav-container {
   display: flex;
   padding: 13px 0 0 0;
+  position: reltative;
+  margin-top: 80px;
   @media screen and (max-width: 620px) {
     // display: none;
     padding: 0px 0 0 0 !important;
     position: relative !important;
     z-index: 0 !important;
-    margin: 0 !important;
+    // margin: 0 !important;
   }
   img {
     height: 34px;

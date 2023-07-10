@@ -14,7 +14,7 @@ function MedicalsPage() {
   return (
     <>
       {" "}
-      <div className="col-md-12 medicals-nav sticky-top">
+      <div className="col-md-12 medicals-nav ">
         {" "}
         <NavTwo title="Medicals" />
       </div>

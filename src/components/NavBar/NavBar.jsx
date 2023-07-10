@@ -199,402 +199,405 @@ function NavBar() {
 
   return (
     <>
-      <div
-        className={`navbar-container offset-md-1 col-md-10 ${
-          showNav ? "" : "hide"
-        } ${stick ? "" : "sticky"}`}
-        id="nav"
-      >
-        <div className="logo-holder  col-md-2 flexy ">
-          {" "}
-          <Link to={"/"}>
+      <div className="col-md-12 fixed-nav col-12">
+        {" "}
+        <div
+          className={`navbar-container offset-md-1 col-md-10 ${
+            showNav ? "" : "hide"
+          } ${stick ? "" : "sticky"}`}
+          id="nav"
+        >
+          <div className="logo-holder  col-md-2 flexy ">
             {" "}
-            <img className="   logo" src={Logo} alt="Scholar" width="50%" />
-          </Link>
-        </div>
-        <ul className=" list-inline list-unstyled nav-links-container web-nav hList">
-          <li className="list-inline-item web-nav">
-            <a href="#click" class="menu">
-              <NavLink
-                to={"/finance-overview"}
-                activeClassName="active"
-                className="menu-title"
-              >
-                <button className="nav-links menu-title">
+            <Link to={"/"}>
+              {" "}
+              <img className="   logo" src={Logo} alt="Scholar" width="50%" />
+            </Link>
+          </div>
+          <ul className=" list-inline list-unstyled nav-links-container web-nav hList">
+            <li className="list-inline-item web-nav">
+              <a href="#click" class="menu">
+                <NavLink
+                  to={"/finance-overview"}
+                  activeClassName="active"
+                  className="menu-title"
+                >
+                  <button className="nav-links menu-title">
+                    {" "}
+                    Products <i class="icofont-curved-down"></i>
+                  </button>
+                </NavLink>
+                <div class="menu-dropdown ">
+                  <MenuTab />
+                </div>
+              </a>
+            </li>{" "}
+            <li className="list-inline-item web-nav">
+              <a href="#click" class="menu">
+                <NavLink
+                  to={"/finance-overview"}
+                  activeClassName="active"
+                  className="menu-title"
+                >
+                  <button className="nav-links menu-title">
+                    {" "}
+                    Use Cases <i class="icofont-curved-down"></i>
+                  </button>
+                </NavLink>
+                <div className="flexy menu-dropdown2">
                   {" "}
-                  Products <i class="icofont-curved-down"></i>
-                </button>
-              </NavLink>
-              <div class="menu-dropdown ">
-                <MenuTab />
-              </div>
-            </a>
-          </li>{" "}
-          <li className="list-inline-item web-nav">
-            <a href="#click" class="menu">
-              <NavLink
-                to={"/finance-overview"}
-                activeClassName="active"
-                className="menu-title"
-              >
-                <button className="nav-links menu-title">
+                  <ul className="col-md-6">
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img1}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />
+                        Schools
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/logistics"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img2}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />
+                        Distribution and Logistics
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img3}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Retail
+                      </NavLink>
+                    </li>{" "}
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img4}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Construction
+                      </NavLink>
+                    </li>{" "}
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img5}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Energy and Utilities
+                      </NavLink>
+                    </li>
+                  </ul>
+                  <ul className="col-md-6">
+                    {" "}
+                    <li>
+                      <NavLink
+                        to={"/healthcare"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img6}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Healthcare
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img13}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Manufacturing
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img14}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Financial Services
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img15}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Consulting
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img16}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Government
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>{" "}
+            <li className="list-inline-item web-nav">
+              <a href="#click" class="menu">
+                <NavLink
+                  to={"/finance-overview"}
+                  activeClassName="active"
+                  className="menu-title"
+                >
+                  <button className="nav-links menu-title">
+                    {" "}
+                    Resources <i class="icofont-curved-down"></i>
+                  </button>
+                </NavLink>
+                <div className="flexy menu-dropdown2">
                   {" "}
-                  Use Cases <i class="icofont-curved-down"></i>
-                </button>
-              </NavLink>
-              <div className="flexy menu-dropdown2">
-                {" "}
-                <ul className="col-md-6">
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img1}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />
-                      Schools
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/logistics"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img2}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />
-                      Distribution and Logistics
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img3}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Retail
-                    </NavLink>
-                  </li>{" "}
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img4}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Construction
-                    </NavLink>
-                  </li>{" "}
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img5}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Energy and Utilities
-                    </NavLink>
-                  </li>
-                </ul>
-                <ul className="col-md-6">
+                  <ul className="col-md-6">
+                    <li>
+                      <NavLink
+                        to={"/support"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img7}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />
+                        Support Center
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/guides"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img8}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />
+                        Guides
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/blog"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img9}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Blog
+                      </NavLink>
+                    </li>{" "}
+                  </ul>
+                  <ul className="col-md-6">
+                    {" "}
+                    <li>
+                      <NavLink
+                        to={"/partner"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img10}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Become a Partner
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/customer-stories"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img11}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Customer Stories
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/contact-us"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img12}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Contact Sales
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>{" "}
+            <li className="list-inline-item web-nav">
+              <a href="#click" class="menu">
+                <NavLink
+                  to={"/finance-overview"}
+                  activeClassName="active"
+                  className="menu-title"
+                >
+                  <button className="nav-links menu-title">
+                    {" "}
+                    Company <i class="icofont-curved-down"></i>
+                  </button>
+                </NavLink>
+                <div className="flexy menu-dropdown2">
                   {" "}
-                  <li>
-                    <NavLink
-                      to={"/healthcare"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img6}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Healthcare
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img13}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Manufacturing
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img14}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Financial Services
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img15}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Consulting
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img16}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Government
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-            </a>
-          </li>{" "}
-          <li className="list-inline-item web-nav">
-            <a href="#click" class="menu">
-              <NavLink
-                to={"/finance-overview"}
-                activeClassName="active"
-                className="menu-title"
-              >
-                <button className="nav-links menu-title">
-                  {" "}
-                  Resources <i class="icofont-curved-down"></i>
-                </button>
-              </NavLink>
-              <div className="flexy menu-dropdown2">
-                {" "}
-                <ul className="col-md-6">
-                  <li>
-                    <NavLink
-                      to={"/support"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img7}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />
-                      Support Center
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/guides"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img8}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />
-                      Guides
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/blog"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img9}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Blog
-                    </NavLink>
-                  </li>{" "}
-                </ul>
-                <ul className="col-md-6">
-                  {" "}
-                  <li>
-                    <NavLink
-                      to={"/partner"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img10}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Become a Partner
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/customer-stories"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img11}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Customer Stories
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/contact-us"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img12}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Contact Sales
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-            </a>
-          </li>{" "}
-          <li className="list-inline-item web-nav">
-            <a href="#click" class="menu">
-              <NavLink
-                to={"/finance-overview"}
-                activeClassName="active"
-                className="menu-title"
-              >
-                <button className="nav-links menu-title">
-                  {" "}
-                  Company <i class="icofont-curved-down"></i>
-                </button>
-              </NavLink>
-              <div className="flexy menu-dropdown2">
-                {" "}
-                <ul className="col-md-6">
-                  <li>
-                    <NavLink
-                      to={"/about-us"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img17}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />
-                      About Us
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={"/careers"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img12}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Careers
-                    </NavLink>
-                  </li>{" "}
-                </ul>
-                <ul className="col-md-6">
-                  {" "}
-                  <li>
-                    <NavLink
-                      to={"/contact-us"}
-                      className="menu-links list-group-item list-group-item-action"
-                      type="button"
-                    >
-                      <img
-                        className="   logo"
-                        src={Img7}
-                        alt="Scholar"
-                        style={{ marginRight: "10px" }}
-                      />{" "}
-                      Contact Us
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-            </a>
-          </li>{" "}
-        </ul>
+                  <ul className="col-md-6">
+                    <li>
+                      <NavLink
+                        to={"/about-us"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img17}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />
+                        About Us
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to={"/careers"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img12}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Careers
+                      </NavLink>
+                    </li>{" "}
+                  </ul>
+                  <ul className="col-md-6">
+                    {" "}
+                    <li>
+                      <NavLink
+                        to={"/contact-us"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img7}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Contact Us
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </a>
+            </li>{" "}
+          </ul>
 
-        <div className="nav-buttons web-nav">
-          <Link to={"/sign-up"}>
-            <button className="sign-in-button">Log in</button>
-          </Link>
-          <Link to={"/login"}>
-            <button
-              className="get-started-button"
-              style={{ backgroundColor: "" + themeSet }}
-            >
-              Sign Up
-            </button>
-          </Link>
+          <div className="nav-buttons web-nav">
+            <Link to={"/sign-up"}>
+              <button className="sign-in-button">Log in</button>
+            </Link>
+            <Link to={"/login"}>
+              <button
+                className="get-started-button"
+                style={{ backgroundColor: "" + themeSet }}
+              >
+                Sign Up
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -611,7 +614,7 @@ function NavBar() {
                   >
                     <button
                       type="button"
-                      className="list-group-item list-group-item-action m-accord"
+                      className="list-group-item list-group-item-action m-accord menu-navs"
                       style={{ background: themeSet2 }}
                     >
                       {" "}
@@ -636,7 +639,7 @@ function NavBar() {
                   >
                     <button
                       type="button"
-                      className="list-group-item list-group-item-action m-accord"
+                      className="list-group-item list-group-item-action m-accord menu-navs"
                       style={{ background: themeSet2 }}
                     >
                       {" "}
@@ -860,7 +863,7 @@ function NavBar() {
                   >
                     <button
                       type="button"
-                      className="list-group-item list-group-item-action m-accord"
+                      className="list-group-item list-group-item-action m-accord menu-navs"
                       style={{ background: themeSet2 }}
                     >
                       {" "}
@@ -1004,7 +1007,7 @@ function NavBar() {
                   >
                     <button
                       type="button"
-                      className="list-group-item list-group-item-action m-accord"
+                      className="list-group-item list-group-item-action m-accord menu-navs"
                       style={{ background: themeSet2 }}
                     >
                       {" "}

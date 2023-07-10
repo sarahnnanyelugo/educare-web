@@ -14,7 +14,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 export const HRMPage = () => {
   return (
     <>
-      <div className="col-md-12 hrm-nav sticky-top">
+      <div className="col-md-12 hrm-nav ">
         {" "}
         <NavTwo title="HR Manager" headerIcon={People} />
       </div>

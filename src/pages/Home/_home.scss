@@ -2,7 +2,7 @@
 @import "../../shared-styles";
 
 .modern-solutions-container {
-  padding-top: 80px;
+  padding-top: 180px;
   padding-bottom: 20px;
 
   background: rgb(244, 244, 244);
@@ -12,7 +12,7 @@
     rgba(253, 253, 253, 1) 71%
   );
   @media screen and (max-width: 620px) {
-    padding-top: 0;
+    // padding-top: 50px;
   }
   h1 {
     font-family: recoMedium;

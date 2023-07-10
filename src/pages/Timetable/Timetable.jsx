@@ -26,7 +26,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Timetable() {
   return (
     <>
-      <div className="col-md-12 timetable-nav sticky-top">
+      <div className="col-md-12 timetable-nav">
         {" "}
         <NavTwo title="Timetable" />
       </div>

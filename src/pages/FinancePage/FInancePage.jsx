@@ -7,9 +7,7 @@ import Storage from "../../assets/images/p-tick.svg";
 import Support from "../../assets/images/payroll.svg";
 import Together from "../../assets/images/p-chart.svg";
 
-import DashboardCarousel from "./DashboardCarousel";
 import DashboardDisplay from "./DashboardDisplay/DashboardDisplay";
-import DashboardView from "./DashboardView/DashboardView";
 import Efficiency from "../../components/Efficiency/Efficiency";
 import Prices from "../../components/Prices/Prices";
 import { Link, NavLink } from "react-router-dom";
@@ -20,7 +18,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 export const FinancePage = () => {
   return (
     <>
-      <div className="col-md-12 nav-two-finance sticky-top">
+      <div className="col-md-12 nav-two-finance ">
         {" "}
         <NavTwo title="Finance" />
       </div>
@@ -55,9 +53,8 @@ export const FinancePage = () => {
           </div>
         </div>
       </center>
-      {/* <DashboardCarousel /> */}
+
       <DashboardDisplay />
-      {/* <DashboardView /> */}
 
       <div className="col-md-12 integrated-finance">
         <center>

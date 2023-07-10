@@ -23,7 +23,7 @@ import { Heading } from "../../components/Heading/Heading";
 export const EducareForBusiness = () => {
   return (
     <>
-      <div className="col-md-12 nav-two-business sticky-top">
+      <div className="col-md-12 nav-two-business ">
         {" "}
         <NavTwo title="educare for Business" priceUrl={"/educare-packages"} />
       </div>

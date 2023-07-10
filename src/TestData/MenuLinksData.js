@@ -81,7 +81,7 @@ export const columeThree = [
     title: "MailBox",
     text: "Simplify communication with our powerful mailbox",
     icon: Mailbox,
-    url: "/mailBox",
+    url: "/mail-box",
   },
   {
     title: "Medicals",

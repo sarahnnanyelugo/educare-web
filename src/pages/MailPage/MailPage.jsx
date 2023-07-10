@@ -17,7 +17,7 @@ import { Prefooter } from "../../components/Prefooter/Prefooter";
 function MailPage() {
   return (
     <>
-      <div className="col-md-12 nav-two-mailbox sticky-top">
+      <div className="col-md-12 nav-two-mailbox ">
         {" "}
         <NavTwo title="MailBox" />
       </div>

@@ -21,13 +21,13 @@ function EClassroomPage() {
   return (
     <>
       {" "}
-      <div className="col-md-12 e-classroom-nav sticky-top">
+      <div className="col-md-12 e-classroom-nav ">
         {" "}
         <NavTwo title="eClassroom" />
       </div>
       <div className="col-md-12  e-classroom ">
         <div className="col-md-12  flexy">
-          <div className="col-md-6 right-section">
+          <div className="col-md-6 right-section ">
             {" "}
             <div className="col-md-8 offset-md-2">
               <Heading

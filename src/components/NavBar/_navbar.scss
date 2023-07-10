@@ -1,8 +1,14 @@
 @import "../../variables";
 @import "../../shared-styles";
 
-.navbar-container {
+.fixed-nav {
+  top: 0;
+  position: fixed;
+  z-index: 50;
   background: #fff;
+}
+.navbar-container {
+  // background: #fff;
   padding: 5px 0px !important;
   display: flex;
 
@@ -67,10 +73,7 @@
 .hide {
   display: none !important;
 }
-.sticky {
-  position: fixed;
-  margin-bottom: 50px !important;
-}
+
 // .mobile-navigation {
 
 .side-contrls {
@@ -139,6 +142,7 @@
     transition: clip-path 400ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 60%;
+    z-index: 51;
   }
   .active3 .menu {
     background-color: #3099da;
@@ -207,7 +211,7 @@
     right: 0px;
     top: 10px;
     width: 40px;
-    z-index: 3001;
+    z-index: 3001 !important;
   }
 }
 

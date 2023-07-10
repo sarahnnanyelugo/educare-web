@@ -17,7 +17,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function VotingSystem() {
   return (
     <>
-      <div className="col-md-12 nav-two-voting sticky-top">
+      <div className="col-md-12 nav-two-voting ">
         {" "}
         <NavTwo title="Voting System" />
       </div>
