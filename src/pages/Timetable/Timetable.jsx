@@ -152,7 +152,7 @@ function Timetable() {
         <DashboardDisplay />
       </div>
       <center>
-        <h1>Select a plan to go virtual </h1>
+        <h1 id="pricing">Select a plan to go virtual </h1>
       </center>
       <div className="grad col-md-12">
         {" "}

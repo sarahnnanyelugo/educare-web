@@ -22,20 +22,20 @@ export const NavTwo = (props) => {
         </div>
         <ul className="list-unstyled list-inline">
           <li className="list-inline-item">
-            <NavLink to={"/features"} activeClassName="active">
+            <a href="#features">
               <button className="top-nav-links">
                 {" "}
                 Features <i class="icofont-curved-down"></i>
               </button>
-            </NavLink>
+            </a>
           </li>
           <li className="list-inline-item">
-            <NavLink to={props.priceUrl} activeClassName="active">
+            <a href="#pricing">
               <button className="top-nav-links"> Pricing</button>
-            </NavLink>
+            </a>
           </li>
           <li className="list-inline-item">
-            <NavLink to={"/resources"} activeClassName="active">
+            <NavLink to={"/blog"} activeClassName="active">
               <button className="top-nav-links">
                 {" "}
                 Resources <i class="icofont-curved-down"></i>

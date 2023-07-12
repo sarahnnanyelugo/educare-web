@@ -331,7 +331,7 @@ function AdmissionPage() {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-12 admin-simple-prices">
+      <div className="col-md-12 admin-simple-prices" id="pricing">
         {" "}
         <center>
           <h1 className=" ">Our simple prices made for you </h1>

@@ -21,7 +21,7 @@ export interface PricesProps {
 function Prices(props: PricesProps, active: any) {
   const { btnBg } = props;
   return (
-    <div className={`col-md-12 prices ${props.cls}`} id={`${props.clss}`}>
+    <div className={`col-md-12 prices ${props.cls}`} id={` ${props.clss}`}>
       <h4>{props.package}</h4>
       <div style={{ height: "135px" }}>
         <h2>

@@ -69,8 +69,8 @@ function CBT() {
                   text=" Get started"
                   bg="#11A377"
                   cls="gsmcbt"
-                  bgbtn="#0098DA"
-                  backdropbg="modal-backdrop-dark"
+                  bgbtn="#11A377"
+                  backdropbg="modal-backdrop-green"
                 />
                 <button className="demo">Request for demo</button>
               </center>
@@ -249,7 +249,7 @@ function CBT() {
           </div>
         </div>
       </div>
-      <div className="cbt-plans col-md-12">
+      <div className="cbt-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦800/month</h3>

@@ -186,7 +186,7 @@ function EClassroomPage() {
         </div>
       </div>
       <center>
-        <h1>Our simple prices made for you </h1>
+        <h1 id="pricing">Our simple prices made for you </h1>
       </center>
       <div className="grad col-md-12">
         {" "}

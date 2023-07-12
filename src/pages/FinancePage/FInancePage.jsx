@@ -113,7 +113,7 @@ export const FinancePage = () => {
           </div>
         </div>
       </div>
-      <div className="finance-plans col-md-12">
+      <div className="finance-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>

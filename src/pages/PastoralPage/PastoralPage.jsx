@@ -125,7 +125,7 @@ function Pastoral(props) {
               <img className="" src={Logo} alt="Scholar" /> <h2>Pastoral</h2>
             </div>
           </center>
-          <button>Sign up for a free trial today</button>
+          <button id="pricing">Sign up for a free trial today</button>
         </center>
       </div>
       <center>

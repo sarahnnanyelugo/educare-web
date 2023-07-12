@@ -150,7 +150,7 @@ function VotingSystem() {
           </div>
         </div>
       </div>
-      <div className="voting-plans col-md-12 mtt">
+      <div className="voting-plans col-md-12 mtt" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -159,12 +159,6 @@ function VotingSystem() {
               not be charged until you are prepared to use our HR Manager.
             </p>
           </div>
-          {/* <div className="col-md-2 offset-md-2">
-            <center>
-              {" "}
-              <button>See prices</button>
-            </center>
-          </div> */}
         </div>
         <div className="offset-md-4 recomend">
           {" "}

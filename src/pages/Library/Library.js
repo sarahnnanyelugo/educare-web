@@ -54,8 +54,8 @@ function Library() {
                 text=" Get started"
                 bg="#ED2F59"
                 cls="gsmlib"
-                bgbtn="#0098DA"
-                backdropbg="modal-backdrop-dark"
+                bgbtn="#ED2F59"
+                backdropbg="modal-backdrop-pink"
               />
               <button className="demo">Request a demo</button>
             </div>
@@ -202,7 +202,7 @@ function Library() {
           <DashboardDisplay />
         </div>
       </div>
-      <div className="library-plans col-md-12">
+      <div className="library-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
