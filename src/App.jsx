@@ -40,6 +40,7 @@ import MiniBlog from "./pages/Blog/BlogPost/MiniBlog";
 import MainBlog from "./pages/Blog/BlogPost/MainBlog";
 import Logistics from "./pages/Logistics/Logistics";
 import HealthCare from "./pages/HealthCare/HealthCare";
+import Retail from "./pages/Retail/Retail";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -113,6 +114,7 @@ function App() {
         <Route path="main-blog" element={<MainBlog />} />
         <Route path="logistics" element={<Logistics />} />
         <Route path="healthcare" element={<HealthCare />} />
+        <Route path="retail" element={<Retail />} />
       </Routes>
       <Footer />
       <div
