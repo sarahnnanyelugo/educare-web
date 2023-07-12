@@ -117,6 +117,7 @@ function Report() {
           </div>
         </div>
       </div>
+      <div id="features" />
       <center>
         <h1 className="mtt   font-family: recoAltMedium;">
           How educare reports help you

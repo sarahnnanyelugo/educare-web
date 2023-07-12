@@ -43,7 +43,7 @@ export const HRMPage = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-10 offset-md-1 hr-dashboard">
+      <div className="col-md-10 offset-md-1 hr-dashboard" id="features">
         {" "}
         <center>
           {" "}

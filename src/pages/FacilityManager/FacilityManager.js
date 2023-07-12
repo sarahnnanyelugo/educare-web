@@ -49,6 +49,8 @@ function FacilityManager() {
           </div>
         </div>
       </div>
+
+      <div id="features" />
       <center>
         <h1 className="col-md-5 mt">
           Who says managing your facility is gonna be tedious?

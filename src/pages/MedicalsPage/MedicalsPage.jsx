@@ -56,6 +56,7 @@ function MedicalsPage() {
           <img className="" src={Ambulance} alt="Scholar" width="100%" />
         </div>
       </div>
+      <div id="features" />
       <center>
         <h1 style={{ fontFamily: "recoAltSemiBold" }}>
           Care, Manage and Report

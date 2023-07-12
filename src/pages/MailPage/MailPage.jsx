@@ -44,6 +44,7 @@ function MailPage() {
           </div>
         </div>
       </div>
+      <div id="features" />
       <center>
         <div className="col-md-4 mt">
           <h1>Key features of our privacy-oriented email service</h1>

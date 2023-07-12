@@ -84,6 +84,7 @@ function WeeklyRemarks() {
           <img className="flutter" src={Flutterwave} alt="Scholar" />
         </center>
       </div>
+      <div id="features" />
       <center>
         <h1 className="reco-alt mt">educare Weekly remarks for all</h1>
       </center>

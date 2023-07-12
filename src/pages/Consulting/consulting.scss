@@ -1,9 +1,13 @@
 .consulting-container {
   padding: 280px 0;
-  background: url("../../assets/images/construction-dp.png");
-  background-size: cover;
+  background: url("../../assets/images/consult-bg.png");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
+  @media screen and (max-width: 620px) {
+    background-size: cover;
+  }
   small {
     color: #ace6ff;
     font-size: 16px;
@@ -21,6 +25,10 @@
   background: #f7fdff;
   padding-top: 90px;
   padding-bottom: 250px;
+  @media screen and (max-width: 620px) {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 36px;
     color: #414244;
@@ -30,6 +38,9 @@
 .consult-divs2 {
   padding-top: 30px;
   padding-bottom: 250px;
+  @media screen and (max-width: 620px) {
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 36px;
     color: #414244;

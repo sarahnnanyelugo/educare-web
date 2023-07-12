@@ -34,6 +34,7 @@ function Calendar() {
           </div>
         </div>
       </div>
+      <div id="features" />
       <center>
         <h1 className="reco-alt mt">
           Seamless Scheduling Made Simple with educare Calendar

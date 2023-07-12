@@ -76,6 +76,7 @@ function WalletManager() {
           </center>
         </div>
       </div>
+      <div id="features" />
       <center>
         <h2
           className="col-md-9 reco-alt   

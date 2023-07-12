@@ -46,6 +46,8 @@ function VotingSystem() {
           </div>
         </div>
       </center>
+      <div id="features" />
+
       <div className="col-md-12 dashboard">
         <center>
           <div className="col-md-5">

@@ -41,6 +41,7 @@ function LessonPlanner() {
           </div>
         </div>
       </div>
+      <div id="features" />
       <center>
         <div className="col-md-10 lesson-dashboard">
           <img className=" " src={Home} alt="Scholar" width="100%" />

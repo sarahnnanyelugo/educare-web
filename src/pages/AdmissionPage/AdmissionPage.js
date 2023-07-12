@@ -46,6 +46,7 @@ function AdmissionPage() {
           </div>
         </center>
       </div>
+      <div id="features" />
       <div className="col-md-12 admission-steps">
         {" "}
         <center>

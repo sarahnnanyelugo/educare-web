@@ -53,6 +53,7 @@ export const FinancePage = () => {
           </div>
         </div>
       </center>
+      <div id="features" />
 
       <DashboardDisplay />
 

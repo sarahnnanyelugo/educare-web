@@ -57,6 +57,8 @@ function Pastoral(props) {
           height="100%"
         />
       </div>
+      <div id="features" />
+
       <center>
         <div className="col-md-5 efficient">
           {" "}

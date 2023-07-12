@@ -1,6 +1,10 @@
 import React from "react";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import "./consulting.scss";
+import Img2 from "../../assets/images/consult-im2.png";
+import Img3 from "../../assets/images/consult-img3.png";
+import Img4 from "../../assets/images/consult-img4.png";
+
 function Consulting() {
   return (
     <>
@@ -29,8 +33,8 @@ function Consulting() {
         </center>
       </div>
       <div className="col-md-12 consult-divs ">
-        <div className="col-md-10 offset-md-1">
-          <div className="col-md-5 ">
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-5 mt ">
             <h1 className="col-md-10">
               Informative Reporting and Deliverables
             </h1>
@@ -41,7 +45,15 @@ function Consulting() {
               feature.
             </p>
           </div>
-          <div className="col-md-5">&nbsp;</div>
+          <div className="col-md-7">
+            {" "}
+            <img
+              className="col-md-12 col-12"
+              src={Img2}
+              alt="Scholar"
+              width="100%"
+            />{" "}
+          </div>
         </div>
       </div>{" "}
       <div className="col-md-12 consult-divs2 ">
@@ -77,8 +89,16 @@ function Consulting() {
       </div>{" "}
       <div className="col-md-12 consult-divs2 ">
         <div className="col-md-10 offset-md-1  flexy">
-          <div className="col-md-7">&nbsp;</div>
-          <div className="col-md-5 ">
+          <div className="col-md-6">
+            {" "}
+            <img
+              className="col-md-12 col-12"
+              src={Img3}
+              alt="Scholar"
+              width="100%"
+            />{" "}
+          </div>
+          <div className="col-md-5 offset-md-1 mt6">
             <h1 className="col-md-10">Efficient Calendar Management</h1>
             <p className="col-md-11">
               Stay organized and manage consulting engagements effectively with
@@ -92,7 +112,7 @@ function Consulting() {
       </div>
       <div className="col-md-12 consult-divs2 ">
         <div className="col-md-10 offset-md-1  flexy">
-          <div className="col-md-5 ">
+          <div className="col-md-5 mt5">
             <h1 className="col-md-10">Effortless Financial Management</h1>
             <p className="col-md-11">
               Take control of your consulting finances with ease. Our Consulting
@@ -103,7 +123,15 @@ function Consulting() {
               delivering exceptional services.
             </p>
           </div>
-          <div className="col-md-7">&nbsp;</div>
+          <div className="col-md-6 offset-md-1">
+            {" "}
+            <img
+              className="col-md-12 col-12"
+              src={Img4}
+              alt="Scholar"
+              width="100%"
+            />{" "}
+          </div>
         </div>
       </div>
       <div className="col-md-10 offset-md-1 report-get-started flexy">

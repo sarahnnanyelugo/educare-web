@@ -77,7 +77,8 @@ function CBT() {
             </div>
           </div>
         </center>
-        <div className="potential-div col-md-12  flexy parallax">
+        {/* <div id="features" /> */}
+        <div className="potential-div col-md-12  flexy parallax" id="features">
           <div className="col-md-4 follow ">
             {" "}
             <h1 className="col-md-12">

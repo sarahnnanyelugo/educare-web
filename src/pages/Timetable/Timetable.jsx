@@ -64,8 +64,9 @@ function Timetable() {
           </div>
         </center>
       </div>
+      <div id="features" />
       <div className="col-md-12 shadowed features-main flexy">
-        <div className="features-div col-md-10 offset-md-1 flexy">
+        <div className="features-divd col-md-10 offset-md-1 flexy">
           <div className="col-md-2">&nbsp;</div>
           <div className="col-md-4">
             <div className="col-md-11">
@@ -97,7 +98,7 @@ function Timetable() {
           />
         </div>
       </div>{" "}
-      <div className="features-div col-md-10 offset-md-1  flexy">
+      <div className="features-divd col-md-10 offset-md-1  flexy">
         <div className="col-md-2 dn">
           <img className=" " src={Support2} alt="Scholar" width="20%" />
         </div>
@@ -124,7 +125,7 @@ function Timetable() {
           <img className=" " src={Calender} alt="Scholar" width="50%" />
         </div>
       </div>{" "}
-      <div className="features-div col-md-10   flexy last-row">
+      <div className="features-divd col-md-10   flexy last-row">
         <div className="col-md-2 dn">
           <img className=" " src={Sync2} alt="Scholar" width="25%" />
         </div>

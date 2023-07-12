@@ -68,6 +68,7 @@ function EClassroomPage() {
           <img className="flutter" src={Flutterwave} alt="Scholar" />
         </center>
       </div>
+      <div id="features" />
       <center>
         <h1 className="reco-alt mt8">Classroom on the go</h1>
       </center>
