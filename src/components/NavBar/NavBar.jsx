@@ -357,7 +357,7 @@ function NavBar() {
                     </li>
                     <li>
                       <NavLink
-                        to={"/"}
+                        to={"/finance-services"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -372,7 +372,7 @@ function NavBar() {
                     </li>
                     <li>
                       <NavLink
-                        to={"/"}
+                        to={"/consulting"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -793,7 +793,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/"}
+                          to={"/finance-services"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
@@ -813,7 +813,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/"}
+                          to={"/consulting"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
