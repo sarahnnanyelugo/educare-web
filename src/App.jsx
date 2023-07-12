@@ -44,6 +44,7 @@ import Retail from "./pages/Retail/Retail";
 import Construction from "./pages/Construction/Construction";
 import FinanceServices from "./pages/FinanceServices/FinanceServices";
 import Consulting from "./pages/Consulting/Consulting";
+import Manufacturing from "./pages/Manufacturing/Manufacturing";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -121,6 +122,7 @@ function App() {
         <Route path="construction" element={<Construction />} />
         <Route path="finance-services" element={<FinanceServices />} />
         <Route path="consulting" element={<Consulting />} />
+        <Route path="manufacturing" element={<Manufacturing />} />
       </Routes>
       <Footer />
       <div
