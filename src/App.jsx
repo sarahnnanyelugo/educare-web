@@ -41,6 +41,7 @@ import MainBlog from "./pages/Blog/BlogPost/MainBlog";
 import Logistics from "./pages/Logistics/Logistics";
 import HealthCare from "./pages/HealthCare/HealthCare";
 import Retail from "./pages/Retail/Retail";
+import Construction from "./pages/Construction/Construction";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -115,6 +116,7 @@ function App() {
         <Route path="logistics" element={<Logistics />} />
         <Route path="healthcare" element={<HealthCare />} />
         <Route path="retail" element={<Retail />} />
+        <Route path="construction" element={<Construction />} />
       </Routes>
       <Footer />
       <div

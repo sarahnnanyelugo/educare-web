@@ -294,7 +294,7 @@ function NavBar() {
                     </li>{" "}
                     <li>
                       <NavLink
-                        to={"/"}
+                        to={"/construction"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -713,7 +713,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/"}
+                          to={"/construction"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
