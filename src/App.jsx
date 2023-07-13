@@ -47,6 +47,7 @@ import Consulting from "./pages/Consulting/Consulting";
 import Manufacturing from "./pages/Manufacturing/Manufacturing";
 import Government from "./pages/Government/Government";
 import Energy from "./pages/Energy/Energy";
+import School from "./pages/School/School";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -127,6 +128,7 @@ function App() {
         <Route path="manufacturing" element={<Manufacturing />} />
         <Route path="government" element={<Government />} />
         <Route path="energy" element={<Energy />} />
+        <Route path="schools" element={<School />} />
       </Routes>
       <Footer />
       <div

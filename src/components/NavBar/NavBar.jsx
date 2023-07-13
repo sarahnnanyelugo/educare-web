@@ -249,7 +249,7 @@ function NavBar() {
                   <ul className="col-md-6">
                     <li>
                       <NavLink
-                        to={"/"}
+                        to={"/schools"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >

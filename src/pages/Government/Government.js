@@ -1,7 +1,7 @@
 import React from "react";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import "./government.scss";
-import Img1 from "../../assets/images/govt_1.png";
+import Img from "../../assets/images/govt_1.png";
 import Img2 from "../../assets/images/govt_2.png";
 import Img3 from "../../assets/images/govt_3.png";
 import Img4 from "../../assets/images/govt_4.png";
@@ -28,8 +28,8 @@ function Government() {
           </div>
         </center>
       </div>
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-5 mt">
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-5 ">
           <h1 className="col-md-10">Streamlined HR Management</h1>
           <p className="col-md-10">
             Efficiently manage employee records, payroll, and benefits for
@@ -39,16 +39,16 @@ function Government() {
             government regulations.
           </p>
         </div>
-        <div className="col-md-6 offset-md-1 mt govt-map">
+        <div className="col-md-6 offset-md-1  govt-map">
           <img className=" " src={Img3} alt="Scholar" width="100%" />
         </div>
       </div>{" "}
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-6  mt govt-map">
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-6  govt-map">
           <img className=" " src={Img2} alt="Scholar" width="100%" />
         </div>
-        <div className="col-md-6 mt offset-md-1">
-          <h1 className="col-md-10 mt">Facility Tracking</h1>
+        <div className="col-md-6 offset-md-1">
+          <h1 className="col-md-10 mt3">Facility Tracking</h1>
           <p className="col-md-10">
             You can easily track and manage government facilities, maintenance
             schedules, and resource allocation. Improve maintenance procedures,
@@ -57,26 +57,25 @@ function Government() {
           </p>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-5 mt">
-          <h1 className="col-md-10 mt">Facility Tracking</h1>
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-5 ">
+          <h1 className="col-md-10 mt3">No hiccups with your finances</h1>
           <p className="col-md-10">
-            You can easily track and manage government facilities, maintenance
-            schedules, and resource allocation. Improve maintenance procedures,
-            get real-time insights into facility operations, and allocate
-            resources effectively.
+            Enable effective resource allocation and responsible financial
+            management by streamlining financial procedures, monitoring budgets,
+            and ensuring accurate expenditure management.
           </p>
         </div>
-        <div className="col-md-6 offset-md-1 mt govt-map">
-          <img className=" " src={Img1} alt="Scholar" width="100%" />
+        <div className="col-md-6 offset-md-1 govt-map">
+          <img className=" " src={Img} alt="Scholar" width="100%" />
         </div>
       </div>{" "}
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-6  mt govt-map">
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-6  govt-map">
           <img className=" " src={Img2} alt="Scholar" width="100%" />
         </div>
-        <div className="col-md-6 mt offset-md-1">
-          <h1 className="col-md-10 mt">Enlightening reports</h1>
+        <div className="col-md-6 offset-md-1">
+          <h1 className="col-md-10 mt3">Enlightening reports</h1>
           <p className="col-md-9">
             With our sophisticated Reporting function, you can create detailed
             reports on government operations, public services, and performance
@@ -84,26 +83,26 @@ function Government() {
           </p>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-5 mt">
-          <h1 className="col-md-10 mt">Efficient Calendar Management</h1>
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-5 ">
+          <h1 className="col-md-10">Efficient Calendar Management</h1>
           <p className="col-md-10">
             Stay organized and manage government events, meetings, and public
             hearings effectively with our intuitive Calendar feature. Schedule
             events, coordinate meetings, and plan public hearings seamlessly.
           </p>
         </div>
-        <div className="col-md-6 offset-md-1 mt govt-cal">
+        <div className="col-md-6 offset-md-1 govt-cal">
           <center>
             <img className=" " src={Img4} alt="Scholar" />
           </center>
         </div>
       </div>{" "}
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-6  mt govt-map">
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+        <div className="col-md-6  govt-map">
           <img className=" " src={Img2} alt="Scholar" width="100%" />
         </div>
-        <div className="col-md-6 mt offset-md-1">
+        <div className="col-md-6  offset-md-1">
           <h1 className="col-md-10 mt">Better communications</h1>
           <p className="col-md-9">
             With the help of our integrated Mailbox feature, you can promote

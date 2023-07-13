@@ -3,6 +3,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import "./energy.scss";
 import Img1 from "../../assets/images/energy-com.png";
 import Img2 from "../../assets/images/energy-report.png";
+import Img5 from "../../assets/images/energy-fac.png";
 import Img3 from "../../assets/images/energy-coin.png";
 import Img4 from "../../assets/images/govt_4.png";
 
@@ -33,22 +34,24 @@ function Energy() {
           </div>
         </center>
       </div>
-      <div className="col-md-10 offset-md-1 flexy govt-divs">
-        <div className="col-md-5 mt">
-          <h1 className="col-md-10 mt7">Easily manage your finances</h1>
-          <p className="col-md-10">
-            Take dominion of your energy and utility finances with ease. Our
-            Energy & Utilities module enables you to manage financial
-            transactions, billing, and payments efficiently.
-          </p>
-        </div>
-        <div className="col-md-6 offset-md-1 mt govt-map">
-          <img className=" " src={Img3} alt="Scholar" width="100%" />
-        </div>
-      </div>{" "}
+      <div className="col-md-12 div-one-energy">
+        <div className="col-md-10 offset-md-1 flexy govt-divs">
+          <div className="col-md-5 ">
+            <h1 className="col-md-10 mt7">Easily manage your finances</h1>
+            <p className="col-md-10">
+              Take dominion of your energy and utility finances with ease. Our
+              Energy & Utilities module enables you to manage financial
+              transactions, billing, and payments efficiently.
+            </p>
+          </div>
+          <div className="col-md-7  mt ">
+            <img className=" " src={Img3} alt="Scholar" width="100%" />
+          </div>
+        </div>{" "}
+      </div>
       <div className="col-md-10 offset-md-1 flexy govt-divs">
         <div className="col-md-6  mt energy-dashboard">
-          <img className=" " src={Img2} alt="Scholar" width="100%" />
+          <img className=" " src={Img5} alt="Scholar" width="100%" />
         </div>
         <div className="col-md-6 mt offset-md-1">
           <h1 className="col-md-6 mt">Smoother facility management</h1>
@@ -60,7 +63,7 @@ function Energy() {
       </div>
       <div className="col-md-10 offset-md-1 flexy govt-divs">
         <div className="col-md-5 mt">
-          <h1 className="col-md-10 mt">Be on time for activities</h1>
+          <h1 className="col-md-10 mt7">Be on time for activities</h1>
           <p className="col-md-11">
             Schedule maintenance activities, energy audits, and equipment
             inspections effortlessly. Coordinate resources, plan maintenance
@@ -90,7 +93,7 @@ function Energy() {
       <div className="col-md-10 offset-md-1 flexy govt-divs">
         <div className="col-md-5 mt">
           <h1 className="col-md-10 mt">Informative Reporting</h1>
-          <p className="col-md-9">
+          <p className="col-md-11">
             Leverage powerful analytics capabilities to gain valuable insights
             into energy usage patterns, identify areas for optimization, and
             track sustainability goals. Communicate your environmental impact
