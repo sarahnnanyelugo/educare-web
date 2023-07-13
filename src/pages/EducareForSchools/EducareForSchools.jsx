@@ -27,6 +27,7 @@ export const EducareForSchools = () => {
           priceUrl={"/educare-school-packages"}
         />
       </div>
+      <div style={{ height: "140px" }} />
 
       <div className="col-md-12 flexy for-schools-container">
         <div className="col-md-10 offset-md-1 flexy">

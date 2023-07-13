@@ -21,6 +21,7 @@ function WeeklyRemarks() {
         {" "}
         <NavTwo title="Weekly Remarks" />
       </div>
+        <div style={{ height: "140px" }} />
       <div className="col-md-12 weeky-intro">
         <div className="col-md-2 " style={{ marginTop: "350px" }}>
           <img className="" src={Ball2} alt="Scholar" />

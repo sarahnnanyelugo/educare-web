@@ -22,6 +22,7 @@ export const FinancePage = () => {
         {" "}
         <NavTwo title="Finance" />
       </div>
+      <div style={{ height: "140px" }} />
 
       <center>
         {" "}

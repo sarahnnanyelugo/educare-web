@@ -130,6 +130,8 @@
   height: fit-content;
   padding: 0 !important;
   margin: 0 !important;
+  position: fixed !important;
+  z-index: 40;
   background: rgb(243, 246, 250);
   background: linear-gradient(
     90deg,
@@ -140,4 +142,3 @@
     background: rgb(245, 244, 249);
   }
 }
-

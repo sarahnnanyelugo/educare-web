@@ -1,3 +1,12 @@
+.hide {
+  // bottom: 80px;
+  transform: translateY(-100%);
+  transition: 0.5s ease-in-out !important;
+}
+.fixed {
+  // position: fixed !important;
+  // background: transparent;
+}
 .top-nav-container {
   display: flex;
   padding: 13px 0 0 0;

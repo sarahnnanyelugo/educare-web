@@ -2,6 +2,8 @@
 @import "../../shared-styles";
 .calendar-nav-div {
   background: #def5ff;
+  position: fixed !important;
+  z-index: 40;
 }
 .calendar-div {
   background: #def5ff;

@@ -23,6 +23,8 @@ function Pastoral(props) {
         {" "}
         <NavTwo title="Pastoral" />
       </div>
+      <div style={{ height: "140px" }} />
+
       <div className="col-md-12 wellbeing">
         <center>
           <div className="col-md-5">

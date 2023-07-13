@@ -21,6 +21,7 @@ function MailPage() {
         {" "}
         <NavTwo title="MailBox" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="col-md-12 mail-div">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt div1">

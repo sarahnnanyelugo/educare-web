@@ -20,6 +20,7 @@ function LessonPlanner() {
         {" "}
         <NavTwo title="Lesson Planner" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="col-md-12  lesson-planner">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt9">
@@ -177,7 +178,7 @@ function LessonPlanner() {
             bg="#11A377"
             cls="gsmlp"
             bgbtn="#0098DA"
-            backdropbg="modal-backdrop-dark"
+            backdropbg="modal-backdrop-green"
           />
           <button className="demo">Request for demo</button>
         </center>

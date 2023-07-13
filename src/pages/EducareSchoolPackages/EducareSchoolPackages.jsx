@@ -55,6 +55,7 @@ function EducareSchoolPackages(props) {
         {" "}
         <NavTwo title="educare for Schools" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="school-packages-first-heading col-md-12 nav-two-business">
         <center>
           {" "}

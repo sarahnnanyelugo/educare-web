@@ -8,6 +8,8 @@
     rgba(250, 209, 209, 1) 4%,
     rgba(254, 251, 248, 1) 97%
   );
+  position: fixed !important;
+  z-index: 40;
 }
 .e-classroom {
   // padding: 50px 0 60px 0;

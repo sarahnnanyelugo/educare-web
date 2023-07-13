@@ -18,6 +18,7 @@ function MedicalsPage() {
         {" "}
         <NavTwo title="Medicals" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="col-md-10 offset-md-1 flexy services-container">
         <div className="col-md-5 health-services">
           <div className="heading-container">

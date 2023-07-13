@@ -7,6 +7,8 @@
     rgba(249, 218, 225, 1) 22%,
     rgba(255, 255, 255, 1) 82%
   );
+  position: fixed !important;
+  z-index: 40;
 }
 .library-container {
   padding: 100px 0 50px 0;

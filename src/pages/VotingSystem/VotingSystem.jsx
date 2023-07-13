@@ -21,6 +21,7 @@ function VotingSystem() {
         {" "}
         <NavTwo title="Voting System" />
       </div>
+      <div style={{ height: "140px" }} />
       <center>
         <div className="col-md-6 voting-div">
           <Heading

@@ -25,6 +25,7 @@ function Report() {
         {" "}
         <NavTwo title="Report" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="report-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-6 mtt  no-m">

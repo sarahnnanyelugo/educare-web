@@ -8,6 +8,8 @@
     rgba(227, 212, 246, 1) 59%,
     rgba(250, 233, 217, 1) 87%
   );
+  position: fixed !important;
+  z-index: 40;
 }
 .hr-manager-container {
   height: 1300px;

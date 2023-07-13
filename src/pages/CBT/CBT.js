@@ -43,6 +43,8 @@ function CBT() {
         {" "}
         <NavTwo title="CBT" />
       </div>
+      <div style={{ height: "140px" }} />
+
       <div className="col-md-12 cbt-intro">
         <center>
           <div className=" col-md-6 cbt-intro-div ">

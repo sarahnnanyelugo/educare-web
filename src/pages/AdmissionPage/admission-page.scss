@@ -3,8 +3,8 @@
 .admission-nav-div {
   background: #def5ff;
 
-  top: 0;
-  z-index: 10;
+  position: fixed !important;
+  z-index: 40;
 }
 .admissions-div {
   background: #def5ff;

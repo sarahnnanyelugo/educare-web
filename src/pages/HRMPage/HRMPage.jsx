@@ -18,6 +18,7 @@ export const HRMPage = () => {
         {" "}
         <NavTwo title="HR Manager" headerIcon={People} />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="col-md-12  hr-manager-container">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt9">

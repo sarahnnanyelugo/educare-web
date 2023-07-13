@@ -30,6 +30,7 @@ function Timetable() {
         {" "}
         <NavTwo title="Timetable" />
       </div>
+      <div style={{ height: "140px" }} />
       <div className="col-md-12 timetable-container">
         <center>
           <div className="col-md-5 timetable-div">

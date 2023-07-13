@@ -23,6 +23,8 @@ function FacilityManager() {
         {" "}
         <NavTwo title="Facility Management" />
       </div>
+      <div style={{ height: "140px" }} />
+
       <div className="facility-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-5 mtt  no-m">

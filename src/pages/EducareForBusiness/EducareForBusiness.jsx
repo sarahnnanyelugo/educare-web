@@ -27,6 +27,7 @@ export const EducareForBusiness = () => {
         {" "}
         <NavTwo title="educare for Business" priceUrl={"/educare-packages"} />
       </div>
+      <div style={{ height: "140px" }} />
 
       <div className="col-md-12 grad">
         {" "}

@@ -2,6 +2,8 @@
 @import "../../shared-styles";
 .wallet-nav-div {
   background: #11a37729;
+  position: fixed !important;
+  z-index: 49 !important;
 }
 .wallet-div {
   background: #11a37729;
