@@ -40,7 +40,7 @@ function VotingSystem() {
               bg="#0098DA"
               cls="gsmvs"
               bgbtn="#0098DA"
-              backdropbg="modal-backdrop-dark"
+              backdropbg="modal-backdrop-blue"
             />
             <button className="demo">Request for demo</button>
           </div>

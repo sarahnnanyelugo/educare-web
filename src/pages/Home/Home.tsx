@@ -68,6 +68,7 @@ import Prin2 from "../../assets/images/prin2.png";
 import Prin3 from "../../assets/images/prin3.png";
 import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 export const Home = () => {
   return (
@@ -173,7 +174,7 @@ export const Home = () => {
                 <div className="col-md-6 hr-manager">
                   <Features
                     feature="HR Manager"
-                    detail="The one and only accounting and payroll solution your business will ever need"
+                    detail="Streamline your HR tasks with our comprehensive HR manager."
                     icon={People2}
                     url={"./hrm"}
                   />{" "}
@@ -265,7 +266,7 @@ export const Home = () => {
           <div className="col-md-10 offset-md-1 principles-div mt">
             <center>
               {" "}
-              <h2>Principles that drives us to create great products</h2>
+              <h2>Principles that drive us to create great products</h2>
             </center>
             <div className="flexy mt4">
               <div className="col-md-4 contnrs">
@@ -317,10 +318,17 @@ export const Home = () => {
               </div>{" "}
             </div>
             <center>
-              <Link to={"/"}>
+              {/* <Link to={"/"}>
                 {" "}
                 <button>Get started with us</button>
-              </Link>
+              </Link> */}
+              <GetStartedForm
+                text=" Get started with us"
+                bg="#0098DA"
+                cls="gsmcal"
+                bgbtn="#0098DA"
+                backdropbg="modal-backdrop-dark"
+              />
             </center>
           </div>
         </div>
@@ -382,11 +390,11 @@ export const Home = () => {
                   </div>
                   <div className="col-md-12 other-components">
                     {" "}
-                    <OtherEducareProducts
+                    {/* <OtherEducareProducts
                       productIcon={""}
                       productName=""
                       url={"./"}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -435,11 +443,11 @@ export const Home = () => {
                 </div>
                 <div className="col-md-6 col-6 other-components">
                   {" "}
-                  <OtherEducareProducts
+                  {/* <OtherEducareProducts
                     productIcon={""}
                     productName=""
                     url={"./"}
-                  />{" "}
+                  />{" "} */}
                 </div>
               </div>
               <div className="col-md-12 bt pd">

@@ -39,7 +39,7 @@ function AdmissionPage() {
                 bg="#0098DA"
                 cls="gsmadm"
                 bgbtn="#0098DA"
-                backdropbg="modal-backdrop-dark"
+                backdropbg="modal-backdrop-blue"
               />
               <button className="demo">Request for demo</button>
             </center>
@@ -422,7 +422,14 @@ function AdmissionPage() {
             Streamline Your Admission Process with educare admissions today!
           </h3>
           <center>
-            <button className="started">Get started</button>
+            {/* <button className="started">Get started</button> */}
+            <GetStartedForm
+              text=" Get started"
+              bg="#0098DA"
+              cls="gsmadm"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-blue"
+            />
             <button className="demo">Request for demo</button>
           </center>
         </div>

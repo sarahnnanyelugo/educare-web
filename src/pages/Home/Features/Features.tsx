@@ -17,7 +17,7 @@ export const Features = (props: featuresProps) => {
         <p>{props.detail}</p>
         <Link to={props.url}>
           {" "}
-          <button>Sign up now</button>
+          <button>Learn more</button>
         </Link>
       </div>
     </>
