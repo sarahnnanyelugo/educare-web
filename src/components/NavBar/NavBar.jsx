@@ -309,7 +309,7 @@ function NavBar() {
                     </li>{" "}
                     <li>
                       <NavLink
-                        to={"/"}
+                        to={"/energy"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -733,7 +733,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/healthcare"}
+                          to={"/energy"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
