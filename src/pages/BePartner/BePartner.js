@@ -56,7 +56,7 @@ function BePartner() {
             <div className="col-md-6">
               {" "}
               <h1>Why become an educare Partner?</h1>
-              <p>
+              <p className="col-md-8">
                 Innovate, expand your customer reach, and grow your business
                 with technical, marketing, and funding resources from educare.
               </p>
@@ -167,7 +167,7 @@ function BePartner() {
           </div>
         </center>
       </div>
-      <div className="container partner-benefits">
+      <div className="container partner-benefits-1">
         <h6>Benefits for partners</h6>
         <h1>A program to grow your business</h1>
         <div className="col-md-5">

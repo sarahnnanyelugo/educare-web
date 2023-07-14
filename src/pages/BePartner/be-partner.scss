@@ -40,7 +40,7 @@
 
 .edu-partnr {
   margin-top: 50px;
-  padding: 100px 0;
+  padding: 80px 0;
   border-radius: 20px;
   background: #cef0ff;
   border: solid 1px #0098da;
@@ -165,7 +165,7 @@
     border-right: dashed 2px #e7e7e7;
   }
 }
-.partner-benefits {
+.partner-benefits-1 {
   padding: 130px 0;
   h6 {
     color: #0098da;
@@ -178,7 +178,8 @@
     border-radius: 20px;
     padding: 35px;
     margin-top: 50px;
-    box-shadow: 0 0 1px 1px grey;
+    box-shadow: 0 0 1px 1px rgb(247, 242, 242);
+    background: #fff !important;
     p {
       color: #414244;
     }
@@ -193,16 +194,16 @@
     }
   }
   .beneft1 {
-    border: solid 1px #0098da !important;
+    border: solid 1px #d1ecf8 !important;
   }
   .beneft2 {
-    border: solid 1px #ea8713 !important;
+    border: solid 1px #fae9d4 !important;
   }
   .beneft3 {
-    border: solid 1px #ed2f59 !important;
+    border: solid 1px #f9c6d2 !important;
   }
   .beneft4 {
-    border: solid 1px #4a13b2 !important;
+    border: solid 1px #ded4f1 !important;
   }
 }
 .become-partner {
