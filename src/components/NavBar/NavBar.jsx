@@ -469,7 +469,7 @@ function NavBar() {
                     {" "}
                     <li>
                       <NavLink
-                        to={"/partner"}
+                        to={"/be-partner"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -937,7 +937,7 @@ function NavBar() {
                       </li>{" "}
                       <li>
                         <NavLink
-                          to={"/blog"}
+                          to={"/be-partner"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {

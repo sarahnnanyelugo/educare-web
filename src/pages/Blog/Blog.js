@@ -41,14 +41,6 @@ function Blog() {
             <MiniBlog data={data} />
           ))}
         </div>
-        {/* <div className="col-md-6">
-          {" "}
-          <div className="col-md-11 ">
-            {blogPostColTwo.map((data, index) => (
-              <MiniBlog data={data} />
-            ))}
-          </div>{" "}
-        </div> */}
       </div>
     </>
   );

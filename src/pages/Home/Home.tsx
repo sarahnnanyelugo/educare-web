@@ -70,14 +70,12 @@ import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import Standard from "../../assets/images/standard.png";
-import Paystack from "../../assets/images/paystack.svg";
-import Microsoft from "../../assets/images/microsoft.svg";
-import Flutterwave from "../../assets/images/flutterwave.svg";
+
 import Aisa from "../../assets/images/aisa.svg";
 import Grange from "../../assets/images/grange.png";
 import LBS from "../../assets/images/lbs.png";
 import Cobis from "../../assets/images/cobis.png";
-import Apen from "../../assets/images/apen.png";
+
 import Starvile from "../../assets/images/starvile.png";
 export const Home = () => {
   return (
