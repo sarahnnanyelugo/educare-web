@@ -69,7 +69,16 @@ import Prin3 from "../../assets/images/prin3.png";
 import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
-
+import Standard from "../../assets/images/standard.png";
+import Paystack from "../../assets/images/paystack.svg";
+import Microsoft from "../../assets/images/microsoft.svg";
+import Flutterwave from "../../assets/images/flutterwave.svg";
+import Aisa from "../../assets/images/aisa.svg";
+import Grange from "../../assets/images/grange.png";
+import LBS from "../../assets/images/lbs.png";
+import Cobis from "../../assets/images/cobis.png";
+import Apen from "../../assets/images/apen.png";
+import Starvile from "../../assets/images/starvile.png";
 export const Home = () => {
   return (
     <>
@@ -133,6 +142,20 @@ export const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="col-md-10 offset-md-1 mt partners-immgs">
+        <center>
+          {" "}
+          <h3>Trusted by leading organisations</h3>
+        </center>
+        <center>
+          <img className="standard" src={Standard} alt="Scholar" />
+          <img className="cobis" src={Cobis} alt="Scholar" />
+          <img className="aisa" src={Aisa} alt="Scholar" />
+          <img className="grange" src={Grange} alt="Scholar" />
+          <img className="lbs" src={LBS} alt="Scholar" />
+          <img className="starvile" src={Starvile} alt="Scholar" />
+        </center>
       </div>
       <div className="features-heading">
         <center>
@@ -752,33 +775,6 @@ export const Home = () => {
             <button>View all products</button>
           </center>
         </div>
-        <div className="col-md-12  latest-news-section">
-          {" "}
-          <div className="col-md-10 offset-md-1 ">
-            <center>
-              <h1>Resources and Insights</h1>
-              <p>
-                The latest news, interviews, technologies, and resources on
-                educare.
-              </p>
-            </center>
-            <section className="col-md-3 mt7">
-              {" "}
-              <div className="col-md-11 flexy gap-5 ">
-                {" "}
-                {LatestBlogIndex.map((data, index) => (
-                  <LatestBlog data={data} />
-                ))}
-              </div>
-            </section>
-            <center>
-              {" "}
-              <Link to={"/blog"}>
-                <button className="resos-btn">View all resources</button>
-              </Link>
-            </center>
-          </div>
-        </div>
         <div className="col-md-12 privacy-protection">
           <div className="col-md-6 offset-md-3">
             <center>
@@ -794,7 +790,34 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Partners />
+      {/* <Partners /> */}
+      <div className="col-md-12  latest-news-section">
+        {" "}
+        <div className="col-md-10 offset-md-1 ">
+          <center>
+            <h1>Resources and Insights</h1>
+            <p>
+              The latest news, interviews, technologies, and resources on
+              educare.
+            </p>
+          </center>
+          <section className="col-md-3 mt7">
+            {" "}
+            <div className="col-md-11 flexy gap-5 ">
+              {" "}
+              {LatestBlogIndex.map((data, index) => (
+                <LatestBlog data={data} />
+              ))}
+            </div>
+          </section>
+          <center>
+            {" "}
+            <Link to={"/blog"}>
+              <button className="resos-btn ">View all resources</button>
+            </Link>
+          </center>
+        </div>
+      </div>
     </>
   );
 };
