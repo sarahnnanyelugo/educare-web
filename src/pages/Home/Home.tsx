@@ -144,7 +144,7 @@ export const Home = () => {
       <div className="col-md-10 offset-md-1 mt partners-immgs">
         <center>
           {" "}
-          <h3>Trusted by leading organisations</h3>
+          <h3>Trusted by leading organizations</h3>
         </center>
         <center>
           <img className="standard" src={Standard} alt="Scholar" />
