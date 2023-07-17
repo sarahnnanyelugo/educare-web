@@ -10,5 +10,12 @@ export const CountrySelect = () => {
     setValue(value);
   };
 
-  return <Select options={options} value={value} onChange={changeHandler} />;
+  return (
+    <Select
+      options={options}
+      value={value}
+      onChange={changeHandler}
+      placeholder="Select country"
+    />
+  );
 };

@@ -114,7 +114,7 @@ export const Home = () => {
               <RandomComponent
                 title="Pick your tools"
                 icon={RedIcon}
-                paragraph=" Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals.”"
+                paragraph=" Choose from our wide range of tools and select the ones that best fit Your business’s unique needs and goals."
               />
             </div>
           </div>
@@ -124,7 +124,7 @@ export const Home = () => {
               <RandomComponent
                 title="Work smart not hard"
                 icon={YellowIcon}
-                paragraph="Our smart solutions empower you to work smarter, not harder, allowing you to achieve more in less time and with less effort"
+                paragraph="Our smart solutions empower you to work smarter, not harder, allowing you to achieve more in less time and with less effort."
               />
             </div>
           </div>
@@ -146,14 +146,31 @@ export const Home = () => {
           {" "}
           <h3>Trusted by leading organizations</h3>
         </center>
-        <center>
-          <img className="standard" src={Standard} alt="Scholar" />
-          <img className="cobis" src={Cobis} alt="Scholar" />
-          <img className="aisa" src={Aisa} alt="Scholar" />
-          <img className="grange" src={Grange} alt="Scholar" />
-          <img className="lbs" src={LBS} alt="Scholar" />
-          <img className="starvile" src={Starvile} alt="Scholar" />
-        </center>
+        <div className="row row-cols-2 row-cols-lg-6">
+          <div className="col">
+            {" "}
+            <img className="standard" src={Standard} alt="Scholar" />
+          </div>
+          <div className="col">
+            <img className="cobis " src={Cobis} alt="Scholar" />
+          </div>
+          <div className="col">
+            {" "}
+            <img className="aisa " src={Aisa} alt="Scholar" />
+          </div>
+          <div className="col">
+            {" "}
+            <img className="grange " src={Grange} alt="Scholar" />
+          </div>
+          <div className="col">
+            {" "}
+            <img className="lbs " src={LBS} alt="Scholar" />
+          </div>
+          <div className="col">
+            {" "}
+            <img className="starvile " src={Starvile} alt="Scholar" />
+          </div>
+        </div>
       </div>
       <div className="features-heading">
         <center>
@@ -187,7 +204,7 @@ export const Home = () => {
                 <div className="col-md-6 right-features">
                   <Features
                     feature="Finance"
-                    detail="The one and only accounting and payroll solution your business will ever need"
+                    detail="The one and only accounting and payroll solution your business will ever need."
                     icon={HalfCircle}
                     url={"./finance"}
                   />{" "}
@@ -206,7 +223,7 @@ export const Home = () => {
                 <div className="col-md-6 right-features">
                   <Features
                     feature="MailBox"
-                    detail="Simplify communication with our powerful mailbox"
+                    detail="Simplify communication with our powerful mailbox."
                     icon={Mail}
                     url={"./mail-box"}
                   />{" "}
@@ -216,7 +233,7 @@ export const Home = () => {
                     feature="Facility Management"
                     detail="Optimize your workforce with our staff management module."
                     icon={People}
-                    url={"./"}
+                    url={"./facility-manager"}
                   />{" "}
                 </div>
               </div>
@@ -272,7 +289,7 @@ export const Home = () => {
                   <div className="col-md-6">
                     <Features
                       feature="eClassroom"
-                      detail="Streamline your HR tasks with our comprehensive HR manager."
+                      detail="Versatile software module designed to enhance virtual learning and collaboration within schools."
                       icon={Classroom}
                       url={"./e-classroom"}
                     />{" "}
@@ -303,7 +320,7 @@ export const Home = () => {
                 <div className="col-md-11">
                   <Principles
                     heading="Continuous Improvement"
-                    detail="We have an unwavering commitment to continuous improvement. We actively seek opportunities to learn, grow, and enhance our software solutions, processes, and services to better serve our clients."
+                    detail="Our commitment to continuous improvement is backed by a solid foundation of knowledge and experience, ensuring that we provide the highest quality of service and solutions to our clients."
                     icon={Prin2}
                   />
                 </div>

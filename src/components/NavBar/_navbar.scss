@@ -6,11 +6,15 @@
   position: fixed;
   z-index: 50;
   background: #fff;
+  @media screen and (max-width: "620px") {
+    padding: 0 7px;
+  }
 }
 .navbar-container {
   // background: #fff;
   padding: 5px 0px !important;
   display: flex;
+
   .web-nav {
     @media screen and (max-width: "620px") {
       display: none;

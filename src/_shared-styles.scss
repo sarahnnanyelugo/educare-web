@@ -83,3 +83,14 @@
     display: none;
   }
 }
+.dnW {
+  @media screen and (min-width: 620px) {
+    display: none;
+  }
+}
+.img-resolv {
+  width: 90%;
+  @media screen and (max-width: 620px) {
+    width: 100%;
+  }
+}

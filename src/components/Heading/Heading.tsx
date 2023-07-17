@@ -5,14 +5,15 @@ export interface HeadingProps {
   color: "string";
   text: "string";
   boda: "string";
+  display: "string";
 }
 export const Heading = (props: HeadingProps) => {
-  const { bg, color, text, boda } = props;
+  const { bg, color, text, boda, display } = props;
   return (
     <>
       <button
         style={{ backgroundColor: bg, color: color, border: boda }}
-        className="heading"
+        className={`heading ${display}`}
       >
         {text}
       </button>

@@ -102,7 +102,7 @@ export const EducareForBusiness = () => {
       </div>
       <center>
         {" "}
-        <div className="col-md-2 ">
+        <div className="col-md-2 col-5">
           {" "}
           <OverviewVideo />
         </div>
@@ -131,15 +131,22 @@ export const EducareForBusiness = () => {
       </div>
       <div className="col-md-12 flexy hr-container">
         <div className="col-md-7">
-          {" "}
-          <img className="" src={HRDashboard} alt="Scholar" width="90%" />
-        </div>
-        <div className="col-md-4 ">
           <Heading
             text="HR Manager"
             bg="#fdf5eb"
             color="#bf741c"
             boda="#fdf5eb"
+            display="dnW"
+          />{" "}
+          <img className=" img-resolv mt2" src={HRDashboard} alt="Scholar" />
+        </div>
+        <div className="col-md-4 mt7">
+          <Heading
+            text="HR Manager"
+            bg="#fdf5eb"
+            color="#bf741c"
+            boda="#fdf5eb"
+            display="dn"
           />
           <h3 className="mt3">
             Provide your employees with outstanding experiences they will never
@@ -188,7 +195,18 @@ export const EducareForBusiness = () => {
       </div>
       <div className="facility-management flexy mt">
         <div className="col-md-7">
-          <img className="" src={FacilityDashboard} alt="Scholar" width="90%" />
+          <Heading
+            text="Facility Management"
+            bg="#eaedfe"
+            color="#204bc8"
+            boda="#eaedfe"
+            display="dnW"
+          />
+          <img
+            className="mt2 img-resolv"
+            src={FacilityDashboard}
+            alt="Scholar"
+          />
         </div>
         <div className="col-md-4">
           <Heading
@@ -196,6 +214,7 @@ export const EducareForBusiness = () => {
             bg="#eaedfe"
             color="#204bc8"
             boda="#eaedfe"
+            display="dn"
           />
           <h3 className="mt3">Automated employee reimbursements.</h3>
           <p>

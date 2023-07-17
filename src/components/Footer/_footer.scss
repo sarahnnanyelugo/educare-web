@@ -75,3 +75,9 @@
 .hide {
   display: none !important;
 }
+.social-media-icons {
+  // padding-lesft: 30px;
+  @media screen and (max-width: 620px) {
+    // margin-left: 50px;
+  }
+}
