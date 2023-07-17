@@ -18,7 +18,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 export const FinancePage = () => {
   return (
     <>
-      <div className="col-md-12 nav-two-finance ">
+      <div className="col-md-12 nav-two-finance col-12">
         {" "}
         <NavTwo title="Finance" />
       </div>
@@ -42,7 +42,7 @@ export const FinancePage = () => {
             operations. Gain insight into your financial performance and make
             informed decisions to help your business thrive.
           </p>
-          <div className="flexy flexyM offset-md-4 mt4 finance-btns">
+          <div className="flexy flexyM offset-md-4 mt4 finance-btns offset-1">
             <GetStartedForm
               text=" Get started"
               bg="#4A13B2"

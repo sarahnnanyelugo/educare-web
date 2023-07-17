@@ -3,8 +3,16 @@
     height: 48px;
     width: 58px;
     margin-bottom: 40px;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 10px;
+    }
   }
   h3 {
     margin-bottom: 20px;
+  }
+  @media screen and (max-width: 620px) {
+    p {
+      margin-bottom: 80px;
+    }
   }
 }

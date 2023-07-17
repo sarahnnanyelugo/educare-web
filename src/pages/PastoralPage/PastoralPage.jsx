@@ -19,7 +19,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Pastoral(props) {
   return (
     <>
-      <div className="col-md-12 pastoral-nav ">
+      <div className="col-md-12 pastoral-nav col-12">
         {" "}
         <NavTwo title="Pastoral" />
       </div>

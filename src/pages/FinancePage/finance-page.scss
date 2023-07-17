@@ -22,6 +22,7 @@
   .finance-btns {
     button {
       @include get-started-button;
+      text-align: center;
     }
     .started {
       background: $purple;
