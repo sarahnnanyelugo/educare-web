@@ -66,18 +66,21 @@
   img {
     filter: grayscale(100%);
     margin: 30px;
+    @media screen and (max-width: 620px) {
+      margin: 30px 10px;
+    }
   }
   .aisa {
     height: 78.82px;
-    width: 119.11px;
+    // width: 119.11px;
   }
   .ms {
     height: 32.78px;
-    width: 153.47px;
+    // width: 153.47px;
   }
   .flutter {
     height: 42.79px;
-    width: 216.74px;
+    // width: 216.74px;
   }
 }
 .on-d-go {

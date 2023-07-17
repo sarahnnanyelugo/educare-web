@@ -38,6 +38,9 @@
 }
 .hr-dashboard {
   margin-top: -500px;
+  @media screen and (max-width: 620px) {
+    margin-top: -200px;
+  }
 }
 .hr-simple {
   padding-left: 80px;

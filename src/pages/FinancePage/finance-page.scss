@@ -22,11 +22,11 @@
   .finance-btns {
     button {
       @include get-started-button;
-      text-align: center;
     }
     .started {
       background: $purple;
       margin-right: 10px;
+
       &:hover {
         background: #3b0f8e;
         transition: 0.5s ease;

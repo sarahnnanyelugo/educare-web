@@ -21,7 +21,7 @@ function EClassroomPage() {
   return (
     <>
       {" "}
-      <div className="col-md-12 e-classroom-nav ">
+      <div className="col-md-12 e-classroom-nav col-12">
         {" "}
         <NavTwo title="eClassroom" />
       </div>
@@ -64,9 +64,19 @@ function EClassroomPage() {
         </center>
         <center>
           {" "}
-          <img className="aisa" src={Aisa} alt="Scholar" />
-          <img className="ms" src={Microsoft} alt="Scholar" />
-          <img className="flutter" src={Flutterwave} alt="Scholar" />
+          <div className="row row-cols-2 row-cols-lg-3 col-12 col-md-6 ">
+            {" "}
+            <div className="col">
+              <img className="aisa" src={Aisa} alt="Scholar" />
+            </div>
+            <div className="col mt2">
+              <img className="ms" src={Microsoft} alt="Scholar" />
+            </div>
+            <div className="col mt2">
+              {" "}
+              <img className="flutter" src={Flutterwave} alt="Scholar" />
+            </div>
+          </div>
         </center>
       </div>
       <div id="features" />
@@ -75,7 +85,7 @@ function EClassroomPage() {
       </center>
       <div className="col-md-10 offset-md-1 mt9 on-d-go">
         <center className="flexy">
-          <div className="col-md-4">
+          <div className="col-md-4 mt5">
             <div className="col-md-10">
               {" "}
               <h3>Broadcast video classes</h3>
@@ -88,7 +98,7 @@ function EClassroomPage() {
               </p>
             </div>
           </div>{" "}
-          <div className="col-md-4">
+          <div className="col-md-4 mt5">
             <div className="col-md-10">
               {" "}
               <h3>Interact with your students</h3>
@@ -101,7 +111,7 @@ function EClassroomPage() {
               </p>
             </div>
           </div>{" "}
-          <div className="col-md-4">
+          <div className="col-md-4 mt5">
             <div className="col-md-10">
               {" "}
               <h3>Record and share classes</h3>
@@ -207,10 +217,7 @@ function EClassroomPage() {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div
-              className="offset-md-4 offset-5"
-              style={{ marginBottom: "-10px" }}
-            >
+            <div className="offset-md-4 offset-5    heading-adj">
               <Heading
                 bg="#FFD5EB"
                 color="#CC006E"

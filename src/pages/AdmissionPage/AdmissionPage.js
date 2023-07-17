@@ -20,11 +20,11 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function AdmissionPage() {
   return (
     <>
-      <div className="col-md-12 admission-nav-div">
+      <div className="col-md-12 admission-nav-div col-12">
         {" "}
         <NavTwo title="Admission" />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "120px" }} />
       <div className="col-md-12 admissions-div">
         <center>
           <div className="col-md-5">

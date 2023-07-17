@@ -21,7 +21,7 @@ function Report() {
   return (
     <>
       {" "}
-      <div className="col-md-12 report-nav-div">
+      <div className="col-md-12 report-nav-div col-12">
         {" "}
         <NavTwo title="Report" />
       </div>
@@ -276,7 +276,7 @@ function Report() {
         <div className="col-md-4 offset-md-1">
           <h2>Stay on top of your schedule, no matter where you are</h2>
         </div>
-        <div className="offset-md-4 mt2">
+        <div className="offset-md-4 mt2 offset-1">
           <GetStartedForm
             text=" Get started"
             bg="#0098DA"

@@ -16,11 +16,11 @@ function LessonPlanner() {
   return (
     <>
       {" "}
-      <div className="col-md-12 lesson-planner-nav ">
+      <div className="col-md-12 lesson-planner-nav  col-12">
         {" "}
         <NavTwo title="Lesson Planner" />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12  lesson-planner">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt9">
@@ -65,10 +65,11 @@ function LessonPlanner() {
       </div>
       <div className="col-md-10 offset-md-1 flexy mt6 no-m">
         <div className="col-md-7 ">
+          <h3 className="dnW mt">Scheduling</h3>
           <img className=" " src={Setup2} alt="Scholar" width="100%" />
         </div>
-        <div className="col-md-4 mt offset-md-1">
-          <h3>Scheduling</h3>
+        <div className="col-md-4 mt offset-md-1 no-m">
+          <h3 className="dn">Scheduling</h3>
           <p>
             Easily schedule classes, assignments, and assessments. Our
             drag-and-drop calendar interface allows you to quickly schedule
@@ -77,7 +78,7 @@ function LessonPlanner() {
           </p>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy mt5">
+      <div className="col-md-10 offset-md-1 flexy mt8">
         <div className="col-md-4 mt5">
           <h3>Customization</h3>
           <p>
@@ -92,7 +93,7 @@ function LessonPlanner() {
         </div>
       </div>
       <center>
-        <h3>Hear from Our Satisfied Users</h3>
+        <h3 className="mt8">Hear from Our Satisfied Users</h3>
         <p>Don’t just take our word for it – hear from our happy customers</p>
       </center>
       <div className="col-md-12 offset-md-  testimonial-div">

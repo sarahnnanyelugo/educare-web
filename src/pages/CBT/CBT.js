@@ -39,11 +39,11 @@ function CBT() {
   });
   return (
     <>
-      <div className="col-md-12 cbt-nav-div">
+      <div className="col-md-12 cbt-nav-div col-12">
         {" "}
         <NavTwo title="CBT" />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
 
       <div className="col-md-12 cbt-intro">
         <center>

@@ -65,16 +65,17 @@
       transition: 0.5s ease;
     }
   }
-  .recomend {
-    margin-bottom: -100px;
-    position: relative;
-    z-index: 2;
+  .recomend2 {
+    // margin-top: -28px;
+
     button {
       background: #f5dcf8;
       color: #c32bd6;
       border: none;
       font-size: 14px;
-      margin-left: 90px;
+      margin-left: 100px;
+      margin-bottom: -260px !important;
+      display: none;
     }
   }
 }

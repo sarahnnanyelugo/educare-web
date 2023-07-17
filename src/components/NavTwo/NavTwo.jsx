@@ -35,14 +35,14 @@ export const NavTwo = (props) => {
   }, [y]);
   return (
     <div
-      className={` col-md-12 fixed ${
+      className={` col-md-12  fixed ${
         scrollPosition >= 400 && scrollDirection < 0 ? "hide" : ""
       }`}
     >
       <div className="col-md-10 offset-md-1 top-nav-container ">
         {props.headerIcon ? (
           <img
-            className="   logo"
+            className="logo dnM"
             src={props.headerIcon}
             alt="Scholar"
             // width="50%"

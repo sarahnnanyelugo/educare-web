@@ -17,7 +17,7 @@ import { Prefooter } from "../../components/Prefooter/Prefooter";
 function MailPage() {
   return (
     <>
-      <div className="col-md-12 nav-two-mailbox ">
+      <div className="col-md-12 nav-two-mailbox col-12">
         {" "}
         <NavTwo title="MailBox" />
       </div>
@@ -158,7 +158,7 @@ function MailPage() {
             </center>
           </div> */}
         </div>
-        <div className="offset-md-4 recomend">
+        <div className="offset-md-4 recomend2">
           {" "}
           <button>Recommended</button>
         </div>
@@ -175,7 +175,9 @@ function MailPage() {
             />
           </div>{" "}
           <div className="col-md-3 zoom">
-            {" "}
+            <div className="recomend2">
+              {/* <button>Recommended</button> */}
+            </div>
             <Prices
               package="Professional"
               amount="600.00"

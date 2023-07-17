@@ -17,7 +17,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function VotingSystem() {
   return (
     <>
-      <div className="col-md-12 nav-two-voting ">
+      <div className="col-md-12 nav-two-voting col-12">
         {" "}
         <NavTwo title="Voting System" />
       </div>
@@ -35,7 +35,7 @@ function VotingSystem() {
             Streamline various processes and promote greater participation and
             engagement from students and staff alike.
           </p>
-          <div className="flexy flexyM offset-md-4 mt4 voting-btns">
+          <div className="flexy flexyM offset-md-4 mt4 voting-btns offset-2">
             <GetStartedForm
               text=" Get started"
               bg="#0098DA"

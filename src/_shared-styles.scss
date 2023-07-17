@@ -98,9 +98,20 @@
     display: none;
   }
 }
+.dnM {
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}
 .img-resolv {
   width: 90%;
   @media screen and (max-width: 620px) {
     width: 100%;
+  }
+}
+.heading-adj {
+  margin-bottom: -10px;
+  @media screen and (max-width: 620px) {
+    margin-bottom: -50px;
   }
 }
