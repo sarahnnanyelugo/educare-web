@@ -19,7 +19,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function FacilityManager() {
   return (
     <>
-      <div className="col-md-12 facility-nav-div">
+      <div className="col-md-12 facility-nav-div col-12">
         {" "}
         <NavTwo title="Facility Management" />
       </div>
@@ -39,14 +39,14 @@ function FacilityManager() {
           <div className="col-md-7 formmy-dive flexy">
             <div className="col-md-3 img1">
               {" "}
-              <img className="" src={Fac1} alt="Scholar" />
+              <img className="dnM" src={Fac1} alt="Scholar" />
             </div>
             <div className="col-md-6 ">
               <Form bg="#0B2FF7" text="Get started" body="#fff" />
             </div>
             <div className="col-md-3 img2">
               {" "}
-              <img className="" src={Fac2} alt="Scholar" />
+              <img className="dnM" src={Fac2} alt="Scholar" />
             </div>
           </div>
         </div>

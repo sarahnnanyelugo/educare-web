@@ -14,7 +14,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Calendar() {
   return (
     <>
-      <div className="col-md-12 calendar-nav-div">
+      <div className="col-md-12 calendar-nav-div col-12">
         {" "}
         <NavTwo title="Calendar" />
       </div>

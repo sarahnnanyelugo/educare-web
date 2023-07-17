@@ -14,7 +14,7 @@ function MedicalsPage() {
   return (
     <>
       {" "}
-      <div className="col-md-12 medicals-nav ">
+      <div className="col-md-12 medicals-nav col-12">
         {" "}
         <NavTwo title="Medicals" />
       </div>
@@ -39,7 +39,7 @@ function MedicalsPage() {
             reporting and analytics for tracking health trends and
             <br /> making data-driven decisions.
           </p>
-          <div className="flexy flexyM">
+          <div className="flexy flexyM offset-2">
             <GetStartedForm
               text=" Get started"
               bg="#0B2FF7"
@@ -95,8 +95,13 @@ function MedicalsPage() {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div className="offset-md-5 offset-5">
-              <Badge btnBg="#D6DCFE" btnColor="#0B2FF7" />
+            <div className="offset-md-4 offset-5    heading-adj">
+              <Heading
+                bg="#D6DCFE"
+                color="#0B2FF7"
+                boda="solid 1px #D6DCFE"
+                text="Recommended"
+              />
             </div>
             <div className="col-md-11">
               <SimplePrices
