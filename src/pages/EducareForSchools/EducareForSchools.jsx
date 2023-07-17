@@ -143,7 +143,7 @@ export const EducareForSchools = () => {
 
       <div className="col-md-11 offset-md-1 flexy pastoral-container">
         <div className="col-md-4">
-          <div className="col-md-11">
+          <div className="col-md-10">
             {" "}
             <Heading
               text="Pastoral"
@@ -164,11 +164,11 @@ export const EducareForSchools = () => {
         <div className="col-md-8">
           {" "}
           <img
-            className="   logo"
+            className="  "
             src={Pastoral}
             alt="Scholar"
-            width="95%"
-            style={{ marginLeft: "5%" }}
+            width="100%"
+            // style={{ marginLeft: "5%" }}
           />
         </div>
       </div>
@@ -202,31 +202,31 @@ export const EducareForSchools = () => {
       </div>
       <div className="col-md-11 offset-md-1 flexy eclassroom-container  ">
         <div className="col-md-4">
-          {/* <div className="col-md-11"> */}
-          <Heading
-            text="eClassroom"
-            bg="#F5DCF8"
-            color="#FF0089"
-            boda="#F5DCF8"
-          />
-          <h3>Efficient Online Learning</h3>
-          <p>
-            It offers tools for organizing and delivering virtual lessons,
-            tracking student progress, and engaging in interactive discussions.
-            It also includes features for managing assignments, assessments, and
-            communication with students and parents, making online learning more
-            effective and streamlined.
-          </p>
-          {/* </div> */}
+          <div className="col-md-11">
+            <Heading
+              text="eClassroom"
+              bg="#F5DCF8"
+              color="#FF0089"
+              boda="#F5DCF8"
+            />
+            <h3>Efficient Online Learning</h3>
+            <p>
+              It offers tools for organizing and delivering virtual lessons,
+              tracking student progress, and engaging in interactive
+              discussions. It also includes features for managing assignments,
+              assessments, and communication with students and parents, making
+              online learning more effective and streamlined.
+            </p>
+          </div>
         </div>
         <div className="col-md-8">
           {" "}
           <img
-            className="   logo"
+            className=" "
             src={EClassroom}
             alt="Scholar"
-            width="95%"
-            style={{ marginLeft: "5%" }}
+            width="100%"
+            // style={{ marginLeft: "5%" }}
           />
         </div>
       </div>
