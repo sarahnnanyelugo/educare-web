@@ -22,7 +22,7 @@ function AdmissionPage() {
     <>
       <div className="col-md-12 admission-nav-div col-12">
         {" "}
-        <NavTwo title="Admission" />
+        <NavTwo title="Admission" priceUrl="#pricing" />
       </div>
       <div style={{ height: "120px" }} />
       <div className="col-md-12 admissions-div">

@@ -49,7 +49,8 @@ function EducarePackages(props) {
         {" "}
         <NavTwo title="educare for Business" />
       </div>
-      tyle={{ height: "140px" }} />      <div className="packages-first-heading col-md-12 ">
+      <div style={{ height: "140px" }} />
+      <div className="packages-first-heading col-md-12 ">
         <center>
           {" "}
           <div className="col-md-6">

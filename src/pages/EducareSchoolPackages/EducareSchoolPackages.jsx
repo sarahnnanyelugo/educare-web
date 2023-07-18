@@ -51,7 +51,7 @@ function EducareSchoolPackages(props) {
   }, [toCurrency]);
   return (
     <>
-      <div className="col-md-12 nav-two-school-packages nav-two-business">
+      <div className="col-md-12 nav-two-school-packages nav-two-business col-12">
         {" "}
         <NavTwo title="educare for Schools" />
       </div>
