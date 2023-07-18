@@ -26,7 +26,7 @@ import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 function Timetable() {
   return (
     <>
-      <div className="col-md-12 timetable-nav">
+      <div className="col-md-12 timetable-nav col-12">
         {" "}
         <NavTwo title="Timetable" />
       </div>
@@ -173,8 +173,16 @@ function Timetable() {
             </div>
           </div>
           <div className="col-md-3 recommended-container">
-            <div className="offset-md-5">
-              <Badge btnBg="#FFD5EB" btnColor="#CC006E" />
+            <div
+              className="offset-md-3 offset-5"
+              style={{ marginBottom: "-50px" }}
+            >
+              <Heading
+                bg="#FFD5EB"
+                color="#CC006E"
+                boda="solid 1px #FFD5EB"
+                text="Recommended"
+              />
             </div>
             <div className="col-md-11">
               <SimplePrices

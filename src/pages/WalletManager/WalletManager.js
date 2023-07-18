@@ -28,6 +28,7 @@ function WalletManager() {
         {" "}
         <NavTwo title="Wallet Manager" />
       </div>
+      <div style={{ height: "146px" }} />
       <div className="col-md-12 wallet-div">
         <img className="offset-md-9" src={Dot1} alt="Scholar" />
         <div className="col-md-12 ">
@@ -86,8 +87,8 @@ function WalletManager() {
           software
         </h2>
       </center>
-      <div className="col-md-10 flexy fin-management offset-md-1 mt7">
-        <div className="col-md-4">
+      <div className="col-md-10 flexy fin-management offset-md-1 ">
+        <div className="col-md-4 mt7">
           <div className="col-md-11 wallet">
             <img className="" src={Wallet1} alt="Scholar" />
 
@@ -99,7 +100,7 @@ function WalletManager() {
             </p>
           </div>
         </div>{" "}
-        <div className="col-md-4">
+        <div className="col-md-4 mt7">
           <div className="col-md-11 wallet">
             <img className="" src={Wallet2} alt="Scholar" />
 
@@ -111,7 +112,7 @@ function WalletManager() {
             </p>
           </div>
         </div>{" "}
-        <div className="col-md-4">
+        <div className="col-md-4 mt7">
           <div className="col-md-11 wallet">
             <img className="" src={Wallet3} alt="Scholar" />
 
@@ -126,7 +127,7 @@ function WalletManager() {
         </div>
       </div>
       <center>
-        <h2 className="mt5 reco-alt ">Features in a glance</h2>
+        <h2 className="mt reco-alt ">Features in a glance</h2>
       </center>
       <div className="features-div col-md-10 offset-md-1 ">
         <div className="col-md-12 flexy">

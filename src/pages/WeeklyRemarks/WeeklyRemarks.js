@@ -21,7 +21,7 @@ function WeeklyRemarks() {
         {" "}
         <NavTwo title="Weekly Remarks" />
       </div>
-        <div style={{ height: "140px" }} />
+      <div style={{ height: "140px" }} />
       <div className="col-md-12 weeky-intro">
         <div className="col-md-2 " style={{ marginTop: "350px" }}>
           <img className="" src={Ball2} alt="Scholar" />
@@ -254,7 +254,13 @@ function WeeklyRemarks() {
                 Unlock your potential, week by week!
               </h3>
               <center>
-                <button className="started">Get started</button>
+                <GetStartedForm
+                  text=" Get started"
+                  bg="#C32BD6"
+                  cls="gsmwr"
+                  bgbtn="#0098DA"
+                  backdropbg="modal-backdrop-dark"
+                />
                 <button className="demo">Request for demo</button>
               </center>
             </div>

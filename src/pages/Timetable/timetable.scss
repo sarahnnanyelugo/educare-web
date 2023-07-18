@@ -35,6 +35,9 @@
       button {
         margin: 40px 10px;
         @include get-started-button;
+        @media screen and (max-width: 620px) {
+          margin: 40px 0px;
+        }
       }
     }
     .demo {
