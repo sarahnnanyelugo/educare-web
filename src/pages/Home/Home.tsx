@@ -71,15 +71,7 @@ import Prin3 from "../../assets/images/prin3.png";
 import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
-import Standard from "../../assets/images/standard.png";
-import Switch from "../../assets/images/switch.png";
 
-import Aisa from "../../assets/images/aisa.svg";
-import Grange from "../../assets/images/grange.png";
-import LBS from "../../assets/images/lbs.png";
-import Cobis from "../../assets/images/cobis.png";
-
-import Starvile from "../../assets/images/starvile.png";
 import Invoicing from "../../assets/images/invoice.svg";
 import Budgeting from "../../assets/images/budgeting.svg";
 import Reporting from "../../assets/images/report.svg";
@@ -95,6 +87,7 @@ import Club from "../../assets/images/club.svg";
 import Assignment from "../../assets/images/assignment.svg";
 import Mentor from "../../assets/images/mentor.svg";
 import Behavior from "../../assets/images/behave.svg";
+import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
 export const Home = () => {
   return (
     <>
@@ -160,40 +153,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 mt partners-immgs">
-        <center>
-          {" "}
-          <h3>Trusted by leading organizations</h3>
-        </center>
-        <div className="row row-cols-2 row-cols-lg-6">
-          <div className="col">
-            {" "}
-            <img className="standard" src={Standard} alt="Scholar" />
-          </div>
-          <div className="col">
-            <img className="cobis " src={Cobis} alt="Scholar" />
-          </div>
-          <div className="col">
-            {" "}
-            <img className="aisa " src={Aisa} alt="Scholar" />
-          </div>
-          <div className="col">
-            {" "}
-            <img className="grange " src={Grange} alt="Scholar" />
-          </div>
-          <div className="col">
-            {" "}
-            <img className="lbs " src={LBS} alt="Scholar" />
-          </div>
-          <div className="col">
-            {" "}
-            <img className="starvile " src={Starvile} alt="Scholar" />
-          </div>
-          <div className="col off-set-md-6">
-            {" "}
-            <img className="switch " src={Switch} alt="Scholar" />
-          </div>
-        </div>
+
+      <div className="col-md-10 offset-md-1">
+        <PartnersSlider />
       </div>
       <div className="features-heading">
         <center>
