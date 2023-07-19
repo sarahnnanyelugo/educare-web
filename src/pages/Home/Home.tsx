@@ -501,7 +501,7 @@ export const Home = () => {
             <div className="col-md-4 second-product-column">
               <EducareProducts
                 productName="Reports"
-                productDetail="The one and only accounting and payroll solution your business will ever need"
+                productDetail="Customize, develop, and distribute report cards like you have never done before."
                 productIcon={Chart}
                 url={"./report"}
               />
