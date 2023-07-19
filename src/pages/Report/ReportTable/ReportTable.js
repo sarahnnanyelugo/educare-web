@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./report-table.scss";
-import Dashboard from "../../../assets/images/report-dashboard.png";
+import Dashboard1 from "../../../assets/images/rp1.png";
+import Dashboard2 from "../../../assets/images/rp2.png";
+import Dashboard3 from "../../../assets/images/rp3.png";
+import Dashboard4 from "../../../assets/images/rp4.png";
 
 function ReportTable() {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -41,10 +44,10 @@ function ReportTable() {
             <div className="flexy">
               {" "}
               <div className="col-md-8">
-                <div className="col-md-12">
+                <div className="col-md-10 offset-md-1 mt9  no-m">
                   <img
                     className=""
-                    src={Dashboard}
+                    src={Dashboard4}
                     alt="Scholar"
                     width="100%"
                   />
@@ -53,13 +56,17 @@ function ReportTable() {
                 <div className="bid-ball-rad col-md-6 " />
               </div>
               <div className="col-md-4">
-                <h5>Generate Results</h5>
-                <p>
-                  Be able to provide thorough findings, streamlining the
-                  procedure with our user-friendly platform, converting data
-                  into meaningful reports, saving time, ensuring correctness,
-                  and providing instructors with thorough performance analysis.
-                </p>
+                <div className="col-md-11">
+                  {" "}
+                  <h5>Generate Results</h5>
+                  <p>
+                    Be able to provide thorough findings, streamlining the
+                    procedure with our user-friendly platform, converting data
+                    into meaningful reports, saving time, ensuring correctness,
+                    and providing instructors with thorough performance
+                    analysis.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -68,24 +75,26 @@ function ReportTable() {
             <div className="flexy">
               {" "}
               <div className="col-md-8">
-                <div className="col-md-12">
+                <div className="col-md-10 offset-md-1 mt9  no-m">
                   <img
                     className=""
-                    src={Dashboard}
+                    src={Dashboard3}
                     alt="Scholar"
                     width="100%"
                   />
                 </div>
-
                 <div className="bid-ball-rad col-md-6 " />
               </div>
               <div className="col-md-4">
-                <h5>Student Analysis</h5>
-                <p>
-                  Utilize powerful student analysis tools to gain deep insights
-                  into students’ performance and progress, giving you a
-                  comprehensive understanding of their academic path.
-                </p>
+                <div className="col-md-11">
+                  {" "}
+                  <h5>Student Analysis</h5>
+                  <p>
+                    Utilize powerful student analysis tools to gain deep
+                    insights into students’ performance and progress, giving you
+                    a comprehensive understanding of their academic path.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -94,10 +103,10 @@ function ReportTable() {
             <div className="flexy">
               {" "}
               <div className="col-md-8">
-                <div className="col-md-12">
+                <div className="col-md-10 offset-md-1 mt9  no-m">
                   <img
                     className=""
-                    src={Dashboard}
+                    src={Dashboard2}
                     alt="Scholar"
                     width="100%"
                   />
@@ -106,12 +115,15 @@ function ReportTable() {
                 <div className="bid-ball-rad col-md-6 " />
               </div>
               <div className="col-md-4">
-                <h5>Teachers Remark</h5>
-                <p>
-                  Add personalised and insightful teacher comments to student
-                  reports to add rich context and insightful feedback on each
-                  student’s development.
-                </p>
+                <div className="col-md-11">
+                  {" "}
+                  <h5>Teachers Remark</h5>
+                  <p>
+                    Add personalised and insightful teacher comments to student
+                    reports to add rich context and insightful feedback on each
+                    student’s development.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -119,10 +131,10 @@ function ReportTable() {
             <div className="flexy">
               {" "}
               <div className="col-md-8">
-                <div className="col-md-12">
+                <div className="col-md-10 offset-md-1 mt9 no-m">
                   <img
                     className=""
-                    src={Dashboard}
+                    src={Dashboard1}
                     alt="Scholar"
                     width="100%"
                   />
@@ -131,13 +143,16 @@ function ReportTable() {
                 <div className="bid-ball-rad col-md-6 " />
               </div>
               <div className="col-md-4">
-                <h5>Grading system</h5>
-                <p>
-                  Tailor you report to match your specific grading scales,
-                  weightage systems, and grade distribution methods. With its
-                  powerful algorithms, it instantly calculates final grades
-                  based on the weights and criteria you set.
-                </p>
+                <div className="col-md-11">
+                  {" "}
+                  <h5>Grading system</h5>
+                  <p>
+                    Tailor you report to match your specific grading scales,
+                    weightage systems, and grade distribution methods. With its
+                    powerful algorithms, it instantly calculates final grades
+                    based on the weights and criteria you set.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
