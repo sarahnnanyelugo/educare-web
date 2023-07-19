@@ -46,7 +46,7 @@ import Analysis from "../../assets/images/analyse.svg";
 import Medical from "../../assets/images/med.svg";
 import Lib from "../../assets/images/lib.svg";
 import Remarks from "../../assets/images/remark.svg";
-import Lesson from "../../assets/images/reporting.svg";
+import Lesson from "../../assets/images/lesson.svg";
 import Voting from "../../assets/images/voting.svg";
 // import Eclassroom from "../../assets/images/read-book.svg";
 import Points from "../../assets/images/meeting-points.svg";
@@ -91,6 +91,10 @@ import Sec from "../../assets/images/secu.svg";
 import Export from "../../assets/images/exp.svg";
 import QuestionT from "../../assets/images/q-types.svg";
 import Appraisal from "../../assets/images/appraisal.svg";
+import Club from "../../assets/images/club.svg";
+import Assignment from "../../assets/images/assignment.svg";
+import Mentor from "../../assets/images/mentor.svg";
+import Behavior from "../../assets/images/behave.svg";
 export const Home = () => {
   return (
     <>
@@ -767,7 +771,7 @@ export const Home = () => {
                   <div className="col-md-12 bb">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Exeact}
+                      productIcon={Behavior}
                       productName="Behavioural Management"
                       url={"./"}
                     />{" "}
@@ -793,9 +797,14 @@ export const Home = () => {
                   </div>
                   <div className="col-md-12  other-components">
                     {" "}
-                    <OtherEducareProducts
+                    {/* <OtherEducareProducts
                       productIcon={Activity}
                       productName="Activity Point"
+                      url={"./"}
+                    />{" "} */}
+                    <OtherEducareProducts
+                      productIcon={Hostel}
+                      productName="Hostel Report"
                       url={"./"}
                     />{" "}
                   </div>
@@ -805,16 +814,16 @@ export const Home = () => {
                 <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Points}
-                    productName="Points Analysis"
+                    productIcon={Mentor}
+                    productName="Mentor’s Report"
                     url={"./"}
                   />{" "}
                 </div>
-                <div className="col-md-6 col-6 other-components">
+                <div className="col-md-6 col-6 other-components ">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Hostel}
-                    productName="Hostel Report"
+                    productIcon={Points}
+                    productName="Points Analysis"
                     url={"./"}
                   />{" "}
                 </div>
@@ -829,13 +838,13 @@ export const Home = () => {
               </div>{" "}
               <div className="col-md-12 bt pd">
                 <EducareProducts
-                  productName="Voting System"
-                  productDetail="Securely manage and conduct elections with our powerful voting system module."
-                  productIcon={Voting}
-                  url={"./voting-system"}
+                  productName=" Assignment"
+                  productDetail="Create assignments for Students in your school."
+                  productIcon={Assignment}
+                  url={"./assignment"}
                 />
               </div>{" "}
-              <div className="col-md-12 bt pd">
+              <div className="col-md-12 bt pd bl">
                 <EducareProducts
                   productName="Lesson Planner"
                   productDetail="Streamline and simplify your lesson planning process with our lesson planner."
