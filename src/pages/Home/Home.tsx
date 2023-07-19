@@ -81,6 +81,8 @@ import Starvile from "../../assets/images/starvile.png";
 import Invoicing from "../../assets/images/invoice.svg";
 import Budgeting from "../../assets/images/budgeting.svg";
 import Reporting from "../../assets/images/report.svg";
+import Maintainance from "../../assets/images/maintain.svg";
+import Repairs from "../../assets/images/tools.svg";
 export const Home = () => {
   return (
     <>
@@ -483,18 +485,18 @@ export const Home = () => {
                 <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Configure}
-                    productName="Configuration"
+                    productIcon={Repairs}
+                    productName="Repairs"
                     url={"./"}
                   />{" "}
                 </div>
                 <div className="col-md-6 col-6 other-components">
                   {" "}
-                  {/* <OtherEducareProducts
-                    productIcon={""}
-                    productName=""
+                  <OtherEducareProducts
+                    productIcon={Maintainance}
+                    productName="Maintenance"
                     url={"./"}
-                  />{" "} */}
+                  />{" "}
                 </div>
               </div>
               <div className="col-md-12 bt pd">
