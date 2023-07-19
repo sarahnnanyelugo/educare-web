@@ -83,6 +83,11 @@ import Budgeting from "../../assets/images/budgeting.svg";
 import Reporting from "../../assets/images/report.svg";
 import Maintainance from "../../assets/images/maintain.svg";
 import Repairs from "../../assets/images/tools.svg";
+import SEN from "../../assets/images/sen.svg";
+import Wify from "../../assets/images/wify.svg";
+import Sec from "../../assets/images/secu.svg";
+import Export from "../../assets/images/exp.svg";
+import QuestionT from "../../assets/images/q-types.svg";
 export const Home = () => {
   return (
     <>
@@ -517,10 +522,10 @@ export const Home = () => {
               </div>{" "}
               <div className="col-md-12 bt pd">
                 <EducareProducts
-                  productName="Weekly remarks"
-                  productDetail="Effortlessly track performance with our weekly remarks module."
-                  productIcon={Remarks}
-                  url={"./weekly-remarks"}
+                  productName="Clubs"
+                  productDetail="Track and monitor your School activities outside core curriculum."
+                  productIcon={Student}
+                  url={"./clubs"}
                 />
               </div>
             </div>{" "}
@@ -542,19 +547,18 @@ export const Home = () => {
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
-                    {" "}
                     <OtherEducareProducts
-                      productIcon={Transcript}
-                      productName="Transcripts"
+                      productIcon={SEN}
+                      productName="Special Educational Needs (SEN) report"
                       url={"./"}
-                    />{" "}
+                    />
                   </div>
                   <div className="col-md-12 other-components">
                     <OtherEducareProducts
-                      productIcon={Transfer}
-                      productName="Transfer Manager"
+                      productIcon={Insight}
+                      productName="Report Analysis"
                       url={"./"}
-                    />
+                    />{" "}
                   </div>
                 </div>
                 <div className="col-md-6 col-6">
@@ -568,20 +572,19 @@ export const Home = () => {
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
-                    {" "}
                     <OtherEducareProducts
-                      productIcon={Insight}
-                      productName="Report Insight"
+                      productIcon={Transcript}
+                      productName="Transcripts"
                       url={"./"}
                     />{" "}
                   </div>
                   <div className="col-md-12 other-components">
                     {" "}
-                    <OtherEducareProducts
+                    {/* <OtherEducareProducts
                       productIcon={Communication}
                       productName="Communication Book"
                       url={"./"}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -605,8 +608,8 @@ export const Home = () => {
                 <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Result}
-                    productName="Result"
+                    productIcon={Wify}
+                    productName="Online/Offfline"
                     url={"./"}
                   />{" "}
                 </div>
@@ -614,7 +617,7 @@ export const Home = () => {
                   {" "}
                   <OtherEducareProducts
                     productIcon={Question}
-                    productName="Question"
+                    productName="Question Bank"
                     url={"./"}
                   />{" "}
                 </div>
@@ -623,16 +626,16 @@ export const Home = () => {
                 <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={CBT2}
-                    productName="CBT Setup"
+                    productIcon={QuestionT}
+                    productName="Question Types"
                     url={"./cbt"}
                   />{" "}
                 </div>
                 <div className="col-md-6 col-6 other-components">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={Test}
-                    productName="Test Manager"
+                    productIcon={Export}
+                    productName="Result Export"
                     url={"./"}
                   />{" "}
                 </div>
@@ -641,8 +644,8 @@ export const Home = () => {
                 <div className="col-md-6 col-6 other-components br">
                   {" "}
                   <OtherEducareProducts
-                    productIcon={TestResult}
-                    productName="Test Results"
+                    productIcon={Sec}
+                    productName="Security Features"
                     url={"./"}
                   />{" "}
                 </div>

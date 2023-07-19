@@ -20,7 +20,7 @@ export const EducareProducts = (props: ProductComponentProps) => {
               alt="Scholar"
               width="100%"
             />
-            <h2>{props.productName}</h2>
+            <h3>{props.productName}</h3>
             <p>{props.productDetail}</p>
           </center>
         </div>
