@@ -8,12 +8,9 @@
   }
 
   .slider {
-    // background: red;
-    // height: 250px;
-    margin: 10px auto;
+    margin: 0px auto;
     overflow: hidden;
     position: relative;
-    // width: 1140px;
   }
 
   .slider::before,
@@ -22,7 +19,7 @@
     content: "";
     height: 100%;
     position: absolute;
-    width: 100px;
+    width: 200px;
     z-index: 2;
   }
 
@@ -39,18 +36,29 @@
   }
 
   .slider .slide-track {
-    animation: scroll 80s linear infinite;
+    animation: scroll 100s linear infinite;
     display: flex;
-    width: calc(250px * 18);
+    width: calc(200px * 18);
+  }
+  .slider .slide-track2 {
+    animation: scroll 60s linear infinite;
+    display: flex;
+    width: calc(200px * 18);
+  }
+  .slider .slide-track3 {
+    animation: scroll 130s linear infinite;
+    display: flex;
+    width: calc(200px * 18);
   }
 
   .slider .slide-track:hover {
     animation-play-state: paused;
   }
-
-  .slider .slide {
-    // height: 250px;
-    // width: 250px;
+  .slider .slide-track2:hover {
+    animation-play-state: paused;
+  }
+  .slider .slide-track3:hover {
+    animation-play-state: paused;
   }
 
   @keyframes scroll {
@@ -62,15 +70,16 @@
     }
   }
 }
+
 .partners-immgs {
   @media screen and (max-width: 620px) {
     overflow: hidden;
   }
   img {
-    margin: 30px 35px;
+    margin: 20px 35px;
     filter: grayscale(100%);
     height: 50px;
-    opacity: 0.6;
+    opacity: 0.8;
     @media screen and (max-width: 620px) {
       height: 20px;
       width: 50%;
@@ -128,6 +137,190 @@
       width: 50%;
       height: 56%;
       margin-top: -3px;
+    }
+  }
+  .bereton {
+    width: 92px;
+    height: 48px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+      margin-top: -3px;
+    }
+  }
+  .wellspring {
+    width: 146px;
+    height: 51px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+      margin-top: -3px;
+    }
+  }
+  .charlse {
+    width: 169px;
+    height: 50px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+      margin-top: -3px;
+    }
+  }
+  .green {
+    width: 168px;
+    height: 46px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+      margin-top: -3px;
+    }
+  }
+  .meadow {
+    width: 206px;
+    height: 49px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .maryland {
+    width: 154px;
+    height: 53px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .lagoon {
+    width: 246px;
+    height: 49px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .lagoon {
+    width: 246px;
+    height: 49px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .evergreen {
+    width: 115px;
+    height: 56px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .danbo {
+    width: 85px;
+    height: 64px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .royal {
+    width: 247px;
+    height: 43px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .crescent {
+    width: 201px;
+    height: 57px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .norwagian {
+    width: 142px;
+    height: 43px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .british {
+    width: 241px;
+    height: 62px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .doveland {
+    width: 203px;
+    height: 71px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .apostolic {
+    width: 188px;
+    height: 43px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .noble {
+    width: 200px;
+    height: 49px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .graceland {
+    width: 130px;
+    height: 52px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .md {
+    width: 288px;
+    height: 51px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+    }
+  }
+  .mis {
+    width: 199px;
+    height: 63px;
+
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
     }
   }
 }

@@ -154,7 +154,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="col-md-10 offset-md-1">
+      <div className="col-md-12 ">
         <PartnersSlider />
       </div>
       <div className="features-heading">
