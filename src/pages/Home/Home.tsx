@@ -78,6 +78,9 @@ import LBS from "../../assets/images/lbs.png";
 import Cobis from "../../assets/images/cobis.png";
 
 import Starvile from "../../assets/images/starvile.png";
+import Invoicing from "../../assets/images/invoice.svg";
+import Budgeting from "../../assets/images/budgeting.svg";
+import Reporting from "../../assets/images/report.svg";
 export const Home = () => {
   return (
     <>
@@ -172,7 +175,7 @@ export const Home = () => {
             {" "}
             <img className="starvile " src={Starvile} alt="Scholar" />
           </div>
-          <div className="col">
+          <div className="col off-set-md-6">
             {" "}
             <img className="switch " src={Switch} alt="Scholar" />
           </div>
@@ -393,16 +396,16 @@ export const Home = () => {
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Screen}
-                      productName="Payroll"
+                      productIcon={Invoicing}
+                      productName="Invoicing"
                       url={"./"}
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Account}
-                      productName="Charts of Accounts"
+                      productIcon={Budgeting}
+                      productName="Expense Management"
                       url={"./"}
                     />{" "}
                   </div>
@@ -434,11 +437,11 @@ export const Home = () => {
                   </div>
                   <div className="col-md-12 other-components">
                     {" "}
-                    {/* <OtherEducareProducts
-                      productIcon={""}
-                      productName=""
+                    <OtherEducareProducts
+                      productIcon={Reporting}
+                      productName="Reporting"
                       url={"./"}
-                    /> */}
+                    />
                   </div>
                 </div>
               </div>
