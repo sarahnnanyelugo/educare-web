@@ -40,10 +40,7 @@ function WalletManager() {
           {/* <img className="offset-md-2" src={Dot4} alt="Scholar" /> */}
           <center>
             <div className="col-md-7">
-              <h1 className="col-md-9">
-                Take control of your finances with our powerful wallet manager
-                software
-              </h1>
+              <h1 className="col-md-9">Take charge of your finances</h1>
               <div className="flexy flexyM">
                 <img className="" src={Dot4} alt="Scholar" />
                 <p className="col-md-9 no-m" style={{ marginLeft: "80px" }}>
@@ -197,12 +194,12 @@ function WalletManager() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 className="mt " id="pricing">
           Our simple prices made for you{" "}
         </h1>
-      </center>
-      <div className="grad col-md-12 mt8">
+      </center> */}
+      {/* <div className="grad col-md-12 mt8">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3 " style={{ marginTop: "-20px" }}>
@@ -270,8 +267,8 @@ function WalletManager() {
             </div>
           </div>
         </div>
-      </div>
-      <center>
+      </div> */}
+      {/* <center>
         <p>
           Kindly check out our{" "}
           <Link to={"/educare-packages"} className="link">
@@ -279,7 +276,7 @@ function WalletManager() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-10 offset-md-1 flexy v-learning">
         <div className="col-md-3 offset-md-1">
           <Lottie loop animationData={Player1} play className="lottieee" />

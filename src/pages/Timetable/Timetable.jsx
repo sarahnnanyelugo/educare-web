@@ -28,9 +28,14 @@ function Timetable() {
     <>
       <div className="col-md-12 timetable-nav col-12">
         {" "}
-        <NavTwo title="Timetable" priceUrl="#pricing" />
+        <NavTwo
+          title="Timetable"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12 timetable-container">
         <center>
           <div className="col-md-5 timetable-div">
@@ -153,7 +158,7 @@ function Timetable() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 id="pricing">Select a plan to go virtual </h1>
       </center>
       <div className="grad col-md-12">
@@ -233,7 +238,7 @@ function Timetable() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-10 offset-md-1 timetable-schedule flexy">
         <div className="col-md-3 schedule-header">
           <h2>
@@ -252,12 +257,12 @@ function Timetable() {
           <button className="demo">Request for demo</button>
         </center>
       </div>
-      <div className="col-md-8 offset-md-2 mt">
+      {/* <div className="col-md-8 offset-md-2 mt">
         <center>
           <h1>Frequently asked questions</h1>
         </center>
         <TimetableFAQ />
-      </div>
+      </div> */}
     </>
   );
 }

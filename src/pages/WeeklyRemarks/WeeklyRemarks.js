@@ -19,9 +19,14 @@ function WeeklyRemarks() {
     <>
       <div className="col-md-12 nav-div">
         {" "}
-        <NavTwo title="Weekly Remarks" />
+        <NavTwo
+          title="Weekly Remarks"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12 weeky-intro">
         <div className="col-md-2 " style={{ marginTop: "350px" }}>
           <img className="" src={Ball2} alt="Scholar" />
@@ -43,14 +48,14 @@ function WeeklyRemarks() {
                 color="#11A377"
               />
               <h1 className="col-md-10 reco-alt">
-                Stay on top of your week, every week!
+                Supercharge your productivity
               </h1>
               <p>
-                Maximize your efficiency and achieve your goals with Weekly
-                Remarks’ effective task management and time tracking
-                capabilities which can provide you with numerous benefits that
-                can help you improve your productivity, reduce stress, and
-                achieve greater success in your personal and professional life.
+                Experience enhanced efficiency and goal attainment with Weekly
+                Remarks. This powerful tool offers effective task management and
+                time tracking, providing numerous benefits to boost
+                productivity, reduce stress, and drive success in both personal
+                and professional pursuits.
               </p>
               <center>
                 <GetStartedForm
@@ -73,7 +78,7 @@ function WeeklyRemarks() {
         </center>
       </div>
 
-      <div className="teams mt7">
+      {/* <div className="teams mt7">
         {" "}
         <center>
           <h2>Trusted by teams at</h2>
@@ -84,7 +89,7 @@ function WeeklyRemarks() {
           <img className="ms" src={Microsoft} alt="Scholar" />
           <img className="flutter" src={Flutterwave} alt="Scholar" />
         </center>
-      </div>
+      </div> */}
       <div id="features" />
       <center>
         <h1 className="reco-alt mt">educare Weekly remarks for all</h1>
@@ -160,12 +165,12 @@ function WeeklyRemarks() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 className="mtt mb5" id="pricing">
           Our simple prices made for you{" "}
         </h1>
-      </center>
-      <div className="grad col-md-12 mt">
+      </center> */}
+      {/* <div className="grad col-md-12 mt">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3 " style={{ marginTop: "-20px" }}>
@@ -242,7 +247,7 @@ function WeeklyRemarks() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-12 unlock-remark mt">
         <center>
           <div className="col-md-3">

@@ -11,35 +11,89 @@ import Cobis from "../../assets/images/cobis.png";
 import Starvile from "../../assets/images/starvile.png";
 function PartnersSlider() {
   return (
-    <div className="col-md-12 partners-slider mt ">
-      <center>
-        {" "}
-        <h3>Trusted by leading organizations</h3>
-      </center>
-      <div class="slider mt">
-        <div className="slide-track partners-immgs">
+    <div>
+      <div className="col-md-12 partners-slider mt ">
+        <center className="mb5">
           {" "}
-          <img className="standard slide" src={Standard} alt="Scholar" />
-          <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
-          <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
-          <img className="grange slide" src={Grange} alt="Scholar" />{" "}
-          <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
-          <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
-          <img className="switch slide " src={Switch} alt="Scholar" />{" "}
-          <img className="standard slide" src={Standard} alt="Scholar" />
-          <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
-          <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
-          <img className="grange slide" src={Grange} alt="Scholar" />{" "}
-          <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
-          <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
-          <img className="switch slide" src={Switch} alt="Scholar" />{" "}
-          <img className="standard slide" src={Standard} alt="Scholar" />
-          <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
-          <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
-          <img className="grange slide" src={Grange} alt="Scholar" />{" "}
-          <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
-          <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
-          <img className="switch slide " src={Switch} alt="Scholar" />
+          <h3>Trusted by leading organizations</h3>
+        </center>
+        <div class="slider mt">
+          <div className="slide-track partners-immgs">
+            {" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide" src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />
+          </div>
+        </div>
+        <div class="slider ">
+          <div className="slide-track partners-immgs">
+            {" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide" src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />
+          </div>
+        </div>
+        <div class="slider ">
+          <div className="slide-track partners-immgs">
+            {" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide" src={Switch} alt="Scholar" />{" "}
+            <img className="standard slide" src={Standard} alt="Scholar" />
+            <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
+            <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
+            <img className="grange slide" src={Grange} alt="Scholar" />{" "}
+            <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
+            <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
+            <img className="switch slide " src={Switch} alt="Scholar" />
+          </div>
         </div>
       </div>
     </div>
