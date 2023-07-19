@@ -14,6 +14,8 @@ import Screen from "../../assets/images/screen.svg";
 import Classroom from "../../assets/images/read-book.svg";
 import Wallet from "../../assets/images/wallet.svg";
 import Student from "../../assets/images/students.svg";
+import Payroll from "../../assets/images/wages.svg";
+import Training from "../../assets/images/training.svg";
 
 import Message from "../../assets/images/message.svg";
 import Features from "./Features/Features";
@@ -88,6 +90,7 @@ import Wify from "../../assets/images/wify.svg";
 import Sec from "../../assets/images/secu.svg";
 import Export from "../../assets/images/exp.svg";
 import QuestionT from "../../assets/images/q-types.svg";
+import Appraisal from "../../assets/images/appraisal.svg";
 export const Home = () => {
   return (
     <>
@@ -691,6 +694,14 @@ export const Home = () => {
                       productName="Recruitment"
                       url={"./"}
                     />{" "}
+                  </div>{" "}
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Training}
+                      productName="Training"
+                      url={"./"}
+                    />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
                     {" "}
@@ -706,20 +717,33 @@ export const Home = () => {
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Access}
-                      productName="Access Control"
+                      productIcon={Appraisal}
+                      productName="Appraisals"
+                      url={"./"}
+                    />{" "}
+                  </div>{" "}
+                  <div className="col-md-12 bb other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Payroll}
+                      productName="Payroll"
                       url={"./"}
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
                     {" "}
-                    <OtherEducareProducts
+                    {/* <OtherEducareProducts
                       productIcon={Performance}
                       url={"./"}
                       productName="Performance"
-                    />{" "}
+                    />{" "} */}
+                    <OtherEducareProducts
+                      productIcon={Access}
+                      productName="Access Control"
+                      url={"./"}
+                    />
                   </div>
-                </div>
+                </div>{" "}
               </div>
               <div className="col-md-12 bt pd">
                 <EducareProducts
