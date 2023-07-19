@@ -16,17 +16,19 @@ function Calendar() {
     <>
       <div className="col-md-12 calendar-nav-div col-12">
         {" "}
-        <NavTwo title="Calendar" />
+        <NavTwo
+          title="Calendar"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="calendar-div col-md-12">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt6">
-            <h1>Get more done in less time!</h1>
-            <p>
-              Stay organized and never forget a deadline or appointment with our
-              reliable calendar software.
-            </p>
+            <h1>Never Miss an Important Date</h1>
+            <p>Stay up to date with events / schedules</p>
             <button className="demo">Request for demo</button>
           </div>
           <div className="col-md-4 offset-md-2 form-divvv">
@@ -70,11 +72,10 @@ function Calendar() {
           <div className="col-md-11 wallet">
             <img className="" src={Wallet3} alt="Scholar" />
 
-            <h4>Scheduling</h4>
+            <h4>Schedule Events</h4>
             <p>
-              The module can assist users in finding available time slots for
-              scheduling events, taking into account existing appointments and
-              conflicts.
+              Users are assisted in finding available time slots for scheduling
+              events, taking into account existing appointments and conflicts.
             </p>
           </div>
         </div>
@@ -119,14 +120,14 @@ function Calendar() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 className="mtt">Frequently asked questions</h1>
       </center>
       <div className="col-md-8 offset-md-2">
         {" "}
         <FAQ />
-      </div>
-      <center>
+      </div> */}
+      {/* <center>
         <h1 className="mt " id="pricing">
           Our simple prices made for you{" "}
         </h1>
@@ -208,7 +209,7 @@ function Calendar() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-12 prefooterCal">
         <div className="col-md-10 offset-md-1 prefooterCal-inner">
           <center>

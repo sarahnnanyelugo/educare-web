@@ -26,9 +26,14 @@ function WalletManager() {
       {" "}
       <div className="col-md-12 wallet-nav-div">
         {" "}
-        <NavTwo title="Wallet Manager" />
+        <NavTwo
+          title="Wallet Manager"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "146px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12 wallet-div">
         <img className="offset-md-9" src={Dot1} alt="Scholar" />
         <div className="col-md-12 ">
