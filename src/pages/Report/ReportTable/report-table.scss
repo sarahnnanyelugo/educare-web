@@ -23,6 +23,10 @@
   h5 {
     font-family: rebondG-Medium;
     color: #414244;
+    margin-top: 150px;
+    @media screen and (max-width: 620px) {
+      margin-top: 50px;
+    }
   }
   p {
     color: #414244;
@@ -31,9 +35,10 @@
 
   .panel {
     display: none;
-    padding-top: 130px;
-    /* color: #fff; */
-    height: 497px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    height: fit-content;
     background: rgb(185, 224, 240);
     @media screen and (max-width: 620px) {
       padding: 50px 0px 10px 10px !important;

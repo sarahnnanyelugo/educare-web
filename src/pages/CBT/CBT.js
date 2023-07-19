@@ -41,7 +41,12 @@ function CBT() {
     <>
       <div className="col-md-12 cbt-nav-div col-12">
         {" "}
-        <NavTwo title="CBT" />
+        <NavTwo
+          title="CBT"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
       <div style={{ height: "130px" }} />
 
@@ -59,7 +64,7 @@ function CBT() {
               <h1 className=" reco-alt">
                 Harness the Power of Seamless Computer-Based Testing for school
               </h1>
-              <p>
+              <p className="col-md-9">
                 Our cutting-edge Computer-Based Testing (CBT) platform
                 revolutionizes the way you assess your abilities. With a
                 user-friendly interface, instant results, adaptive testing, and
@@ -252,7 +257,7 @@ function CBT() {
           </div>
         </div>
       </div>
-      <div className="cbt-plans col-md-12" id="pricing">
+      {/* <div className="cbt-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦800/month</h3>
@@ -318,7 +323,8 @@ function CBT() {
             for complete details
           </p>
         </center>
-      </div>
+      </div> */}
+      <br />
       <Prefooter textb="Embrace the power of seamless CBT and unlock your true potential today!”" />
     </>
   );

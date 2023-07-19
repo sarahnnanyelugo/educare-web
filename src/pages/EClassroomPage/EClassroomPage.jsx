@@ -23,9 +23,14 @@ function EClassroomPage() {
       {" "}
       <div className="col-md-12 e-classroom-nav col-12">
         {" "}
-        <NavTwo title="eClassroom" />
+        <NavTwo
+          title="eClassroom"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12  e-classroom ">
         <div className="col-md-12  flexy">
           <div className="col-md-6 right-section ">
@@ -54,10 +59,7 @@ function EClassroomPage() {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 why-eclassroom mt7 mb5">
-        <WhyEClassroom />
-      </div>
-      <div className="teams mt">
+      {/* <div className="teams mt">
         {" "}
         <center>
           <h2>Trusted by teams at</h2>
@@ -78,23 +80,21 @@ function EClassroomPage() {
             </div>
           </div>
         </center>
-      </div>
+      </div> */}
       <div id="features" />
       <center>
-        <h1 className="reco-alt mt8">Classroom on the go</h1>
+        <h1 className="reco-alt mtt">Classroom on the go</h1>
       </center>
-      <div className="col-md-10 offset-md-1 mt9 on-d-go">
+      <div className="col-md-10 offset-md-1 mt6 on-d-go">
         <center className="flexy">
           <div className="col-md-4 mt5">
             <div className="col-md-10">
               {" "}
               <h3>Broadcast video classes</h3>
               <p>
-                The medical module of educare is highly customizable, allowing
-                schools to adapt it to their specific medical policies,
-                procedures, and workflows. It is also scalable, making it
-                suitable for schools of different sizes and types, from local
-                schools to international institutions.
+                You can hold live video lessons from anywhere. Share your screen
+                or programme windows with your pupils to provide support and
+                emphasis while you are teaching.
               </p>
             </div>
           </div>{" "}
@@ -103,11 +103,10 @@ function EClassroomPage() {
               {" "}
               <h3>Interact with your students</h3>
               <p>
-                The medical module of educare is highly customizable, allowing
-                schools to adapt it to their specific medical policies,
-                procedures, and workflows. It is also scalable, making it
-                suitable for schools of different sizes and types, from local
-                schools to international institutions.
+                Launch polls for the quiz, answer to queries from the audience
+                during Q&A, let students raise their hands to get your
+                attention, and encourage them to speak up and share their
+                screen.
               </p>
             </div>
           </div>{" "}
@@ -116,11 +115,10 @@ function EClassroomPage() {
               {" "}
               <h3>Record and share classes</h3>
               <p>
-                The medical module of educare is highly customizable, allowing
-                schools to adapt it to their specific medical policies,
-                procedures, and workflows. It is also scalable, making it
-                suitable for schools of different sizes and types, from local
-                schools to international institutions.
+                Students who couldn’t attend your lesson can listen to
+                recordings of it, replay them, and share them. You can also use
+                the recordings of your online lessons offline by downloading
+                them.
               </p>
             </div>
           </div>{" "}
@@ -128,6 +126,9 @@ function EClassroomPage() {
       </div>
       <div className="col-md-10 offset-md-1">
         <img className="" src={Eclassroom} alt="Scholar" width="100%" />
+      </div>
+      <div className="col-md-10 offset-md-1 why-eclassroom mt7 mb5">
+        <WhyEClassroom />
       </div>
       <div className="col-md-10 offset-md-1  privacy-container">
         {" "}
@@ -197,10 +198,10 @@ function EClassroomPage() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 id="pricing">Our simple prices made for you </h1>
-      </center>
-      <div className="grad col-md-12">
+      </center> */}
+      {/* <div className="grad col-md-12">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3">
@@ -274,7 +275,7 @@ function EClassroomPage() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       {/* <div className="col-md-10 offset-md-1 tools-management">
         <center>
           <div className="col-md-8">

@@ -21,7 +21,7 @@ function Pastoral(props) {
     <>
       <div className="col-md-12 pastoral-nav col-12">
         {" "}
-        <NavTwo title="Pastoral" />
+        <NavTwo title="Pastoral" nav1="Features" nav3="Resources" />
       </div>
       <div style={{ height: "140px" }} />
 
@@ -126,16 +126,24 @@ function Pastoral(props) {
 
           <center>
             <div className="col-md-3 flexy">
-              <img className="" src={Logo} alt="Scholar" /> <h2>Pastoral</h2>
+              <img className="" src={Logo} alt="Scholar" />{" "}
+              <h6 style={{ marginTop: "20px" }}>Pastoral</h6>
             </div>
           </center>
-          <button id="pricing">Sign up for a free trial today</button>
+          <div id="pricing" />
+          <GetStartedForm
+            text=" Get started"
+            bg="#ED2F59"
+            cls="gsmpst"
+            bgbtn="#0098DA"
+            backdropbg="modal-backdrop-pink"
+          />
         </center>
       </div>
-      <center>
+      {/* <center>
         <h1>Our simple prices made for you </h1>
-      </center>
-      <div className="rad col-md-12">
+      </center> */}
+      {/* <div className="rad col-md-12">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3">
@@ -205,7 +213,7 @@ function Pastoral(props) {
           {""} for complete details
         </p>
       </center>
-      <PartnersInlineDisplay />
+      <PartnersInlineDisplay /> */}
     </>
   );
 }

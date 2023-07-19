@@ -19,9 +19,14 @@ function VotingSystem() {
     <>
       <div className="col-md-12 nav-two-voting col-12">
         {" "}
-        <NavTwo title="Voting System" />
+        <NavTwo
+          title="Voting System"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <center>
         <div className="col-md-6 voting-div">
           <Heading
@@ -153,7 +158,7 @@ function VotingSystem() {
           </div>
         </div>
       </div>
-      <div className="voting-plans col-md-12 mtt" id="pricing">
+      {/* <div className="voting-plans col-md-12 mtt" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -219,15 +224,24 @@ function VotingSystem() {
             for complete details
           </p>
         </center>
-      </div>
-      <div className="col-md-10 offset-md-1 participation">
+      </div> */}
+      <div className="col-md-10 offset-md-1 participation mtt">
         <center>
           <div className="col-md-4 col-12">
             <h2>Better participation</h2>
             <h3>Better results</h3>
 
-            <div className="flexy flexyM col-md-12">
-              <button className="started">Get started</button>
+            <div
+              className="flexy flexyM col-md-12"
+              style={{ marginLeft: "50px" }}
+            >
+              <GetStartedForm
+                text=" Get started"
+                bg="#0098DA"
+                cls="gsmadm"
+                bgbtn="#0098DA"
+                backdropbg="modal-backdrop-blue"
+              />
               <button className="demo">Request for demo</button>
             </div>
           </div>

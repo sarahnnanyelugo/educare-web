@@ -20,7 +20,12 @@ export const FinancePage = () => {
     <>
       <div className="col-md-12 nav-two-finance col-12">
         {" "}
-        <NavTwo title="Finance" />
+        <NavTwo
+          title="Finance"
+          nav1="Features"
+          nav2="Pricing"
+          nav3="Resources"
+        />
       </div>
       <div style={{ height: "140px" }} />
 
@@ -115,7 +120,7 @@ export const FinancePage = () => {
           </div>
         </div>
       </div>
-      <div className="finance-plans col-md-12" id="pricing">
+      {/* <div className="finance-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -124,12 +129,7 @@ export const FinancePage = () => {
               not be charged until you are prepared to use our Finance.
             </p>
           </div>
-          {/* <div className="col-md-2 offset-md-2">
-            <center>
-              {" "}
-              <button>See prices</button>
-            </center>
-          </div> */}
+       
         </div>
         <div className="offset-md-4 recomendF">
           {" "}
@@ -144,7 +144,7 @@ export const FinancePage = () => {
               annualAmount="₦75 billed annually"
               paragraph="Per Student (Monthly)"
               currency="₦"
-              // cls="curve"
+            
             />
           </div>{" "}
           <div className="col-md-3 zoom">
@@ -173,8 +173,7 @@ export const FinancePage = () => {
               package="Enterprise"
               amount="Contact Us"
               url={""}
-              // clss="curve2"
-              // btnBg="#ed2f59"
+             
             />
           </div>
         </div>
@@ -187,7 +186,7 @@ export const FinancePage = () => {
             for complete details
           </p>
         </center>
-      </div>
+      </div> */}
       <div className="col-md-10 offset-md-1 flexy mt lottie-div">
         <div className="col-md-6 ">
           <h3>Security at the heart of everything</h3>

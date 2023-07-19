@@ -25,7 +25,13 @@ export const EducareForBusiness = () => {
     <>
       <div className="col-md-12 nav-two-business ">
         {" "}
-        <NavTwo title="educare for Business" priceUrl={"/educare-packages"} />
+        <NavTwo
+          title="educare for Business"
+          priceUrl={"/educare-packages"}
+          nav1="Features"
+          nav2="Pricing"
+          nav3="Resources"
+        />
       </div>
       <div style={{ height: "140px" }} />
 
@@ -68,6 +74,7 @@ export const EducareForBusiness = () => {
           </div>
         </div>
       </div>
+      <div id="features" />
       <div className="col--md-12  mt">
         <center>
           <div className="col-md-4">
@@ -211,30 +218,26 @@ export const EducareForBusiness = () => {
         <div className="col-md-4">
           <Heading
             text="Facility Management"
-            bg="#eaedfe"
-            color="#204bc8"
-            boda="#eaedfe"
+            bg="#D6DCFE80"
+            color="#0724C8"
+            boda="#D6DCFE80"
             display="dn"
           />
-          <h3 className="mt3">Automated employee reimbursements.</h3>
+          <h3 className="mt3">Centralized asset database</h3>
           <p>
-            educare Finance automates the reimbursement approval process,
-            ensuring that employees are reimbursed quickly and accurately.
-            Expenses are automatically categorized and recorded in the correct
-            accounts, eliminating the need for manual data entry.
+            This allows for the creation of a centralized repository to manage
+            and track all facility assets, including equipment, furniture, and
+            infrastructure.
           </p>
-          <h3>Streamlined quote-to-cash process</h3>
+          <h3>Preventive maintenance</h3>
           <p>
-            Generate quotes and orders in one application and seamlessly fulfil
-            them in another, with real-time availability of data. Invoice
-            customers and collect payments promptly for improved cash flow
-            management.
+            This enables the scheduling and management of preventive maintenance
+            tasks to minimize downtime and extend asset lifespan.
           </p>
-          <h3>Prepared for subscription-based businesses</h3>
+          <h3>Asset lifecycle management</h3>
           <p>
-            educare Finance offers a reliable recurring billing solution that
-            adapts to the growing trend of subscription-based models, all while
-            integrating traditional accounting methods seamlessly.
+            It facilitates monitoring asset conditions, tracking maintenance
+            schedules, and managing repair and replacement processes.
           </p>
         </div>
       </div>

@@ -28,7 +28,7 @@ function Timetable() {
     <>
       <div className="col-md-12 timetable-nav col-12">
         {" "}
-        <NavTwo title="Timetable" />
+        <NavTwo title="Timetable" priceUrl="#pricing" />
       </div>
       <div style={{ height: "140px" }} />
       <div className="col-md-12 timetable-container">
@@ -64,6 +64,9 @@ function Timetable() {
             <Lottie loop animationData={Clockwise} play className="l" />
           </div>
         </center>
+      </div>
+      <div className="col-md-12">
+        <DashboardDisplay />
       </div>
       <div id="features" />
       <div className="col-md-12 shadowed features-main flexy">
@@ -149,9 +152,6 @@ function Timetable() {
             />
           </div>
         </div>
-      </div>
-      <div className="col-md-12">
-        <DashboardDisplay />
       </div>
       <center>
         <h1 id="pricing">Select a plan to go virtual </h1>

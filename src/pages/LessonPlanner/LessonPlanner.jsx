@@ -18,7 +18,12 @@ function LessonPlanner() {
       {" "}
       <div className="col-md-12 lesson-planner-nav  col-12">
         {" "}
-        <NavTwo title="Lesson Planner" />
+        <NavTwo
+          title="Lesson Planner"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
       <div style={{ height: "130px" }} />
       <div className="col-md-12  lesson-planner">
@@ -100,7 +105,7 @@ function LessonPlanner() {
         {" "}
         <Testimonial />
       </div>
-      <div className="lesson-planner-plans col-md-12" id="pricing">
+      {/* <div className="lesson-planner-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -123,7 +128,7 @@ function LessonPlanner() {
               annualAmount="₦75 billed annually"
               paragraph="Per Student (Monthly)"
               currency="₦"
-              // cls="curve"
+          
             />
           </div>{" "}
           <div className="col-md-3 zoom">
@@ -152,8 +157,7 @@ function LessonPlanner() {
               package="Enterprise"
               amount="Contact Us"
               url={""}
-              // clss="curve2"
-              // btnBg="#ed2f59"
+             
             />
           </div>
         </div>
@@ -166,7 +170,7 @@ function LessonPlanner() {
             for complete details
           </p>
         </center>
-      </div>
+      </div> */}
       <div className="col-md-10 offset-md-1 trial-div">
         <center>
           <h2>Try Our Lesson planner today</h2>

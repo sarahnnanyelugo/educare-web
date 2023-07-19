@@ -22,7 +22,12 @@ function AdmissionPage() {
     <>
       <div className="col-md-12 admission-nav-div col-12">
         {" "}
-        <NavTwo title="Admission" priceUrl="#pricing" />
+        <NavTwo
+          title="Admission"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
       <div style={{ height: "120px" }} />
       <div className="col-md-12 admissions-div">
@@ -333,7 +338,7 @@ function AdmissionPage() {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-12 admin-simple-prices" id="pricing">
+      {/* <div className="col-md-12 admin-simple-prices" id="pricing">
         {" "}
         <center>
           <h1 className=" ">Our simple prices made for you </h1>
@@ -416,9 +421,9 @@ function AdmissionPage() {
             {""} for complete details
           </p>
         </center>
-      </div>
+      </div> */}
       <center>
-        <div className="col-md-5 admin-process">
+        <div className="col-md-5 admin-process mt">
           <h3>
             Streamline Your Admission Process with educare admissions today!
           </h3>

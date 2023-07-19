@@ -86,8 +86,9 @@ export const Home = () => {
             <h1>Modern ERP solution designed for You!</h1>
             <p>
               Unlock Your Business’s Potential with Cutting-Edge Software
-              Solutions Designed to Streamline Operations, Optimize Performance,
-              and Drive Growth.
+              Solutions , whether adopting your first ERP or migrating from an
+              existing one, choose a complete, modular solution that meets every
+              business needs
             </p>
             <Link to={"/sign-up"}>
               {" "}
@@ -795,11 +796,9 @@ export const Home = () => {
             <center>
               <h1>educare’s Privacy and Protection</h1>
               <p>
-                educare ensures data privacy by implementing advanced security
-                measures, including encryption and secure communication
-                channels. The platform has no access to your data, and strict
-                policies are in place to keep your data under your control.
-                Trust us to keep your data safe and secure
+                educare ensures maximum data privacy by implementing advanced
+                security measures including encryption and secure communication
+                channels.
               </p>
             </center>
           </div>

@@ -30,9 +30,14 @@ function Library() {
     <>
       <div className="col-md-12 library-nav col-12">
         {" "}
-        <NavTwo title="Library" />
+        <NavTwo
+          title="Library"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
 
       <div className="col-md-12 library-container">
         <div className="col-md-10 offset-md-1  flexy ">
@@ -45,11 +50,10 @@ function Library() {
             />
             <h1>Your Gateway to Knowledge</h1>
             <p>
-              Seamless Access to Educational Materials and Tools. Our library
-              system provides an all-in-one solution for your academic needs.
-              With a vast collection of resources and intuitive features, we
-              make learning easy and accessible. Discover your gateway to
-              knowledge today
+              Our library system provides an all-in-one solution for your
+              academic needs. With a vast collection of resources and intuitive
+              features, we make learning easy and accessible. Discover your
+              gateway to knowledge today
             </p>
             <div className="flexy flexyM lib-btns">
               <GetStartedForm
@@ -144,6 +148,11 @@ function Library() {
           </div>
         </div>
       </center>
+      <div className="col-md-12 mt mb5 flexy">
+        <div className="col-md-12 ">
+          <DashboardDisplay />
+        </div>
+      </div>
       <div className="col-md-12 graded mt ">
         <div className="col-md-10 offset-md-1 flexy  ">
           <div className="col-md-4">
@@ -200,12 +209,8 @@ function Library() {
           </div>
         </center>
       </div>
-      <div className="col-md-12 mt mb5 flexy">
-        <div className="col-md-12 ">
-          <DashboardDisplay />
-        </div>
-      </div>
-      <div className="library-plans col-md-12" id="pricing">
+      {/* 
+      <div className="library-plans col-md-12 mt" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -271,10 +276,10 @@ function Library() {
             for complete details
           </p>
         </center>
-      </div>
-      <div className="col-md-10 offset-md-1 lib-get-started flexy">
+      </div> */}
+      <div className="col-md-10 offset-md-1 lib-get-started flexy mtt">
         <div className="col-md-5 started-div">
-          <h2>Get started with a 15-day trial</h2>
+          <h2>Get started today</h2>
           <p>
             Sign up for a free trial and see how easy it is acquiring <br />
             knowledge with our software.
@@ -291,12 +296,12 @@ function Library() {
           <button className="demo">Request for demo</button>
         </center>
       </div>
-      <div className="col-md-8 offset-md-2 mt">
+      {/* <div className="col-md-8 offset-md-2 mt">
         <center>
           <h1>Frequently asked questions</h1>
         </center>
         <LibraryFAQ />
-      </div>
+      </div> */}
     </>
   );
 }

@@ -36,55 +36,107 @@ function ReportTable() {
             Communication book
           </button>{" "}
         </div>{" "}
-        <div className="flexy  ">
-          <div className="col-md-8">
-            <div className="col-md-12">
-              <img className="" src={Dashboard} alt="Scholar" width="100%" />
-            </div>
-
-            <div className="bid-ball-rad col-md-6 " />
-          </div>
-
-          <div className="panels col-md-4 ">
-            <div className="col-md-10">
+        <div className="panels col-md-12 ">
+          <div className={`panel ${checkActive(1, "active2")}`}>
+            <div className="flexy">
               {" "}
-              <div className={`panel ${checkActive(1, "active2")}`}>
+              <div className="col-md-8">
+                <div className="col-md-12">
+                  <img
+                    className=""
+                    src={Dashboard}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+
+                <div className="bid-ball-rad col-md-6 " />
+              </div>
+              <div className="col-md-4">
                 <h5>Generate Results</h5>
                 <p>
-                  Be able to generate comprehensive results, streamlining the
-                  process with our intuitive platform, transforming data into
-                  insightful reports, saving time, ensuring accuracy, and
-                  empowering educators with comprehensive performance analysis.
+                  Be able to provide thorough findings, streamlining the
+                  procedure with our user-friendly platform, converting data
+                  into meaningful reports, saving time, ensuring correctness,
+                  and providing instructors with thorough performance analysis.
                 </p>
               </div>
-              <div className={`panel ${checkActive(2, "active2")}`}>
-                {" "}
+            </div>
+          </div>
+          <div className={`panel ${checkActive(2, "active2")}`}>
+            {" "}
+            <div className="flexy">
+              {" "}
+              <div className="col-md-8">
+                <div className="col-md-12">
+                  <img
+                    className=""
+                    src={Dashboard}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+
+                <div className="bid-ball-rad col-md-6 " />
+              </div>
+              <div className="col-md-4">
                 <h5>Student Analysis</h5>
                 <p>
-                  Gain deep insights into students performance and progress
-                  through robust student analysis tools, providing a holistic
-                  understanding of their academic journey. Utilize data-driven
-                  student analysis to track trends, patterns, and growth over
-                  time, fostering evidence-based decision-making and
-                  personalized educational strategies.
+                  Utilize powerful student analysis tools to gain deep insights
+                  into students’ performance and progress, giving you a
+                  comprehensive understanding of their academic path.
                 </p>
               </div>
-              <div className={`panel ${checkActive(3, "active2")}`}>
-                {" "}
+            </div>
+          </div>
+          <div className={`panel ${checkActive(3, "active2")}`}>
+            {" "}
+            <div className="flexy">
+              {" "}
+              <div className="col-md-8">
+                <div className="col-md-12">
+                  <img
+                    className=""
+                    src={Dashboard}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+
+                <div className="bid-ball-rad col-md-6 " />
+              </div>
+              <div className="col-md-4">
                 <h5>Teachers Remark</h5>
                 <p>
-                  Enrich student reports with personalized and meaningful
-                  teachers’ remarks, providing valuable insights and feedback on
-                  individual student performance and growth.
+                  Add personalised and insightful teacher comments to student
+                  reports to add rich context and insightful feedback on each
+                  student’s development.
                 </p>
               </div>
-              <div className={`panel ${checkActive(4, "active2")}`}>
-                <h5>Communication Book</h5>
+            </div>
+          </div>
+          <div className={`panel ${checkActive(4, "active2")}`}>
+            <div className="flexy">
+              {" "}
+              <div className="col-md-8">
+                <div className="col-md-12">
+                  <img
+                    className=""
+                    src={Dashboard}
+                    alt="Scholar"
+                    width="100%"
+                  />
+                </div>
+
+                <div className="bid-ball-rad col-md-6 " />
+              </div>
+              <div className="col-md-4">
+                <h5>Grading system</h5>
                 <p>
-                  Enhance parent engagement by allowing them to actively
-                  participate in their child’s education through the
-                  communication book, enabling them to stay informed about
-                  assignments, events, and academic milestones.
+                  Tailor you report to match your specific grading scales,
+                  weightage systems, and grade distribution methods. With its
+                  powerful algorithms, it instantly calculates final grades
+                  based on the weights and criteria you set.
                 </p>
               </div>
             </div>

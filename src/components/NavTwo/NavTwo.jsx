@@ -56,20 +56,18 @@ export const NavTwo = (props) => {
         <ul className="list-unstyled list-inline">
           <li className="list-inline-item">
             <a href="#features">
-              <button className="top-nav-links"> Features</button>
+              <button className="top-nav-links"> {props.nav1}</button>
             </a>
           </li>
           <li className="list-inline-item">
-            {/* <Link to={"#pricing"}> */}{" "}
             <a href={props.priceUrl}>
               {" "}
-              <button className="top-nav-links"> Pricing</button>
+              <button className="top-nav-links"> {props.nav2}</button>
             </a>
-            {/* </Link> */}
           </li>
           <li className="list-inline-item">
             <NavLink to={"/blog"} activeClassName="active">
-              <button className="top-nav-links"> Resources</button>
+              <button className="top-nav-links"> {props.nav3}</button>
             </NavLink>
           </li>
         </ul>

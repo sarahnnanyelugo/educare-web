@@ -25,6 +25,9 @@ export const EducareForSchools = () => {
         <NavTwo
           title="educare for Schools"
           priceUrl={"/educare-school-packages"}
+          nav1="Features"
+          nav2="Pricing"
+          nav3="Resources"
         />
       </div>
       <div style={{ height: "140px" }} />
@@ -66,7 +69,7 @@ export const EducareForSchools = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-12 empty-grad"></div>
+      <div className="col-md-12 empty-grad" id="features"></div>
       <div className="col-m-12 mt">
         <center>
           <div className="col-md-4">

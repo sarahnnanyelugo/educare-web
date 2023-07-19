@@ -58,8 +58,8 @@ function NavBar() {
         setTheme2("#8CA8F7");
         break;
       case "/e-classroom":
-        setTheme("#671F37");
-        setTheme2("#CC006E");
+        setTheme2("#671F37");
+        setTheme("#CC006E");
         break;
       case "/educare-school-packages":
         setTheme("#0098DA");
@@ -402,6 +402,17 @@ function NavBar() {
                     </li>
                   </ul>
                 </div>
+              </a>
+            </li>{" "}
+            <li className="list-inline-item web-nav">
+              <a href="#click" class="menu">
+                <NavLink
+                  to={"/educare-packages"}
+                  activeClassName="active"
+                  className="menu-title"
+                >
+                  <button className="nav-links menu-title"> Pricing</button>
+                </NavLink>
               </a>
             </li>{" "}
             <li className="list-inline-item web-nav">

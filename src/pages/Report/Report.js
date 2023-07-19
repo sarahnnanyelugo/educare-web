@@ -23,14 +23,19 @@ function Report() {
       {" "}
       <div className="col-md-12 report-nav-div col-12">
         {" "}
-        <NavTwo title="Report" />
+        <NavTwo
+          title="Report"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="report-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-6 mtt  no-m">
             <img className="offset-md-8" src={Dot1} alt="Scholar" />
-            <h1>Get more done in less time!</h1>
+            <h1 className="col-md-10">Say goodbye to report card headache!</h1>
             <p className="col-md-10 flexy flexyM">
               <img
                 className=""
@@ -38,10 +43,8 @@ function Report() {
                 alt="Scholar"
                 style={{ marginLeft: "-qa5px" }}
               />
-              Say goodbye to messy paper schedules and hello to easy time
-              management with our time table software module. With customizable
-              schedules, syncing across all devices, and collaboration features,
-              managing your time has never been easier.
+              educare lets you create, customize, develop, and distribute report
+              cards like you have never done before.
             </p>
             <img className="offset-md-9 mt5" src={Dot3} alt="Scholar" />
             <img className="offset-md-3 mt7" src={Dot4} alt="Scholar" />
@@ -118,14 +121,7 @@ function Report() {
           </div>
         </div>
       </div>
-      <div id="features" />
-      <center>
-        <h1 className="mtt   font-family: recoAltMedium;">
-          How educare reports help you
-        </h1>
-      </center>
-      <ReportTable />
-      <div className="col-md-10 offset-md-1 flexy">
+      <div className="col-md-10 offset-md-1 flexy mt7">
         <div className="col-md-4">
           <center>
             {" "}
@@ -133,10 +129,10 @@ function Report() {
               <img className="aisa" src={Icon1} alt="Scholar" height="54px" />
               <h5>Automated Data</h5>
               <p>
-                Seamless integration with student information systems,
-                gradebooks, and attendance tracking systems to automatically
-                populate data into the report. This saves time and reduces the
-                risk of errors.
+                Data for the report is automatically populated through seamless
+                interaction with student information systems, gradebooks, and
+                attendance monitoring programmes. Time is saved, and the
+                possibility of errors is decreased.
               </p>
             </div>
           </center>
@@ -148,10 +144,10 @@ function Report() {
               <img className="aisa" src={Icon2} alt="Scholar" height="54px" />
               <h5>Data Export</h5>
               <p>
-                Seamless integration with student information systems,
-                gradebooks, and attendance tracking systems to automatically
-                populate data into the report. This saves time and reduces the
-                risk of errors.
+                Export reports in various formats (e.g., PDF, Excel) for
+                printing or digital distribution. Educators can also share
+                reports securely with parents or guardians through integrated
+                communication channels.
               </p>
             </div>
           </center>
@@ -161,17 +157,23 @@ function Report() {
             {" "}
             <div className="col-md-11 reports-feats">
               <img className="aisa" src={Icon3} alt="Scholar " height="54px" />
-              <h5>Automated Data</h5>
+              <h5>Data Privacy & Security</h5>
               <p>
-                Seamless integration with student information systems,
-                gradebooks, and attendance tracking systems to automatically
-                populate data into the report. This saves time and reduces the
-                risk of errors.
+                Robust security measures to protect sensitive student
+                information, adhering to data privacy regulations and ensuring
+                that only authorized individuals can access reports.
               </p>
             </div>
           </center>
         </div>
       </div>
+      <div id="features" />
+      <center>
+        <h1 className="mtt   font-family: recoAltMedium;">
+          How educare reports help you
+        </h1>
+      </center>
+      <ReportTable />
       <div className="col-md-10 offset-md-1 flexy v-learning">
         <div className="col-md-3 offset-md-1">
           <Lottie loop animationData={Player1} play className="lottieee" />
@@ -189,12 +191,12 @@ function Report() {
           </p>
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 className="mtt mb5" id="pricing">
           Our simple prices made for you{" "}
         </h1>
-      </center>
-      <div className="grad col-md-12 mt">
+      </center> */}
+      {/* <div className="grad col-md-12 mt">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3 " style={{ marginTop: "-20px" }}>
@@ -271,7 +273,7 @@ function Report() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-10 offset-md-1 report-get-started flexy">
         <div className="col-md-4 offset-md-1">
           <h2>Stay on top of your schedule, no matter where you are</h2>

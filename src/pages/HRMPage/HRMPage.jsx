@@ -10,15 +10,22 @@ import "./hrm-page.scss";
 import DashboardAccordion from "./DashboardAccordion/DashboardAccordion";
 import Prices from "../../components/Prices/Prices";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
+import { Prefooter } from "../../components/Prefooter/Prefooter";
 
 export const HRMPage = () => {
   return (
     <>
       <div className="col-md-12 hrm-nav col-12 ">
         {" "}
-        <NavTwo title="HR Manager" headerIcon={People} />
+        <NavTwo
+          title="HR Manager"
+          headerIcon={People}
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-12  hr-manager-container">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt9">
@@ -29,11 +36,11 @@ export const HRMPage = () => {
               text="Introducing HR Manager"
               boda="#FCEBD7"
             />
-            <h1>A people management platform built for people</h1>
-            <p>
+            <h1>A people management platform built for your organisation</h1>
+            <p className="col-md-9">
               Simplify your HR & Payroll processes with our comprehensive
-              software
-              <br /> solution that covers everything from hiring to offboarding.
+              software solution that covers everything from hiring to
+              offboarding. Whether your team is small, in-person, or remote
             </p>
           </div>
           <div className="col-md-4 offset-md-2">
@@ -76,14 +83,23 @@ export const HRMPage = () => {
               </p>
             </div>
           </div>
-
-          <img className="   mt9" src={HRSimple} alt="Scholar" width="100%" />
         </div>
       </div>
       <div className="col-md-11 offset-md-1 dashboard-accordion flexy">
         <DashboardAccordion />
       </div>
-      <div className="pricing-plans col-md-12" id="pricing">
+      <center>
+        <div className="col-md-9">
+          {" "}
+          <img
+            className="   mt9 mb5"
+            src={HRSimple}
+            alt="Scholar"
+            width="100%"
+          />
+        </div>
+      </center>
+      {/* <div className="pricing-plans col-md-12" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
           <div className="col-md-7">
             <h3>Pricing plans start at just ₦400/month</h3>
@@ -149,9 +165,9 @@ export const HRMPage = () => {
             for complete details
           </p>
         </center>
-      </div>
-      <center>
-        <div className="col-md-6" style={{ marginBottom: "30px" }}>
+      </div> */}
+      {/* <center>
+        <div className="col-md-6 mtt" style={{ marginBottom: "30px" }}>
           <h1>Get your team working with educare’s HR Manager.</h1>
         </div>
       </center>
@@ -202,8 +218,12 @@ export const HRMPage = () => {
           bgbtn="#EA8713"
           backdropbg="modal-backdrop-dark"
         />
-      </center>
+      </center> */}
       <br />
+      <br />
+      <br />
+      <br />
+      <Prefooter text="Get started now and experience ease in your workflow." />
     </>
   );
 };
