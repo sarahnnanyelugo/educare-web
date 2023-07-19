@@ -52,7 +52,7 @@ export const MenuTab = () => {
                     For Schools
                   </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                {/* <Nav.Item>
                   <NavLink
                     to={"/"}
                     className="menu-links list-group-item list-group-item-action drop-down-nav"
@@ -61,15 +61,15 @@ export const MenuTab = () => {
                     {" "}
                     Enterprise offer
                   </NavLink>
-                </Nav.Item>
-                <Nav.Item>
+                </Nav.Item> */}
+                {/* <Nav.Item>
                   <NavLink
                     to={"/"}
                     className="menu-links list-group-item list-group-item-action drop-down-nav"
                   >
                     Partner with Us
                   </NavLink>
-                </Nav.Item>
+                </Nav.Item> */}
               </Nav>
             </Col>
             <Col sm={10} className="tab-content">
