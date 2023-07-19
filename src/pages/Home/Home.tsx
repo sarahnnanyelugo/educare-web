@@ -762,21 +762,43 @@ export const Home = () => {
                 />
               </div>
               <div className="col-md-12 flexy flexyM bb">
-                <div className="col-md-6 col-6 other-components br">
+                <div className="col-md-6 col-6 other-components br ">
                   {" "}
-                  <OtherEducareProducts
-                    productIcon={Exeact}
-                    productName="Exeat Request"
-                    url={"./"}
-                  />{" "}
+                  <div className="col-md-12 bb">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Exeact}
+                      productName="Behavioural Management"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12 other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Exeact}
+                      productName="Exeat Request"
+                      url={"./"}
+                    />{" "}
+                  </div>
                 </div>
-                <div className="col-md-6 col-6 other-components">
+                <div className="col-md-6 col-6 other-components ">
                   {" "}
-                  <OtherEducareProducts
-                    productIcon={Activity}
-                    productName="Activity Point"
-                    url={"./"}
-                  />{" "}
+                  <div className="col-md-12 bb">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Activity}
+                      productName="Hostel Management"
+                      url={"./"}
+                    />{" "}
+                  </div>
+                  <div className="col-md-12  other-components">
+                    {" "}
+                    <OtherEducareProducts
+                      productIcon={Activity}
+                      productName="Activity Point"
+                      url={"./"}
+                    />{" "}
+                  </div>
                 </div>
               </div>
               <div className="col-md-12 flexy flexyM ">
