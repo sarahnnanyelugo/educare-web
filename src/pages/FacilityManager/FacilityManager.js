@@ -5,7 +5,8 @@ import "./facility-manager.scss";
 import Fac1 from "../../assets/images/fac1.svg";
 import Fac2 from "../../assets/images/fac2.svg";
 import Fac3 from "../../assets/images/facility_dash1.png";
-import Fac4 from "../../assets/images/fac-img2.png";
+import Fac4 from "../../assets/images/fac4.png";
+// import Fac4 from "../../assets/images/fac-img2.png";
 import Fac5 from "../../assets/images/fac-img3.png";
 import Fac6 from "../../assets/images/fac-img4.png";
 import Player1 from "../../assets/images/settings-lottie.json";
@@ -21,9 +22,14 @@ function FacilityManager() {
     <>
       <div className="col-md-12 facility-nav-div col-12">
         {" "}
-        <NavTwo title="Facility Management" />
+        <NavTwo
+          title="Facility Management"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
 
       <div className="facility-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
@@ -55,7 +61,7 @@ function FacilityManager() {
       <div id="features" />
       <center>
         <h1 className="col-md-5 mt">
-          Who says managing your facility is gonna be tedious?
+          Who says managing your facility has to be tedious?
         </h1>
         <div className="col-md-9 mt7">
           {" "}
@@ -116,7 +122,7 @@ function FacilityManager() {
                 performed on assets, facilitating historical analysis and
                 informed decision-making.
               </p>
-              <h4>Labourers management</h4>
+              <h4>Staff management</h4>
               <p>
                 The management of contracts, service agreements, and performance
                 tracking to ensure efficient and quality service delivery can be
@@ -128,21 +134,22 @@ function FacilityManager() {
       </div>
       <div className="col-md-10 offset-md-1 asset-management mt">
         <center>
-          <h1>Asset Management</h1>
+          <h1>Reporting and Analytics</h1>
         </center>
         <div className="flexy mt7">
           <div className="col-md-6">
             <div className="col-md-10">
-              <h4>Preventive maintenance</h4>
+              <h4>Customizable reports</h4>
               <p>
-                The module enables the scheduling and management of preventive
-                maintenance tasks to minimize downtime and extend asset
-                lifespan.
+                It allows for generating customizable reports on various
+                facility management aspects, such as asset utilization,
+                maintenance history, and costs.
               </p>
-              <h4>Asset lifecycle management</h4>
+              <h4>Data-driven decision-making</h4>
               <p>
-                It facilitates monitoring asset conditions, tracking maintenance
-                schedules, and managing repair and replacement processes.
+                The module provides insights and analytics based on facility
+                data, supporting data-driven decision-making for optimizing
+                resources, reducing costs, and improving operational efficiency.
               </p>
             </div>
           </div>
@@ -196,7 +203,7 @@ function FacilityManager() {
           </ul>
         </div>
       </div>
-      <div className="col-md-12 admin-simple-prices " id="pricing">
+      {/* <div className="col-md-12 admin-simple-prices " id="pricing">
         {" "}
         <center>
           <h1 className=" ">Our simple prices made for you </h1>
@@ -279,7 +286,7 @@ function FacilityManager() {
             {""} for complete details
           </p>
         </center>
-      </div>
+      </div> */}
       <center>
         <div className="col-md-5 admin-process">
           <h3>

@@ -70,6 +70,7 @@ import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import Standard from "../../assets/images/standard.png";
+import Switch from "../../assets/images/switch.png";
 
 import Aisa from "../../assets/images/aisa.svg";
 import Grange from "../../assets/images/grange.png";
@@ -170,6 +171,10 @@ export const Home = () => {
           <div className="col">
             {" "}
             <img className="starvile " src={Starvile} alt="Scholar" />
+          </div>
+          <div className="col">
+            {" "}
+            <img className="switch " src={Switch} alt="Scholar" />
           </div>
         </div>
       </div>

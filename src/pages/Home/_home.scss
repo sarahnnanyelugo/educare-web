@@ -398,4 +398,13 @@
       margin-top: -3px;
     }
   }
+  .switch {
+    width: 126px;
+    height: 25px;
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 56%;
+      margin-top: -3px;
+    }
+  }
 }

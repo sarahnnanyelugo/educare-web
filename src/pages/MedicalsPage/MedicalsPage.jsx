@@ -16,9 +16,14 @@ function MedicalsPage() {
       {" "}
       <div className="col-md-12 medicals-nav col-12">
         {" "}
-        <NavTwo title="Medicals" />
+        <NavTwo
+          title="Medicals"
+          priceUrl="#pricing"
+          nav1="Features"
+          nav3="Resources"
+        />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="col-md-10 offset-md-1 flexy services-container">
         <div className="col-md-5 health-services">
           <div className="heading-container">
@@ -73,12 +78,12 @@ function MedicalsPage() {
           <MedicalTabNav />
         </div>
       </div>
-      <center>
+      {/* <center>
         <h1 className="mtt mb5" id="pricing">
           Our simple prices made for you{" "}
         </h1>
-      </center>
-      <div className="grad col-md-12">
+      </center> */}
+      {/* <div className="grad col-md-12">
         {" "}
         <div className="col-md-10 offset-md-1 flexy mb5 mt5">
           <div className="col-md-3">
@@ -152,7 +157,7 @@ function MedicalsPage() {
           </Link>
           {""} for complete details
         </p>
-      </center>
+      </center> */}
       <div className="col-md-10 offset-md-1 tools-management">
         <center>
           <div className="col-md-8">
