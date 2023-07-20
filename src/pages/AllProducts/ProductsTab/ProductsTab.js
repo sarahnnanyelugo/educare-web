@@ -14,15 +14,14 @@ function ProductsTab() {
   useEffect(() => {
     new WOW.WOW({
       live: true,
-      duration: 5,
     }).init();
   }, [category]);
   useEffect(() => {
-    if (category == "*") {
+    if (category === "*") {
       setFilteredProducts(allProducts);
     } else {
       setFilteredProducts(
-        allProducts.filter((prd) => prd.category == category)
+        allProducts.filter((prd) => prd.category.indexOf(category) !== -1)
       );
     }
   }, [category]);
@@ -32,14 +31,31 @@ function ProductsTab() {
       <div className="container-fluid filter-triggers">
         {" "}
         <div className="offset-md-1">
-          <span onClick={() => setCat("*")}> All Products</span>
-          <span onClick={() => setCat("business")}>For Businesses</span>
-          <span onClick={() => setCat("*")}> For Schools</span>
+          <span
+            className={`btn ${category === "*" ? "prd-active" : ""}`}
+            onClick={() => setCat("*")}
+          >
+            {" "}
+            All Products
+          </span>
+          <span
+            className={`btn ${category === "business" ? "prd-active" : ""}`}
+            onClick={() => setCat("business")}
+          >
+            For Businesses
+          </span>
+          <span
+            className={`btn ${category === "schools" ? "prd-active" : ""}`}
+            onClick={() => setCat("schools")}
+          >
+            {" "}
+            For Schools
+          </span>
         </div>
       </div>
       <br />
       <div className="col-md-12  ">
-        <div id="content" className="offset-md-1 col-md-10">
+        <div className="offset-md-2 col-md-8 product-content">
           <section className="row row-cols-2 row-cols-lg-4  g-lg-4 col-md-12">
             {filteredProducts.map((data, index) => (
               <Products data={data} />

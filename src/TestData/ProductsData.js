@@ -27,7 +27,7 @@ export const allProducts = [
     productIcon: Finance,
     border: "solid 1px #4A13B2",
     bg: "#DED0FA80",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "Pastoral",
@@ -36,7 +36,7 @@ export const allProducts = [
     productIcon: Pastoral,
     border: "solid 1px #ED2F59",
     bg: "#FCDCE3",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Students Admission",
@@ -45,7 +45,7 @@ export const allProducts = [
     productIcon: Admission,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Lesson Planner",
@@ -54,7 +54,7 @@ export const allProducts = [
     productIcon: Lesson,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "HR Manager",
@@ -63,7 +63,7 @@ export const allProducts = [
     productIcon: HR,
     border: "solid 1px #EA8713",
     bg: "#FCEBD780",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "CBT",
@@ -72,7 +72,7 @@ export const allProducts = [
     productIcon: CBT,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "MailBox",
@@ -80,7 +80,7 @@ export const allProducts = [
     productIcon: Mailbox,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "Library",
@@ -89,7 +89,7 @@ export const allProducts = [
     productIcon: Library,
     border: "solid 1px #ED2F59",
     bg: "#FCDCE380",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Report",
@@ -98,7 +98,7 @@ export const allProducts = [
     productIcon: Report,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "eClassroom",
@@ -107,7 +107,7 @@ export const allProducts = [
     productIcon: Eclassroom,
     border: "solid 1px #FF0089",
     bg: "#FFD5EB80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Medicals",
@@ -116,7 +116,7 @@ export const allProducts = [
     productIcon: Medicals,
     border: "solid 1px #0B2FF7",
     bg: "#D6DCFE80",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "Facility Management",
@@ -124,7 +124,7 @@ export const allProducts = [
     productIcon: Facility,
     border: "solid 1px #0B2FF7",
     bg: "#D6DCFE80",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "Calendar",
@@ -133,7 +133,7 @@ export const allProducts = [
     productIcon: Calendar,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
-    category: "business",
+    category: ["business", "schools"],
   },
   {
     productTitle: "Wallet Manager",
@@ -142,7 +142,7 @@ export const allProducts = [
     productIcon: Wallet,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Timetable",
@@ -151,7 +151,7 @@ export const allProducts = [
     productIcon: Timetable,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Weekly remarks",
@@ -160,7 +160,7 @@ export const allProducts = [
     productIcon: Remarks,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Voting System",
@@ -169,7 +169,7 @@ export const allProducts = [
     productIcon: Voting,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Assignments",
@@ -177,7 +177,7 @@ export const allProducts = [
     productIcon: Assignments,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Clubs",
@@ -186,7 +186,7 @@ export const allProducts = [
     productIcon: Clubs,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: "schools",
+    category: ["schools"],
   },
   {
     productTitle: "Daily Reporting",
@@ -195,230 +195,6 @@ export const allProducts = [
     productIcon: Daily,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: "business",
+    category: ["business", "schools"],
   },
 ];
-
-// export const forBusinesses = [
-//   {
-//     productTitle: "Finance",
-//     productDetail:
-//       "The one and only accounting and payroll solution your business will ever need.",
-//     productIcon: Finance,
-//     border: "solid 1px #4A13B2",
-//     bg: "#DED0FA80",
-//   },
-//   {
-//     productTitle: "HR Manager",
-//     productDetail:
-//       "Streamline your HR tasks with our comprehensive HR manager.",
-//     productIcon: HR,
-//     border: "solid 1px #EA8713",
-//     bg: "#FCEBD780",
-//   },
-//   {
-//     productTitle: "MailBox",
-//     productDetail: "Simplify communication with our powerful mailbox.",
-//     productIcon: Mailbox,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Calendar",
-//     productDetail:
-//       "Stay organized and on schedule with our intuitive calendar module.",
-//     productIcon: Calendar,
-//     border: "solid 1px #0098DA",
-//     bg: "#CEF0FF80",
-//   },
-//   {
-//     productTitle: "Facility Management",
-//     productDetail: "Optimize your workforce with our staff management module.",
-//     productIcon: Facility,
-//     border: "solid 1px #0B2FF7",
-//     bg: "#D6DCFE80",
-//   },
-//   {
-//     productTitle: "Medicals",
-//     productDetail:
-//       "Streamline medical operations with our innovative software module.",
-//     productIcon: Medicals,
-//     border: "solid 1px #0B2FF7",
-//     bg: "#D6DCFE80",
-//   },
-//   {
-//     productTitle: "Daily Reporting",
-//     productDetail:
-//       "Submit daily reports, to keep track of updates in your organisation.",
-//     productIcon: Daily,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Facility Management",
-//     productDetail: "Optimize your workforce with our staff management module.",
-//     productIcon: Facility,
-//     border: "solid 1px #0B2FF7",
-//     bg: "#D6DCFE80",
-//   },
-// ];
-
-// export const forSchools = [
-//   {
-//     productTitle: "Finance",
-//     productDetail:
-//       "The one and only accounting and payroll solution your business will ever need.",
-//     productIcon: Finance,
-//     border: "solid 1px #4A13B2",
-//     bg: "#DED0FA80",
-//   },
-//   {
-//     productTitle: "Pastoral",
-//     productDetail:
-//       "Enhance your institution’s pastoral care with our innovative software module.",
-//     productIcon: Pastoral,
-//     border: "solid 1px #ED2F59",
-//     bg: "#FCDCE3",
-//   },
-//   {
-//     productTitle: "Students Admission",
-//     productDetail:
-//       "Transform your admissions process with our streamlined software module.",
-//     productIcon: Admission,
-//     border: "solid 1px #0098DA",
-//     bg: "#CEF0FF80",
-//   },
-//   {
-//     productTitle: "Lesson Planner",
-//     productDetail:
-//       "Streamline and simplify your lesson planning process with our lesson planner.",
-//     productIcon: Lesson,
-//     border: "solid 1px #11A377",
-//     bg: "#CDFAEC80",
-//   },
-//   {
-//     productTitle: "HR Manager",
-//     productDetail:
-//       "Streamline your HR tasks with our comprehensive HR manager.",
-//     productIcon: HR,
-//     border: "solid 1px #EA8713",
-//     bg: "#FCEBD780",
-//   },
-//   {
-//     productTitle: "CBT",
-//     productDetail:
-//       "Revolutionize your testing process with our computer-based test module.",
-//     productIcon: CBT,
-//     border: "solid 1px #11A377",
-//     bg: "#CDFAEC80",
-//   },
-//   {
-//     productTitle: "MailBox",
-//     productDetail: "Simplify communication with our powerful mailbox.",
-//     productIcon: Mailbox,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Library",
-//     productDetail:
-//       "Simplify your library management with our innovative software module.",
-//     productIcon: Library,
-//     border: "solid 1px #ED2F59",
-//     bg: "#FCDCE380",
-//   },
-//   {
-//     productTitle: "Report",
-//     productDetail:
-//       "Generate detailed school reports with ease using our user-friendly report.",
-//     productIcon: Report,
-//     border: "solid 1px #0098DA",
-//     bg: "#CEF0FF80",
-//   },
-//   {
-//     productTitle: "eClassroom",
-//     productDetail:
-//       "Revolutionize your testing process with our computer-based test module.",
-//     productIcon: Eclassroom,
-//     border: "solid 1px #FF0089",
-//     bg: "#FFD5EB80",
-//   },
-//   {
-//     productTitle: "Medicals",
-//     productDetail:
-//       "Streamline medical operations with our innovative software module.",
-//     productIcon: Medicals,
-//     border: "solid 1px #0B2FF7",
-//     bg: "#D6DCFE80",
-//   },
-//   {
-//     productTitle: "Facility Management",
-//     productDetail: "Optimize your workforce with our staff management module.",
-//     productIcon: Facility,
-//     border: "solid 1px #0B2FF7",
-//     bg: "#D6DCFE80",
-//   },
-//   {
-//     productTitle: "Calendar",
-//     productDetail:
-//       "Stay organized and on schedule with our intuitive calendar module.",
-//     productIcon: Calendar,
-//     border: "solid 1px #0098DA",
-//     bg: "#CEF0FF80",
-//   },
-//   {
-//     productTitle: "Wallet Manager",
-//     productDetail:
-//       "Take control of your finances with our intuitive wallet manager module.",
-//     productIcon: Wallet,
-//     border: "solid 1px #11A377",
-//     bg: "#CDFAEC80",
-//   },
-//   {
-//     productTitle: "Timetable",
-//     productDetail:
-//       "Organize schedules with ease using our intuitive timetable module.",
-//     productIcon: Timetable,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Weekly remarks",
-//     productDetail:
-//       "Effortlessly track performance with our weekly remarks module.",
-//     productIcon: Remarks,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Voting System",
-//     productDetail:
-//       "Securely manage and conduct elections with our powerful voting system module.",
-//     productIcon: Voting,
-//     border: "solid 1px #0098DA",
-//     bg: "#CEF0FF80",
-//   },
-//   {
-//     productTitle: "Assignments",
-//     productDetail: "Create assignments for Students in your school.",
-//     productIcon: Assignments,
-//     border: "solid 1px #11A377",
-//     bg: "#CDFAEC80",
-//   },
-//   {
-//     productTitle: "Clubs",
-//     productDetail:
-//       "Track and monitor your School activities outside core curriculum.",
-//     productIcon: Clubs,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-//   {
-//     productTitle: "Daily Reporting",
-//     productDetail:
-//       "Submit daily reports, to keep track of updates in your organisation.",
-//     productIcon: Daily,
-//     border: "solid 1px #C32BD6",
-//     bg: "#F5DCF880",
-//   },
-// ];

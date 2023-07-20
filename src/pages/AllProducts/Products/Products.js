@@ -12,14 +12,14 @@ function Products({ data }) {
   };
   useEffect(() => {
     generateRandomNumber();
-  });
+  }, []);
   return (
     <div>
       {" "}
       <div
         className={`col-md-12 products-samples col wow ${animation} ${category}`}
         style={{ background: bg, border: border }}
-        data-wow-duration="0.2s"
+        data-wow-duration="0.5s"
       >
         <img className="col-md-12" src={productIcon} alt="Scholar" />
         <h6>{productTitle}</h6>
