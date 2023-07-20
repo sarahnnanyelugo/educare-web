@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./products.scss";
 function Products({ data }) {
   const { bg, border, productIcon, productTitle, productDetail, category } =
     data;
+  const [animation, setRandomNumber] = useState(0);
+  const anims = ["fadeInUp", "fadeInDown", "fadeInLeft", "fadeInRight"];
+  const generateRandomNumber = () => {
+    const randomNumber = Math.floor(Math.random() * anims.length);
+    setRandomNumber(anims[randomNumber]);
+  };
+  useEffect(() => {
+    generateRandomNumber();
+  });
   return (
-    <div className={`col wow animate__fadeInUp ${category}`}>
+    <div>
       {" "}
       <div
-        className="col-md-12 products-samples"
+        className={`col-md-12 products-samples col wow ${animation} ${category}`}
         style={{ background: bg, border: border }}
+        data-wow-duration="0.2s"
       >
         <img className="col-md-12" src={productIcon} alt="Scholar" />
         <h6>{productTitle}</h6>
