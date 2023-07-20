@@ -817,7 +817,10 @@ export const Home = () => {
           </div>
           <center className="mt7">
             {" "}
-            <button>View all products</button>
+            <Link to={"/all-products"}>
+              {" "}
+              <button>View all products</button>
+            </Link>
           </center>
         </div>
         <div className="col-md-12 privacy-protection">

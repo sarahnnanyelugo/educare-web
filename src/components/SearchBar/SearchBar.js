@@ -4,28 +4,6 @@ import "./search-bar.scss";
 import Icon from "../../assets/images/search-icon1.png";
 import Arrow from "../../assets/images/filter-arrow.png";
 function SearchBar({ callback, posts }) {
-  const card = {
-    background: "aliceblue",
-    border: "2px solid aqua",
-    borderRadius: "25px",
-    paddingLeft: "60px",
-    marginBottom: "25px",
-  };
-
-  const margin = {
-    marginLeft: "200px",
-  };
-
-  // const posts = [
-  //   { title: "a", description: "a This is b" },
-  //   { title: "baa", description: "This is bb" },
-  //   { title: "caaa", description: "b This is bbb" },
-  //   { title: "daaaa", description: "This is bbbb" },
-  //   { title: "eaaaaa", description: "c This is bbbbb" },
-  //   { title: "faaaaaa", description: "This is bbbbbb" },
-  // ];
-
-  // Store sortby order i.e. ascending or descending
   const [sortType, setSortType] = useState("ascending");
 
   // Sortby field i.e. title or description

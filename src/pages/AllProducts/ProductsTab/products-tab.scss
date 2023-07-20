@@ -1,0 +1,117 @@
+.products-tab {
+  height: fit-content !important;
+  background: #b1a7a0;
+  color: #fcf9f4;
+  font-family: "Open Sans", "Arial";
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+  main {
+    width: 100%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    @media screen and (max-width: 620px) {
+      padding: 5px;
+      // margin: 0;
+    }
+  }
+  input[name="css-tabs"] {
+    display: none;
+    background: #eb4e01;
+  }
+
+  #tabs {
+    padding: 0 0 0 50px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    @media screen and (max-width: 620px) {
+      padding: 0 0 0 0px;
+    }
+  }
+
+  #tabs label {
+    position: relative;
+    z-index: 10;
+    display: block;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    color: black;
+    font-family: rebondG-Medium;
+    margin-top: -60px;
+    @media screen and (max-width: 620px) {
+      width: 120px;
+    }
+  }
+
+  #tabs label::before {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 20px;
+
+    // filter: invert(40%);
+    margin: 5px auto;
+  }
+
+  #radio1:checked ~ #tabs #tab1::before,
+  #radio2:checked ~ #tabs #tab2::before,
+  #radio3:checked ~ #tabs #tab3::before,
+  #radio4:checked ~ #tabs #tab4::before {
+    filter: invert(100%);
+  }
+  #radio1:checked ~ #tabs::after {
+    transform: translateX(0);
+  }
+  #radio2:checked ~ #tabs::after {
+    transform: translateX(101px);
+  }
+  #radio3:checked ~ #tabs::after {
+    transform: translateX(202px);
+  }
+  #radio4:checked ~ #tabs::after {
+    transform: translateX(303px);
+  }
+  #content {
+    position: relative;
+    height: 1300px !important;
+    color: black;
+    padding: 50px 0 250px 0;
+    @media screen and (max-width: 620px) {
+      height: 2700px !important;
+    }
+  }
+
+  #content section {
+    position: absolute;
+    transform: translateY(50px);
+
+    opacity: 0;
+    transition: transform 500ms, opacity 500ms;
+  }
+  #radio1:checked ~ #content #content1,
+  #radio2:checked ~ #content #content2,
+  #radio3:checked ~ #content #content3,
+  #radio4:checked ~ #content #content4 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.filter-triggers {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  border-bottom: solid 1px #e7e7e7;
+  padding-bottom: 20px;
+  a {
+    margin: 20px 20px 0px 0;
+    font-family: rebondG-Medium;
+    &:focus {
+      font-family: rebondG-Bold;
+    }
+    &:hover {
+      color: black;
+    }
+  }
+}

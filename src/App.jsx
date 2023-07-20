@@ -49,6 +49,7 @@ import Government from "./pages/Government/Government";
 import Energy from "./pages/Energy/Energy";
 import School from "./pages/School/School";
 import BePartner from "./pages/BePartner/BePartner";
+import AllProducts from "./pages/AllProducts/AllProducts";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -131,6 +132,7 @@ function App() {
         <Route path="energy" element={<Energy />} />
         <Route path="schools" element={<School />} />
         <Route path="be-partner" element={<BePartner />} />
+        <Route path="all-products" element={<AllProducts />} />
       </Routes>
       <Footer />
       <div
