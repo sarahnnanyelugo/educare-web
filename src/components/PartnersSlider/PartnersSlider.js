@@ -47,14 +47,14 @@ function PartnersSlider() {
             <img className="grange slide" src={Grange} alt="Scholar" />{" "}
             <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
             <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
-            <img className="switch slide " src={Switch} alt="Scholar" />{" "}
+            <img className="switch-app slide " src={Switch} alt="Scholar" />{" "}
             <img className="standard slide" src={Standard} alt="Scholar" />
             <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
             <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}
             <img className="grange slide" src={Grange} alt="Scholar" />{" "}
             <img className="lbs slide" src={LBS} alt="Scholar" />{" "}
             <img className="starvile slide" src={Starvile} alt="Scholar" />{" "}
-            <img className="switch slide" src={Switch} alt="Scholar" />{" "}
+            <img className="switch-app slide" src={Switch} alt="Scholar" />{" "}
             <img className="standard slide" src={Standard} alt="Scholar" />
             <img className="cobis slide" src={Cobis} alt="Scholar" />{" "}
             <img className="aisa slide" src={Aisa} alt="Scholar" />{" "}

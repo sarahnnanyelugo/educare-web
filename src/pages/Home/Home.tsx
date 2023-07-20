@@ -510,17 +510,17 @@ export const Home = () => {
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Junior}
-                      productName="Junior School Report"
+                      productIcon={Reporting}
+                      productName="EYFS School Report"
                       url={"./"}
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
                     <OtherEducareProducts
-                      productIcon={SEN}
-                      productName="Special Educational Needs (SEN) report"
+                      productIcon={Senior}
+                      productName="Senior School Report"
                       url={"./"}
-                    />
+                    />{" "}
                   </div>
                   <div className="col-md-12 other-components">
                     <OtherEducareProducts
@@ -535,25 +535,24 @@ export const Home = () => {
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Senior}
-                      productName="Senior School Report"
+                      productIcon={Junior}
+                      productName="Junior School Report"
                       url={"./"}
                     />{" "}
                   </div>
                   <div className="col-md-12 bb other-components">
                     <OtherEducareProducts
+                      productIcon={SEN}
+                      productName="Special Educational Needs (SEN) report"
+                      url={"./"}
+                    />
+                  </div>
+                  <div className="col-md-12 other-components">
+                    <OtherEducareProducts
                       productIcon={Transcript}
                       productName="Transcripts"
                       url={"./"}
                     />{" "}
-                  </div>
-                  <div className="col-md-12 other-components">
-                    {" "}
-                    {/* <OtherEducareProducts
-                      productIcon={Communication}
-                      productName="Communication Book"
-                      url={"./"}
-                    /> */}
                   </div>
                 </div>
               </div>
