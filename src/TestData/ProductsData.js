@@ -142,7 +142,7 @@ export const allProducts = [
     productIcon: Wallet,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
-    category: ["schools"],
+    category: ["business", "schools"],
   },
   {
     productTitle: "Timetable",
@@ -160,7 +160,7 @@ export const allProducts = [
     productIcon: Remarks,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
-    category: ["schools"],
+    category: ["business", "schools"],
   },
   {
     productTitle: "Voting System",
