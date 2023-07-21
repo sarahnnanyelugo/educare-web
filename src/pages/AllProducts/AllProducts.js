@@ -3,6 +3,10 @@ import { Heading } from "../../components/Heading/Heading";
 import "./all-products.scss";
 import { Link } from "react-router-dom";
 import ProductsTab from "./ProductsTab/ProductsTab";
+import { Prefooter } from "../../components/Prefooter/Prefooter";
+import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
+import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
+import FAQ from "../Calendar/FAQ/FAQ";
 
 function AllProducts() {
   return (
@@ -31,6 +35,16 @@ function AllProducts() {
       <div>
         <ProductsTab />
       </div>
+      <div className="col-md-10 offset-md-1 flexy">
+        <div className="col-md-4 mt no-m">
+          <h1>FAQs</h1>
+        </div>
+        <div className="col-md-8">
+          {" "}
+          <FAQAccordionBlue />
+        </div>
+      </div>
+      <Prefooter texta="Get started now and experience ease in your workflow." />
     </>
   );
 }

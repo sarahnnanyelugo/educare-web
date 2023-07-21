@@ -238,5 +238,6 @@
   }
 }
 .curr-active {
-  border-bottom: solid 5px red !important;
+  border-bottom: solid 5px #0098da !important;
+  transition: width 0.5s;
 }

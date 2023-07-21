@@ -49,7 +49,7 @@ function EducarePackages(props) {
         {" "}
         <NavTwo title="educare for Business" />
       </div>
-      <div style={{ height: "140px" }} />
+      <div style={{ height: "130px" }} />
       <div className="packages-first-heading col-md-12 ">
         <center>
           {" "}
@@ -79,11 +79,28 @@ function EducarePackages(props) {
         <div className="currency-buttons flexy flexym offset-md-10">
           <button
             onClick={() => setThisCurrency("NGN")}
-            className={` ${setThisCurrency === "NGN" ? "curr-active" : ""}`}
+            className={` ${toCurrency === "NGN" ? "curr-active" : ""}`}
           >
             NGN
           </button>
-          <button onClick={() => setThisCurrency("USD")}>USD</button>
+          <button
+            onClick={() => setThisCurrency("USD")}
+            className={` ${toCurrency === "USD" ? "curr-active" : ""}`}
+          >
+            USD
+          </button>{" "}
+          <button
+            onClick={() => setThisCurrency("GBP")}
+            className={` ${toCurrency === "GBP" ? "curr-active" : ""}`}
+          >
+            GBP
+          </button>{" "}
+          <button
+            onClick={() => setThisCurrency("EUR")}
+            className={` ${toCurrency === "EUR" ? "curr-active" : ""}`}
+          >
+            EUR
+          </button>
         </div>
 
         <div className="panels">
