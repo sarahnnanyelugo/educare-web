@@ -77,7 +77,12 @@ function EducarePackages(props) {
           </button>
         </div>
         <div className="currency-buttons flexy flexym offset-md-10">
-          <button onClick={() => setThisCurrency("NGN")}>NGN</button>
+          <button
+            onClick={() => setThisCurrency("NGN")}
+            className={` ${setThisCurrency === "NGN" ? "curr-active" : ""}`}
+          >
+            NGN
+          </button>
           <button onClick={() => setThisCurrency("USD")}>USD</button>
         </div>
 

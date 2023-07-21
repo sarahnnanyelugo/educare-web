@@ -48,7 +48,18 @@ function CustomersStories() {
           </p>
         </div>
         <center>
-          <div className="youtube-container col-md-8 mt4 mb5"></div>
+          <div className="youtube-container col-md-8 mt4 mb5">
+            <video
+              width="100%"
+              autoplay="true"
+              loop="true"
+              muted="false"
+              playsinline="true"
+              src={
+                "https://www.instagram.com/reel/Cf_eQIHjkWM/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+              }
+            ></video>
+          </div>
         </center>
       </center>
       <Prefooter texta="Get started now and experience ease in your workflow." />
