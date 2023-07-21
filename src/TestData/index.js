@@ -6,3 +6,4 @@ export * from "./MainBlogPostData";
 export * from "./LatestNewsData";
 export * from "./ProductsData";
 export * from "./JobsData";
+export * from "./CustomersStoriesData";

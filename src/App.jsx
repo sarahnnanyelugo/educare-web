@@ -50,6 +50,7 @@ import Energy from "./pages/Energy/Energy";
 import School from "./pages/School/School";
 import BePartner from "./pages/BePartner/BePartner";
 import AllProducts from "./pages/AllProducts/AllProducts";
+import CustomersStories from "./pages/CustomersStories/CustomersStories";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -133,6 +134,7 @@ function App() {
         <Route path="schools" element={<School />} />
         <Route path="be-partner" element={<BePartner />} />
         <Route path="all-products" element={<AllProducts />} />
+        <Route path="customer-stories" element={<CustomersStories />} />
       </Routes>
       <Footer />
       <div
