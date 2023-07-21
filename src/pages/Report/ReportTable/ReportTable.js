@@ -24,19 +24,19 @@ function ReportTable() {
             className={`tab ${checkActive(2, "active2")}`}
             onClick={() => handleClick(2)}
           >
-            Students analysis
+            Result Analysis
           </button>
           <button
             className={`tab ${checkActive(3, "active2")}`}
             onClick={() => handleClick(3)}
           >
-            Teachers remark
+            Transcript
           </button>{" "}
           <button
             className={`tab ${checkActive(4, "active2")}`}
             onClick={() => handleClick(4)}
           >
-            Communication book
+            Teacher/Principal’s comment
           </button>{" "}
         </div>{" "}
         <div className="panels col-md-12 ">

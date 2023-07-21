@@ -167,10 +167,13 @@ function EClassroomPage() {
       <div className="col-md-12 trial-sign-up">
         <center>
           {" "}
-          <Link to={"/sign-up"}>
+          <div className=" sign-btn-eclass">
             {" "}
-            <button>Sign up for a free trial today</button>
-          </Link>
+            <Link to={"/login"}>
+              {" "}
+              <button>Sign up now to get started</button>
+            </Link>
+          </div>
         </center>
       </div>
       <div className="flexy lotie-quotes">

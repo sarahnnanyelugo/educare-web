@@ -16,12 +16,7 @@ function MedicalsPage() {
       {" "}
       <div className="col-md-12 medicals-nav col-12">
         {" "}
-        <NavTwo
-          title="Medicals"
-          priceUrl="#pricing"
-          nav1="Features"
-          nav3="Resources"
-        />
+        <NavTwo title="Medicals" />
       </div>
       <div style={{ height: "130px" }} />
       <div className="col-md-10 offset-md-1 flexy services-container">
@@ -171,7 +166,7 @@ function MedicalsPage() {
 
           <Link to={"/login"}>
             {" "}
-            <button>Sign up for a free trial today</button>
+            <button>Sign up today</button>
           </Link>
         </center>
       </div>

@@ -19,12 +19,7 @@ function WeeklyRemarks() {
     <>
       <div className="col-md-12 nav-div">
         {" "}
-        <NavTwo
-          title="Weekly Remarks"
-          priceUrl="#pricing"
-          nav1="Features"
-          nav3="Resources"
-        />
+        <NavTwo title="Weekly Remarks" />
       </div>
       <div style={{ height: "130px" }} />
       <div className="col-md-12 weeky-intro">

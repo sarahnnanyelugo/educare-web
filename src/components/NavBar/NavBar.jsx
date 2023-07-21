@@ -447,7 +447,7 @@ function NavBar() {
                     </li>
                     <li>
                       <NavLink
-                        to={"/guides"}
+                        to={"/documentation"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
@@ -457,7 +457,7 @@ function NavBar() {
                           alt="Scholar"
                           style={{ marginRight: "10px" }}
                         />
-                        Guides
+                        Documentation
                       </NavLink>
                     </li>
                     <li>
@@ -908,7 +908,7 @@ function NavBar() {
                       </li>
                       <li>
                         <NavLink
-                          to={"/guides"}
+                          to={"/documentation"}
                           className="menu-links list-group-item list-group-item-action"
                           type="button"
                           onClick={() => {
@@ -923,7 +923,7 @@ function NavBar() {
                             alt="Scholar"
                             style={{ marginRight: "10px" }}
                           />{" "}
-                          Guides
+                          Documentation
                         </NavLink>
                       </li>
                       <li>

@@ -3,11 +3,14 @@ import "./form.scss";
 import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
+import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+
 function Form(props) {
   const { bg, text, body } = props;
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [isChecked, setIsChecked] = useState(false);
+  const [value, setValue] = useState();
   const handleChange = (event) => {
     setNameValue(event.target.value);
     console.log(nameValue);
@@ -54,6 +57,16 @@ function Form(props) {
             <span class="content-name">Email *</span>
           </label>
         </div>{" "}
+        <div class="form">
+          <PhoneInput
+            placeholder="Phone number *"
+            value={value}
+            onChange={setValue}
+          />
+          {/* <label for="text" class="label-name">
+            <span class="content-name">Mobile Number *</span>
+          </label> */}
+        </div>{" "}
         <div style={{ marginBottom: "20px" }}>
           {" "}
           <Password placeholder="Password" />
@@ -78,8 +91,15 @@ function Form(props) {
           }}
         >
           {" "}
-          I agree to the <strong>Terms of Service</strong> and
-          <strong> Privacy Policy.</strong>
+          I agree to the{" "}
+          <strong>
+            <a href="#">Terms of Service</a>
+          </strong>{" "}
+          and
+          <strong>
+            {" "}
+            <a href="#">Privacy Policy</a>.
+          </strong>
         </span>
         <button className="overviewButton" style={{ backgroundColor: bg }}>
           {text}

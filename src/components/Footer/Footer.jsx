@@ -62,11 +62,6 @@ export const Footer = () => {
                     Enterprise offer
                   </Link>
                 </li>
-                <li>
-                  <Link to="" className="links">
-                    Partner with us
-                  </Link>
-                </li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -145,7 +140,9 @@ export const Footer = () => {
           </div>
         </div>
         <div className="col-md-10 offset-md-1 credits-container flexy">
-          <p className="">© educare technologies || All right reserved</p>
+          <p className="">
+            © 2023 Educare Technology Solutions Limited || All Right Reserved
+          </p>
           <ul className="list-unstyled list-inline ">
             <li className="list-inline-item">
               <Link to="" className="links">

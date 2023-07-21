@@ -4,9 +4,9 @@ import { Heading } from "../../components/Heading/Heading";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./lesson-planner.scss";
 import Home from "../../assets/images/lesson-planner.png";
-import Setup1 from "../../assets/images/setup-pink.png";
-import Setup2 from "../../assets/images/setup.png";
-import Setup3 from "../../assets/images/grey.png";
+import Setup1 from "../../assets/images/lp2.png";
+import Setup2 from "../../assets/images/lp3.png";
+import Setup3 from "../../assets/images/lp-cust.png";
 import Testimonial from "./Testimonial/Testimonial";
 import { Link, NavLink } from "react-router-dom";
 import Prices from "../../components/Prices/Prices";
@@ -18,12 +18,7 @@ function LessonPlanner() {
       {" "}
       <div className="col-md-12 lesson-planner-nav  col-12">
         {" "}
-        <NavTwo
-          title="Lesson Planner"
-          priceUrl="#pricing"
-          nav1="Features"
-          nav3="Resources"
-        />
+        <NavTwo title="Lesson Planner" />
       </div>
       <div style={{ height: "130px" }} />
       <div className="col-md-12  lesson-planner">

@@ -61,8 +61,15 @@ function SignUpForm(props) {
           }}
         >
           {" "}
-          I agree to the <strong>Terms of Service</strong> and
-          <strong> Privacy Policy.</strong>
+          I agree to the{" "}
+          <strong>
+            <a href="#">Terms of Service</a>
+          </strong>{" "}
+          and
+          <strong>
+            {" "}
+            <a href="#">Privacy Policy</a>.
+          </strong>
         </span>
         <button className="continueButton" style={{ backgroundColor: bg }}>
           Continue

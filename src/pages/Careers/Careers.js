@@ -10,9 +10,11 @@ import Dot1 from "../../assets/images/dot1.svg";
 import Dot2 from "../../assets/images/dot2.svg";
 import Dot3 from "../../assets/images/dot3.svg";
 import Dot4 from "../../assets/images/dot4.svg";
+import { educareJobs } from "../../TestData";
 
 import "./careers.scss";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
+import Jobs from "./Jobs/Jobs";
 function Careers() {
   const handleScroll = () => {
     const $element = document.querySelector(".parallax");
@@ -147,7 +149,7 @@ function Careers() {
           </div>
         </div>
       </div>
-      <center>
+      {/* <center>
         <div className="col-md-5 mt5">
           <h1>Opportunities to explore</h1>
           <img
@@ -158,7 +160,21 @@ function Careers() {
           />
         </div>
         <h1>No opportunities right now</h1>
-      </center>
+      </center> */}
+
+      <div className="col-md-12  ">
+        <center>
+          <h1>Opportunities to explore</h1>
+        </center>
+        <div className="offset-md-1 col-md-10 mt5">
+          <section className="row row-cols-2 row-cols-lg-2 g-2 g-lg-4 col-md-12">
+            {educareJobs.map((data, index) => (
+              <Jobs data={data} />
+            ))}
+          </section>
+        </div>
+      </div>
+
       <div className="col-md-10 offset-md-1 cv-div mtt">
         <center>
           <div className="col-md-7">

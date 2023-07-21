@@ -281,7 +281,7 @@ function Library() {
         <div className="col-md-5 started-div">
           <h2>Get started today</h2>
           <p>
-            Sign up for a free trial and see how easy it is acquiring <br />
+            Sign up and see how easy it is acquiring <br />
             knowledge with our software.
           </p>
         </div>

@@ -118,6 +118,7 @@
   background-size: cover;
   margin-bottom: 150px;
   background-position: center;
+
   button {
     @include get-started-button;
     background: #cc006e;
@@ -146,3 +147,9 @@
     }
   }
 }
+// .sign-btn-eclass {
+//   background: green;
+//   height: 50px;
+//   width: 450px !important;
+//   margin-top: -400px;
+// }
