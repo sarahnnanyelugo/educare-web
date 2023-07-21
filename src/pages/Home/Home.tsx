@@ -87,6 +87,7 @@ import Club from "../../assets/images/club.svg";
 import Assignment from "../../assets/images/assignment.svg";
 import Mentor from "../../assets/images/mentor.svg";
 import Behavior from "../../assets/images/behave.svg";
+import EYFS from "../../assets/images/eyfs.svg";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
 export const Home = () => {
   return (
@@ -510,8 +511,8 @@ export const Home = () => {
                   <div className="col-md-12 bb other-components">
                     {" "}
                     <OtherEducareProducts
-                      productIcon={Reporting}
-                      productName="EYFS School Report"
+                      productIcon={EYFS}
+                      productName="EYFS Report"
                       url={"./"}
                     />{" "}
                   </div>
