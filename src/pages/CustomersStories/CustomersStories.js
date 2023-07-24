@@ -4,6 +4,7 @@ import "./customers-stories.scss";
 import Stories from "./Stories/Stories";
 import { StoriesInfo } from "../../TestData";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
+import Video from "../../assets/images/educare-video.mp4";
 
 function CustomersStories() {
   return (
@@ -51,13 +52,12 @@ function CustomersStories() {
           <div className="youtube-container col-md-8 mt4 mb5">
             <video
               width="100%"
-              autoplay="true"
+              autoplay="false"
               loop="true"
               muted="false"
               playsinline="true"
-              src={
-                "https://www.instagram.com/reel/Cf_eQIHjkWM/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-              }
+              controls="true"
+              src={Video}
             ></video>
           </div>
         </center>

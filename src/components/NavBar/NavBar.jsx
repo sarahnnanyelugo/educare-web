@@ -38,44 +38,44 @@ function NavBar() {
     switch (location.pathname) {
       case "/":
         setTheme("#2f99da");
-        setTheme2("#CEF0FE");
+        // setTheme2("#CEF0FE");
         break;
       default:
       case "/educare-business":
         setTheme("#2F99DA");
-        setTheme2("#CEF0FE");
+        // setTheme2("#CEF0FE");
         break;
       case "/educare-schools":
         setTheme("#2f99da");
-        setTheme2("#CEF0FE");
+        // setTheme2("#CEF0FE");
         break;
       case "/pastoral":
         setTheme("#FADAB6");
-        setTheme2("#FCE0DD");
+        // setTheme2("#FCE0DD");
         break;
       case "/medicals":
         setTheme("#0B2FF7");
-        setTheme2("#8CA8F7");
+        // setTheme2("#8CA8F7");
         break;
       case "/e-classroom":
-        setTheme2("#671F37");
+        // setTheme2("#671F37");
         setTheme("#CC006E");
         break;
       case "/educare-school-packages":
         setTheme("#0098DA");
-        setTheme2("#CEF0FE");
+        // setTheme2("#CEF0FE");
         break;
       case "/sign-up":
         setTheme("#2F99DA");
-        setTheme2("#ffffff");
+        // setTheme2("#ffffff");
         break;
       case "/login":
         setTheme("#1777F2");
-        setTheme2("#ffffff");
+        // setTheme2("#ffffff");
         break;
       case "/finance":
         setTheme("#4A13B2");
-        setTheme2("#DED0FA");
+        // setTheme2("#DED0FA");
         break;
       case "/mail-box":
         setTheme("#C32BD6");
@@ -92,58 +92,56 @@ function NavBar() {
         break;
       case "/hrm":
         setTheme("#EA8713");
-        setTheme2("#E4D5F5");
+        // setTheme2("#E4D5F5");
         // setTheme3("#E7E7E7");
         break;
       case "solutions":
         setTheme("#0098DA");
         setTheme2("#CEF0FF");
-        // setTheme3("#E7E7E7");
         break;
       case "/resources":
         setTheme("#0098DA");
-        setTheme2("#CEF0FF");
-        // setTheme3("#E7E7E7");
+        // setTheme2("#CEF0FF");
         break;
       case "/support":
         setTheme("#0098DA");
-        setTheme2("#CEF0FF");
+        // setTheme2("#CEF0FF");
 
         break;
       case "/lesson-planner":
         setTheme("#11A377");
-        setTheme2("#FCEBCE");
+        // setTheme2("#FCEBCE");
 
         break;
       case "/library":
         setTheme("#ED2F59");
-        setTheme2("#FCDCE3");
+        // setTheme2("#FCDCE3");
 
         break;
       case "/timetable":
         setTheme("#4A13B2");
-        setTheme2("#E7E0F4");
+        // setTheme2("#E7E0F4");
 
         break;
       case "/weekly-remarks":
         setTheme("#C32BD6");
-        setTheme2("#E5A8E0");
+        // setTheme2("#E5A8E0");
 
         break;
       case "/cbt":
         setTheme("#11A377");
-        setTheme2("#E0F3ED");
+        // setTheme2("#E0F3ED");
 
         break;
 
       case "/wallet-manager":
         setTheme("#11A377");
-        setTheme2("#D9F0E9");
+        // setTheme2("#D9F0E9");
 
         break;
       case "/facility-manager":
         setTheme("#0B2FF7");
-        setTheme2("#FEF5F7");
+        // setTheme2("#FEF5F7");
 
         break;
     }
@@ -612,26 +610,27 @@ function NavBar() {
         </div>
       </div>
 
-      <div className=" mobile-navigation">
-        {" "}
+      <div className=" mobile-navigation ">
         <div className="phone ">
-          <div className="menu" style={{ background: themeSet }}>
+          <div className="menu">
+            <div className="nav-buttons web-nav">
+              <Link to={"/login"}>
+                <button
+                  className="get-started-button"
+                  style={{ backgroundColor: "" + themeSet }}
+                >
+                  Sign Up
+                </button>
+              </Link>
+            </div>
             <div class="list-group options">
               <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header
-                    style={{ background: themeSet2 }}
-                    className="menu-navs"
-                  >
+                  <Accordion.Header className="menu-navs">
                     <button
                       type="button"
                       className="list-group-item list-group-item-action m-accord menu-navs"
-                      style={{ background: themeSet2 }}
                     >
-                      {" "}
-                      <span style={{ color: themeSet }}>
-                        <i class="icofont-help-robot"></i>
-                      </span>
                       Products
                     </button>
                   </Accordion.Header>
@@ -645,18 +644,14 @@ function NavBar() {
               <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header
-                    style={{ background: themeSet2 }}
+                    // style={{ background: themeSet2 }}
                     className="menu-navs"
                   >
                     <button
                       type="button"
                       className="list-group-item list-group-item-action m-accord menu-navs"
-                      style={{ background: themeSet2 }}
+                      // style={{ background: themeSet2 }}
                     >
-                      {" "}
-                      <span style={{ color: themeSet }}>
-                        <i class="icofont-package"></i>
-                      </span>
                       Use Cases
                     </button>
                   </Accordion.Header>
@@ -866,21 +861,35 @@ function NavBar() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>{" "}
+              <NavLink to={"/educare-business-packages"} className="menu-navs">
+                {" "}
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action"
+                  onClick={() => {
+                    document
+                      .querySelector(".phone")
+                      .classList.toggle("active3");
+                  }}
+                >
+                  Pricing
+                </button>
+              </NavLink>{" "}
               <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header
-                    style={{ background: themeSet2 }}
+                    // style={{ background: themeSet2 }}
                     className="menu-navs"
                   >
                     <button
                       type="button"
                       className="list-group-item list-group-item-action m-accord menu-navs"
-                      style={{ background: themeSet2 }}
+                      // style={{ background: themeSet2 }}
                     >
                       {" "}
-                      <span style={{ color: themeSet }}>
+                      {/* <span style={{ color: themeSet }}>
                         <i class="icofont-package"></i>
-                      </span>
+                      </span> */}
                       Resources
                     </button>
                   </Accordion.Header>
@@ -1013,18 +1022,18 @@ function NavBar() {
               <Accordion defaultActiveKey="">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header
-                    style={{ background: themeSet2 }}
+                    // style={{ background: themeSet2 }}
                     className="menu-navs"
                   >
                     <button
                       type="button"
                       className="list-group-item list-group-item-action m-accord menu-navs"
-                      style={{ background: themeSet2 }}
+                      // style={{ background: themeSet2 }}
                     >
                       {" "}
-                      <span style={{ color: themeSet }}>
+                      {/* <span style={{ color: themeSet }}>
                         <i class="icofont-phone"></i>
-                      </span>
+                      </span> */}
                       Company
                     </button>
                   </Accordion.Header>
@@ -1094,21 +1103,19 @@ function NavBar() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <NavLink to={"/sign-up"} className="menu-navs spaze">
+              {/* <NavLink to={"/sign-up"} className="menu-navs spaze">
                 {" "}
                 <button
                   type="button"
                   class="list-group-item list-group-item-action"
-                  style={{ background: themeSet2 }}
+                  
                   onClick={() => {
                     document
                       .querySelector(".phone")
                       .classList.toggle("active3");
                   }}
                 >
-                  <span style={{ color: themeSet }}>
-                    <i class="icofont-sign-in"></i>
-                  </span>
+                 
                   Login
                 </button>
               </NavLink>{" "}
@@ -1117,19 +1124,17 @@ function NavBar() {
                 <button
                   type="button"
                   class="list-group-item list-group-item-action"
-                  style={{ background: themeSet2 }}
+              
                   onClick={() => {
                     document
                       .querySelector(".phone")
                       .classList.toggle("active3");
                   }}
                 >
-                  <span style={{ color: themeSet }}>
-                    <i class="icofont-dashboard-web"></i>
-                  </span>
+              
                   Sign Up
                 </button>
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
           <svg
@@ -1140,7 +1145,11 @@ function NavBar() {
             width="220"
           >
             <g className="top-bars" stroke-width="4">
-              <path className="bar bar1" d="M 178,20 H 202" />
+              <path
+                className="bar bar1"
+                d="M 178,20 H 202"
+                style={{ color: "red" }}
+              />
               <path className="bar bar2" d="M 178,29 H 202" />
             </g>
           </svg>

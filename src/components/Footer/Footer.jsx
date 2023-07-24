@@ -35,8 +35,8 @@ export const Footer = () => {
   return (
     <>
       <div className={`footer-container  ${showNav ? "" : "hide"}`}>
-        <div className="col-md-11 offset-md-1 flexy">
-          <div className="col-md-2 logo col-10 offset-1">
+        <div className="col-md-10 offset-md-1 flexy">
+          <div className="col-md-2 logo col-10 ">
             {" "}
             <Link to={"/"}>
               {" "}

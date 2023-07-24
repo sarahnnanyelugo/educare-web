@@ -13,7 +13,7 @@ export const Prefooter = (props) => {
           </div>
           <div className="offset-md-6">
             {" "}
-            <button>Get started for free</button>
+            <button>Get started now</button>
           </div>
         </div>
       </div>
