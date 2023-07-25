@@ -39,7 +39,7 @@ function MedicalsPage() {
             reporting and analytics for tracking health trends and
             <br /> making data-driven decisions.
           </p>
-          <div className="flexy flexyM offset-2">
+          <div className="flexy flexyM ">
             <GetStartedForm
               text=" Get started"
               bg="#0B2FF7"

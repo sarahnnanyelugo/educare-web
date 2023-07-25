@@ -60,7 +60,9 @@ export const FinancePage = () => {
         </div>
       </center>
       <div id="features" />
-
+      <center>
+        <h1 className="col-md-3">Key features of our finance</h1>
+      </center>
       <DashboardDisplay />
 
       <div className="col-md-12 integrated-finance">
