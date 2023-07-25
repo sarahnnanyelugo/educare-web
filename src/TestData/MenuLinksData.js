@@ -131,6 +131,12 @@ export const columeFive = [
     icon: Voting,
     url: "/voting-system",
   },
+  {
+    title: "Assignment",
+    text: "Create assignments for Students in your school.",
+    icon: Voting,
+    url: "/assignment",
+  },
 ];
 
 //data for businesses

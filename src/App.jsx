@@ -51,6 +51,7 @@ import School from "./pages/School/School";
 import BePartner from "./pages/BePartner/BePartner";
 import AllProducts from "./pages/AllProducts/AllProducts";
 import CustomersStories from "./pages/CustomersStories/CustomersStories";
+import Assignment from "./pages/Assignment/Assignment";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -135,6 +136,7 @@ function App() {
         <Route path="be-partner" element={<BePartner />} />
         <Route path="all-products" element={<AllProducts />} />
         <Route path="customer-stories" element={<CustomersStories />} />
+        <Route path="assignment" element={<Assignment />} />
       </Routes>
       <Footer />
       <div

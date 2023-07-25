@@ -36,7 +36,7 @@ export const Footer = () => {
     <>
       <div className={`footer-container  ${showNav ? "" : "hide"}`}>
         <div className="col-md-10 offset-md-1 flexy">
-          <div className="col-md-2 logo col-10 ">
+          <div className="col-md-3 logo col-10 ">
             {" "}
             <Link to={"/"}>
               {" "}
@@ -121,7 +121,7 @@ export const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-2 connect">
+          <div className="col-md-2 connect ">
             <h4>Connect with us</h4>
             <ul className="list-unstyled list-inline mobile-ul social-media-icons">
               <li className="list-inline-item">

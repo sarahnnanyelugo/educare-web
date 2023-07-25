@@ -20,8 +20,8 @@ import { Link, NavLink } from "react-router-dom";
 import Access from "../../assets/images/access.png";
 import Manage from "../../assets/images/bulb.png";
 import Learn from "../../assets/images/learn.png";
-import Dashed1 from "../../assets/images/dashed_line_1.png";
-import Dashed2 from "../../assets/images/dashed_line_2.png";
+import Dashed1 from "../../assets/images/dashed_line_11.png";
+import Dashed2 from "../../assets/images/dashed_line_22.png";
 import LibraryFAQ from "./LibraryFAQ/LibraryFAQ";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
@@ -127,7 +127,7 @@ function Library() {
       </div>
       <div id="features" />
       <center>
-        <div className="col-md-8 flexy mtt mb5 flexyM no-m">
+        <div className="col-md-8 flexy mtt mb5 flexyM no-m ass-feats">
           <div className="col-md-1 col-1">
             <img className="" src={Access} alt="Scholar" width="100%" />
             <h6>Access</h6>

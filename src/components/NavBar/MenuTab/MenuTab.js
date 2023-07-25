@@ -76,36 +76,29 @@ export const MenuTab = () => {
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <div className="col-md-12 flexy ">
-                    <div className="col-md-4 flexy flexyM">
+                    <div className="col-md-12 flexy flexyM row row-cols-2 row-cols-lg-5  g-lg-4 ">
                       {" "}
-                      <div className="col-md-6 col-6">
+                      <div className="col">
                         {columeOne.map((data, index) => (
                           <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
-                      <div className="col-md-6 col-6">
+                      <div className="col-">
                         {columeTwo.map((data, index) => (
                           <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
-                    </div>
-                    <div className="col-md-4 flexy flexyM">
-                      {" "}
-                      <div className="col-md-6 col-6">
+                      <div className="col">
                         {columeThree.map((data, index) => (
                           <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
-                      <div className="col-md-6 col-6">
+                      <div className="col">
                         {columeFour.map((data, index) => (
                           <MenuLink data={data} callback={callbackHandler} />
                         ))}
                       </div>{" "}
-                    </div>
-
-                    <div className="col-md-4 flexy flexyM">
-                      {" "}
-                      <div className="col-md-6 col-6">
+                      <div className="co">
                         {columeFive.map((data, index) => (
                           <MenuLink data={data} callback={callbackHandler} />
                         ))}
