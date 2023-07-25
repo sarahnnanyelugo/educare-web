@@ -142,6 +142,15 @@ function NavBar() {
       case "/facility-manager":
         setTheme("#0B2FF7");
         // setTheme2("#FEF5F7");
+        break;
+      case "/daily-reporting":
+        setTheme("#ED2F59");
+        break;
+      case "/clubs":
+        setTheme("#EA8B1F");
+        break;
+      case "/dashboards":
+        setTheme("#ED2F59");
 
         break;
     }
@@ -1145,11 +1154,7 @@ function NavBar() {
             width="220"
           >
             <g className="top-bars" stroke-width="4">
-              <path
-                className="bar bar1"
-                d="M 178,20 H 202"
-                style={{ color: "red" }}
-              />
+              <path className="bar bar1" d="M 178,20 H 202" />
               <path className="bar bar2" d="M 178,29 H 202" />
             </g>
           </svg>

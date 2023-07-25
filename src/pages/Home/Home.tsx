@@ -578,7 +578,7 @@ export const Home = () => {
                   {" "}
                   <OtherEducareProducts
                     productIcon={Wify}
-                    productName="Online/Offfline"
+                    productName="Online/Offfline Capability"
                     url={"./"}
                   />{" "}
                 </div>
@@ -821,6 +821,10 @@ export const Home = () => {
             <Link to={"/all-products"}>
               {" "}
               <button>View all products</button>
+            </Link>
+            <Link to={"/dashboards"}>
+              {" "}
+              <button>View dashboards</button>
             </Link>
           </center>
         </div>

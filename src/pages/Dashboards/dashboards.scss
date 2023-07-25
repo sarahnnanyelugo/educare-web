@@ -1,0 +1,41 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.dashboards-nav-div {
+  background: rgb(251, 232, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 232, 237, 1) 47%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.dashboards-container {
+  background: #f8f8f8;
+  padding: 150px 0 300px 0;
+}
+.dashboards-div {
+  h1 {
+    margin: 30px 0;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #7da0c3;
+    margin-left: 10px;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+}
+.grey-dashedbs {
+  background: #f8f8f8;
+  padding: 60px 0;
+}
+.dashboards-views {
+  h3 {
+    margin: 60px 0 20px 0;
+  }
+}
