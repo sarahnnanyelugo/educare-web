@@ -15,6 +15,9 @@ import Library from "../assets/images/lib.svg";
 import Facility from "../assets/images/people.svg";
 import Remarks from "../assets/images/remark.svg";
 import Voting from "../assets/images/voting.svg";
+import Clubs from "../assets/images/club.svg";
+import Assignment from "../assets/images/assignment.svg";
+import Daily from "../assets/images/daily.svg";
 
 export const columeOne = [
   {
@@ -134,8 +137,20 @@ export const columeFive = [
   {
     title: "Assignment",
     text: "Create assignments for Students in your school.",
-    icon: Voting,
+    icon: Assignment,
     url: "/assignment",
+  },
+  {
+    title: "Clubs",
+    text: "Track and monitor your School activities outside core curriculum.",
+    icon: Clubs,
+    url: "/clubs",
+  },
+  {
+    title: "Daily Reporting",
+    text: "Submit daily reports, to keep track of updates in your organisation.",
+    icon: Daily,
+    url: "/daily-reporting",
   },
 ];
 

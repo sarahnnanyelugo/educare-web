@@ -52,6 +52,8 @@ import BePartner from "./pages/BePartner/BePartner";
 import AllProducts from "./pages/AllProducts/AllProducts";
 import CustomersStories from "./pages/CustomersStories/CustomersStories";
 import Assignment from "./pages/Assignment/Assignment";
+import Clubs from "./pages/Clubs/Clubs";
+import DailyReporting from "./pages/DailyReporting/DailyReporting";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -137,6 +139,8 @@ function App() {
         <Route path="all-products" element={<AllProducts />} />
         <Route path="customer-stories" element={<CustomersStories />} />
         <Route path="assignment" element={<Assignment />} />
+        <Route path="clubs" element={<Clubs />} />
+        <Route path="daily-reporting" element={<DailyReporting />} />
       </Routes>
       <Footer />
       <div
