@@ -152,19 +152,17 @@ function Dashboards() {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 daily-get-started flexy">
+      <div className="col-md-10 offset-md-1 dashboard-get-started flexy">
         <div className="col-md-5 offset-md-1">
-          <h2>
-            Harness the power of data analytics to drive productivity and growth
-          </h2>
+          <h2>Get started with educare today</h2>
         </div>
         <div className="offset-md-2 mt2 offset-1">
           <GetStartedForm
             text=" Get started"
-            bg="#ED2F59"
-            cls="gsmdr"
+            bg="#0098DA"
+            cls="gsmcal"
             bgbtn="#0098DA"
-            backdropbg="modal-backdrop-dark"
+            backdropbg="modal-backdrop-blue"
           />
           <button className="demo">Request for demo</button>
         </div>

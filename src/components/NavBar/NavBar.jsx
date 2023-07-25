@@ -150,7 +150,7 @@ function NavBar() {
         setTheme("#EA8B1F");
         break;
       case "/dashboards":
-        setTheme("#ED2F59");
+        setTheme("#0098DA");
 
         break;
     }
