@@ -1,11 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import Profile from "../../../assets/images/med-profile.png";
-import Dashboard from "../../../assets/images/finance-dash.png";
+import Dashboard from "../../../assets/images/timedash1.png";
 import Diagnosis from "../../../assets/images/diagnosis.png";
 import Report from "../../../assets/images/latest-report.png";
-import Requisition from "../../../assets/images/requisition.png";
-import Statement from "../../../assets/images/statement.png";
-import Inventory from "../../../assets/images/store-inventory.png";
+import Requisition from "../../../assets/images/timedash2.png";
+import Statement from "../../../assets/images/timedash3.png";
+import Inventory from "../../../assets/images/timedash4.png";
 import "./dashboard-display.scss";
 function DashboardDisplay() {
   return (

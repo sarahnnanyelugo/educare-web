@@ -125,16 +125,30 @@ export const Footer = () => {
             <h4>Connect with us</h4>
             <ul className="list-unstyled list-inline mobile-ul social-media-icons">
               <li className="list-inline-item">
-                {" "}
-                <img className="" src={Twitter} alt="Scholar" width="100%" />
+                <a
+                  href="https://twitter.com/educaretech?s=21&t=GEU4mJ3b4At6Rfj0mhZOmQ"
+                  target="_blank"
+                >
+                  {" "}
+                  <img className="" src={Twitter} alt="Scholar" width="100%" />
+                </a>
               </li>
               <li className="list-inline-item">
-                {" "}
-                <img className="" src={LinkedIn} alt="Scholar" width="100%" />
+                <a
+                  href="https://www.linkedin.com/company/educare-technology/"
+                  target="_blank"
+                >
+                  {" "}
+                  <img className="" src={LinkedIn} alt="Scholar" width="100%" />
+                </a>
               </li>
               <li className="list-inline-item">
-                {" "}
-                <img className="" src={FB} alt="Scholar" width="100%" />
+                <a
+                  href="https://www.facebook.com/educareERP?mibextid=LQQJ4d"
+                  target="_blank"
+                >
+                  <img className="" src={FB} alt="Scholar" width="100%" />
+                </a>
               </li>
             </ul>
           </div>

@@ -89,18 +89,18 @@ function EducarePackages(props) {
           >
             USD
           </button>{" "}
-          <button
+          {/* <button
             onClick={() => setThisCurrency("GBP")}
             className={` ${toCurrency === "GBP" ? "curr-active" : ""}`}
           >
             GBP
-          </button>{" "}
-          <button
+          </button>{" "} */}
+          {/* <button
             onClick={() => setThisCurrency("EUR")}
             className={` ${toCurrency === "EUR" ? "curr-active" : ""}`}
           >
             EUR
-          </button>
+          </button> */}
         </div>
 
         <div className="panels">
