@@ -88,6 +88,7 @@ import Assignment from "../../assets/images/assignment.svg";
 import Mentor from "../../assets/images/mentor.svg";
 import Behavior from "../../assets/images/behave.svg";
 import EYFS from "../../assets/images/eyfs.svg";
+import Dashboard from "../../assets/images/dashicon.svg";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
 export const Home = () => {
   return (
@@ -500,12 +501,22 @@ export const Home = () => {
               </div>
             </div>{" "}
             <div className="col-md-4 second-product-column">
-              <EducareProducts
-                productName="Reports"
-                productDetail="Customize, develop, and distribute report cards like you have never done before."
-                productIcon={Chart}
-                url={"./report"}
-              />
+              <div className="col-md-12 bb other-components">
+                <EducareProducts
+                  productName="Dashboards"
+                  productDetail="An overview of the dashboards included in Educare."
+                  productIcon={Dashboard}
+                  url={"./dashboards"}
+                />{" "}
+              </div>
+              <div className="col-md-12 other-components">
+                <EducareProducts
+                  productName="Reports"
+                  productDetail="Customize, develop, and distribute report cards like you have never done before."
+                  productIcon={Chart}
+                  url={"./report"}
+                />
+              </div>
               <div className="col-md-12 flexy flexyM mt9">
                 <div className="col-md-6 col-6 grid1">
                   <div className="col-md-12 bb other-components">
@@ -821,10 +832,6 @@ export const Home = () => {
             <Link to={"/all-products"}>
               {" "}
               <button>View all products</button>
-            </Link>
-            <Link to={"/dashboards"}>
-              {" "}
-              <button>View dashboards</button>
             </Link>
           </center>
         </div>
