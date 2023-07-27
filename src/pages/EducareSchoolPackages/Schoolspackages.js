@@ -70,10 +70,31 @@ function SchoolsPackages(props) {
           </div>
         </center>
         <div className="currency-buttons2 flexy flexym offset-md-10">
-          <button onClick={() => setThisCurrency("NGN")} ref={inputReference}>
+          <button
+            onClick={() => setThisCurrency("NGN")}
+            ref={inputReference}
+            className={` ${toCurrency === "NGN" ? "curr-active" : ""}`}
+          >
             NGN
           </button>
-          <button onClick={() => setThisCurrency("USD")}>USD</button>
+          <button
+            onClick={() => setThisCurrency("USD")}
+            className={` ${toCurrency === "USD" ? "curr-active" : ""}`}
+          >
+            USD
+          </button>
+          <button
+            onClick={() => setThisCurrency("GBP")}
+            className={` ${toCurrency === "GBP" ? "curr-active" : ""}`}
+          >
+            GBP
+          </button>{" "}
+          <button
+            onClick={() => setThisCurrency("EUR")}
+            className={` ${toCurrency === "EUR" ? "curr-active" : ""}`}
+          >
+            EUR
+          </button>{" "}
         </div>
 
         <div className="panels">

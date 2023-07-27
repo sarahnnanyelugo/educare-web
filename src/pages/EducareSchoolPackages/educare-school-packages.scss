@@ -258,14 +258,6 @@ button.active2 {
     background: transparent;
     height: 30px;
     border-bottom: solid 1px #cef0fe;
-    &:focus {
-      border-bottom: solid 4px #0098da;
-      transition: 0.5s ease;
-    }
-    &:active {
-      border-bottom: solid 4px #0098da;
-      transition: 0.5s ease;
-    }
   }
   @media screen and (max-width: 620px) {
     margin-left: 70%;

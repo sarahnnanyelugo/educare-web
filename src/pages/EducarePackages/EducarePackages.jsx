@@ -65,10 +65,8 @@ function EducarePackages(props) {
         <center>
           {" "}
           <div className="col-md-6">
-            '
-            <h1>
-              Run your entire back office with an integrated suite of apps.
-            </h1>
+            '<h1>Grow better with the right plan</h1>
+            <p>For what you need (when you need it)</p>
           </div>
         </center>
       </div>{" "}
@@ -84,6 +82,7 @@ function EducarePackages(props) {
           <button
             className={`tab ${checkActive2(2, "active2")}`}
             onClick={() => handleClick2(2)}
+            style={{ marginLeft: "20px" }}
           >
             Schools
           </button>

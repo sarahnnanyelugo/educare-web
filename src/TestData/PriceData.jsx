@@ -110,6 +110,8 @@ export const businessEnterpriseData = {
 export const currencyChar = {
   NGN: "&#8358;",
   USD: "&#36;",
+  EUR: "&#8364;",
+  GBP: "&#163;",
 };
 export const rates = {
   USD: 0.00125,

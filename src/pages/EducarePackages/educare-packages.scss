@@ -28,7 +28,7 @@
     margin-left: 10%;
     // border-radius: 35px;
     // border: solid 2px #cef0ff;
-    width: 17%;
+    width: 10%;
     padding: 5px;
     margin-top: -30px;
     font-family: rebondG-Bold;
@@ -94,7 +94,7 @@
     font-weight: bold;
 
     color: #000;
-    border-bottom: solid 2px #0098da;
+    border-bottom: solid 3px #0098da;
   }
   button.active3 {
     font-weight: bold;
@@ -238,25 +238,22 @@
   }
   .currency-buttons {
     margin-top: -50px;
+
     button {
+      // padding-bottom: 40px;
       border: none;
       font-family: rebondG-Semi-Bold !important;
       font-size: 16px;
       color: #161617;
       background: transparent;
       height: 30px;
-      border-bottom: solid 1px #2f99da;
-      &:focus {
-        border-bottom: solid 3px #2f99da;
-        transition: 0.5s ease;
-      }
-      &:active {
-        border-bottom: solid 4px #2f99da;
-        transition: 0.5s ease;
-      }
+      border-bottom: solid 1px #a2d8f9;
     }
     @media screen and (max-width: 620px) {
-      margin-left: 70%;
+      // margin-left: 5% !important;
+      margin-top: 0px !important;
+      // margin-right: -0px;
+      // margin-bottom: 30px;
     }
   }
 }
@@ -279,5 +276,6 @@
 }
 .curr-active {
   border-bottom: solid 5px #0098da !important;
-  transition: width 0.5s;
+  transition: width 0.5s width;
+  // padding-bottom: 40px;
 }
