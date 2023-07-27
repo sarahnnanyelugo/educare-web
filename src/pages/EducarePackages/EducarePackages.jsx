@@ -24,36 +24,7 @@ function EducarePackages(props) {
     activeIndex === index ? className : "";
   const checkActive2 = (index, className) =>
     activeIndex === index ? className : "";
-  // const [activeIndex2, setActiveIndex2] = useState(1);
-  // const handleClick = (index) => setActiveIndex2(index);
-  // const handleClick2 = (index) => setActiveIndex2(index);
-  // const checkActive = (index, className) =>
-  //   activeIndex2 === index ? className : "";
-  // const checkActive2 = (index, className) =>
-  //   activeIndex2 === index ? className : "";
 
-  // const [amount, setAmount] = useState(0);
-  // const [toCurrency, setToCurrency] = useState("NGN");
-  // const [conversionRate, setConversionRate] = useState(1);
-
-  // const convertCurrency = () => {
-  //   setConversionRate(rates[toCurrency]);
-  // };
-  // function setThisCurrency(curr) {
-  //   if (curr !== toCurrency) {
-  //     setToCurrency(curr);
-  //   }
-  // }
-  // useEffect(() => {
-  //   convertCurrency();
-  //   console.log(toCurrency, conversionRate);
-  // }, []);
-  // useEffect(() => {
-  //   convertCurrency();
-  //   setTimeout(() => {
-  //     console.log(toCurrency, conversionRate);
-  //   }, 1000);
-  // }, [toCurrency]);
   return (
     <>
       <div className="col-md-12 nav-two-business col-12 ">

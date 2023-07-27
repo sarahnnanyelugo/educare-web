@@ -46,14 +46,14 @@ function BusinessPackage() {
           {" "}
           <div className="tabs2">
             <button
-              className={`tab2 ${checkActive(3, "active3")}`}
-              onClick={() => handleClick(3)}
+              className={`tab2 ${checkActive(1, "active3")}`}
+              onClick={() => handleClick(1)}
             >
               Monthly
             </button>
             <button
-              className={`tab2 ${checkActive(4, "active3")}`}
-              onClick={() => handleClick(4)}
+              className={`tab2 ${checkActive(2, "active3")}`}
+              onClick={() => handleClick(2)}
             >
               Yearly
             </button>
@@ -87,7 +87,7 @@ function BusinessPackage() {
         </div>
 
         <div className="panels">
-          <div className={`panel ${checkActive(3, "active2")}`}>
+          <div className={`panel ${checkActive(1, "active2")}`}>
             <div className="offset-md-3">
               {" "}
               <button className="premium-button">Recommended</button>
@@ -166,7 +166,7 @@ function BusinessPackage() {
               </div>
             </div>
           </div>
-          <div className={`panel ${checkActive(4, "active2")}`}>
+          <div className={`panel ${checkActive(2, "active2")}`}>
             <div className="offset-md-3">
               {" "}
               <button className="premium-button">Recommended</button>
