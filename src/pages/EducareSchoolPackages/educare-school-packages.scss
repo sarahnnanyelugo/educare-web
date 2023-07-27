@@ -27,25 +27,26 @@
   );
 }
 
-.tabs {
+.tabs2 {
   display: flex;
-  margin-left: 40%;
+  margin-left: 0%;
   border-radius: 35px;
   border: solid 1px #0098da;
   width: 17%;
   padding: 5px;
-  margin-top: -20px;
+  margin-top: 20px;
   font-family: rebondG-Bold;
   position: relative;
   z-index: 2;
   @media screen and (max-width: 620px) {
     width: 40%;
     margin-left: 0%;
-    margin-top: 20px;
+    margin-top: 40px !important;
+    float: left !important;
   }
 }
 @media screen and (max-width: 620px) {
-  .tabs {
+  .tabs2 {
     // display: grid;
   }
 }
@@ -77,6 +78,9 @@ button.active2 {
   line-height: 40px;
   padding-top: 150px;
   background: #fff;
+  @media screen and (max-width: 620px) {
+    padding-top: 80px !important;
+  }
   .premium {
     border: solid 2px #0098da;
     border-radius: 10px;

@@ -25,28 +25,62 @@
 .business-pricing-tab {
   .tabs {
     display: flex;
-    margin-left: 15%;
-    border-radius: 35px;
-    border: solid 2px #cef0ff;
+    margin-left: 10%;
+    // border-radius: 35px;
+    // border: solid 2px #cef0ff;
     width: 17%;
     padding: 5px;
-    margin-top: -20px;
+    margin-top: -30px;
     font-family: rebondG-Bold;
     @media screen and (max-width: 620px) {
       width: 40%;
-      margin-left: 30%;
-      margin: 0%;
+      margin-top: -30%;
+      margin-left: 0%;
     }
   }
   @media screen and (max-width: 620px) {
     .tabs {
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+  .tabs2 {
+    display: flex;
+    margin-left: 0%;
+    border-radius: 35px;
+    border: solid 2px #cef0ff;
+    width: 17%;
+    padding: 5px;
+    // margin-top: -20px;
+    font-family: rebondG-Bold;
+    @media screen and (max-width: 620px) {
+      width: 40%;
+      // margin-left: 30%;
+      margin-top: 60px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .tabs2 {
     }
   }
 
   .tab {
     width: 90%;
+    background: transparent;
+    padding: 0px 0;
+    border: none;
+    color: grey;
+    border-radius: 0 !important;
+    font-size: 16px;
+    @media screen and (max-width: 620px) {
+      width: 100%;
+    }
+  }
+  .tab2 {
+    width: 90%;
     background: #fff;
-    padding: 7px 0;
+    padding: 0px 0;
     border: none;
     color: black;
     border-radius: 35px;
@@ -57,6 +91,12 @@
   }
 
   button.active2 {
+    font-weight: bold;
+
+    color: #000;
+    border-bottom: solid 2px #0098da;
+  }
+  button.active3 {
     font-weight: bold;
     background: #0098da;
     color: #fff;

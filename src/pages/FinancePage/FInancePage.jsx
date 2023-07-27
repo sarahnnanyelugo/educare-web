@@ -23,7 +23,7 @@ export const FinancePage = () => {
         <NavTwo
           title="Finance"
           nav1="Features"
-          nav2="Pricing"
+          // nav2="Pricing"
           nav3="Resources"
         />
       </div>

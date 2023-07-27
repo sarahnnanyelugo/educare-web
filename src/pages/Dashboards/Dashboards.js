@@ -101,7 +101,7 @@ function Dashboards() {
       <div className="col-md-10 offset-md-1 flexy mt8 dashboards-views">
         <div className="col-md-7">
           {" "}
-          <img className="col-md-12 " src={Img1} alt="Scholar" width="100%" />
+          <img className="col-md-12 " src={Img3} alt="Scholar" width="100%" />
         </div>
         <div className="col-md-5 ">
           <h3>Dashboard</h3>
@@ -148,7 +148,7 @@ function Dashboards() {
           </div>
           <div className="col-md-8">
             {" "}
-            <img className="col-md-12 " src={Img2} alt="Scholar" width="100%" />
+            <img className="col-md-12 " src={Img4} alt="Scholar" width="100%" />
           </div>
         </div>
       </div>
