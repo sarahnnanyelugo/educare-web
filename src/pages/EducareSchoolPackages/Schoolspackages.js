@@ -118,7 +118,7 @@ function SchoolsPackages(props) {
                       __html: currencyChar[toCurrency],
                     }}
                   ></span>
-                  {basicData.monthlyAmount * conversionRate}
+                  {(basicData.monthlyAmount * conversionRate).toFixed(2)}
                 </h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
@@ -143,7 +143,7 @@ function SchoolsPackages(props) {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {premiumData.monthlyAmount * conversionRate}
+                      {(premiumData.monthlyAmount * conversionRate).toFixed(2)}
                     </h1>
                     <h6>
                       Per Student <br /> (Monthly)
@@ -171,7 +171,7 @@ function SchoolsPackages(props) {
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {elearningData.monthlyAmount * conversionRate}
+                    {(elearningData.monthlyAmount * conversionRate).toFixed(2)}
                   </h1>
                   <h6>
                     Per Student <br />
@@ -225,7 +225,7 @@ function SchoolsPackages(props) {
                       __html: currencyChar[toCurrency],
                     }}
                   ></span>
-                  {basicData.yearlyAmount * conversionRate}
+                  {(basicData.yearlyAmount * conversionRate).toFixed(2)}
                 </h1>
                 <button className="price-button">Get started</button>
                 <ul className="list-unstyled">
@@ -250,7 +250,7 @@ function SchoolsPackages(props) {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {premiumData.yearlyAmount * conversionRate}
+                      {(premiumData.yearlyAmount * conversionRate).toFixed(2)}
                     </h1>
                     <h6>
                       Per Student <br /> (Yearly)
@@ -278,7 +278,7 @@ function SchoolsPackages(props) {
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {elearningData.yearlyAmount * conversionRate}
+                    {(elearningData.yearlyAmount * conversionRate).toFixed(2)}
                   </h1>
 
                   <h6>

@@ -105,7 +105,7 @@ function BusinessPackage() {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {standardData.monthlyAmount * conversionRate}
+                      {(standardData.monthlyAmount * conversionRate).toFixed(2)}
                     </h1>
                     <h6>
                       Per Employee <br /> (Monthly)
@@ -133,7 +133,9 @@ function BusinessPackage() {
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {professionalData.monthlyAmount * conversionRate}
+                    {(professionalData.monthlyAmount * conversionRate).toFixed(
+                      2
+                    )}
                   </h1>{" "}
                   <h6>
                     Per Employee <br /> (Yearly)
@@ -184,7 +186,7 @@ function BusinessPackage() {
                           __html: currencyChar[toCurrency],
                         }}
                       ></span>
-                      {standardData.yearlyAmount * conversionRate}
+                      {(standardData.yearlyAmount * conversionRate).toFixed(2)}
                     </h1>
                     <h6>
                       Per Employee <br /> (Yearly)
@@ -212,7 +214,9 @@ function BusinessPackage() {
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {professionalData.yearlyAmount * conversionRate}
+                    {(professionalData.yearlyAmount * conversionRate).toFixed(
+                      2
+                    )}
                   </h1>
                   <h6>
                     Per Employee <br /> (Yearly)
