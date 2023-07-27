@@ -227,7 +227,7 @@ function NavBar() {
                 <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
-                    Products <i class="icofont-curved-down"></i>
+                    Products <i class="icofont-rounded-down"></i>
                   </button>
                 </NavLink>
                 <div class="menu-dropdown ">
@@ -240,7 +240,7 @@ function NavBar() {
                 <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
-                    Use Cases <i class="icofont-curved-down"></i>
+                    Use Cases <i class="icofont-rounded-down"></i>
                   </button>
                 </NavLink>
                 <div className="flexy menu-dropdown2">
@@ -419,7 +419,7 @@ function NavBar() {
                 <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
-                    Resources <i class="icofont-curved-down"></i>
+                    Resources <i class="icofont-rounded-down"></i>
                   </button>
                 </NavLink>
                 <div className="flexy menu-dropdown2">
@@ -527,7 +527,7 @@ function NavBar() {
                 <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
-                    Company <i class="icofont-curved-down"></i>
+                    Company <i class="icofont-rounded-down"></i>
                   </button>
                 </NavLink>
                 <div className="flexy menu-dropdown2">

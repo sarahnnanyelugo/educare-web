@@ -35,14 +35,13 @@
       padding: 8px 20px;
       color: #414244;
       text-decoration: none;
-      font-family: rebondG-Semi-Bold;
+      font-family: rebondG-Bold;
       border-radius: 50px;
       font-size: 14px;
       border: none;
       background: #fff;
       &:hover {
         background: rgb(231, 231, 231) !important;
-
         border-radius: 50px;
         transition: 0.5s ease;
       }
@@ -279,11 +278,11 @@ $menu_WIDTH: 150px;
 }
 
 .menu-dropdown {
-  width: 1310px;
+  width: 1260px;
   padding: 15px 0;
   position: absolute;
   background: #fff;
-  margin-left: -390px;
+  margin-left: -330px;
   z-index: 100;
   transition: 0.5s padding, 0.5s width;
   box-shadow: 0 0 2px 2px rgb(225, 222, 222);
