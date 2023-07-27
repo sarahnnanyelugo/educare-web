@@ -30,7 +30,7 @@
   }
   .nav-links-container {
     flex-grow: 1;
-    margin-top: 20px;
+    margin-top: 15px;
     .nav-links {
       padding: 8px 20px;
       color: #414244;
@@ -283,7 +283,7 @@ $menu_WIDTH: 150px;
   padding: 15px 0;
   position: absolute;
   background: #fff;
-  margin-left: -360px;
+  margin-left: -390px;
   z-index: 100;
   transition: 0.5s padding, 0.5s width;
   box-shadow: 0 0 2px 2px rgb(225, 222, 222);

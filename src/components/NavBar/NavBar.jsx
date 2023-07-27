@@ -245,7 +245,7 @@ function NavBar() {
                 </NavLink>
                 <div className="flexy menu-dropdown2">
                   {" "}
-                  <ul className="col-md-6">
+                  <ul className="col-md-6 list-unstyled">
                     <li>
                       <NavLink
                         to={"/schools"}
@@ -322,7 +322,7 @@ function NavBar() {
                       </NavLink>
                     </li>
                   </ul>
-                  <ul className="col-md-6">
+                  <ul className="col-md-6 list-unstyled">
                     {" "}
                     <li>
                       <NavLink
@@ -424,7 +424,7 @@ function NavBar() {
                 </NavLink>
                 <div className="flexy menu-dropdown2">
                   {" "}
-                  <ul className="col-md-6">
+                  <ul className="col-md-6 list-unstyled">
                     <li>
                       <NavLink
                         to={"/support"}
@@ -532,7 +532,7 @@ function NavBar() {
                 </NavLink>
                 <div className="flexy menu-dropdown2">
                   {" "}
-                  <ul className="col-md-6">
+                  <ul className="col-md-6 list-unstyled">
                     <li>
                       <NavLink
                         to={"/about-us"}
