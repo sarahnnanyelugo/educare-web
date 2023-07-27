@@ -12,6 +12,11 @@
     color: #0098da;
     margin: 20px 0;
     font-family: rebondBook;
+    flex-grow: 1;
+    img {
+      height: 30px;
+      width: 30px;
+    }
   }
 }
 .blog-imgg {

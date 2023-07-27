@@ -24,7 +24,7 @@ function Products({ data }) {
         <img className="col-md-12" src={productIcon} alt="Scholar" />
         <h6>{productTitle}</h6>
         <p>{productDetail}</p>
-        <Link to={"/login"} className="offset-md-7">
+        <Link to={"/login"} className="offset-md-6">
           <button>Sign up now</button>
         </Link>
       </div>

@@ -34,6 +34,9 @@ export const MenuTab = () => {
                     className="menu-links list-group-item list-group-item-action drop-down-nav"
                   >
                     All Products
+                    <span>
+                      <i class="icofont-rounded-right"></i>
+                    </span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -41,7 +44,10 @@ export const MenuTab = () => {
                     eventKey="second"
                     className="menu-links list-group-item list-group-item-action drop-down-nav"
                   >
-                    For Businesses
+                    For Businesses{" "}
+                    <span>
+                      <i class="icofont-rounded-right"></i>
+                    </span>
                   </Nav.Link>
                 </Nav.Item>{" "}
                 <Nav.Item>
@@ -49,7 +55,10 @@ export const MenuTab = () => {
                     eventKey="third"
                     className="menu-links list-group-item list-group-item-action  drop-down-nav"
                   >
-                    For Schools
+                    For Schools{" "}
+                    <span>
+                      <i class="icofont-rounded-right"></i>
+                    </span>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
