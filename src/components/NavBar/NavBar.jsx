@@ -183,7 +183,7 @@ function NavBar() {
       }, 200);
     }
   });
-  // useEffect(() => {
+
   //   const currentUrl = window.location.pathname;
 
   //   if (prevUrlRef.current !== currentUrl) {
@@ -224,11 +224,7 @@ function NavBar() {
           <ul className=" list-inline list-unstyled nav-links-container web-nav hList">
             <li className="list-inline-item web-nav">
               <a href="#click" class="menu">
-                <NavLink
-                  to={"/finance-overview"}
-                  activeClassName="active"
-                  className="menu-title"
-                >
+                <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
                     Products <i class="icofont-curved-down"></i>
@@ -241,11 +237,7 @@ function NavBar() {
             </li>{" "}
             <li className="list-inline-item web-nav">
               <a href="#click" class="menu">
-                <NavLink
-                  to={"/finance-overview"}
-                  activeClassName="active"
-                  className="menu-title"
-                >
+                <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
                     Use Cases <i class="icofont-curved-down"></i>
@@ -424,11 +416,7 @@ function NavBar() {
             </li>{" "}
             <li className="list-inline-item web-nav">
               <a href="#click" class="menu">
-                <NavLink
-                  to={"/finance-overview"}
-                  activeClassName="active"
-                  className="menu-title"
-                >
+                <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
                     Resources <i class="icofont-curved-down"></i>
@@ -536,11 +524,7 @@ function NavBar() {
             </li>{" "}
             <li className="list-inline-item web-nav">
               <a href="#click" class="menu">
-                <NavLink
-                  to={"/finance-overview"}
-                  activeClassName="active"
-                  className="menu-title"
-                >
+                <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
                     Company <i class="icofont-curved-down"></i>
