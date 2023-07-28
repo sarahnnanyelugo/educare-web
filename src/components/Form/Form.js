@@ -25,11 +25,8 @@ function Form(props) {
   return (
     <>
       <form className=" form-container" style={{ backgroundColor: body }}>
-        <h6 style={{ color: "black" }}>
-          <strong>
-            Sign up and deploy your business in <br />
-            seconds.
-          </strong>
+        <h6 style={{ color: "black" }} className="col-md-8">
+          <strong>{props.formHeading}</strong>
         </h6>{" "}
         <div class="form">
           <input

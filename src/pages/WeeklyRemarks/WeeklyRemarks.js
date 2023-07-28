@@ -42,7 +42,7 @@ function WeeklyRemarks() {
                 boda="solid 1px #11A377"
                 color="#11A377"
               />
-              <h1 className="col-md-10 reco-alt">
+              <h1 className="col-md-12 reco-alt">
                 Supercharge your productivity
               </h1>
               <p>

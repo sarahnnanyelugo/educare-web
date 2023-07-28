@@ -39,7 +39,7 @@ function Construction() {
               project success with ease and accuracy.
             </p>
           </div>
-          <div className="col-md-8 mt6">
+          <div className="col-md-7 mt6">
             {" "}
             <img className=" " src={Img} alt="Scholar" width="100%" />
           </div>

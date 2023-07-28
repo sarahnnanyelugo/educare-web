@@ -99,7 +99,7 @@ function Retail() {
         </div>
       </div>
       <center>
-        <div className="col-md-5 mt">
+        <div className="col-md-4 mt">
           {" "}
           <img className=" " src={Img} alt="Scholar" width="100%" />
         </div>

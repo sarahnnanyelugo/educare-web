@@ -3,6 +3,11 @@ import Form from "../../components/Form/Form";
 import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./calendar.scss";
 import Wallet3 from "../../assets/images/fin-icon.svg";
+import Icon from "../../assets/images/cal-icon1.png";
+import Icon2 from "../../assets/images/cal-icon2.png";
+import Icon3 from "../../assets/images/cal-icon.png";
+import Icon4 from "../../assets/images/cal-icon3.png";
+import Icon5 from "../../assets/images/cal-icon4.png";
 import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import FAQ from "./FAQ/FAQ";
 import SimplePrices from "../../components/SimplePrices/SimplePrices";
@@ -33,7 +38,12 @@ function Calendar() {
           </div>
           <div className="col-md-4 offset-md-2 form-divvv">
             {" "}
-            <Form bg="#0098DA" text="Get started" body="transparent" />
+            <Form
+              bg="#0098DA"
+              text="Get started"
+              body="transparent"
+              formHeading="Sign up and onboard your school in seconds"
+            />
           </div>
         </div>
       </div>
@@ -58,7 +68,7 @@ function Calendar() {
         </div>{" "}
         <div className="col-md-4">
           <div className="col-md-11 wallet">
-            <img className="" src={Wallet3} alt="Scholar" />
+            <img className="" src={Icon} alt="Scholar" />
 
             <h4>Manage events seamlessly</h4>
             <p>
@@ -70,7 +80,7 @@ function Calendar() {
         </div>{" "}
         <div className="col-md-4">
           <div className="col-md-11 wallet">
-            <img className="" src={Wallet3} alt="Scholar" />
+            <img className="" src={Icon2} alt="Scholar" />
 
             <h4>Schedule Events</h4>
             <p>
@@ -84,7 +94,7 @@ function Calendar() {
         <div className="col-md-10 flexy cal-management offset-md-1 mt7 ">
           <div className="col-md-4">
             <div className="col-md-11 wallet">
-              <img className="" src={Wallet3} alt="Scholar" />
+              <img className="" src={Icon4} alt="Scholar" />
 
               <h4>Collaboration and Sharing</h4>
               <p>
@@ -96,7 +106,7 @@ function Calendar() {
           </div>{" "}
           <div className="col-md-4">
             <div className="col-md-11 wallet">
-              <img className="" src={Wallet3} alt="Scholar" />
+              <img className="" src={Icon3} alt="Scholar" />
 
               <h4>Calendar Views</h4>
               <p>
@@ -108,7 +118,7 @@ function Calendar() {
           </div>{" "}
           <div className="col-md-4">
             <div className="col-md-11 wallet">
-              <img className="" src={Wallet3} alt="Scholar" />
+              <img className="" src={Icon5} alt="Scholar" />
 
               <h4>Recurring Events</h4>
               <p>

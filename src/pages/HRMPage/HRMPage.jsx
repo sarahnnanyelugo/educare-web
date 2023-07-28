@@ -46,7 +46,12 @@ export const HRMPage = () => {
           <div className="col-md-4 offset-md-2">
             <div className="col-md-12">
               {" "}
-              <Form bg="#EA8713" text="Get started" body="#fff" />
+              <Form
+                bg="#EA8713"
+                text="Get started"
+                body="#fff"
+                formHeading="Sign up and deploy your business in seconds"
+              />
             </div>
           </div>
         </div>

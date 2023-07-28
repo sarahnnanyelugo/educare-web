@@ -59,12 +59,12 @@ export const NavTwo = (props) => {
               <button className="top-nav-links"> {props.nav1}</button>
             </a>
           </li>
-          <li className="list-inline-item">
+          {/* <li className="list-inline-item">
             <a href={props.priceUrl}>
               {" "}
               <button className="top-nav-links"> {props.nav2}</button>
             </a>
-          </li>
+          </li> */}
           <li className="list-inline-item">
             <NavLink to={"/blog"} activeClassName="active">
               <button className="top-nav-links"> {props.nav3}</button>

@@ -59,9 +59,7 @@ function MedicalsPage() {
       </div>
       <div id="features" />
       <center>
-        <h1 style={{ fontFamily: "recoAltSemiBold" }}>
-          Care, Manage and Report
-        </h1>
+        <h1>Care, Manage and Report</h1>
       </center>
       <div className="col-md-10 offset-md-1">
         {" "}

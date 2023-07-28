@@ -67,57 +67,58 @@ function AdmissionPage() {
             <center>
               <div className="flexy">
                 {" "}
-                <div className="col-md-4">
+                <a href="#application" className="col-md-4 dir">
                   <div className="col-md-11  steps">
                     <div className="flexy flexyM">
                       <img className="col-md-2" src={Step1} alt="Scholar" />
                       <p>Application Management</p>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-4">
+                </a>{" "}
+                <a className="col-md-4 dir" href="#review">
                   <div className="col-md-11  steps">
                     <div className="flexy flexyM">
                       <img className="col-md-2" src={Step2} alt="Scholar" />
                       <p>Applicant Evaluation & Review</p>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-4 ">
+                </a>{" "}
+                <a className="col-md-4 dir" href="#comm">
                   <div className="col-md-11 steps">
                     <div className="flexy flexyM">
                       <img className="col-md-2" src={Step3} alt="Scholar" />
                       <p>Communications & Notification</p>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             </center>
           </div>
         </center>
         <div className="flexy col-md-6 offset-md-3 mt5 no-m">
           {" "}
-          <div className="col-md-6">
+          <a href="#decision" className="col-md-6 dir">
             <div className="col-md-11  steps">
               <div className="flexy flexyM">
                 <img className="col-md-2" src={Step4} alt="Scholar" />
                 <p>Decision Management</p>
               </div>
             </div>
-          </div>
-          <div className="col-md-6">
+          </a>{" "}
+          <a className="col-md-6 dir" href="#scale">
             <div className="col-md-11  steps">
               <div className="flexy flexyM">
                 <img className="col-md-2" src={Step5} alt="Scholar" />
                 <p>Scalability and Performance</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
+      <div id="application" />
       <div className="col-md-12 admission-dashboards mt">
         {" "}
-        <center>
+        <center id="">
           <div className="col-md-6">
             <h1>Application Management</h1>
             <p>
@@ -160,7 +161,7 @@ function AdmissionPage() {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-12 admission-dashboards2 mt">
+      <div className="col-md-12 admission-dashboards2 mt" id="review">
         {" "}
         <center>
           <div className="col-md-6">
@@ -207,7 +208,8 @@ function AdmissionPage() {
           </div>
         </div>
       </div>
-      <div className="col-md-12 admission-dashboards mt">
+      <div id="comm" />
+      <div className="col-md-12 admission-dashboards mt" id="">
         {" "}
         <center>
           <div className="col-md-6">
@@ -253,7 +255,8 @@ function AdmissionPage() {
           </div>
         </div>
       </div>{" "}
-      <div className="col-md-12 admission-dashboards2 mt">
+      <div id="decision" />
+      <div className="col-md-12 admission-dashboards2 mt" id="">
         {" "}
         <center>
           <div className="col-md-6">
@@ -299,7 +302,8 @@ function AdmissionPage() {
           </div>
         </div>
       </div>
-      <div className="col-md-12 admission-dashboards mt">
+      <div id="scale" />
+      <div className="col-md-12 admission-dashboards mt" id="scale">
         {" "}
         <center>
           <div className="col-md-6">

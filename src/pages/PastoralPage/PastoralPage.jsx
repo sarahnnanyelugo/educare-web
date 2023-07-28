@@ -49,7 +49,7 @@ function Pastoral(props) {
         </center>{" "}
       </div>
       <div className="empty-bg"></div>
-      <div className="col-md-10 offset-md-1 pdash">
+      <div className="col-md-8 offset-md-2 pdash">
         {" "}
         <img
           className="   "

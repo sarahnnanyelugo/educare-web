@@ -48,7 +48,12 @@ function FacilityManager() {
               <img className="dnM" src={Fac1} alt="Scholar" />
             </div>
             <div className="col-md-6 ">
-              <Form bg="#0B2FF7" text="Get started" body="#fff" />
+              <Form
+                bg="#0B2FF7"
+                text="Get started"
+                body="#fff"
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
             <div className="col-md-3 img2">
               {" "}
@@ -63,7 +68,7 @@ function FacilityManager() {
         <h1 className="col-md-5 mt">
           Who says managing your facility has to be tedious?
         </h1>
-        <div className="col-md-9 mt7">
+        <div className="col-md-8 mt7">
           {" "}
           <img className="col-md-12" src={Fac3} alt="Scholar" width="100%" />
         </div>

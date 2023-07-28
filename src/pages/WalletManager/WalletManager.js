@@ -73,7 +73,7 @@ function WalletManager() {
           <img className="" src={Dot2} alt="Scholar" />
 
           <center>
-            <div className="col-md-9 ">
+            <div className="col-md-8 ">
               <img className="col-md-12 col-12" src={Dashboard} alt="Scholar" />{" "}
             </div>
           </center>
@@ -131,7 +131,7 @@ function WalletManager() {
       <center>
         <h2 className="mt reco-alt ">Features in a glance</h2>
       </center>
-      <div className="features-div col-md-10 offset-md-1 ">
+      <div className="features-div col-md-10 offset-md-1 mt3">
         <div className="col-md-12 flexy">
           <div className="flexy flexyM col-md-4">
             <img className="" src={Icon5} alt="Scholar" />

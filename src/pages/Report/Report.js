@@ -53,7 +53,12 @@ function Report() {
             {" "}
             <div className="col-md-7 offset-md-3">
               {" "}
-              <Form bg="#0098DA" text="Get started" body="#fff" />
+              <Form
+                bg="#0098DA"
+                text="Get started"
+                body="#fff"
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
           </div>
         </div>
@@ -286,7 +291,7 @@ function Report() {
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-dark"
           />
-          <button>Request for demo</button>
+          <button className="demo">Request for demo</button>
         </div>
       </div>
     </>

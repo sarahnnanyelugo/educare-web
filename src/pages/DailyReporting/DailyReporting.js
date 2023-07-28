@@ -33,7 +33,12 @@ function DailyReporting() {
           <div className="col-md-4 offset-md-3">
             <div className="col-md-12">
               {" "}
-              <Form bg="#ED2F59" text="Get started" body="#fff" />
+              <Form
+                bg="#ED2F59"
+                text="Get started"
+                body="#fff"
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
           </div>
         </div>

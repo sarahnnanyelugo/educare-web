@@ -127,8 +127,8 @@ function Library() {
       </div>
       <div id="features" />
       <center>
-        <div className="col-md-8 flexy mtt mb5 flexyM no-m ass-feats">
-          <div className="col-md-1 col-1">
+        <div className="col-md-8 flexy mt mb5 flexyM  ">
+          <div className="col-md-1 col-1 lib-feats no-m">
             <img className="" src={Access} alt="Scholar" width="100%" />
             <h6>Access</h6>
           </div>{" "}
@@ -153,62 +153,53 @@ function Library() {
           <DashboardDisplay />
         </div>
       </div>
+
       <div className="col-md-12 graded mt ">
-        <div className="col-md-10 offset-md-1 flexy  ">
-          <div className="col-md-4">
-            <div className="col-md-10 try">
-              <LibFeatures
-                title="Library Account Management"
-                paragraph="Students and teachers can manage their library accounts easily. This includes checking out and returning materials, managing their borrowing history, placing holds, and receiving notifications for due dates and overdue materials."
-                icon={Management}
-              />
-            </div>
+        <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-3 g-2 g-lg-5 ">
+          <div className="col try">
+            <LibFeatures
+              title="Library Account Management"
+              paragraph="Students and teachers can manage their library accounts easily. This includes checking out and returning materials, managing their borrowing history, placing holds, and receiving notifications for due dates and overdue materials."
+              icon={Management}
+            />
           </div>
-          <div className="col-md-4">
-            <div className="col-md-10 try">
-              <LibFeatures
-                title="Resources and Services"
-                paragraph="We provide access to a wide range of resources and services to support students’ academic pursuits. This includes research databases, online learning materials, educational games, and homework help resources."
-                icon={Resources}
-              />
-            </div>
+          <div className="col try">
+            <LibFeatures
+              title="Resources and Services"
+              paragraph="We provide access to a wide range of resources and services to support students’ academic pursuits. This includes research databases, online learning materials, educational games, and homework help resources."
+              icon={Resources}
+            />
           </div>
-          <div className="col-md-4">
-            <div className="col-md-10 try">
-              <LibFeatures
-                title="User Interface"
-                paragraph="We have a simple and intuitive layout, with clear navigation and search functionalities that allow both the students and teachers to easily find what they are looking for.."
-                icon={User}
-              />
-            </div>
+
+          <div className="col try">
+            <LibFeatures
+              title="User Interface"
+              paragraph="We have a simple and intuitive layout, with clear navigation and search functionalities that allow both the students and teachers to easily find what they are looking for.."
+              icon={User}
+            />
           </div>
         </div>
       </div>
-      <div className="col-md-12 ">
-        <center>
-          {" "}
-          <div className="col-md-7  flexy  ">
-            <div className="col-md-6">
-              <div className="col-md-10 try">
-                <LibFeatures
-                  title="Accessibility"
-                  paragraph="Our library system is accessible to all students and teachers, including those with disabilities. This includes ensuring that the user interface and all resources and services are accessible to users with visual or auditory impairments, as well as those who use assistive technologies such as screen readers."
-                  icon={Accessibility}
-                />
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="col-md-10 try">
-                <LibFeatures
-                  title="Security & Privacy"
-                  paragraph="We secure and protect users’ privacy. This includes implementing appropriate security measures to prevent unauthorized access to user accounts and sensitive information. Additionally, comply with data protection regulations and policies to ensure that users’ personal information is handled appropriately."
-                  icon={Security}
-                />
-              </div>
-            </div>
+      <center>
+        {" "}
+        <div className="col-md-7 row row-cols-1 row-cols-lg-2 g-2 g-lg-5">
+          <div className="col try">
+            <LibFeatures
+              title="Accessibility"
+              paragraph="Our library system is accessible to all students and teachers, including those with disabilities. This includes ensuring that the user interface and all resources and services are accessible to users with visual or auditory impairments, as well as those who use assistive technologies such as screen readers."
+              icon={Accessibility}
+            />
           </div>
-        </center>
-      </div>
+
+          <div className="col try">
+            <LibFeatures
+              title="Security & Privacy"
+              paragraph="We secure and protect users’ privacy. This includes implementing appropriate security measures to prevent unauthorized access to user accounts and sensitive information. Additionally, comply with data protection regulations and policies to ensure that users’ personal information is handled appropriately."
+              icon={Security}
+            />
+          </div>
+        </div>
+      </center>
       {/* 
       <div className="library-plans col-md-12 mt" id="pricing">
         <div className="col-md-10 offset-md-1 flexy ">
@@ -288,8 +279,8 @@ function Library() {
         <center>
           <GetStartedForm
             text=" Get started"
-            bg="#ED2F59"
-            cls="gsmlib"
+            bg="#0098DA"
+            cls="gsmcal"
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-dark"
           />

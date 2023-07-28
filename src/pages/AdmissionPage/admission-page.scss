@@ -133,3 +133,8 @@
     transition: 0.5s ease;
   }
 }
+.dir {
+  &:hover {
+    color: #000;
+  }
+}

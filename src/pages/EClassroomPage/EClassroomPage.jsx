@@ -54,7 +54,12 @@ function EClassroomPage() {
           <div className="col-md-6  eclassroom-form">
             <div className="col-md-6 offset-md-3">
               {" "}
-              <Form bg="#CC006E" text="Get started" body="#fff" />
+              <Form
+                bg="#CC006E"
+                text="Get started"
+                body="#fff"
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
           </div>
         </div>

@@ -37,14 +37,19 @@ function LessonPlanner() {
           <div className="col-md-4 offset-md-2">
             <div className="col-md-12">
               {" "}
-              <Form bg="#11A377" text="Get started" body="" />
+              <Form
+                bg="#11A377"
+                text="Get started"
+                body=""
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
           </div>
         </div>
       </div>
       <div id="features" />
       <center>
-        <div className="col-md-10 lesson-dashboard">
+        <div className="col-md-8 lesson-dashboard">
           <img className=" " src={Home} alt="Scholar" width="100%" />
         </div>
       </center>

@@ -50,7 +50,7 @@ function NavBar() {
         // setTheme2("#CEF0FE");
         break;
       case "/pastoral":
-        setTheme("#FADAB6");
+        setTheme("#ED2F59");
         // setTheme2("#FCE0DD");
         break;
       case "/medicals":

@@ -69,7 +69,7 @@ const DashboardAccordion = () => {
                         alt="Scholar"
                         width="8%"
                       />
-                      Track attendance with ease
+                      Schedule shifts effortlessly
                     </li>{" "}
                     <li>
                       {" "}
@@ -79,7 +79,7 @@ const DashboardAccordion = () => {
                         alt="Scholar"
                         width="8%"
                       />
-                      Convert time to timesheets
+                      Track days off efficiently
                     </li>
                   </ul>
                 </div>

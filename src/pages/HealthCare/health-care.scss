@@ -16,6 +16,10 @@
 }
 .healthcare-partners {
   padding: 100px 0;
+  p {
+    color: grey;
+    font-size: 19px;
+  }
   img {
     margin: 0 20px;
     filter: grayscale(100%);

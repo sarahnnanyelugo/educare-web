@@ -193,8 +193,8 @@ export const allProducts = [
     productDetail:
       "Submit daily reports, to keep track of updates in your organisation.",
     productIcon: Daily,
-    border: "solid 1px #C32BD6",
-    bg: "#F5DCF880",
+    border: "solid 1px #EA8713",
+    bg: "#FCEBD740",
     category: ["business", "schools"],
   },
 ];

@@ -22,7 +22,12 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Body>
-        <Form bg={bgbtn} text="Continue" body="#fff" />
+        <Form
+          bg={bgbtn}
+          text="Continue"
+          body="#fff"
+          formHeading="Sign up and onboard your school in seconds"
+        />
       </Modal.Body>
     </Modal>
   );

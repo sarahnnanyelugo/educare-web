@@ -48,7 +48,11 @@ function MailPage() {
           </div>
           <div className="col-md-5 offset-md-1">
             <div className="col-md-10">
-              <Form bg="#C32BD6" text="Get started" />
+              <Form
+                bg="#C32BD6"
+                text="Get started"
+                formHeading="Sign up and onboard your school in seconds"
+              />
             </div>
           </div>
         </div>

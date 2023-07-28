@@ -101,9 +101,9 @@ export const FinancePage = () => {
           </div>
         </div>
 
-        <div className="col-md-6 offset-md-3 flexy  mt5">
+        <div className="col-md-6 offset-md-3 flexy  mt7">
           <div className="col-md-6">
-            <div className="col-md-12">
+            <div className="col-md-11">
               <Efficiency
                 title="Streamlined payroll accounting"
                 icon={Support}
@@ -111,8 +111,8 @@ export const FinancePage = () => {
               />
             </div>
           </div>{" "}
-          <div className="col-md-6 offset-md-1">
-            <div className="col-md-12">
+          <div className="col-md-6 offset-md-1 ml5 no-m">
+            <div className="col-md-11">
               <Efficiency
                 title="Payroll data on demand"
                 icon={Together}

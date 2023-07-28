@@ -35,14 +35,16 @@ function HealthCare() {
           </div>
         </center>
       </div>
-      <center>
-        <div className="col-md-5 healthcare-partners">
-          {" "}
-          <img className="apen" src={Aisa} alt="Scholar" />
+      {/* <center> */}
+      <div className="col-md-4 healthcare-partners flexy flexyM offset-md-4">
+        {" "}
+        {/* <img className="apen" src={Aisa} alt="Scholar" />
           <img className="apen" src={Microsoft} alt="Scholar" />
-          <img className="apen" src={Flutterwave} alt="Scholar" />
-        </div>
-      </center>
+          <img className="apen" src={Flutterwave} alt="Scholar" /> */}
+        <h5 style={{ flexGrow: 1 }}>We are trusted by</h5>
+        <p>Upsillon Care Hospital</p>
+      </div>
+      {/* </center> */}
       <div className="col-md-10 offset-md-1 md-records">
         <center>
           <div className="col-md-5">
@@ -84,7 +86,7 @@ function HealthCare() {
             needed, reducing no-shows and maximizing efficiency.
           </p>
           <GetStartedForm
-            text=" Get started"
+            text=" Check it out"
             bg="#0098DA"
             cls="gsmrep"
             bgbtn="#0098DA"
@@ -102,7 +104,7 @@ function HealthCare() {
             timely updates for enhanced patient outcomes.
           </p>
           <GetStartedForm
-            text=" Get started"
+            text="Check it out"
             bg="#0098DA"
             cls="gsmrep"
             bgbtn="#0098DA"
