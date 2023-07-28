@@ -1,14 +1,19 @@
 import React from "react";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import "./school.scss";
-import Img1 from "../../assets/images/govt_1.png";
+import Img1 from "../../assets/images/cbt-school.png";
 import Img2 from "../../assets/images/school2.png";
 import Img3 from "../../assets/images/school1.png";
 import Img4 from "../../assets/images/school5.png";
 import Img5 from "../../assets/images/school3.png";
-import Microsoft from "../../assets/images/microsoft.svg";
-import Flutterwave from "../../assets/images/flutterwave.svg";
-import Aisa from "../../assets/images/aisa.svg";
+import Lagoon from "../../assets/images/lagoon.png";
+import Meadow from "../../assets/images/meadow.png";
+import Grange from "../../assets/images/grange.png";
+import LBS from "../../assets/images/lbs.png";
+import Charlse from "../../assets/images/charlse.png";
+import Spring from "../../assets/images/spring.png";
+import Wellspring from "../../assets/images/wellspring.png";
+import Bereton from "../../assets/images/bereton.png";
 function School() {
   return (
     <>
@@ -32,7 +37,23 @@ function School() {
           </div>
         </center>
       </div>
-      <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
+      <center>
+        <h4>Trusted by leading schools</h4>
+        <div className="col-md-8 col-12 schs-partners">
+          <center>
+            {" "}
+            <img className="meadow" src={Meadow} alt="Scholar" />
+            <img className="lagoon" src={Lagoon} alt="Scholar" />
+            <img className="grange" src={Grange} alt="Scholar" />
+            <img className="lbs" src={LBS} alt="Scholar" />
+            <img className="charlse" src={Charlse} alt="Scholar" />
+            <img className="spring" src={Spring} alt="Scholar" />
+            <img className="wellspring" src={Wellspring} alt="Scholar" />
+            <img className="bereton" src={Bereton} alt="Scholar" />
+          </center>
+        </div>
+      </center>
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt">
         <div className="col-md-5 ">
           <h1 className="col-md-10 mt3">Comprehensive Pastoral Support</h1>
           <p className="col-md-10">
@@ -78,40 +99,30 @@ function School() {
           <img className=" " src={Img1} alt="Scholar" width="100%" />
         </div>
       </div>{" "}
-      <center>
-        <div className="col-md-5 col-12 schs-partners">
-          <center>
-            {" "}
-            <img className="aisa" src={Aisa} alt="Scholar" />
-            <img className="ms" src={Microsoft} alt="Scholar" />
-            <img className="flutter" src={Flutterwave} alt="Scholar" />
-          </center>
-        </div>
-      </center>
       <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
-        <div className="col-md-5  ">
+        <div className="col-md-6   govt-map">
+          <img className=" " src={Img5} alt="Scholar" width="100%" />
+        </div>
+        <div className="col-md-5   offset-md-1">
           <h1 className="col-md-10 mt3">Insightful Academic Reporting</h1>
           <p className="col-md-9">
             Gain valuable insights into student performance, track progress, and
             communicate academic achievements effectively.
           </p>
         </div>
-        <div className="col-md-6   govt-map offset-md-1">
-          <img className=" " src={Img5} alt="Scholar" width="100%" />
-        </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy govt-divs mt8">
-        <div className="col-md-6 eclass-img">
-          {" "}
-          <img className=" " src={Img4} alt="Scholar" width="100%" />
-        </div>
-        <div className="col-md-5  offset-md-1">
+        <div className="col-md-5  ">
           <h1 className="col-md-10 mt3">Engaging eClassroom Experience</h1>
           <p className="col-md-10">
             Foster student engagement, provide personalized learning
             experiences, and ensure continuity of education beyond the
             traditional classroom setting.
           </p>
+        </div>
+        <div className="col-md-6 eclass-img offset-md-1">
+          {" "}
+          <img className=" " src={Img4} alt="Scholar" width="100%" />
         </div>
       </div>{" "}
       <div className="col-md-10 offset-md-1 report-get-started flexy">

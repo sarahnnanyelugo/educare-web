@@ -34,28 +34,32 @@ function ContactPage() {
             <br /> <br />
             <h2>Call us</h2>
             <p>Our friendly team is here to help</p> <br />
-            <h4>+234 909 555 2183</h4>
-            <h4> +234 904 303 8325</h4>
+            <h5>NIGERIA</h5>
+            <h6>+234 909 555 2183</h6>
+            <h6> +234 904 303 8325</h6>
+            <br />
+            <h5>UK:</h5>
+            <h6>+447932073610</h6>
             <br /> <br />
-            <h2>Visit Us</h2>
+            <h4>Visit Us</h4>
             <p>Come say hello at our office</p> <br />
             <div className="col-md-10">
               {" "}
-              <h4 className="address">
+              <h6 className="address">
                 UK: 20-23 Wenlock Road, London, England, N17GU and our
                 registered number is 14455617.
-              </h4>{" "}
+              </h6>{" "}
               <br />
-              <h4 className="address">
+              <h6 className="address">
                 U.S.A: 651, North Broad Street, Middletown, DE 19709, United
                 States.
-              </h4>{" "}
+              </h6>{" "}
               <br />
-              <h4 className="address">
+              <h6 className="address">
                 {" "}
                 NIGERIA: 16B, Alhaji Hussein Sunmonu Street, Lekki Phase 1,
                 Lagos State, Nigeria.
-              </h4>
+              </h6>
             </div>
             <ul className="list-unstyled list-inline mobile-ul media-icons">
               <li className="list-inline-item">

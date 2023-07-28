@@ -59,22 +59,6 @@ export default function Support() {
           </div>
           <div className="col-md-4">
             <div className="col-md-11">
-              <h4>Knowledge Base and Documentatione</h4>
-              <p>
-                Access our extensive knowledge base, documentation, and user
-                guides to find answers to common questions, learn best
-                practices, and explore advanced features. Our comprehensive
-                resources are designed to empower you with in-depth product
-                knowledge, enabling you to leverage the full capabilities of our
-                software solutions. You can easily search for articles,
-                tutorials, and FAQs to find the information you need.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="flexy col-md-10 mt6">
-          <div className="col-md-4 offset-md-3">
-            <div className="col-md-11">
               <h4>Community Forums</h4>
               <p>
                 Engage with our vibrant user community on our forums, where you
@@ -83,6 +67,23 @@ export default function Support() {
                 sharing, troubleshooting discussions, and networking. Benefit
                 from the collective wisdom and experiences of other users to
                 enhance your software experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flexy col-md-10 mt6">
+          <div className="col-md-4 offset-md-3">
+            {" "}
+            <div className="col-md-11">
+              <h4>Knowledge Base and Documentation</h4>
+              <p>
+                Access our extensive knowledge base, documentation, and user
+                guides to find answers to common questions, learn best
+                practices, and explore advanced features. Our comprehensive
+                resources are designed to empower you with in-depth product
+                knowledge, enabling you to leverage the full capabilities of our
+                software solutions. You can easily search for articles,
+                tutorials, and FAQs to find the information you need.
               </p>
             </div>
           </div>{" "}

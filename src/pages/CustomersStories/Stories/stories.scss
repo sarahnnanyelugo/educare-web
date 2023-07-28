@@ -18,11 +18,24 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: #fff;
+    height: 300px;
     .read-more {
       color: #0098da;
       font-family: rebondG-Medium;
       font-size: 16px;
       margin-top: 30px;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:hover img {
+        margin-left: 10px;
+        transition: 0.5s ease;
+      }
+      img {
+        height: 18px;
+        width: 18px;
+        transform: rotate(35deg);
+      }
     }
     p {
       line-height: 20px;

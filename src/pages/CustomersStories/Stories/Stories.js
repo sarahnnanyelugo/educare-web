@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./stories.scss";
+import Arrow from "../../../assets/images/link-arrow.svg";
+
 function Stories({ data }) {
   const { schImg, schLogo, storyTitle, storyParagraph, storyLink } = data;
   return (
@@ -13,7 +15,7 @@ function Stories({ data }) {
           <p className="title col-md-11">{storyTitle}</p>
           <p>{storyParagraph}</p>
           <Link className="read-more" to={storyLink}>
-            Read more
+            Read more <img src={Arrow} alt="Scholar" width="10%" />
           </Link>
         </div>
       </div>

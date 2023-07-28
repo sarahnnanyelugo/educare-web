@@ -124,7 +124,7 @@ function Logistics() {
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-dark"
           />
-          <button>Request for demo</button>
+          {/* <button>Request for demo</button> */}
         </div>
       </div>
     </>

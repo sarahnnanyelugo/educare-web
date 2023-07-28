@@ -128,9 +128,9 @@ function BePartner() {
           </div>{" "}
           <div className="col-md-4 pt-div">
             {" "}
-            <center>
+            {/* <center>
               <img className="paystack" src={Paystack} alt="Scholar" />
-            </center>
+            </center> */}
           </div>{" "}
           <div className="col-md-4 ">
             {" "}
@@ -140,24 +140,19 @@ function BePartner() {
           </div>
         </div>{" "}
         <div className="col-md-10 offset-md-1 partners-immgs2 row">
-          <div className="col-md-4 pt-div">
-            {" "}
-            <center>
-              <img className="flutterwave" src={Flutterwave} alt="Scholar" />
-            </center>
-          </div>{" "}
+          <div className="col-md-4 pt-div"> </div>{" "}
           <div className="col-md-4 pt-div">
             {" "}
             <center>
               <img className="aisa" src={Aisa} alt="Scholar" />
             </center>
           </div>{" "}
-          <div className="col-md-4 ">
+          {/* <div className="col-md-4 ">
             {" "}
             <center>
               <img className="lbs" src={Apen} alt="Scholar" />
             </center>
-          </div>
+          </div> */}
         </div>
         <center>
           <div className="col-md-4 partners-immgs2 row ">

@@ -3,8 +3,8 @@ import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/Pa
 import "./about-us.scss";
 import Standard from "../../assets/images/standard.png";
 import Paystack from "../../assets/images/paystack.svg";
-import Microsoft from "../../assets/images/microsoft.svg";
-import Flutterwave from "../../assets/images/flutterwave.svg";
+import Microsoft from "../../assets/images/lbs.png";
+import Flutterwave from "../../assets/images/grange.png";
 import Apen from "../../assets/images/apen.png";
 import Aisa from "../../assets/images/aisa.svg";
 import Cobis from "../../assets/images/cobis.svg";
@@ -20,9 +20,11 @@ function AboutUs() {
       <div className="col-md-12 about-landing">
         <img className="" src={LandingImg} alt="Scholar" width="100%" />
         <div className="centering">
-          <h1 className="col-md-12">
-            We are building a better future for your School and Business
-          </h1>
+          <center>
+            <h1 className="col-md-12">
+              We are building a better future for your School and Business
+            </h1>
+          </center>
         </div>
       </div>
       <div className="col-md-10 offset-md-1 flexy missions-and-vissions mt">
@@ -131,22 +133,20 @@ function AboutUs() {
       </div>
       <center>
         {" "}
-        <h1 className="col-md mtt">
-          We are part of the corporate membership & partners
-        </h1>
+        <h1 className="col-md mtt">Trusted by leading organisations</h1>
       </center>
       <center>
         {" "}
-        <div className="col-md-6  partners-container2 ">
+        <div className="col-md-9  partners-container2 ">
           {" "}
           <center>
             <div className="mt1 col-md-">
               {" "}
+              <img className="standard" src={Standard} alt="Scholar" />
               <img className="aisa" src={Aisa} alt="Scholar" />
               <img className="ms" src={Microsoft} alt="Scholar" />
               <img className="flutter" src={Flutterwave} alt="Scholar" />
               <img className="pay" src={Paystack} alt="Scholar" />
-              <img className="standard" src={Standard} alt="Scholar" />
               <img className="apen" src={Apen} alt="Scholar" />
               <img className="" src={Cobis} alt="Scholar" />
             </div>

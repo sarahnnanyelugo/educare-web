@@ -17,6 +17,9 @@
       height: 30px;
       width: 30px;
     }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .blog-imgg {
