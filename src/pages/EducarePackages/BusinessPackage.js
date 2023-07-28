@@ -138,7 +138,7 @@ function BusinessPackage() {
                     )}
                   </h1>{" "}
                   <h6>
-                    Per Employee <br /> (Yearly)
+                    Per Employee <br /> (Monthly)
                   </h6>
                 </div>
                 <button className="price-button">Get started</button>
