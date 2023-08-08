@@ -7,7 +7,9 @@ import {
   currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
-
+import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
+import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
+import { Partners } from "../../components/Partners/Partners";
 function BusinessPackage() {
   const [activeIndex2, setActiveIndex2] = useState(1);
   const handleClick = (index) => setActiveIndex2(index);
@@ -251,6 +253,37 @@ function BusinessPackage() {
           </div>
         </div>
       </div>
+      <div className="col-md-12 more-details-container">
+        <CompareFeatures title="Compare Features" />
+      </div>
+      <br />
+      <br />
+      <div className="col-md-12 more-details-container">
+        <div className="col-md-12">
+          <center>
+            <div className="col-md-6 onboarding">
+              <h1>Onboarding</h1>
+              <p>
+                Our Onboarding Experts have extensive experience working with
+                numerous businesses worldwide. They are available to assist you
+                with setting up your dashboard improving your team’s workflow,
+                and ensuring your company fully adopts the platform. If you
+                prefer, you can also select a partner from our directory to
+                receive guidance on implementation, training, and integration.
+              </p>
+            </div>
+          </center>
+        </div>
+      </div>
+      <div className="col-md-10 offset-md-1 flexy faq-container">
+        <div className="col-md-3">
+          <h1>FAQs</h1>
+        </div>
+        <div className="col-md-9">
+          <FAQAccordionBlue />
+        </div>
+      </div>
+      <Partners />
     </div>
   );
 }

@@ -75,7 +75,7 @@ export const FinancePage = () => {
           <div className="col-md-4">
             <div className="col-md-10">
               <Efficiency
-                title="Optimize your business operations with efficiently"
+                title="Optimize your business operations with efficiency"
                 icon={Setting}
                 paragraph="Streamline your business operations by simplifying purchase and inventory management, order tracking, and fulfillment. Maximize sales potential by adding more selling channels while efficiently managing multiple warehouses. Improve order processing times to enhance customer satisfaction."
               />

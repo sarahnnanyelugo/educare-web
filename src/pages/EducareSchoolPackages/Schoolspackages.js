@@ -315,10 +315,12 @@ function SchoolsPackages(props) {
           </div>
         </div>
       </div>
-      {/* <div className="col-md-12 more-details-container">
+      <div className="col-md-12 more-details-container">
         <CompareFeatures title="Compare Features" />
-      </div> */}
-      {/* <div className="col-md-12 more-details-container">
+      </div>
+      <br />
+      <br />
+      <div className="col-md-12 more-details-container">
         <div className="col-md-12">
           <center>
             <div className="col-md-6 onboarding">
@@ -334,16 +336,17 @@ function SchoolsPackages(props) {
             </div>
           </center>
         </div>
-        <div className="col-md-10 offset-md-1 flexy faq-container">
-          <div className="col-md-3">
-            <h1>FAQs</h1>
-          </div>
-          <div className="col-md-9">
-            <FAQAccordionBlue />
-          </div>
+      </div>
+      <div className="col-md-10 offset-md-1 flexy faq-container">
+        <div className="col-md-3">
+          <h1>FAQs</h1>
         </div>
-        <Partners />
-      </div> */}
+        <div className="col-md-9">
+          <FAQAccordionBlue />
+        </div>
+      </div>
+
+      <Partners />
     </>
   );
 }
