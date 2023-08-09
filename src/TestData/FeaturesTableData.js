@@ -136,18 +136,27 @@ export const businessFeatures = {
       icon3: { type: "image", content: Tick },
       icon4: { type: "image", content: Tick },
     },
+
     {
-      id: 20,
-      name: "Biometrics Staff Attendance",
-      icon: { type: "image", content: Cancel },
+      id: 21,
+      name: "Onboarding",
+      icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
       icon4: { type: "image", content: Tick },
     },
     {
-      id: 21,
-      name: "Onboarding",
+      id: 22,
+      name: " Email Support",
       icon: { type: "image", content: Tick },
+      icon2: { type: "image", content: Tick },
+      icon3: { type: "image", content: Tick },
+      icon4: { type: "image", content: Tick },
+    },
+    {
+      id: 20,
+      name: "Biometrics Staff Attendance",
+      icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
       icon4: { type: "image", content: Tick },
@@ -168,14 +177,7 @@ export const businessFeatures = {
       icon3: { type: "image", content: Tick },
       icon4: { type: "image", content: Tick },
     },
-    {
-      id: 22,
-      name: " Email Support",
-      icon: { type: "image", content: Tick },
-      icon2: { type: "image", content: Tick },
-      icon3: { type: "image", content: Tick },
-      icon4: { type: "image", content: Tick },
-    },
+
     {
       id: 22,
       name: "Phone  Support",
