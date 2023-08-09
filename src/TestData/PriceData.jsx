@@ -45,14 +45,14 @@ export const premiumData = {
 };
 
 export const basicData = {
-  heading1: "Basic",
+  heading1: "Standard",
   monthlyAmount: "100.00",
   yearlyAmount: "1200",
   packages: [
     { id: 1, value: "Report Card" },
     { id: 2, value: "Learning Management" },
     { id: 3, value: "Assignment" },
-    { id: 4, value: "CBT" },
+    { id: 4, value: "Computer Based Test" },
 
     { id: 5, value: "Bulk Sms" },
     { id: 6, value: "Mailbox" },
