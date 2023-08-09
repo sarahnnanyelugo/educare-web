@@ -112,15 +112,21 @@ function SchoolsPackages(props) {
             <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>
+                <div className="flexy flexyM">
                   {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(basicData.monthlyAmount * conversionRate).toFixed(2)}
-                </h1>
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {(basicData.monthlyAmount * conversionRate).toFixed(2)}
+                  </h1>
+                  <h6>
+                    Per Student <br /> (Yearly)
+                  </h6>
+                </div>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>
@@ -232,15 +238,21 @@ function SchoolsPackages(props) {
             <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>
+                <div className="flexy flexyM">
                   {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(basicData.yearlyAmount * conversionRate).toFixed(2)}
-                </h1>
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {(basicData.yearlyAmount * conversionRate).toFixed(2)}
+                  </h1>
+                  <h6>
+                    Per Student <br /> (Yearly)
+                  </h6>
+                </div>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>

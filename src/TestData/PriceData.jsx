@@ -116,7 +116,7 @@ export const currencyChar = {
   GBP: "&#163;",
 };
 export const rates = {
-  USD: 0.00125,
+  USD: 0.005,
   AED: 3.67,
   AFN: 86.6,
   ALL: 102.45,
