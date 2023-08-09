@@ -69,7 +69,7 @@ export const standardData = {
     { id: 2, value: "Human Resource Management" },
     // { id: 3, value: "Newsfeed" },
     // { id: 4, value: "Employee Rating" },
-    // { id: 5, value: "Calender" },
+    { id: 5, value: "Calender" },
   ],
 };
 
