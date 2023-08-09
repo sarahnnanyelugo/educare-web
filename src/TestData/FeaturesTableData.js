@@ -6,7 +6,7 @@ export const businessFeatures = {
   data: [
     {
       id: 2,
-      name: "Employee Profile",
+      name: "Invoicing & Sales",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -15,7 +15,7 @@ export const businessFeatures = {
 
     {
       id: 5,
-      name: "Admin Profile (1 User)",
+      name: "Inventory Management",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -23,7 +23,7 @@ export const businessFeatures = {
     },
     {
       id: 6,
-      name: "Bulk Sms",
+      name: "Expense Management",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -31,7 +31,7 @@ export const businessFeatures = {
     },
     {
       id: 7,
-      name: "Onboarding",
+      name: "Budget Management",
       icon: { type: "string", content: "Assisted" },
       icon2: { type: "string", content: "Assisted" },
       icon3: { type: "string", content: "Assisted" },
@@ -40,7 +40,7 @@ export const businessFeatures = {
 
     {
       id: 8,
-      name: "Staff Management",
+      name: "Requisition",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -49,7 +49,7 @@ export const businessFeatures = {
 
     {
       id: 10,
-      name: "Task Management",
+      name: "Warehouse Management",
       icon: { type: "image", content: Tick },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -57,7 +57,7 @@ export const businessFeatures = {
     },
     {
       id: 11,
-      name: "Newsfeed",
+      name: "Finance Reporting (Income Statement, Balance Sheet, Trial balance)",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
