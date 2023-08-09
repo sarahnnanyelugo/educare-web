@@ -111,7 +111,7 @@ export const Home = () => {
             </Link>
 
             <Link to={"/contact-us"}>
-              <button className="request-button">Book a Demo</button>
+              <button className="request-button">Request for Demo</button>
             </Link>
           </div>
         </center>
