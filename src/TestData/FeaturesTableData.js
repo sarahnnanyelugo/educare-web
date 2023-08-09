@@ -2,18 +2,8 @@ import Tick from "../assets/images/ticked.svg";
 import Cancel from "../assets/images/cancel.svg";
 
 export const businessFeatures = {
-  headers: ["", "Basic", "e-Learning", "Premium", "Enterprise"],
+  headers: ["Standard", "Premium", "Enterprise"],
   data: [
-    // {
-    //   id: 1,
-
-    //   name: "Report Card",
-    //   icon: { type: "image", content: Tick },
-    //   icon2: { type: "string", content: "Customised Report Card" },
-    //   icon3: { type: "image", content: Tick },
-    //   icon4: { type: "image", content: Tick },
-    // },
-
     {
       id: 2,
       name: "Employee Profile",
