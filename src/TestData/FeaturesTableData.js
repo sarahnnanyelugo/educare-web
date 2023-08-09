@@ -170,7 +170,7 @@ export const businessFeatures = {
     },
     {
       id: 25,
-      name: "State-Of-The-Art Company Website",
+      name: "State-Of-The-Art Website",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Cancel },
