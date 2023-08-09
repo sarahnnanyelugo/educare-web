@@ -32,10 +32,10 @@ export const businessFeatures = {
     {
       id: 7,
       name: "Budget Management",
-      icon: { type: "string", content: Tick },
-      icon2: { type: "string", content: Tick },
-      icon3: { type: "string", content: Tick },
-      icon4: { type: "string", content: Tick },
+      icon: { type: "image", content: Tick },
+      icon2: { type: "image", content: Tick },
+      icon3: { type: "image", content: Tick },
+      icon4: { type: "image", content: Tick },
     },
 
     {
