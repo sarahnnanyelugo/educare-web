@@ -159,7 +159,7 @@ export const rates = {
   EGP: 30.86,
   ERN: 15,
   ETB: 54.32,
-  EUR: 5.00111111,
+  EUR: 5.20111111,
   FJD: 2.23,
   FKP: 0.808,
   FOK: 6.82,
