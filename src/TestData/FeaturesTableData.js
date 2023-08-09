@@ -2,7 +2,7 @@ import Tick from "../assets/images/ticked.svg";
 import Cancel from "../assets/images/cancel.svg";
 
 export const businessFeatures = {
-  headers: ["Standard", "Premium", "Enterprise"],
+  headers: ["", "Standard", "Premium", "Enterprise"],
   data: [
     {
       id: 2,
