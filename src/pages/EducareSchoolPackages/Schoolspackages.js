@@ -15,6 +15,7 @@ import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
 import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
+import { Link } from "react-router-dom";
 
 function SchoolsPackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -120,7 +121,10 @@ function SchoolsPackages(props) {
                   ></span>
                   {(basicData.monthlyAmount * conversionRate).toFixed(2)}
                 </h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -149,7 +153,10 @@ function SchoolsPackages(props) {
                       Per Student <br /> (Monthly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -178,7 +185,10 @@ function SchoolsPackages(props) {
                     (Monthly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {elearningData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -192,7 +202,10 @@ function SchoolsPackages(props) {
               <div className="col-md-3 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.monthlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -227,7 +240,10 @@ function SchoolsPackages(props) {
                   ></span>
                   {(basicData.yearlyAmount * conversionRate).toFixed(2)}
                 </h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -256,7 +272,10 @@ function SchoolsPackages(props) {
                       Per Student <br /> (Yearly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -286,7 +305,10 @@ function SchoolsPackages(props) {
                     (Yearly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {elearningData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -300,7 +322,10 @@ function SchoolsPackages(props) {
               <div className="col-md-3 right-cards e-learning ">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.yearlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>

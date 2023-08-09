@@ -10,6 +10,7 @@ import Tick from "../../assets/images/tickk2.png";
 import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
 import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
 import { Partners } from "../../components/Partners/Partners";
+import { Link } from "react-router-dom";
 function BusinessPackage() {
   const [activeIndex2, setActiveIndex2] = useState(1);
   const handleClick = (index) => setActiveIndex2(index);
@@ -113,7 +114,10 @@ function BusinessPackage() {
                       Per Employee <br /> (Monthly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {standardData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -143,7 +147,10 @@ function BusinessPackage() {
                     Per Employee <br /> (Monthly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {professionalData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -157,7 +164,10 @@ function BusinessPackage() {
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{businessEnterpriseData.heading1}</h3>
                 <h1>{businessEnterpriseData.monthlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {businessEnterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -194,7 +204,10 @@ function BusinessPackage() {
                       Per Employee <br /> (Yearly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    {" "}
+                    <button className="price-button">Get started</button>
+                  </Link>
                   <ul className="list-unstyled">
                     {standardData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -224,7 +237,10 @@ function BusinessPackage() {
                     Per Employee <br /> (Yearly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {professionalData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -238,7 +254,10 @@ function BusinessPackage() {
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{businessEnterpriseData.heading1}</h3>
                 <h1>{businessEnterpriseData.yearlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {businessEnterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
