@@ -65,7 +65,7 @@ export const businessFeatures = {
     },
     {
       id: 12,
-      name: "Calender",
+      name: "Recruitment",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Tick },
       icon3: { type: "image", content: Tick },
@@ -74,7 +74,7 @@ export const businessFeatures = {
 
     {
       id: 14,
-      name: "Mailbox",
+      name: "Payroll Management",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -82,7 +82,7 @@ export const businessFeatures = {
     },
     {
       id: 15,
-      name: "Facility Management",
+      name: "Personnel Information Management",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -90,7 +90,7 @@ export const businessFeatures = {
     },
     {
       id: 16,
-      name: "Accounts",
+      name: "Training Management",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -98,7 +98,7 @@ export const businessFeatures = {
     },
     {
       id: 17,
-      name: "Human Resource Manager",
+      name: "Performance Appraisals",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -106,7 +106,7 @@ export const businessFeatures = {
     },
     {
       id: 18,
-      name: "Feedback Manager",
+      name: "Leave Management",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -114,7 +114,7 @@ export const businessFeatures = {
     },
     {
       id: 19,
-      name: "Medicals",
+      name: "Discipline",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -122,7 +122,7 @@ export const businessFeatures = {
     },
     {
       id: 20,
-      name: "Staff Attendance",
+      name: "Biometrics Staff Attendance",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
@@ -130,7 +130,7 @@ export const businessFeatures = {
     },
     {
       id: 21,
-      name: "Weekly Remark",
+      name: "Onboarding",
       icon: { type: "image", content: Cancel },
       icon2: { type: "image", content: Cancel },
       icon3: { type: "image", content: Tick },
