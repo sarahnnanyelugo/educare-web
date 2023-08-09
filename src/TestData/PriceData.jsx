@@ -28,8 +28,8 @@ export const elearningData = {
 };
 export const premiumData = {
   heading1: "Premium",
-  monthlyAmount: "500.00",
-  yearlyAmount: "6000",
+  monthlyAmount: "800.00",
+  yearlyAmount: "9600",
   packages: [
     // { id: 1, value: "All E-Learning Features" },
     { id: 2, value: " All Basic Features" },
@@ -46,8 +46,8 @@ export const premiumData = {
 
 export const basicData = {
   heading1: "Standard",
-  monthlyAmount: "100.00",
-  yearlyAmount: "1200",
+  monthlyAmount: "500.00",
+  yearlyAmount: "12000",
   packages: [
     { id: 1, value: "Report Card" },
     { id: 2, value: "Learning Management" },
