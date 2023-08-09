@@ -354,9 +354,10 @@ function SchoolsPackages(props) {
                 Our Onboarding Experts have extensive experience working with
                 numerous businesses worldwide. They are available to assist you
                 with setting up your dashboard improving your team’s workflow,
-                and ensuring your company fully adopts the platform. If you
+                and ensuring your company fully adopts the platform.
+                {/* If you
                 prefer, you can also select a partner from our directory to
-                receive guidance on implementation, training, and integration.
+                receive guidance on implementation, training, and integration. */}
               </p>
             </div>
           </center>
