@@ -100,7 +100,7 @@ function SchoolsPackages(props) {
 
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-4">
+            <div className="offset-md-5">
               {" "}
               <button
                 className="premium-button"
@@ -109,8 +109,8 @@ function SchoolsPackages(props) {
                 Recommended
               </button>
             </div>
-            <div className="col-md-10 flexy monthly-container">
-              {/* <div className="col-md-3 left-cards enterprise">
+            <div className="col-md-10 flexy monthly-container2">
+              <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
                 <h1>
                   {" "}
@@ -134,8 +134,8 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div>{" "} */}
-              <div className="col-md-5 offset-md-2">
+              </div>{" "}
+              <div className="col-md-4 ">
                 <div className="col-md-12  premium">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
@@ -201,7 +201,15 @@ function SchoolsPackages(props) {
               </div> */}
               <div className="col-md-4 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
-                <h1>{enterpriseData.monthlyAmount}</h1>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {(enterpriseData.monthlyAmount * conversionRate).toFixed(2)}
+                </h1>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>
@@ -218,8 +226,9 @@ function SchoolsPackages(props) {
               </div>
             </div>
           </div>
+
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="offset-md-4">
+            <div className="offset-md-5">
               {" "}
               <button
                 className="premium-button"
@@ -228,8 +237,8 @@ function SchoolsPackages(props) {
                 Recommended
               </button>
             </div>
-            <div className="col-md-10 flexy monthly-container">
-              {/* <div className="col-md-3 left-cards enterprise">
+            <div className="col-md-10 flexy monthly-container2">
+              <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
                 <h1>
                   {" "}
@@ -253,8 +262,8 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div>{" "} */}
-              <div className="col-md-5 offset-md-2">
+              </div>{" "}
+              <div className="col-md-4 ">
                 <div className="col-md-12  premium">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
@@ -321,7 +330,15 @@ function SchoolsPackages(props) {
               </div> */}
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{enterpriseData.heading1}</h3>
-                <h1>{enterpriseData.yearlyAmount}</h1>
+                <h1>
+                  {" "}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: currencyChar[toCurrency],
+                    }}
+                  ></span>
+                  {(enterpriseData.yearlyAmount * conversionRate).toFixed(2)}
+                </h1>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>

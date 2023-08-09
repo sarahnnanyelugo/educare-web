@@ -1,9 +1,10 @@
 export const enterpriseData = {
   heading1: "Enterprise",
-  monthlyAmount: "Contact Us",
-  yearlyAmount: "Contact Us",
+  monthlyAmount: "5000",
+  yearlyAmount: "60000",
   packages: [
-    { id: 1, value: "Data Migration" },
+    { id: 1, value: "All Premium Features" },
+
     { id: 2, value: "Custom Request" },
     { id: 3, value: "On-Site-Training" },
     { id: 4, value: "State-Of-The-Art School Website" },
@@ -30,9 +31,8 @@ export const premiumData = {
   monthlyAmount: "500.00",
   yearlyAmount: "6000",
   packages: [
-    { id: 1, value: "All E-Learning Features" },
-    { id: 2, value: "Computer-Based Testing(Cbt)" },
-    { id: 3, value: "Mailbox" },
+    // { id: 1, value: "All E-Learning Features" },
+    { id: 2, value: " All Basic Features" },
     { id: 4, value: "Library Management" },
     { id: 5, value: "Accounts" },
     { id: 6, value: "Human Resource Manager" },
@@ -50,11 +50,13 @@ export const basicData = {
   yearlyAmount: "1200",
   packages: [
     { id: 1, value: "Report Card" },
-    { id: 2, value: "Teacher Profile" },
-    { id: 3, value: "Parent Profile" },
-    { id: 4, value: "Student Profile" },
-    { id: 5, value: "Admin Profile (1 User)" },
-    { id: 6, value: "Bulk Sms" },
+    { id: 2, value: "Learning Management" },
+    { id: 3, value: "Assignment" },
+    { id: 4, value: "CBT" },
+
+    { id: 5, value: "Bulk Sms" },
+    { id: 6, value: "Mailbox" },
+    { id: 7, value: "Calendar" },
   ],
 };
 
