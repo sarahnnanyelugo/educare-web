@@ -136,7 +136,7 @@ function SchoolsPackages(props) {
                 </ul>
               </div>{" "}
               <div className="col-md-4 ">
-                <div className="col-md-12  premium">
+                <div className="col-md-12  premium recommended-price">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -263,8 +263,8 @@ function SchoolsPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4 ">
-                <div className="col-md-12  premium">
+              <div className="col-md-4">
+                <div className="col-md-12  premium  recommended-price">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
