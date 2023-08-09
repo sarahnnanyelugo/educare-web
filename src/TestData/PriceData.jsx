@@ -62,14 +62,14 @@ export const basicData = {
 
 export const standardData = {
   heading1: "Standard",
-  monthlyAmount: "3000.00",
-  yearlyAmount: "36000",
+  monthlyAmount: "2000.00",
+  yearlyAmount: "24000",
   packages: [
-    { id: 1, value: "All Basic Features" },
-    { id: 2, value: "Learning Management" },
-    { id: 3, value: "Newsfeed" },
-    { id: 4, value: "Employee Rating" },
-    { id: 5, value: "Calender" },
+    { id: 1, value: "Finance" },
+    { id: 2, value: "Human Resource Management" },
+    // { id: 3, value: "Newsfeed" },
+    // { id: 4, value: "Employee Rating" },
+    // { id: 5, value: "Calender" },
   ],
 };
 
@@ -78,7 +78,8 @@ export const professionalData = {
   monthlyAmount: "5000.00",
   yearlyAmount: "60000",
   packages: [
-    { id: 1, value: "All E-Learning Features" },
+    { id: 1, value: "Finance" },
+    { id: 2, value: "Human Resource Management" },
     { id: 2, value: "Mailbox" },
     { id: 3, value: "Facility Management" },
     { id: 4, value: "Accounts" },
