@@ -153,6 +153,14 @@ export const businessFeatures = {
       icon4: { type: "image", content: Tick },
     },
     {
+      id: 21,
+      name: "Staff Daily Reporting",
+      icon: { type: "image", content: Cancel },
+      icon2: { type: "image", content: Cancel },
+      icon3: { type: "image", content: Tick },
+      icon4: { type: "image", content: Tick },
+    },
+    {
       id: 22,
       name: "Phone And Email Support",
       icon: { type: "image", content: Cancel },
