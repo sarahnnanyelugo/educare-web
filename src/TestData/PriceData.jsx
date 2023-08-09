@@ -67,7 +67,7 @@ export const standardData = {
   packages: [
     { id: 1, value: "Finance" },
     { id: 2, value: "Human Resource Management" },
-    // { id: 3, value: "Newsfeed" },
+    { id: 3, value: "One-time Training" },
     // { id: 4, value: "Employee Rating" },
     { id: 10, value: " Email Support" },
 
@@ -76,7 +76,7 @@ export const standardData = {
 };
 
 export const professionalData = {
-  heading1: "Professional",
+  heading1: "Premium",
   monthlyAmount: "5000.00",
   yearlyAmount: "60000",
   packages: [
@@ -85,9 +85,9 @@ export const professionalData = {
     // { id: 2, value: "Mailbox" },
     { id: 3, value: "Facility Management" },
     { id: 4, value: "Staff Daily Reporting" },
-    { id: 4, value: "Biometric Staff Attendance" },
+    { id: 5, value: "Biometric Staff Attendance" },
 
-    // { id: 6, value: "Feedback Manager" },
+    { id: 6, value: "Continuous Training Support" },
     // { id: 7, value: "Medicals" },
     { id: 8, value: "Staff Attendance" },
     { id: 10, value: "Phone And Email Support" },
@@ -98,10 +98,10 @@ export const businessEnterpriseData = {
   monthlyAmount: "Contact Us",
   yearlyAmount: "Contact Us",
   packages: [
-    { id: 1, value: "All Premium Features" },
+    { id: 1, value: "All  Premium Features" },
     { id: 2, value: "Custom Request" },
     { id: 3, value: "On-Site-Training" },
-    { id: 4, value: "State-Of-The-Art Company Website" },
+    { id: 4, value: "State-Of-The-Art Website" },
     { id: 5, value: "Priority Support" },
     { id: 6, value: "Data Migration" },
   ],
