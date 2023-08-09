@@ -47,7 +47,7 @@ export const premiumData = {
 export const basicData = {
   heading1: "Standard",
   monthlyAmount: "500.00",
-  yearlyAmount: "12000",
+  yearlyAmount: "6000",
   packages: [
     { id: 1, value: "Report Card" },
     { id: 2, value: "Learning Management" },
