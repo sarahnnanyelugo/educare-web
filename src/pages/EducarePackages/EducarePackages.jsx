@@ -41,14 +41,14 @@ function EducarePackages(props) {
             className={`tab ${checkActive2(1, "active2")}`}
             onClick={() => handleClick2(1)}
           >
-            Businesses
+            Business
           </button>
           <button
             className={`tab ${checkActive2(2, "active2")}`}
             onClick={() => handleClick2(2)}
             style={{ marginLeft: "20px" }}
           >
-            Schools
+            School
           </button>
         </div>
         <div className="panels">
