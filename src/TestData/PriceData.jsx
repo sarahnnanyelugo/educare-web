@@ -116,7 +116,7 @@ export const currencyChar = {
   GBP: "&#163;",
 };
 export const rates = {
-  USD: 0.005,
+  USD: 0.00625,
   AED: 3.67,
   AFN: 86.6,
   ALL: 102.45,
@@ -159,11 +159,11 @@ export const rates = {
   EGP: 30.86,
   ERN: 15,
   ETB: 54.32,
-  EUR: 0.001111111,
+  EUR: 5.00111111,
   FJD: 2.23,
   FKP: 0.808,
   FOK: 6.82,
-  GBP: 0.808,
+  GBP: 0.005,
   GEL: 2.52,
   GGP: 0.808,
   GHS: 11.96,
