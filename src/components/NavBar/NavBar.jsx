@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Logo from "../../assets/images/logo2.png";
+import Logo from "../../assets/images/new-logo.png";
 import Arrow from "../../assets/images/arrowdown.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";

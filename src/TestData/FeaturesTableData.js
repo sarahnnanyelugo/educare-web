@@ -56,6 +56,14 @@ export const businessFeatures = {
       icon4: { type: "image", content: Tick },
     },
     {
+      id: 10,
+      name: "Petty Cash",
+      icon: { type: "image", content: Tick },
+      icon2: { type: "image", content: Tick },
+      icon3: { type: "image", content: Tick },
+      icon4: { type: "image", content: Tick },
+    },
+    {
       id: 11,
       name: "Finance Reporting (Income Statement, Balance Sheet, Trial balance)",
       icon: { type: "image", content: Cancel },
