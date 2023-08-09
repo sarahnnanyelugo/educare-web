@@ -185,7 +185,7 @@ function BusinessPackage() {
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 ">
                 <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
