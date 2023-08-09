@@ -69,7 +69,9 @@ export const standardData = {
     { id: 2, value: "Human Resource Management" },
     // { id: 3, value: "Newsfeed" },
     // { id: 4, value: "Employee Rating" },
-    { id: 5, value: "Calender" },
+    { id: 10, value: " Email Support" },
+
+    { id: 3, value: "Calender" },
   ],
 };
 
@@ -80,14 +82,14 @@ export const professionalData = {
   packages: [
     { id: 1, value: "Finance" },
     { id: 2, value: "Human Resource Management" },
-    { id: 2, value: "Mailbox" },
+    // { id: 2, value: "Mailbox" },
     { id: 3, value: "Facility Management" },
-    { id: 4, value: "Accounts" },
-    { id: 5, value: "Human Resource Manager" },
-    { id: 6, value: "Feedback Manager" },
-    { id: 7, value: "Medicals" },
+    { id: 4, value: "Staff Daily Reporting" },
+    { id: 4, value: "Biometric Staff Attendance" },
+
+    // { id: 6, value: "Feedback Manager" },
+    // { id: 7, value: "Medicals" },
     { id: 8, value: "Staff Attendance" },
-    { id: 9, value: "Weekly Remark" },
     { id: 10, value: "Phone And Email Support" },
   ],
 };
