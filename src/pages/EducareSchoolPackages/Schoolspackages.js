@@ -201,15 +201,7 @@ function SchoolsPackages(props) {
               </div> */}
               <div className="col-md-4 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
-                <h1>
-                  {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(enterpriseData.monthlyAmount * conversionRate).toFixed(2)}
-                </h1>
+                <h1>{enterpriseData.yearlyAmount}</h1>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>
@@ -266,6 +258,7 @@ function SchoolsPackages(props) {
               <div className="col-md-4">
                 <div className="col-md-12  premium  recommended-price">
                   <h3>{premiumData.heading1}</h3>
+
                   <div className="flexy flexyM">
                     {" "}
                     <h1>
@@ -330,15 +323,7 @@ function SchoolsPackages(props) {
               </div> */}
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{enterpriseData.heading1}</h3>
-                <h1>
-                  {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(enterpriseData.yearlyAmount * conversionRate).toFixed(2)}
-                </h1>
+                <h1>{enterpriseData.yearlyAmount}</h1>
                 <Link to={"/login"}>
                   <button className="price-button">Get started</button>
                 </Link>

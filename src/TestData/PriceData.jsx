@@ -1,7 +1,7 @@
 export const enterpriseData = {
   heading1: "Enterprise",
-  monthlyAmount: "5000",
-  yearlyAmount: "60000",
+  monthlyAmount: "Contact Us",
+  yearlyAmount: "Contact Us",
   packages: [
     { id: 1, value: "All Premium Features" },
 

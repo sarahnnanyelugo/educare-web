@@ -91,13 +91,13 @@ function BusinessPackage() {
 
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-3">
+            <div className="offset-md-6">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container2 ">
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
+                <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -129,7 +129,7 @@ function BusinessPackage() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards2 e-learning ">
+              <div className="col-md-4   standard">
                 <h3>{professionalData.heading1}</h3>
                 <div className="flexy flexyM">
                   <h1>
@@ -181,13 +181,13 @@ function BusinessPackage() {
             </div>
           </div>
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="offset-md-3">
+            <div className="offset-md-6">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
             <div className="col-md-9 flexy monthly-container offset-md-1">
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
+                <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -219,7 +219,7 @@ function BusinessPackage() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards e-learning ">
+              <div className="col-md-4 standard ">
                 <h3>{professionalData.heading1}</h3>
                 <div className="flexy flexyM">
                   <h1>
