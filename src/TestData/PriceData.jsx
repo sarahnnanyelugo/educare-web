@@ -89,7 +89,7 @@ export const professionalData = {
 
     { id: 6, value: "Continuous Training Support" },
     // { id: 7, value: "Medicals" },
-    { id: 8, value: "Staff Attendance" },
+
     { id: 10, value: "Phone And Email Support" },
   ],
 };
