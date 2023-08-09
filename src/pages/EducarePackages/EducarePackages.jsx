@@ -22,7 +22,7 @@ function EducarePackages(props) {
     <>
       <div className="col-md-12 nav-two-business col-12 ">
         {" "}
-        <NavTwo title="educare for Business" />
+        {/* <NavTwo title="educare for Business" /> */}
       </div>
       <div style={{ height: "130px" }} />
       <div className="packages-first-heading col-md-12 ">

@@ -62,8 +62,8 @@ export const basicData = {
 
 export const standardData = {
   heading1: "Standard",
-  monthlyAmount: "1000.00",
-  yearlyAmount: "12000",
+  monthlyAmount: "3000.00",
+  yearlyAmount: "36000",
   packages: [
     { id: 1, value: "All Basic Features" },
     { id: 2, value: "Learning Management" },
@@ -75,8 +75,8 @@ export const standardData = {
 
 export const professionalData = {
   heading1: "Professional",
-  monthlyAmount: "3000.00",
-  yearlyAmount: "36000",
+  monthlyAmount: "5000.00",
+  yearlyAmount: "60000",
   packages: [
     { id: 1, value: "All E-Learning Features" },
     { id: 2, value: "Mailbox" },
