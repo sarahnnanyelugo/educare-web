@@ -187,6 +187,14 @@ export const businessFeatures = {
       icon4: { type: "image", content: Tick },
     },
     {
+      id: 26,
+      name: "Priority Support",
+      icon: { type: "image", content: Cancel },
+      icon2: { type: "image", content: Tick },
+      icon3: { type: "image", content: Tick },
+      icon4: { type: "image", content: Tick },
+    },
+    {
       id: 23,
       name: "Custom Request",
       icon: { type: "image", content: Cancel },
@@ -210,14 +218,7 @@ export const businessFeatures = {
       icon3: { type: "image", content: Tick },
       icon4: { type: "image", content: Tick },
     },
-    {
-      id: 26,
-      name: "Priority Support",
-      icon: { type: "image", content: Cancel },
-      icon2: { type: "image", content: Tick },
-      icon3: { type: "image", content: Tick },
-      icon4: { type: "image", content: Tick },
-    },
+
     {
       id: 27,
       name: "Data Migration",
