@@ -116,7 +116,7 @@ function SchoolsPackages(props) {
                     {(basicData.monthlyAmount * conversionRate).toFixed(2)}
                   </h1>
                   <h6>
-                    Per Student <br /> (Yearly)
+                    Per Student <br /> (Monthly)
                   </h6>
                 </div>
                 <Link to={"/login"}>
