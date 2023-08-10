@@ -6,7 +6,7 @@ import {
   elearningData,
   premiumData,
   basicData,
-  rates,
+  schoolRates,
   currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
@@ -28,7 +28,7 @@ function SchoolsPackages(props) {
   const [conversionRate, setConversionRate] = useState(1);
 
   const convertCurrency = () => {
-    setConversionRate(rates[toCurrency]);
+    setConversionRate(schoolRates[toCurrency]);
   };
   function setThisCurrency(curr) {
     if (curr !== toCurrency) {
@@ -53,23 +53,21 @@ function SchoolsPackages(props) {
   return (
     <>
       <div className="educare-for-school-packages">
-        <center>
-          {" "}
-          <div className="tabs2">
-            <button
-              className={`tab2 ${checkActive(1, "active3")}`}
-              onClick={() => handleClick(1)}
-            >
-              Monthly
-            </button>
-            <button
-              className={`tab2 ${checkActive(2, "active3")}`}
-              onClick={() => handleClick(2)}
-            >
-              Yearly
-            </button>
-          </div>
-        </center>
+        {" "}
+        <div className="tabs2 offset-md-1">
+          <button
+            className={`tab2 ${checkActive(1, "active3")}`}
+            onClick={() => handleClick(1)}
+          >
+            Monthly
+          </button>
+          <button
+            className={`tab2 ${checkActive(2, "active3")}`}
+            onClick={() => handleClick(2)}
+          >
+            Yearly
+          </button>
+        </div>
         <div className="currency-buttons2 flexy flexym offset-md-10">
           <button
             onClick={() => setThisCurrency("NGN")}
@@ -97,17 +95,11 @@ function SchoolsPackages(props) {
             EUR
           </button>{" "}
         </div>
-
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-5">
+            <div className="offset-md-6">
               {" "}
-              <button
-                className="premium-button"
-                style={{ marginLeft: "140px" }}
-              >
-                Recommended
-              </button>
+              <button className="premium-button">Recommended</button>
             </div>
             <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 left-cards enterprise">
@@ -141,8 +133,8 @@ function SchoolsPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4 ">
-                <div className="col-md-12  premium recommended-price">
+              <div className="col-md-4 standard">
+                <div className="col-md-12  ">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -226,14 +218,9 @@ function SchoolsPackages(props) {
           </div>
 
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="offset-md-5">
+            <div className="offset-md-6">
               {" "}
-              <button
-                className="premium-button"
-                style={{ marginLeft: "140px" }}
-              >
-                Recommended
-              </button>
+              <button className="premium-button">Recommended</button>
             </div>
             <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 left-cards enterprise">
@@ -268,7 +255,7 @@ function SchoolsPackages(props) {
                 </ul>
               </div>{" "}
               <div className="col-md-4">
-                <div className="col-md-12  premium  recommended-price">
+                <div className="col-md-12  standard">
                   <h3>{premiumData.heading1}</h3>
 
                   <div className="flexy flexyM">

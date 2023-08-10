@@ -20,11 +20,7 @@ function EducarePackages(props) {
 
   return (
     <>
-      <div className="col-md-12 nav-two-business col-12 ">
-        {" "}
-        {/* <NavTwo title="educare for Business" /> */}
-      </div>
-      <div style={{ height: "130px" }} />
+      <div className="col-md-12 nav-two-business col-12 "> </div>
       <div className="packages-first-heading col-md-12 ">
         <center>
           {" "}
@@ -36,7 +32,7 @@ function EducarePackages(props) {
       </div>{" "}
       <div className="business-pricing-tab ">
         {" "}
-        <div className="tabs">
+        <div className="tabs offset-md-5">
           <button
             className={`tab ${checkActive2(1, "active2")}`}
             onClick={() => handleClick2(1)}

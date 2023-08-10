@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   standardData,
-  rates,
+  businessRates,
   professionalData,
   businessEnterpriseData,
   currencyChar,
@@ -25,7 +25,7 @@ function BusinessPackage() {
   const [conversionRate, setConversionRate] = useState(1);
 
   const convertCurrency = () => {
-    setConversionRate(rates[toCurrency]);
+    setConversionRate(businessRates[toCurrency]);
   };
   function setThisCurrency(curr) {
     if (curr !== toCurrency) {
@@ -42,29 +42,29 @@ function BusinessPackage() {
       console.log(toCurrency, conversionRate);
     }, 1000);
   }, [toCurrency]);
+  const inputReference = useRef(null);
   return (
     <div>
       <div className="business-pricing-tab ">
-        <center>
-          {" "}
-          <div className="tabs2">
-            <button
-              className={`tab2 ${checkActive(1, "active3")}`}
-              onClick={() => handleClick(1)}
-            >
-              Monthly
-            </button>
-            <button
-              className={`tab2 ${checkActive(2, "active3")}`}
-              onClick={() => handleClick(2)}
-            >
-              Yearly
-            </button>
-          </div>
-        </center>
-        <div className="currency-buttons flexy flexym offset-md-10">
+        {" "}
+        <div className="tabs2 offset-md-1">
+          <button
+            className={`tab2 ${checkActive(1, "active3")}`}
+            onClick={() => handleClick(1)}
+          >
+            Monthly
+          </button>
+          <button
+            className={`tab2 ${checkActive(2, "active3")}`}
+            onClick={() => handleClick(2)}
+          >
+            Yearly
+          </button>
+        </div>
+        <div className="currency-buttons2 flexy flexym offset-md-10">
           <button
             onClick={() => setThisCurrency("NGN")}
+            ref={inputReference}
             className={` ${toCurrency === "NGN" ? "curr-active" : ""}`}
           >
             NGN
@@ -74,7 +74,7 @@ function BusinessPackage() {
             className={` ${toCurrency === "USD" ? "curr-active" : ""}`}
           >
             USD
-          </button>{" "}
+          </button>
           <button
             onClick={() => setThisCurrency("GBP")}
             className={` ${toCurrency === "GBP" ? "curr-active" : ""}`}
@@ -88,7 +88,6 @@ function BusinessPackage() {
             EUR
           </button>{" "}
         </div>
-
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
             <div className="offset-md-6">
