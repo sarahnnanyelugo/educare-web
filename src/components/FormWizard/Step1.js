@@ -1,4 +1,5 @@
 import React from "react";
+import { CountrySelect } from "../Form/CountrySelect";
 
 function Step1(props) {
   if (props.currentStep !== 1) {
@@ -6,16 +7,14 @@ function Step1(props) {
   }
   return (
     <div className="form-group">
-      <label htmlFor="email">Email address</label>
-      <input
-        className="form-control"
-        id="email"
-        name="email"
-        type="text"
-        placeholder="Enter email"
-        value={props.email}
-        onChange={props.handleChange}
-      />
+      <h6>Enter your info below</h6>
+
+      <select name="cars" id="cars" placeholder="eeee">
+        <option value="volvo">Select type of organisation *</option>
+        <option value="School">Business</option>
+        <option value="audi">Government</option>
+        <option value="audi">Others</option>
+      </select>
     </div>
   );
 }

@@ -310,7 +310,10 @@
 .monthly-container2 {
   padding-left: 250px !important;
   @media screen and (max-width: 620px) {
-    padding: 0;
+    padding: 0 !important;
+  }
+  @media screen and (max-width: 620px) {
+    padding: 0 !important;
   }
 }
 

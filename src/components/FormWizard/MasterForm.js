@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Step3 from "./Step3";
-
+import "./master-form.scss";
 class MasterForm extends Component {
   constructor(props) {
     super(props);
@@ -50,12 +50,8 @@ class MasterForm extends Component {
     let currentStep = this.state.currentStep;
     if (currentStep !== 1) {
       return (
-        <button
-          className="btn btn-secondary"
-          type="button"
-          onClick={this._prev}
-        >
-          Previous
+        <button className="prev-btn" type="button" onClick={this._prev}>
+          <i class="icofont-rounded-left"></i>
         </button>
       );
     }
@@ -67,7 +63,7 @@ class MasterForm extends Component {
     if (currentStep < 3) {
       return (
         <button
-          className="btn btn-primary float-right"
+          className="wizard-submit-btn col-md-12"
           type="button"
           onClick={this._next}
         >
@@ -81,10 +77,9 @@ class MasterForm extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>React Wizard Form 🧙‍♂️</h1>
-        <p>Step {this.state.currentStep}</p>
+        <form onSubmit={this.handleSubmit} className=" wizard-form-container">
+          {this.previousButton()}
 
-        <form onSubmit={this.handleSubmit}>
           <Step1
             currentStep={this.state.currentStep}
             handleChange={this.handleChange}
@@ -100,7 +95,6 @@ class MasterForm extends Component {
             handleChange={this.handleChange}
             password={this.state.password}
           />
-          {this.previousButton()}
           {this.nextButton()}
         </form>
       </React.Fragment>

@@ -6,16 +6,23 @@ function Step2(props) {
   }
   return (
     <div className="form-group">
-      <label htmlFor="username">Username</label>
-      <input
-        className="form-control"
-        id="username"
-        name="username"
-        type="text"
-        placeholder="Enter username"
-        value={props.username}
-        onChange={props.handleChange}
-      />
+      <h6>Enter your info below</h6>
+      <select name="cars" id="cars">
+        <option value="volvo">Select a role type *</option>
+        <option value="School">IT Administrator</option>
+        <option value="audi">Director</option>
+        <option value="audi">HR Manager</option>
+        <option value="audi">Other</option>
+      </select>
+      <br />
+      <br />
+      <select name="cars" id="cars">
+        <option value="volvo">Number of</option>
+        <option value="School">1 - 50</option>
+        <option value="audi">51- 200</option>
+        <option value="audi">201 - 500</option>
+        <option value="audi">1000+</option>
+      </select>
     </div>
   );
 }
